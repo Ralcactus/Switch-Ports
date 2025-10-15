@@ -1,0 +1,9 @@
+depth = -10
+active = false
+teleportCooldown = 120
+teleportDistance = 200
+initialDistance = 500
+dimOpacity = 0
+dimSpeed = 0.05
+snd_scream = Scream
+snd_teleport = Evil_leafy_teleport
