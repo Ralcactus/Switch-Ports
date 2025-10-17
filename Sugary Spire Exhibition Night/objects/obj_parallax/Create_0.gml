@@ -71,26 +71,31 @@ set_layer_depths = function()
 
 createLapDeco = function(arg0 = false)
 {
+	if (!is_array(lapDecoBag)) lapDecoBag = [];
+
 	if (array_length(lapDecoBag) <= 0)
 	{
-		lapDecoBag = [bg_lappingdeco1, bg_lappingdeco2, bg_lappingdeco3]
-		lapDecoBag = array_shuffle(lapDecoBag)
+		lapDecoBag = [bg_lappingdeco1, bg_lappingdeco2, bg_lappingdeco3];
+		lapDecoBag = array_shuffle(lapDecoBag);
 	}
-	
+
+	var _spr = lapDecoBag[0];
+	lapDecoBag = array_delete(lapDecoBag, 0, 1);
+
 	with (instance_create(irandom(room_width), arg0 ? irandom(room_height) : (room_height + 276), obj_lappingdeco))
 	{
-		sprite_index = array_shift(other.lapDecoBag)
-		vspeed = random_range(-2, -2.5)
-		
+		sprite_index = _spr;
+		vspeed = random_range(-2, -2.5);
+	
 		switch (sprite_index)
 		{
 			case bg_lappingdeco2:
-				vspeed = random_range(-1, -2)
-				break
+				vspeed = random_range(-1, -2);
+				break;
 			
 			case bg_lappingdeco3:
-				vspeed = random_range(-0.5, -1)
-				break
+				vspeed = random_range(-0.5, -1);
+				break;
 		}
 	}
 }

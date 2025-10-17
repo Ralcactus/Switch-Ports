@@ -1,3 +1,4 @@
+/*
 function event_play_oneshot(sound, _x = x, _y = y, loop = false){
     if is_undefined(_x) 
 		_x = x;
@@ -44,7 +45,7 @@ function fmod_studio_event_instance_set_paused(music, value){
 				audio_pause_sound(music)
 		}
 	}
-	*/
+
 }
 
 function fmod_createEventInstance(sound){

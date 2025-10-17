@@ -251,7 +251,7 @@ function randomize_animations(arg0)
 	if (!variable_instance_exists(self, "saved_rand_anim"))
 		saved_rand_anim = []
 	
-	if (!variable_instance_exists(self, "rand_anim"))
+	if (!variable_instance_exists(self, "rand_anim") || !is_array(rand_anim))
 		rand_anim = []
 	
 	if (saved_rand_anim != arg0 || array_length(rand_anim) <= 0)
@@ -260,7 +260,12 @@ function randomize_animations(arg0)
 		rand_anim = array_shuffle(arg0)
 	}
 	
-	return array_shift(rand_anim);
+	if (array_length(rand_anim) == 0) 
+		return undefined;
+	
+	var _val = rand_anim[0];
+	rand_anim = array_delete(rand_anim, 0, 1);
+	return _val;
 }
 
 function array_clone(arg0)
