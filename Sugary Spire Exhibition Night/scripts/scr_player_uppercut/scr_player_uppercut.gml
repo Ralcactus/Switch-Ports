@@ -31,7 +31,7 @@ function state_player_uppercut()
 	
 	if (grounded && vsp > 0)
 	{
-		event_play_oneshot("event:/SFX/player/step", x, y)
+		event_play_oneshot(playerstep, x, y)
 		landAnim = true
 		movespeed = abs(movespeed)
 		movespeed = min(movespeed, 6)

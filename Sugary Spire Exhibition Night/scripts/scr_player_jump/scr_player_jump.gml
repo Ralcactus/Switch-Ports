@@ -97,7 +97,7 @@ function state_player_jump()
 		image_index = 0
 		freefallstart = 0
 		instance_create(x, y, obj_landcloud)
-		event_play_oneshot("event:/SFX/player/step", x, y)
+		event_play_oneshot(playerstep, x, y)
 		doubleJumped = false
 		floatyGrab = 18
 	}

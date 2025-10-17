@@ -163,7 +163,7 @@ function state_player_cotton()
 		image_index = 0
 		cottonJumped = 0
 		instance_create(x, y, obj_landcloud)
-		event_play_oneshot("event:/SFX/player/step", x, y)
+		event_play_oneshot(playerstep, x, y)
 	}
 	
 	var landing_transitions = [[spr_cottonLand, spr_cottonIdle], [spr_cottonLandWalk, spr_cottonWalk]]

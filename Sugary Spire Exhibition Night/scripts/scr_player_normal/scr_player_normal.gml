@@ -255,7 +255,7 @@ function state_player_normal()
 			instance_create(x, y + 43, obj_puffEffect)
 			
 			if (!_dontStep)
-				event_play_oneshot("event:/SFX/player/step", x, y)
+				event_play_oneshot(playerstep, x, y)
 			
 			if (sprite_index == spr_player_PZ_walk_dance)
 				stepEffectBuffer = 8

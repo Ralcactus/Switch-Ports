@@ -21,7 +21,7 @@ function state_player_ladder()
 		if (!stepEffectBuffer--)
 		{
 			instance_create(x, y + 43, obj_puffEffect)
-			event_play_oneshot("event:/SFX/player/step", x, y)
+			event_play_oneshot(playerstep, x, y)
 			stepEffectBuffer = 12
 		}
 		

@@ -36,7 +36,7 @@ for (var i = 0; i < array_length(fileSelectHeightRatio); i++)
 	if (selectedFile == i)
 	{
 		draw_set_alpha(fileSelectHeightRatio[i])
-		draw_text_scribble(235 + (210 * i), 380 - (75 * fileSelectHeightRatio[i]), "[spr_fontPercentage][fa_center][fa_top]" + string(fileDisplayPercent) + "%")
+		draw_text_scribble(265 + (220 * i), 410 - (75 * fileSelectHeightRatio[i]), "[spr_fontPercentage][fa_center][fa_top]" + string(fileDisplayPercent) + "%")
 	}
 }
 

@@ -102,7 +102,6 @@
     {"name":"scribble_anim_cycle","order":1,"path":"scripts/scribble_anim_cycle/scribble_anim_cycle.yy",},
     {"name":"wallKickCancel","order":3,"path":"sounds/wallKickCancel/wallKickCancel.yy",},
     {"name":"scribble_font_combine","order":5,"path":"scripts/scribble_font_combine/scribble_font_combine.yy",},
-    {"name":"entryway","order":28,"path":"sounds/entryway/entryway.yy",},
     {"name":"scribble_typewriter_add_event","order":7,"path":"scripts/scribble_typewriter_add_event/scribble_typewriter_add_event.yy",},
     {"name":"string_width_scribble_ext","order":6,"path":"scripts/string_width_scribble_ext/string_width_scribble_ext.yy",},
     {"name":"__shd_scribble_bake_outline_8dir","order":2,"path":"shaders/__shd_scribble_bake_outline_8dir/__shd_scribble_bake_outline_8dir.yy",},
