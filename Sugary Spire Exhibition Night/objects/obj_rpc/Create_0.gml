@@ -1,3 +1,7 @@
+show_debug_message("fuck nekopresence")
+instance_destroy()
+exit
+
 if (global.DebugMode == DebugType.Dev || global.DebugMode == DebugType.Playtest)
 {
 	show_debug_message("NekoPresence init averted.")

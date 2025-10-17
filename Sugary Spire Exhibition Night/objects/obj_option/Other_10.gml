@@ -24,7 +24,7 @@ switch (optionMenu)
 			option_goto(OptionMenu.Game)
 		}).add_icon(spr_newpause_icons, 8), new option_button("opt_controls", function()
 		{
-			option_goto(OptionMenu.Controls)
+			option_goto(OptionMenu.Gamepad)
 		}).add_icon(spr_newpause_icons, 7)]
 		
 		if (room == rm_mainmenu)
@@ -101,10 +101,7 @@ switch (optionMenu)
 			array_push(res, string("{0}X{1}", global.resolutions[i][0], global.resolutions[i][1]))
 		
 		var letterbox_option = ["opt_off", "opt_vid_letterbox_simple", "opt_vid_letterbox_doodle", "opt_vid_letterbox_dynamic"]
-		options = [toMainPage, new option_button("opt_vid_windowmode", function()
-		{
-			option_goto(OptionMenu.Window)
-		}), new option_normal("opt_vid_letterbox", letterbox_option, function(arg0)
+		options = [toMainPage, new option_normal("opt_vid_letterbox", letterbox_option, function(arg0)
 		{
 			quick_write_option("Settings", "letterbox", arg0)
 			global.Letterbox = arg0
@@ -220,8 +217,8 @@ switch (optionMenu)
 		break
 	
 	case OptionMenu.Gamepad:
-		backMenu = OptionMenu.Controls
-		backOption = 2
+		backMenu = OptionMenu.Base
+		backOption = 3
 		alignCenter = false
 		options = [toMainPage, new option_button("opt_ctrl_bindings", function()
 		{
