@@ -1,4 +1,3 @@
-/*
 function event_play_oneshot(sound, _x = x, _y = y, loop = false){
     if is_undefined(_x) 
 		_x = x;
@@ -45,7 +44,7 @@ function fmod_studio_event_instance_set_paused(music, value){
 				audio_pause_sound(music)
 		}
 	}
-
+	*/
 }
 
 function fmod_createEventInstance(sound){
@@ -146,5 +145,17 @@ function kill_sounds(sound){
 }
 
 function fmod_quick3D(sound, _x = x, _y = y){
+	
+}
+
+function fmod_studio_event_instance_get_timeline_position(sound){
+
+}
+
+function fmod_getEventLength(sound){
+	
+}
+
+function fmod_studio_event_instance_set_timeline_position(sound, pos){
 	
 }

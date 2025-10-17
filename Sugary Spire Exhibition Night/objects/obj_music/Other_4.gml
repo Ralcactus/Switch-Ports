@@ -52,6 +52,7 @@ if (global.RoomIsSecret)
 	
 	if (!is_undefined(global.RoomMusic) && !is_undefined(global.RoomMusic.secretMusicInst))
 	{
+		/*
 		fmod_studio_event_instance_start(global.RoomMusic.secretMusicInst)
 		var music_timeline_percent = fmod_studio_event_instance_get_timeline_position(global.RoomMusic.musicInst) / fmod_getEventLength(global.RoomMusic.eventName)
 		var secret_pos = music_timeline_percent * fmod_getEventLength(global.RoomMusic.secretEventName)
@@ -59,6 +60,7 @@ if (global.RoomIsSecret)
 		fmod_studio_event_instance_set_paused(global.RoomMusic.musicInst, true)
 		fmod_studio_event_instance_set_paused(global.RoomMusic.secretMusicInst, false)
 		fmod_studio_event_instance_set_callback(global.RoomMusic.secretMusicInst, FMOD_STUDIO_EVENT_CALLBACK)
+		*/
 	}
 	
 	if (global.panic)
