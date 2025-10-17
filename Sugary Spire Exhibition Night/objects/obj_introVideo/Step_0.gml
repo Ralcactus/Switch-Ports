@@ -1,7 +1,10 @@
 scr_getinput_menu()
-updateVolume()
 
-if (video_get_status() == 2)
+if os_type = os_windows{
+	updateVolume()
+}
+
+if (video_get_status() == video_status_playing)
 {
 	if (!showText && key_jump)
 	{
