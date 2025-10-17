@@ -52,13 +52,17 @@ if (load_finished)
 	if (fadein == 1)
 		fadealpha -= fadespeed
 	
-	if (fadein == 1 && fadealpha < 0)
-		instance_destroy()
+	if (fadein == 1 && fadealpha < 0) {
+	    instance_destroy()
+	    exit
+	}
 	
 	if (fadein == 0 && fadealpha > 1)
 	{
-		if (instance_exists(obj_titlecard))
-			instance_destroy(obj_titlecard)
+	    if (instance_exists(obj_titlecard)) {
+	        instance_destroy(obj_titlecard);
+	        titleCard = false;
+	    }
 	}
 }
 
