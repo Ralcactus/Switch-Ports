@@ -1,0 +1,7 @@
+image_speed = 0;
+image_index = 0;
+alarm[0] = 45;
+alarm[1] = 90;
+audio_play_sound(snd_hurt, 20, false);
+var player_character = global.player_character;
+sprite_index = spr_heart_yellow_split;
