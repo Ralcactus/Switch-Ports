@@ -12,7 +12,7 @@ function state_player_run()
 		{
 			stepBuffer = 16
 			instance_create(x, y + 43, obj_puffEffect)
-			event_play_oneshot(playerstep, x, y + 46)
+			event_play_oneshot("event:/SFX/player/step", x, y + 46)
 		}
 	}
 	

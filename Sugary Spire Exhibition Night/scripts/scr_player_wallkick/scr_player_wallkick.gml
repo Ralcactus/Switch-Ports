@@ -90,7 +90,7 @@ function state_player_wallkick()
 			hsp = movespeed * dir
 			state = PlayerState.normal
 			instance_create(x, y, obj_landcloud)
-			event_play_oneshot(playerstep, x, y)
+			event_play_oneshot("event:/SFX/player/step", x, y)
 		}
 	}
 	

@@ -1772,6 +1772,7 @@
     {"id":{"name":"spr_charcherry_stun","path":"sprites/spr_charcherry_stun/spr_charcherry_stun.yy",},},
     {"id":{"name":"spr_oneway1x1","path":"sprites/spr_oneway1x1/spr_oneway1x1.yy",},},
     {"id":{"name":"spr_confecti3rank_lose","path":"sprites/spr_confecti3rank_lose/spr_confecti3rank_lose.yy",},},
+    {"id":{"name":"entryway","path":"sounds/entryway/entryway.yy",},},
     {"id":{"name":"spr_boxfrog_stun","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},
     {"id":{"name":"spr_lemonheadblockdead","path":"sprites/spr_lemonheadblockdead/spr_lemonheadblockdead.yy",},},
     {"id":{"name":"spr_rudejanitor_taunt","path":"sprites/spr_rudejanitor_taunt/spr_rudejanitor_taunt.yy",},},
