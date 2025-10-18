@@ -14,11 +14,18 @@ function event_play_oneshot(sound, _x = x, _y = y, loop = false){
 }
 
 function fmod_studio_event_instance_start(sound,loop = false){
-	if is_undefined(sound) || is_string(sound)
-		exit;
+	if is_undefined(loop)
+		loop = false;
 		
-	if !audio_is_playing(sound)
-		audio_play_sound(sound, 1, loop)
+	if !is_undefined(sound){
+		if is_string(sound){
+			if !audio_is_playing(asset_get_index(sound)) or !loop
+				audio_play_sound(asset_get_index(sound), 1, loop)
+		}else{
+			if !audio_is_playing(sound) or !loop
+				audio_play_sound(sound, 1, loop)
+		}
+	}
 }
 
 function fmod_studio_event_instance_set_parameter_by_name(music, state, noidea, noidea2){
@@ -49,18 +56,31 @@ function fmod_studio_system_set_parameter_by_name(sound, reverb = false, noidea 
 }
 
 function event_instance_isplaying(sound){
-	if !is_undefined(sound) && !is_string(sound)
-		return audio_is_playing(sound)
+	if !is_undefined(sound)
+		return audio_is_playing(asset_get_index(sound))
+	else
+		return false
 }
 
-function fmod_studio_event_instance_stop(sound, nofade = true){
-	if is_string(sound) || is_undefined(sound)
-		exit;	
-
-	//if nofade
-		audio_stop_sound(sound)
-	//else
-		//audio_sound_gain(sound, 0, 500);
+function fmod_studio_event_instance_stop(sound, nofade){
+	if is_undefined(nofade)
+		nofade = true
+		
+	if !is_undefined(sound){
+		if is_string(sound){
+			if nofade
+				audio_stop_sound(asset_get_index(sound))
+			else{
+				audio_sound_gain(asset_get_index(sound), 0, 500);
+			}
+		}
+		else{
+			if nofade
+				audio_stop_sound(sound)
+			else
+				audio_sound_gain(sound, 0, 500);
+		}
+	}
 }
 
 function fmod_studio_system_get_parameter_by_name(reverb){

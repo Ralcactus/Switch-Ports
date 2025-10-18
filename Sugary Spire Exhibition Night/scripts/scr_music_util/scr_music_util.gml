@@ -3,7 +3,6 @@ function set_volume_options(arg0 = global.masterVolume, arg1 = global.musicVolum
 	fmod_studio_system_set_parameter_by_name("masterVolume", arg0, true)
 	fmod_studio_system_set_parameter_by_name("musicVolume", arg1, true)
 	fmod_studio_system_set_parameter_by_name("sfxVolume", arg2, true)
-	audio_group_set_gain(sfx,arg2,0)
 }
 
 function stop_music(arg0 = true)

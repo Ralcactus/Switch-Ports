@@ -80,7 +80,7 @@ function do_taunt(arg0 = state)
 			}
 			
 			sprite_index = spr_taunt
-			event_play_oneshot(taunt, x, y)
+			event_play_oneshot("event:/SFX/player/taunt", x, y)
 			image_index = irandom_range(0, sprite_get_number(spr_taunt))
 		}
 		

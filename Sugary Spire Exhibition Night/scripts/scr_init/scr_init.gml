@@ -97,7 +97,6 @@ global.GLOBAL_FUN = 0
 
 function scr_gameInit()
 {
-	audio_group_load(sfx)
 	var dbg_mode = debugRelease;
 	var p_i = 0
 	var p_c = parameter_count()

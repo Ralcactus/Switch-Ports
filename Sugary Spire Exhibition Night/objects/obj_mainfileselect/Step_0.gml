@@ -33,7 +33,7 @@ else if (any_input_pressed_check())
 {
 	if (image_speed != 1)
 	{
-		event_play_oneshot(curtain)
+		event_play_oneshot("event:/SFX/fileselect/curtain")
 		image_speed = 1
 	}
 }

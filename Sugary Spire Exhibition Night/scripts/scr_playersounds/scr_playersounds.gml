@@ -1,41 +1,37 @@
 function scr_playersounds_init()
 {
-	sndMach              = undefined;
-	sndMach1              = pz_mach1;
-	sndMach2              = pz_mach2;
-	sndMach3              = pz_mach3;
-	sndMach4              = pz_mach4;
+	sndMach = fmod_createEventInstance("event:/SFX/player/mach")
 	sndMachStart = fmod_createEventInstance("event:/SFX/player/machStart")
 	sndGalloping = fmod_createEventInstance("event:/SFX/general/galloping")
 	sndSpinning = fmod_createEventInstance("event:/SFX/player/spin")
 	spinSoundBuffer = 0
 	sndSuplex = fmod_createEventInstance("event:/SFX/player/suplexdash")
 	sndKungFu = fmod_createEventInstance("event:/SFX/player/kungfu")
-	sndJump = fmod_createEventInstance(jump)
-	sndFlip = fmod_createEventInstance(spin)
-	sndWallkick = fmod_createEventInstance(wallKick)
-	sndWallkickCancel = fmod_createEventInstance(wallKickCancel)
+	sndJump = fmod_createEventInstance("event:/SFX/player/jump")
+	sndFlip = fmod_createEventInstance("event:/SFX/player/flip")
+	sndWallkick = fmod_createEventInstance("event:/SFX/player/wallKick")
+	sndWallkickCancel = fmod_createEventInstance("event:/SFX/player/wallKickCancel")
 	sndWallkickStart = fmod_createEventInstance("event:/SFX/player/wallKickIntro")
 	sndWallkickLand = fmod_createEventInstance("event:/SFX/player/wallKickLand")
-	sndFreefall = fmod_createEventInstance(freefall)
-	sndSuperjump = fmod_createEventInstance(superjump)
-	sndSuperjumpRelease = fmod_createEventInstance(superjumprelease)
-	sndCottonDigging = fmod_createEventInstance(digging)
-	sndTumble = fmod_createEventInstance(tumble)
-	sndRoll = fmod_createEventInstance(machroll)
+	sndFreefall = fmod_createEventInstance("event:/SFX/player/freefall")
+	sndSuperjump = fmod_createEventInstance("event:/SFX/player/superjump")
+	sndSuperjumpRelease = fmod_createEventInstance("event:/SFX/player/superjumprelease")
+	sndCottonDigging = fmod_createEventInstance("event:/SFX/cotton/digging")
+	sndTumble = fmod_createEventInstance("event:/SFX/player/tumble")
+	sndRoll = fmod_createEventInstance("event:/SFX/player/machroll")
 	sndGrind = fmod_createEventInstance("event:/SFX/player/grind")
 	sndFireass = fmod_createEventInstance("event:/SFX/player/fireass")
-	sndCrouchslide = fmod_createEventInstance(crouchslide)
-	sndRollGetUp = fmod_createEventInstance(rollgetup)
-	sndDive = fmod_createEventInstance(dive)
-	sndMinecart = fmod_createEventInstance(minecart)
-	sndMinecartJump = fmod_createEventInstance(minecartjump)
+	sndCrouchslide = fmod_createEventInstance("event:/SFX/player/crouchslide")
+	sndRollGetUp = fmod_createEventInstance("event:/SFX/player/rollgetup")
+	sndDive = fmod_createEventInstance("event:/SFX/player/dive")
+	sndMinecart = fmod_createEventInstance("event:/SFX/minecart/minecart")
+	sndMinecartJump = fmod_createEventInstance("event:/SFX/minecart/jump")
 	voiceScream = fmod_createEventInstance("event:/SFX/player/voice/scream")
-	voiceCollect = fmod_createEventInstance(collectvoice)
-	voiceTransfo = fmod_createEventInstance(transfo_voice)
-	voiceDetransfo = fmod_createEventInstance(outtransfo_voice)
-	voiceIdle = fmod_createEventInstance(idle_voice)
-	voiceHurt = fmod_createEventInstance(hurt_voice)
+	voiceCollect = fmod_createEventInstance("event:/SFX/player/voice/collect")
+	voiceTransfo = fmod_createEventInstance("event:/SFX/player/voice/transfo")
+	voiceDetransfo = fmod_createEventInstance("event:/SFX/player/voice/outtransfo")
+	voiceIdle = fmod_createEventInstance("event:/SFX/player/voice/idle")
+	voiceHurt = fmod_createEventInstance("event:/SFX/player/voice/hurt")
 	transfoSound = undefined
 	oldTransfoSound = undefined
 	mySoundArray = [sndMach, sndMachStart, sndSuplex, sndKungFu, sndGalloping, sndJump, sndFlip, sndWallkick, sndWallkickCancel, sndWallkickStart, sndWallkickLand, sndFreefall, sndSuperjump, sndSuperjumpRelease, sndCottonDigging, sndMinecart, sndTumble, sndRoll, sndGrind, sndFireass, sndCrouchslide, sndRollGetUp, sndDive, sndMinecart, sndMinecartJump, voiceScream, voiceCollect, voiceTransfo, voiceDetransfo, voiceIdle, voiceHurt]
@@ -197,7 +193,10 @@ function scr_playersounds()
 		fmod_studio_event_instance_stop(sndSuperjumpRelease, true)
 	
 	if (saved_state == PlayerState.mach2 || saved_state == PlayerState.run || saved_state == PlayerState.mach3 || saved_state == PlayerState.climbwall)
-	{	
+	{
+		if (!event_instance_isplaying(sndMach))
+			fmod_studio_event_instance_start(sndMach)
+		
 		var machsnd = 0
 		
 		if ((saved_state == PlayerState.mach2 && sprite_index == spr_mach1) || (saved_state == PlayerState.run && sprite_index == spr_mach1))
@@ -209,29 +208,12 @@ function scr_playersounds()
 		else if (sprite_index == spr_crazyrun)
 			machsnd = 4
 		
-		if (!audio_is_playing(asset_get_index("pz_mach" + string(machsnd))))
-			fmod_studio_event_instance_start(asset_get_index("pz_mach" + string(machsnd)));
-			
-		fmod_studio_event_instance_set_paused(string(sndMach) + string(machsnd) , false)
-		
-		if audio_is_playing(pz_mach1) && machsnd != 1
-			audio_stop_sound(pz_mach1)
-			
-		if audio_is_playing(pz_mach2) && machsnd != 2
-			audio_stop_sound(pz_mach2)
-			
-		if audio_is_playing(pz_mach3) && machsnd != 3
-			audio_stop_sound(pz_mach3)
-
-		if audio_is_playing(pz_mach4) && machsnd != 4
-			audio_stop_sound(pz_mach4)
+		fmod_studio_event_instance_set_paused(sndMach, false)
+		fmod_studio_event_instance_set_parameter_by_name(sndMach, "state", machsnd, true)
 	}
 	else
 	{
-		audio_stop_sound(pz_mach4)
-		audio_stop_sound(pz_mach3)
-		audio_stop_sound(pz_mach2)
-		audio_stop_sound(pz_mach1)
+		fmod_studio_event_instance_stop(sndMach, true)
 	}
 	
 	for (var i = 0; i < array_length(mySoundArray); i++)
