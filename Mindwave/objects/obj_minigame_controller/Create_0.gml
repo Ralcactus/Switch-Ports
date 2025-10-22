@@ -261,7 +261,6 @@ update_inbetween_timer = function()
 
 start_game = function(arg0 = true)
 {
-    steam_create_leaderboard(steam_leaderboard_id, lb_sort_descending, lb_disp_numeric);
     audio_stop_sound(mus_endlessresults);
     instance_destroy(obj_collider);
     clear_gimmicks();

@@ -814,7 +814,7 @@ function mwsc_instance() constructor
                                     script_line: i
                                 };
                                 
-								events[i] = array_create(64, 0);
+								events[i] = array_create(64, 0)
 								if (is_method(_custom_func))
 								    method_call(_custom_func, [_args]);
 								else if (!is_undefined(_custom_func))
