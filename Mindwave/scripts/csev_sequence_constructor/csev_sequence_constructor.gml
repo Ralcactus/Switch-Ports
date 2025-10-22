@@ -306,7 +306,7 @@ function csev_sequence_constructor() : csev_base_constructor() constructor
                 array_push(mwsc.events, ["speaker_icon", -1]);
                 break;
             
-            __default:
+            default:
                 var _spr = asset_get_index("spr_sqspeakerhead_" + _charname);
                 
                 if (_spr == -1)
@@ -347,7 +347,7 @@ function csev_sequence_constructor() : csev_base_constructor() constructor
                     _script = charvoice_none;
                     break;
                 
-                case "__default":
+                case "default":
                 case "normal":
                     _script = charvoice_default;
                     break;

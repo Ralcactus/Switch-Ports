@@ -58,7 +58,7 @@ function get_input()
                     keys[i] = [];
                     break;
                 
-                __default:
+                default:
                     keys[i] = [];
                     
                     if (string_length(keyname) == 1 && string_pos(keyname, "QWERTYUIOPASDFGHJKLZXCVBNM0123456789"))

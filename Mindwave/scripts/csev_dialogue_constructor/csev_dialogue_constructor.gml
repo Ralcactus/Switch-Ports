@@ -132,7 +132,7 @@ function csev_dialogue_constructor() : csev_base_constructor() constructor
             _char.x_new = _char.x;
         }
     });
-    mwsc.add_custom_parse_func("__default", function(arg0)
+    mwsc.add_custom_parse_func("default", function(arg0)
     {
         var _script_line = arg0.script_line;
         arg0 = arg0.args;
@@ -952,7 +952,7 @@ function csev_dialogue_constructor() : csev_base_constructor() constructor
             case "left":
             case 0:
             case -1:
-            __default:
+            default:
                 arg2 = -1;
                 dir = 1;
                 break;

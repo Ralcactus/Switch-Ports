@@ -1,6 +1,6 @@
 active_mgs = [];
 current_process_mg = -1;
-settings_preset = "__default";
+settings_preset = "default";
 settings = 
 {
     gimmicks_enabled: true,
@@ -697,7 +697,7 @@ play_return_jingle = function(arg0)
             break;
         
         case 0:
-        __default:
+        default:
             if (suc == -1)
                 ibt_jingle = cnt.inbetween.get_lose_jingle();
             else

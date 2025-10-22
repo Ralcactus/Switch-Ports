@@ -4,7 +4,7 @@ function leaderboard_constructor(arg0) constructor
     list = [];
 }
 
-function leaderboard_menu_constructor(arg0, arg1 = "", arg2 = "__default") constructor
+function leaderboard_menu_constructor(arg0, arg1 = "", arg2 = "default") constructor
 {
     leaderboard_name = arg0;
     local_leaderboard_name = arg1;

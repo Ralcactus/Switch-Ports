@@ -57,7 +57,7 @@ function color_name_to_color(arg0)
             _color = 15645599;
             break;
         
-        __default:
+        default:
             _color = hex_string_to_color(arg0);
             break;
     }

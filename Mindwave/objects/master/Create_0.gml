@@ -56,7 +56,7 @@ set_screen_size = function(arg0 = -1)
         window_set_position(window_x - (240 * scale_change), window_y - (135 * scale_change));
     
     if (is_debug_overlay_open())
-        show_debug_overlay(true, false, window_scale * 0.5);
+        show_debug_overlay(true);
 };
 
 surface_resize(application_surface, 480, 270);
@@ -258,7 +258,7 @@ switch (version_controller.build_type)
         instance_create_depth(0, 0, 0, obj_mainmenu_controller);
         break;
     
-    __default:
+    default:
         play_cutscene(cs_bootintro);
         break;
 }

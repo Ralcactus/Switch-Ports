@@ -58,7 +58,7 @@ function json_to_csv(arg0, arg1)
                     escape_char = false;
                     break;
                 
-                __default:
+                default:
                     _assembled_string += _charval;
                     escape_char = false;
                     break;
@@ -147,7 +147,7 @@ function json_to_csv(arg0, arg1)
                     });
                     break;
                 
-                __default:
+                default:
                     if (_object.array_pos >= 0)
                     {
                         var _val = _token;

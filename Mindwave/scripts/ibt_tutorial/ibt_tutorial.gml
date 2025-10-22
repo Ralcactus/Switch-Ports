@@ -168,7 +168,7 @@ function ibt_tutorial() : inbetween_constructor() constructor
                         
                         break;
                     
-                    __default:
+                    default:
                         break;
                 }
             }

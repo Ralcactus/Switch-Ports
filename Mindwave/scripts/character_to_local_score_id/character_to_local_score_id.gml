@@ -30,7 +30,7 @@ function character_to_local_score_id(arg0)
 
 function endless_preset_id_to_name(arg0)
 {
-    var _ids = ["custom", 0, "__default", 1, "no_gimmicks", 2];
+    var _ids = ["custom", 0, "default", 1, "no_gimmicks", 2];
     var _ids_struct = {};
     var _return_id_or_name = !is_real(arg0);
     

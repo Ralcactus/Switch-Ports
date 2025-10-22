@@ -388,7 +388,7 @@ function ibt_sparkle() : inbetween_constructor() constructor
         {
             switch (success_state)
             {
-                __default:
+                default:
                     _scene = choose(1, 2);
                     break;
                 
@@ -1030,7 +1030,7 @@ function ibt_sparkle() : inbetween_constructor() constructor
                         
                         break;
                     
-                    __default:
+                    default:
                         sound.win2.played = 0;
                         break;
                 }

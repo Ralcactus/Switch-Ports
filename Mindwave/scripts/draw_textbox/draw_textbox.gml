@@ -225,7 +225,7 @@ function draw_textbox(arg0, arg1, arg2 = "", arg3, arg4 = infinity, arg5 = 0, ar
                                         style.color = 16711935;
                                         break;
                                     
-                                    __default:
+                                    default:
                                         break;
                                 }
                                 
@@ -242,7 +242,7 @@ function draw_textbox(arg0, arg1, arg2 = "", arg3, arg4 = infinity, arg5 = 0, ar
                                         style.font = fnt_pixel;
                                         break;
                                     
-                                    __default:
+                                    default:
                                         var _ind = asset_get_index(_styles[k][2]);
                                         
                                         if (font_exists(_ind))

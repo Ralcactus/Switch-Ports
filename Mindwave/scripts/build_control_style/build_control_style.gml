@@ -108,7 +108,7 @@ function build_control_style(arg0)
                 _controls.cursor.rclick = true;
                 break;
             
-            __default:
+            default:
                 if (!_valid)
                     _controls.special = arg0[i];
                 

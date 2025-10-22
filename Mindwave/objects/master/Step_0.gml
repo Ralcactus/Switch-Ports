@@ -7,7 +7,7 @@ if (keyboard_check(vk_control))
 {
     if (keyboard_check_pressed(ord("D")))
     {
-        show_debug_overlay(!is_debug_overlay_open(), false, window_scale * 0.5);
+        show_debug_overlay(!is_debug_overlay_open());
         
         if (is_debug_overlay_open())
             window_set_cursor(cr_default);

@@ -17,7 +17,7 @@ function local_endless_scores_from_buffer(arg0)
             break;
         
         case 1:
-        __default:
+        default:
             _scores = local_endless_scores_from_buffer_v1(arg0);
             break;
     }
@@ -89,7 +89,7 @@ function local_endless_scores_from_buffer_v0(arg0)
         
         _char_scores = 
         {
-            __default: _char_scores
+            _default: _char_scores
         };
         struct_set(_scores, _name, _char_scores);
     }

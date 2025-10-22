@@ -946,7 +946,7 @@ function csev_dialogue_constructor0() : csev_base_constructor() constructor
                             case "-":
                             case ":":
                             case ";":
-                            __default:
+                            default:
                                 text_pause = 10;
                                 break;
                         }
@@ -967,7 +967,7 @@ function csev_dialogue_constructor0() : csev_base_constructor() constructor
                                 text_pause = 30;
                                 break;
                             
-                            __default:
+                            default:
                                 text_pause = real(_ev[1]);
                                 break;
                         }
@@ -1328,7 +1328,7 @@ function csev_dialogue_constructor0() : csev_base_constructor() constructor
                                 skipthis = false;
                                 break;
                             
-                            __default:
+                            default:
                                 options_add_mode = false;
                                 var option_num = real(_args[1]);
                                 
@@ -1474,7 +1474,7 @@ function csev_dialogue_constructor0() : csev_base_constructor() constructor
                         array_push(_events, ["wait", _frames]);
                         break;
                     
-                    __default:
+                    default:
                         if (array_length(__first_args) == 1 && struct_exists(char_defs, __first_args[0]))
                         {
                             var _args = parse_event_arguments(_script[i]);
@@ -1557,7 +1557,7 @@ function csev_dialogue_constructor0() : csev_base_constructor() constructor
             case "left":
             case 0:
             case -1:
-            __default:
+            default:
                 arg2 = -1;
                 dir = 1;
                 break;

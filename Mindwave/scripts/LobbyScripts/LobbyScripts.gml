@@ -165,7 +165,7 @@ function lobby_constructor()
                                     switch (sp_sprite)
                                     {
                                         case spr_lb_interactzone:
-                                        __default:
+                                        default:
                                             zc[0] = [0, 0];
                                             zc[0][0] = sp_x + lengthdir_x(_sR, ang + 0) + lengthdir_x(_sU, ang - 90);
                                             zc[0][1] = sp_y + lengthdir_y(_sR, ang + 0) + lengthdir_y(_sU, ang - 90);
@@ -192,7 +192,7 @@ function lobby_constructor()
                                             cam_y = sp_y - 135;
                                             break;
                                         
-                                        __default:
+                                        default:
                                             var sp_index = layer_sprite_get_index(_element);
                                             var sp_speed = layer_sprite_get_speed(_element);
                                             var sp_color = layer_sprite_get_blend(_element);

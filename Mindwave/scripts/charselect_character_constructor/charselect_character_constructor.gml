@@ -16,7 +16,7 @@ function charselect_character_constructor() constructor
     };
     settings_presets = 
     {
-        __default: 
+        _default: 
         {
             gimmicks_enabled: true,
             levelup_enabled: true,
@@ -29,8 +29,8 @@ function charselect_character_constructor() constructor
             max_speed: 3
         }
     };
-    settings_presets_array = ["__default", "no_gimmicks"];
-    settings_preset = "__default";
+    settings_presets_array = ["default", "no_gimmicks"];
+    settings_preset = "default";
     start_cutscene = -1;
     mmbgthings_spr = spr_mmbg_8stuff;
     mmbgthings_ind = 0;
@@ -103,16 +103,16 @@ function charselect_character_constructor() constructor
         sfx_play(snd_menu_click);
     }, function()
     {
-        var __preset = "__default";
+        var __preset = "default";
         
         switch (settings_preset)
         {
-            case "__default":
+            case "default":
                 __preset = "no_gimmicks";
                 break;
             
             case "no_gimmicks":
-                __preset = "__default";
+                __preset = "default";
                 break;
         }
         
@@ -224,7 +224,7 @@ function charselect_character_constructor() constructor
     start_game = function()
     {
         if (settings.mode == 0)
-            set_settings_preset("__default");
+            set_settings_preset("default");
         
         if (instance_exists(obj_minigame_controller))
             exit;
@@ -345,7 +345,7 @@ function charselect_character_constructor() constructor
                 _preset_name = "custom";
                 break;
             
-            case "__default":
+            case "default":
                 _preset_name = "";
                 break;
             
@@ -374,8 +374,8 @@ function charselect_character_constructor() constructor
                     return "null";
                     break;
                 
-                case "__default":
-                __default:
+                case "default":
+                default:
                     var _str = leaderboard_id + "__" + settings_preset;
                     return _str;
                     break;

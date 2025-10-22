@@ -58,7 +58,7 @@ if (!transition_happening && !pausemenu && (keyboard_check_pressed(vk_tab) || (l
                     
                     break;
                 
-                __default:
+                default:
                     allow = false;
                     break;
             }

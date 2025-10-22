@@ -112,7 +112,7 @@ if (tempo_track != -1)
                 sfx_play(sfx_tick1);
                 break;
             
-            __default:
+            default:
                 sfx_play(sfx_tick2);
                 break;
         }

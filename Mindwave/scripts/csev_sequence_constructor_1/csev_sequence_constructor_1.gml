@@ -851,7 +851,7 @@ function csev_sequence_constructor_1() : csev_base_constructor() constructor
                         array_push(_events, ["flag", flagname, flagvalue]);
                         break;
                     
-                    __default:
+                    default:
                         _add_dialogue_line(_script[i]);
                         break;
                 }
