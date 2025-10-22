@@ -68,7 +68,11 @@ function sequence_get_markers(arg0, arg1 = 0)
     
     var markers = {};
     var messages = seq.messageEventKeyframes;
-    
+
+	if (is_undefined(messages))
+		messages = [];
+
+
     for (var i = 0; i < array_length(messages); i++)
     {
         var _message = messages[i];
@@ -98,12 +102,18 @@ function sequence_get_markers(arg0, arg1 = 0)
             
             for (var j = 0; j < array_length(_names); j++)
             {
-                var marker = struct_get(this_track_markers, _names[j]);
-                var _name = marker.name;
-                var _frame = marker.frame;
-                
-                if (!struct_exists(markers, _name))
-                    struct_set(markers, _name, marker);
+				var marker = struct_get(this_track_markers, _names[j]);
+				if (!is_struct(marker)) continue;
+
+				var _name = "";
+				if (variable_struct_exists(marker, "name")) _name = marker.name;
+				if (_name == "") continue;
+
+				var _frame = 0;
+				if (variable_struct_exists(marker, "frame")) _frame = marker.frame;
+
+				if (!struct_exists(markers, _name))
+				    struct_set(markers, _name, marker);
             }
         }
     }
