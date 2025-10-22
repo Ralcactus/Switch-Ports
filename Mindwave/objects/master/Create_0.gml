@@ -172,7 +172,7 @@ initial_load = function()
     {
         var _name = "";
         
-        if (steam_initialised() && false)
+        if (false)
             _name = 0;
         else
             _name = "Profile 1";

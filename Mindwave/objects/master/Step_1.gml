@@ -3,8 +3,6 @@ if (!instance_exists(version_controller))
 
 game_focused = window_has_focus();
 
-if (steam_initialised())
-    game_focused = game_focused && !steam_is_overlay_activated();
 
 mouselock_before = mouselock;
 

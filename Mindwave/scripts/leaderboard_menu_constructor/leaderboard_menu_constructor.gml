@@ -11,7 +11,7 @@ function leaderboard_menu_constructor(arg0, arg1 = "", arg2 = "default") constru
     local_leaderboard_preset = arg2;
     tab = 2;
     
-    if (!os_is_network_connected(false) || !steam_initialised())
+    if (!os_is_network_connected(false))
         tab = 0;
     
     tabs = ["local", "global", "friends"];
@@ -19,7 +19,7 @@ function leaderboard_menu_constructor(arg0, arg1 = "", arg2 = "default") constru
     str_no_connection = strloc("menus/leaderboard/text_no_connection");
     str_local_no_scores = strloc("menus/leaderboard/text_local_no_scores");
     str_drm_free = strloc("menus/leaderboard/text_drm_free");
-    online_enabled = steam_initialised();
+    online_enabled = false
     loading_scores = false;
     getting_list_around_self = false;
     leaderboard_display_name = "";

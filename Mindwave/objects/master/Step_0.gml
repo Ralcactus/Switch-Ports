@@ -1,5 +1,3 @@
-steam_update();
-
 if (!dev_mode)
     exit;
 

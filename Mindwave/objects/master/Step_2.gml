@@ -22,13 +22,9 @@ if (game_focused)
                 do_lock = false;
                 break;
         }
-        
-        if (do_lock)
-            display_mouse_lock(wx, wy, window_get_width(), window_get_height());
     }
     else
     {
-        display_mouse_unlock();
     }
 }
 
