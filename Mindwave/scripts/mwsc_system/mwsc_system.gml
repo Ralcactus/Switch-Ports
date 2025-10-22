@@ -522,10 +522,11 @@ function mwsc_instance() constructor
                         script_line: i
                     };
                     
+					events[i] = array_create(64, 0)
 					if (is_method(_custom_func))
 					    method_call(_custom_func, [_args]);
 					else if (!is_undefined(_custom_func))
-					    script_execute(_custom_func, _args);
+					    script_execute(_custom_func, _args)
                 }
                 else
                 {
@@ -805,9 +806,15 @@ function mwsc_instance() constructor
                             }
                             else
                             {
-								var _args = parse_event_arguments(script[i]);
-								_args = { args: _args, mwsc_inst: self, script_line: i };
-
+                                var _args = parse_event_arguments(script[i]);
+                                _args = 
+                                {
+                                    args: _args,
+                                    mwsc_inst: self,
+                                    script_line: i
+                                };
+                                
+								events[i] = array_create(64, 0);
 								if (is_method(_custom_func))
 								    method_call(_custom_func, [_args]);
 								else if (!is_undefined(_custom_func))
