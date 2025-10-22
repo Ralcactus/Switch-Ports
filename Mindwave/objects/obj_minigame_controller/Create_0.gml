@@ -883,18 +883,6 @@ set_game_speed = function(arg0, arg1 = false, arg2 = false)
     }
 };
 
-dbg_view("Minigames", false);
-dbgcontrols = dbg_section("Controls");
-dbg_button("Restart", start_game);
-dbg_watch(ref_create(self, "music_pitch"), "Game Speed");
-dbg_button("Decrease", function()
-{
-    set_game_speed(music_pitch - 0.1, true);
-});
-dbg_same_line();
-dbg_button("Increase", function()
-{
-    set_game_speed(music_pitch + 0.1, true);
-});
-dbg_button("Skip Inbetween", skip_inbetween);
+
+
 show_debug_overlay(false);

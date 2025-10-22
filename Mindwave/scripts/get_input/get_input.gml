@@ -113,7 +113,7 @@ function get_input()
         x = mouse_x;
         y = mouse_y;
         
-        if (enabled && !is_mouse_over_debug_overlay())
+        if (enabled)
         {
             click = mouse_check_button(mb_left);
             click_press = mouse_check_button_pressed(mb_left);

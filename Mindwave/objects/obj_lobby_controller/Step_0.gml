@@ -4,11 +4,6 @@ active = true && !quitting;
 if (!active)
     exit;
 
-if (is_debug_overlay_open())
-{
-    master.mouselock = false;
-    exit;
-}
 
 if (logmenu)
     logmenu_obj._tick();

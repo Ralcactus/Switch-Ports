@@ -33,8 +33,7 @@ switch (click)
         break;
 }
 
-if (is_mouse_over_debug_overlay())
-    click = 0;
+
 
 focus_volume = lerp(focus_volume, game_focused || !settings.mute_on_lose_focus, 0.2);
 audio_listener_position(240, 135, 0);

@@ -1,5 +1,3 @@
-dbg_section_delete(dbgcontrols);
-
 if (!game_ended && is_struct(char))
     char._end_game();
 

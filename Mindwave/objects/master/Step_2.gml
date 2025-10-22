@@ -32,5 +32,3 @@ if (game_focused)
     }
 }
 
-if (is_debug_overlay_open())
-    debug_vars.storyflag_display = get_story_flag(debug_vars.storyflag_name);

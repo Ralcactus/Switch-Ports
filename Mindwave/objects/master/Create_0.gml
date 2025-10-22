@@ -3,7 +3,7 @@ instance_create_depth(0, 0, 0, version_controller);
 dev_mode = dev_mode && version_controller.build_type == 1;
 version = version_controller.get_version_string();
 display_set_gui_size(480, 270);
-window_enable_borderless_fullscreen(true);
+//window_enable_borderless_fullscreen(true);
 
 get_max_screen_size = function()
 {
@@ -55,8 +55,7 @@ set_screen_size = function(arg0 = -1)
     if (centered)
         window_set_position(window_x - (240 * scale_change), window_y - (135 * scale_change));
     
-    if (is_debug_overlay_open())
-        show_debug_overlay(true);
+
 };
 
 surface_resize(application_surface, 480, 270);
@@ -284,31 +283,3 @@ debug_vars =
     storyflag_value: "",
     storyflag_display: "0"
 };
-dbg_view("General", false);
-dbg_section("Options");
-dbg_slider(ref_create(settings, "vol_music"), 0, 100, "Music");
-dbg_slider(ref_create(settings, "vol_sfx"), 0, 100, "SFX");
-dbg_section("Controls");
-dbg_button("Restart Game", _restart_game);
-dbg_button("Toggle MMBG Only", function()
-{
-    debug_vars.main_menu_bg_only = !debug_vars.main_menu_bg_only;
-});
-dbg_button("Toggle MMBG Figments", function()
-{
-    debug_vars.disable_mmbg_figments = !debug_vars.disable_mmbg_figments;
-});
-dbg_section("Story");
-dbg_text("Set Story Flag");
-dbg_text_input(ref_create(debug_vars, "storyflag_name"), "flag name");
-dbg_watch(ref_create(debug_vars, "storyflag_display"), "current flag value");
-dbg_text_input(ref_create(debug_vars, "storyflag_value"), "new flag value");
-dbg_button("Set", function()
-{
-    set_story_flag(debug_vars.storyflag_name, debug_vars.storyflag_value);
-});
-dbg_section("1bit Shader");
-dbg_checkbox(ref_create(self, "ditherOn"), "Active");
-dbg_color(ref_create(self, "dither_dark"), "Dark Color");
-dbg_color(ref_create(self, "dither_light"), "Light Color");
-show_debug_overlay(false);
