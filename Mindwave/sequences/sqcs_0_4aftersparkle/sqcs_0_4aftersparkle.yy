@@ -37,11 +37,7 @@
   "eventToFunction": {},
   "length": 2261.0,
   "lockOrigin": false,
-  "moments": {
-    "resourceType": "KeyframeStore<MomentsEventKeyframe>",
-    "resourceVersion": "1.0",
-    "Keyframes": [
-      {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{},"Disabled":false,"id":"858736fb-d28e-4337-9f4c-3d5ded5c68cd","IsCreationKey":false,"Key":1053.0,"Length":1.0,"Stretch":false,},
+  "moments":{"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[]},"Disabled":false,"id":"858736fb-d28e-4337-9f4c-3d5ded5c68cd","IsCreationKey":false,"Key":1053.0,"Length":1.0,"Stretch":false,},
       {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{},"Disabled":false,"id":"2836993b-5d60-4d74-ad56-e5abd0277346","IsCreationKey":false,"Key":1755.7249,"Length":1.0,"Stretch":false,},
     ],
   },

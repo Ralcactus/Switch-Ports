@@ -18,11 +18,7 @@
   "eventToFunction": {},
   "length": 585.0,
   "lockOrigin": false,
-  "moments": {
-    "resourceType": "KeyframeStore<MomentsEventKeyframe>",
-    "resourceVersion": "1.0",
-    "Keyframes": [
-      {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{},"Disabled":false,"id":"3843b8cd-837d-4315-90fd-b5d64f7e67fa","IsCreationKey":false,"Key":540.0,"Length":1.0,"Stretch":false,},
+  "moments":{"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[]},"Disabled":false,"id":"3843b8cd-837d-4315-90fd-b5d64f7e67fa","IsCreationKey":false,"Key":540.0,"Length":1.0,"Stretch":false,},
     ],
   },
   "parent": {
