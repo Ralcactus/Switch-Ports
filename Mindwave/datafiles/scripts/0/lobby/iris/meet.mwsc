@@ -1,0 +1,83 @@
+face p 0 0
+p
+line scripts/0_lobby_iris_meet_3
+face p 1 2
+p
+line scripts/0_lobby_iris_meet_6
+face s 1 0
+
+s
+line scripts/0_lobby_iris_meet_10
+face s 0 0
+s
+line scripts/0_lobby_iris_meet_13
+face s 0 1
+s
+line scripts/0_lobby_iris_meet_16
+face p 1 2
+p
+line scripts/0_lobby_iris_meet_19
+line scripts/0_lobby_iris_meet_20
+
+
+
+
+checkflag _0.alex.met 1
+goto marker branch1Y
+goto marker branch1N
+
+marker branch1N
+
+goto marker branch1E
+
+marker branch1Y
+p
+line scripts/0_lobby_iris_meet_35
+goto marker branch1E
+
+marker branch1E
+face s 0 0
+s
+line scripts/0_lobby_iris_meet_41
+line scripts/0_lobby_iris_meet_42
+face p 4 0
+p
+line scripts/0_lobby_iris_meet_45
+face p 0 0
+p
+line scripts/0_lobby_iris_meet_48
+face s 2 1
+s
+line scripts/0_lobby_iris_meet_51
+set p x 0
+set s x -250
+wait 1 second
+i
+line scripts/0_lobby_iris_meet_56
+face p 0 0
+p
+line scripts/0_lobby_iris_meet_59
+face i 2 0
+i
+line scripts/0_lobby_iris_meet_62
+face p 0 2
+p
+line scripts/0_lobby_iris_meet_65
+line scripts/0_lobby_iris_meet_66
+face i 0 1
+i
+line scripts/0_lobby_iris_meet_69
+p
+line scripts/0_lobby_iris_meet_71
+i
+line scripts/0_lobby_iris_meet_73
+line scripts/0_lobby_iris_meet_74
+face p 1 2
+p
+line scripts/0_lobby_iris_meet_77
+
+setflag _0.pandora.alone 1
+setflag _0.iris.met 1
+incflag _0.chars_met 1
+
+goto script 0/lobby/iris/questions

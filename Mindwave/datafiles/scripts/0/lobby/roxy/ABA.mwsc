@@ -1,0 +1,68 @@
+face s 0 0
+s
+line scripts/0_lobby_roxy_ABA_2
+face r 2 1
+r
+line scripts/0_lobby_roxy_ABA_5
+line scripts/0_lobby_roxy_ABA_6
+face s 0 0
+face p 0 0
+p
+line scripts/0_lobby_roxy_ABA_10
+face r 2 1
+r
+line scripts/0_lobby_roxy_ABA_13
+face r 2 0
+r
+line scripts/0_lobby_roxy_ABA_16
+face s 0 2
+s
+line scripts/0_lobby_roxy_ABA_19
+face r 0 3
+r
+line scripts/0_lobby_roxy_ABA_22
+face s 0 0
+r
+line scripts/0_lobby_roxy_ABA_25
+s
+line scripts/0_lobby_roxy_ABA_27
+face r 3 1
+r
+line scripts/0_lobby_roxy_ABA_30
+face r 2 0
+r
+line scripts/0_lobby_roxy_ABA_33
+line scripts/0_lobby_roxy_ABA_34
+face r 2 1
+r
+line scripts/0_lobby_roxy_ABA_37
+face r 3 1
+r
+line scripts/0_lobby_roxy_ABA_40
+...the terminal told me that my teacher won the ticket from one of those anti-aging toxin removal creams that never work.
+face p 0 1
+p
+line scripts/0_lobby_roxy_ABA_44
+face s 0 0
+s
+line scripts/0_lobby_roxy_ABA_47
+face r 2 1
+r
+line scripts/0_lobby_roxy_ABA_50
+line scripts/0_lobby_roxy_ABA_51
+face s 4 0
+face p 0 0
+face r 2 0
+r
+line scripts/0_lobby_roxy_ABA_56
+face s 0 1
+s
+line scripts/0_lobby_roxy_ABA_59
+line scripts/0_lobby_roxy_ABA_60
+face p 1 2
+p
+line scripts/0_lobby_roxy_ABA_63
+setflag _0.roxy.read.ABA 1
+setflag _0.roxy.branch ABA
+function lobby_tick_time
+goto script 0/lobby/roxy/questions

@@ -1,0 +1,46 @@
+face p 1 0
+p
+line scripts/0_lobby_smalls_abbie_BBA_3
+face s 1 0
+s
+line scripts/0_lobby_smalls_abbie_BBA_6
+face s 0 1
+s
+line scripts/0_lobby_smalls_abbie_BBA_9
+face p 0 2
+p
+line scripts/0_lobby_smalls_abbie_BBA_12
+s
+line scripts/0_lobby_smalls_abbie_BBA_14
+face s 0 2
+s
+line scripts/0_lobby_smalls_abbie_BBA_17
+face p 0 0
+p
+line scripts/0_lobby_smalls_abbie_BBA_20
+face p 1 0
+p
+line scripts/0_lobby_smalls_abbie_BBA_23
+line scripts/0_lobby_smalls_abbie_BBA_24
+face p 1 2
+p
+line scripts/0_lobby_smalls_abbie_BBA_27
+face s 1 0
+s
+line scripts/0_lobby_smalls_abbie_BBA_30
+face p 0 2
+p
+line scripts/0_lobby_smalls_abbie_BBA_33
+face s 2 1
+s
+line scripts/0_lobby_smalls_abbie_BBA_36
+face s 0 0
+s
+line scripts/0_lobby_smalls_abbie_BBA_39
+face s 0 1
+s
+line scripts/0_lobby_smalls_abbie_BBA_42
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch BBA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

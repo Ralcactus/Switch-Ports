@@ -1,0 +1,49 @@
+face p 0 1
+face p 0 1
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_3
+face p 0 0
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_6
+face s 0 1
+s
+line scripts/0_lobby_smalls_slate_kat_BAAA_9
+face s 0 0
+s
+line scripts/0_lobby_smalls_slate_kat_BAAA_12
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_14
+line scripts/0_lobby_smalls_slate_kat_BAAA_15
+face s 0 1
+s
+line scripts/0_lobby_smalls_slate_kat_BAAA_18
+face p 1 0
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_21
+face p 1 2
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_24
+face s 1 0
+s
+line scripts/0_lobby_smalls_slate_kat_BAAA_27
+face p 0 2
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_30
+face p 0 0
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_33
+s
+line scripts/0_lobby_smalls_slate_kat_BAAA_35
+face s 2 1
+s
+line scripts/0_lobby_smalls_slate_kat_BAAA_38
+face p 1 0
+p
+line scripts/0_lobby_smalls_slate_kat_BAAA_41
+
+
+
+setflag _0.smalls.slate_kat 2
+setflag _0.smalls.slate_kat.branch BAAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

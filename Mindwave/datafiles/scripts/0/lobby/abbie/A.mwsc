@@ -1,0 +1,114 @@
+face s 0 0
+face p 0 0
+s
+line scripts/0_lobby_abbie_A_3
+line scripts/0_lobby_abbie_A_4
+line scripts/0_lobby_abbie_A_5
+face a 0 0
+a
+line scripts/0_lobby_abbie_A_8
+face a 1 2
+a
+line scripts/0_lobby_abbie_A_11
+p
+line scripts/0_lobby_abbie_A_13
+face s 2 1
+s
+line scripts/0_lobby_abbie_A_16
+face p 0 2
+p
+line scripts/0_lobby_abbie_A_19
+face s 0 1
+s
+line scripts/0_lobby_abbie_A_22
+face a 0 0
+a
+line scripts/0_lobby_abbie_A_25
+face a 1 0
+a
+line scripts/0_lobby_abbie_A_28
+line scripts/0_lobby_abbie_A_29
+s
+line scripts/0_lobby_abbie_A_31
+p
+line scripts/0_lobby_abbie_A_33
+face s 2 0
+s
+line scripts/0_lobby_abbie_A_36
+face s 0 0
+s
+line scripts/0_lobby_abbie_A_39
+face a 1 2
+a
+line scripts/0_lobby_abbie_A_42
+face p 0 0
+p
+line scripts/0_lobby_abbie_A_45
+face a 0 0
+a
+line scripts/0_lobby_abbie_A_48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.abbie.read.A 1
+setflag _0.abbie.branch A
+function lobby_tick_time
+goto script 0/lobby/abbie/questions

@@ -1,0 +1,74 @@
+set d name mystery
+face p 0 0
+p
+line scripts/0_lobby_dom_meet_3
+face s 0 0
+s
+line scripts/0_lobby_dom_meet_6
+face p 1 0
+p
+line scripts/0_lobby_dom_meet_9
+face s 0 1
+s
+line scripts/0_lobby_dom_meet_12
+p
+line scripts/0_lobby_dom_meet_14
+face d 0 0
+d
+line scripts/0_lobby_dom_meet_17
+face p 0 0
+p
+line scripts/0_lobby_dom_meet_20
+face d 1 0
+d
+line scripts/0_lobby_dom_meet_23
+face d 1 1
+function lb0_scr_dom_music 1
+
+d
+line scripts/0_lobby_dom_meet_28
+face s 0 3
+face p 0 4
+s
+line scripts/0_lobby_dom_meet_32
+p
+line scripts/0_lobby_dom_meet_34
+d
+line scripts/0_lobby_dom_meet_36
+function lb0_scr_dom_music 0
+p
+line scripts/0_lobby_dom_meet_39
+face d 1 0
+d
+line scripts/0_lobby_dom_meet_42
+face s 0 0
+face p 0 2
+p
+line scripts/0_lobby_dom_meet_46
+face d 1 0
+d
+line scripts/0_lobby_dom_meet_49
+face p 0 0
+p
+line scripts/0_lobby_dom_meet_52
+face p 1 0
+p
+line scripts/0_lobby_dom_meet_55
+face d 0 1
+d
+line scripts/0_lobby_dom_meet_58
+face d 0 0
+d
+line scripts/0_lobby_dom_meet_61
+line scripts/0_lobby_dom_meet_62
+set d name dom
+face p 4 0
+p
+line scripts/0_lobby_dom_meet_66
+face p 0 0
+p
+line scripts/0_lobby_dom_meet_69
+line scripts/0_lobby_dom_meet_70
+setflag _0.dom.met 1
+incflag _0.chars_met 1
+goto script 0/lobby/dom/questions

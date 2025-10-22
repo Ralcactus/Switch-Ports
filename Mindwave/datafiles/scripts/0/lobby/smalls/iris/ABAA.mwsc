@@ -1,0 +1,41 @@
+face p 0 0
+p
+line scripts/0_lobby_smalls_iris_ABAA_2
+face s 1 0
+s
+line scripts/0_lobby_smalls_iris_ABAA_5
+face p 0 2
+p
+line scripts/0_lobby_smalls_iris_ABAA_8
+line scripts/0_lobby_smalls_iris_ABAA_9
+face p 1 0
+p
+line scripts/0_lobby_smalls_iris_ABAA_12
+face p 0 0
+p
+line scripts/0_lobby_smalls_iris_ABAA_15
+face p 0 2
+p
+line scripts/0_lobby_smalls_iris_ABAA_18
+face s 1 0
+s
+line scripts/0_lobby_smalls_iris_ABAA_21
+face s 0 1
+s
+line scripts/0_lobby_smalls_iris_ABAA_24
+p
+line scripts/0_lobby_smalls_iris_ABAA_26
+face p 1 2
+p
+line scripts/0_lobby_smalls_iris_ABAA_29
+face s 0 0
+s
+line scripts/0_lobby_smalls_iris_ABAA_32
+face s 0 1
+s
+line scripts/0_lobby_smalls_iris_ABAA_35
+
+setflag _0.smalls.iris 2
+setflag _0.smalls.iris.branch ABAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

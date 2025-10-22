@@ -1,0 +1,45 @@
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_BBAA_3
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_BBAA_6
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_BBAA_9
+face s 0 1
+s
+line scripts/0_lobby_slate_kat_BBAA_12
+line scripts/0_lobby_slate_kat_BBAA_13
+face p 0 4
+p
+line scripts/0_lobby_slate_kat_BBAA_16
+face s 0 2
+s
+line scripts/0_lobby_slate_kat_BBAA_19
+line scripts/0_lobby_slate_kat_BBAA_20
+face p 0 2
+p
+line scripts/0_lobby_slate_kat_BBAA_23
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_BBAA_26
+face s 0 1
+s
+line scripts/0_lobby_slate_kat_BBAA_29
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_BBAA_32
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_BBAA_35
+s
+line scripts/0_lobby_slate_kat_BBAA_37
+face k 1 0
+k
+line scripts/0_lobby_slate_kat_BBAA_40
+
+setflag _0.smalls.slate_kat 1
+setflag _0.slate_kat.done 1
+setflag _0.slate_kat.read.BBAA 1
+function lobby_tick_time

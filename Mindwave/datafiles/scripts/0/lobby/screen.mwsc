@@ -1,0 +1,63 @@
+char pandora p left
+char smalls s right
+s
+line scripts/0_lobby_screen_3
+p
+line scripts/0_lobby_screen_5
+line scripts/0_lobby_screen_6
+face p 1 2
+p
+line scripts/0_lobby_screen_9
+face s 2 0
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line scripts/0_lobby_screen_18
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line scripts/0_lobby_screen_25
+
+goto marker branch26e
+
+marker branch26e
+
+face s 1 0
+s
+line scripts/0_lobby_screen_33
+line scripts/0_lobby_screen_34
+face s 0 2
+s
+line scripts/0_lobby_screen_37
+line scripts/0_lobby_screen_38
+face p 0 0
+p
+line scripts/0_lobby_screen_41
+face s 1 0
+s
+line scripts/0_lobby_screen_44
+face s 0 0
+s
+line scripts/0_lobby_screen_47
+face p 1 0
+p
+line scripts/0_lobby_screen_50
+face s 0 2
+s
+line scripts/0_lobby_screen_53
+line scripts/0_lobby_screen_54
+p
+line scripts/0_lobby_screen_56
+line scripts/0_lobby_screen_57
+face p 0 3
+p
+line scripts/0_lobby_screen_60
+setflag _0.screen.done 1
+function lobby_tick_time 0.5

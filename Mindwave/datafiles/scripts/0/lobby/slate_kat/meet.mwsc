@@ -1,0 +1,121 @@
+set k name mystery
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_meet_3
+face s 0 0
+s
+line scripts/0_lobby_slate_kat_meet_6
+
+checkflag _0.iris.met 1
+goto marker branch1y
+goto marker branch1n
+
+marker branch1y
+
+face s 0 3
+s
+line scripts/0_lobby_slate_kat_meet_16
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_meet_19
+
+goto marker branch1e
+
+marker branch1n
+goto marker branch1e
+
+marker branch1e
+face l 1 0
+face p 0 1
+p
+line scripts/0_lobby_slate_kat_meet_30
+face s 0 0
+s
+line scripts/0_lobby_slate_kat_meet_33
+line scripts/0_lobby_slate_kat_meet_34
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_meet_37
+s
+line scripts/0_lobby_slate_kat_meet_39
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_meet_42
+face s 0 1
+s
+line scripts/0_lobby_slate_kat_meet_45
+
+
+
+
+s
+line scripts/0_lobby_slate_kat_meet_51
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_meet_54
+face p 0 2
+p
+line scripts/0_lobby_slate_kat_meet_57
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_meet_60
+l
+line scripts/0_lobby_slate_kat_meet_62
+face k 0 0
+checkflag _0.chars_met 0
+goto marker 2y
+goto marker 2n
+marker 2y
+k
+line scripts/0_lobby_slate_kat_meet_69
+setflag _0.Ethan 1
+goto marker 2e
+marker 2n
+k
+line scripts/0_lobby_slate_kat_meet_74
+
+marker 2e
+
+
+
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_meet_82
+p
+line scripts/0_lobby_slate_kat_meet_84
+l
+line scripts/0_lobby_slate_kat_meet_86
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_meet_89
+face k 0 1
+set k name kat
+k
+line scripts/0_lobby_slate_kat_meet_93
+l
+line scripts/0_lobby_slate_kat_meet_95
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_meet_98
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_meet_101
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_meet_104
+line scripts/0_lobby_slate_kat_meet_105
+
+
+face s 0 1
+s
+line scripts/0_lobby_slate_kat_meet_110
+face l 0 0
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_meet_114
+
+
+setflag _0.slate_kat.met 1
+incflag _0.chars_met 2
+
+goto script 0/lobby/slate_kat/questions

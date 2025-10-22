@@ -1,0 +1,27 @@
+char pandora p left
+char smalls s right
+
+p
+line scripts/0_lobby_ceiling_4
+face p 0 2
+p
+line scripts/0_lobby_ceiling_7
+face s 1 0
+s
+line scripts/0_lobby_ceiling_10
+face p 0 0
+p
+line scripts/0_lobby_ceiling_13
+line scripts/0_lobby_ceiling_14
+face s 0 0
+s
+line scripts/0_lobby_ceiling_17
+line scripts/0_lobby_ceiling_18
+face p 0 1
+p
+line scripts/0_lobby_ceiling_21
+face s 2 1
+s
+line scripts/0_lobby_ceiling_24
+setflag _0.ceiling.done 1
+function lobby_tick_time 0.5

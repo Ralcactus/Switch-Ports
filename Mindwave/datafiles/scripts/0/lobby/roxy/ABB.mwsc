@@ -1,0 +1,100 @@
+face p 0 0
+p
+line scripts/0_lobby_roxy_ABB_2
+face r 0 0
+r
+line scripts/0_lobby_roxy_ABB_5
+face r 0 1
+r
+line scripts/0_lobby_roxy_ABB_8
+face s 2 1
+s
+line scripts/0_lobby_roxy_ABB_11
+face s 0 0
+s
+line scripts/0_lobby_roxy_ABB_14
+face p 1 0
+p
+line scripts/0_lobby_roxy_ABB_17
+face p 1 2
+p
+line scripts/0_lobby_roxy_ABB_20
+face r 1 0
+r
+line scripts/0_lobby_roxy_ABB_23
+line scripts/0_lobby_roxy_ABB_24
+face r 1 1
+r
+line scripts/0_lobby_roxy_ABB_27
+face s 1 0
+s
+line scripts/0_lobby_roxy_ABB_30
+face r 3 1
+r
+line scripts/0_lobby_roxy_ABB_33
+face r 3 0
+r
+line scripts/0_lobby_roxy_ABB_36
+line scripts/0_lobby_roxy_ABB_37
+face s 0 1
+s
+line scripts/0_lobby_roxy_ABB_40
+face r 2 1
+r
+line scripts/0_lobby_roxy_ABB_43
+face r 2 0
+r
+line scripts/0_lobby_roxy_ABB_46
+
+checkflag _0.abbie.read.A 1
+goto marker branch1y
+goto marker branch1n
+
+marker branch1y
+
+face p 0 0
+p
+line scripts/0_lobby_roxy_ABB_56
+face s 0 0
+s
+line scripts/0_lobby_roxy_ABB_59
+p
+line scripts/0_lobby_roxy_ABB_61
+face r 2 0
+r
+line scripts/0_lobby_roxy_ABB_64
+face p 1 0
+p
+line scripts/0_lobby_roxy_ABB_67
+face p 0 1
+p
+line scripts/0_lobby_roxy_ABB_70
+face s 0 1
+s
+line scripts/0_lobby_roxy_ABB_73
+face r 3 1
+r
+line scripts/0_lobby_roxy_ABB_76
+face r 2 0
+r
+line scripts/0_lobby_roxy_ABB_79
+face p 0 1
+p
+line scripts/0_lobby_roxy_ABB_82
+
+goto marker branch1e
+
+marker branch1n
+face r 0 1
+r
+line scripts/0_lobby_roxy_ABB_89
+
+goto marker branch1e
+
+marker branch1e
+
+
+setflag _0.roxy.read.ABB 1
+setflag _0.roxy.branch ABB
+function lobby_tick_time
+goto script 0/lobby/roxy/questions

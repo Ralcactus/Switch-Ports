@@ -1,0 +1,6 @@
+wait for marker line
+pause
+speaker_voice pandora
+line scripts/sequence_0_2_8_3
+clear
+resume

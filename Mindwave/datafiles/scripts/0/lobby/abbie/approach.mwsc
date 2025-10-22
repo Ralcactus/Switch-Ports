@@ -1,0 +1,18 @@
+face s 0 1
+s
+line scripts/0_lobby_abbie_approach_2
+face a 0 0
+a
+line scripts/0_lobby_abbie_approach_5
+
+
+
+
+
+
+
+
+
+
+
+goto script 0/lobby/abbie/questions

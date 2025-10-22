@@ -1,0 +1,66 @@
+face s 1 0
+s
+line scripts/0_lobby_smalls_dom_AAA_3
+face p 0 1
+p
+line scripts/0_lobby_smalls_dom_AAA_6
+face p 0 0
+p
+line scripts/0_lobby_smalls_dom_AAA_9
+face s 0 1
+s
+line scripts/0_lobby_smalls_dom_AAA_12
+face s 2 0
+s
+line scripts/0_lobby_smalls_dom_AAA_15
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_AAA_18
+line scripts/0_lobby_smalls_dom_AAA_19
+face p 0 0
+p
+line scripts/0_lobby_smalls_dom_AAA_22
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_AAA_25
+face p 1 0
+p
+line scripts/0_lobby_smalls_dom_AAA_28
+line scripts/0_lobby_smalls_dom_AAA_29
+face s 1 0
+s
+line scripts/0_lobby_smalls_dom_AAA_32
+line scripts/0_lobby_smalls_dom_AAA_33
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_AAA_36
+face p 0 2
+p
+line scripts/0_lobby_smalls_dom_AAA_39
+s
+line scripts/0_lobby_smalls_dom_AAA_41
+face s 2 0
+s
+line scripts/0_lobby_smalls_dom_AAA_44
+face p 1 0
+p
+line scripts/0_lobby_smalls_dom_AAA_47
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_AAA_50
+face s 1 0
+s
+line scripts/0_lobby_smalls_dom_AAA_53
+line scripts/0_lobby_smalls_dom_AAA_54
+p
+line scripts/0_lobby_smalls_dom_AAA_56
+face p 0 0
+p
+line scripts/0_lobby_smalls_dom_AAA_59
+face s 0 1
+s
+line scripts/0_lobby_smalls_dom_AAA_62
+setflag _0.smalls.dom 2
+setflag _0.smalls.dom.branch AAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

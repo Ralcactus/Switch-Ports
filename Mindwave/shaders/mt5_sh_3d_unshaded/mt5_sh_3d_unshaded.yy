@@ -1,0 +1,10 @@
+{
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "mt5_sh_3d_unshaded",
+  "parent": {
+    "name": "Shaders",
+    "path": "folders/Shaders.yy",
+  },
+  "type": 1,
+}

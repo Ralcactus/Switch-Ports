@@ -1,0 +1,16 @@
+face p 0 1
+p
+line scripts/0_lobby_dom_approach_3
+face p 0 0
+p
+line scripts/0_lobby_dom_approach_6
+face d 0 0
+d
+line scripts/0_lobby_dom_approach_9
+
+
+
+
+
+
+goto script 0/lobby/dom/questions

@@ -1,0 +1,91 @@
+face s 0 0
+s
+line scripts/0_lobby_slate_kat_AB_3
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_AB_6
+face k 0 1
+k
+line scripts/0_lobby_slate_kat_AB_9
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_AB_12
+line scripts/0_lobby_slate_kat_AB_13
+face s 1 0
+s
+line scripts/0_lobby_slate_kat_AB_16
+k
+line scripts/0_lobby_slate_kat_AB_18
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_AB_21
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_AB_24
+line scripts/0_lobby_slate_kat_AB_25
+face s 0 0
+l
+line scripts/0_lobby_slate_kat_AB_28
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_AB_31
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_AB_34
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_AB_37
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_AB_40
+l
+line scripts/0_lobby_slate_kat_AB_42
+face k 0 1
+k
+line scripts/0_lobby_slate_kat_AB_45
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_AB_48
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_AB_51
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_AB_54
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_AB_57
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_AB_60
+face k 0 1
+k
+line scripts/0_lobby_slate_kat_AB_63
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_AB_66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.slate_kat.read.AB 1
+setflag _0.slate_kat.branch AB
+function lobby_tick_time 2
+goto script 0/lobby/slate_kat/questions

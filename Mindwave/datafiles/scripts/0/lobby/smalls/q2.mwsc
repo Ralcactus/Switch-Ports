@@ -1,0 +1,99 @@
+p
+line scripts/0_lobby_smalls_q2_1
+set s pose 2
+face s 0 1
+s
+line scripts/0_lobby_smalls_q2_5
+
+set p pose 1
+p
+line scripts/0_lobby_smalls_q2_9
+line scripts/0_lobby_smalls_q2_10
+face s 0 0
+s
+line scripts/0_lobby_smalls_q2_13
+line scripts/0_lobby_smalls_q2_14
+face p 1 0
+p
+line scripts/0_lobby_smalls_q2_17
+s
+line scripts/0_lobby_smalls_q2_19
+
+face p 0 2
+p
+line scripts/0_lobby_smalls_q2_23
+face s 0 0
+s
+line scripts/0_lobby_smalls_q2_26
+
+face s 2 1
+s
+line scripts/0_lobby_smalls_q2_30
+face p 1 2
+p
+line scripts/0_lobby_smalls_q2_33
+
+face s 0 0
+s
+line scripts/0_lobby_smalls_q2_37
+line scripts/0_lobby_smalls_q2_38
+face p 0 0
+p
+line scripts/0_lobby_smalls_q2_41
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.q2 2
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

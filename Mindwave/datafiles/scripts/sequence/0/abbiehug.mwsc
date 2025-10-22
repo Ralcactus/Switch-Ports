@@ -1,0 +1,22 @@
+pause at marker end
+loop start marker loopstart
+loop end marker loopend
+
+wait for marker line1
+speaker_icon abbie
+speaker_voice abbie
+line scripts/sequence_0_abbiehug_8
+speaker_icon pandora
+speaker_voice pandora
+line scripts/sequence_0_abbiehug_11
+
+line scripts/sequence_0_abbiehug_13
+speaker_icon smalls
+speaker_voice smalls
+line scripts/sequence_0_abbiehug_16
+speaker_icon none
+speaker_voice none
+clear
+loop clear
+
+resume

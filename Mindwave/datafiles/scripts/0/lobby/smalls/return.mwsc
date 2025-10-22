@@ -1,0 +1,5 @@
+face s 0 0
+s
+line scripts/0_lobby_smalls_return_3
+setflag _0.smalls.anythingelse 1
+goto script 0/lobby/smalls/questions

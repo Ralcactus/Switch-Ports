@@ -1,0 +1,13 @@
+face s 2 0
+s
+line scripts/0_lobby_dom_song_again_2
+face d 1 0
+d
+line scripts/0_lobby_dom_song_again_5
+function lb0_scr_dom_music 1 1
+d
+line scripts/0_lobby_dom_song_again_8
+function lb0_scr_dom_music 0
+face s 2 1
+s
+line scripts/0_lobby_dom_song_again_12

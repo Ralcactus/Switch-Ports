@@ -1,0 +1,77 @@
+face s 0 0
+face p 0 0
+s
+line scripts/0_lobby_roxy_AAB_3
+face r 0 0
+r
+line scripts/0_lobby_roxy_AAB_6
+face s 1 0
+s
+line scripts/0_lobby_roxy_AAB_9
+face p 0 0
+p
+line scripts/0_lobby_roxy_AAB_12
+face r 3 0
+r
+line scripts/0_lobby_roxy_AAB_15
+face r 3 1
+r
+line scripts/0_lobby_roxy_AAB_18
+face p 0 1
+p
+line scripts/0_lobby_roxy_AAB_21
+face r 2 0
+r
+line scripts/0_lobby_roxy_AAB_24
+face p 0 0
+r
+line scripts/0_lobby_roxy_AAB_27
+face s 0 0
+s
+line scripts/0_lobby_roxy_AAB_30
+r
+line scripts/0_lobby_roxy_AAB_32
+face p 0 2
+p
+line scripts/0_lobby_roxy_AAB_35
+r
+line scripts/0_lobby_roxy_AAB_37
+line scripts/0_lobby_roxy_AAB_38
+face r 1 0
+r
+line scripts/0_lobby_roxy_AAB_41
+face r 0 0
+r
+line scripts/0_lobby_roxy_AAB_44
+line scripts/0_lobby_roxy_AAB_45
+face p 1 2
+p
+line scripts/0_lobby_roxy_AAB_48
+face s 0 1
+s
+line scripts/0_lobby_roxy_AAB_51
+face s 0 0
+s
+line scripts/0_lobby_roxy_AAB_54
+face p 4 0
+p
+line scripts/0_lobby_roxy_AAB_57
+face s 2 1
+face p 0 4
+s
+line scripts/0_lobby_roxy_AAB_61
+face s 0 1
+s
+line scripts/0_lobby_roxy_AAB_64
+face r 1 0
+r
+line scripts/0_lobby_roxy_AAB_67
+face p 0 0
+face r 2 0
+r
+line scripts/0_lobby_roxy_AAB_71
+
+setflag _0.roxy.read.AAB 1
+setflag _0.roxy.branch AAB
+function lobby_tick_time
+goto script 0/lobby/roxy/questions

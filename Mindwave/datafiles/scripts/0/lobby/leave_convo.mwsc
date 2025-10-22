@@ -1,0 +1,32 @@
+char pandora p left
+char smalls s right
+
+s
+line scripts/0_lobby_leave_convo_4
+p
+option add name "scripts/0_lobby_leave_convo_7" marker "yes"
+option add name "scripts/0_lobby_leave_convo_8" marker "no"
+options show
+
+marker yes
+
+p
+line scripts/0_lobby_leave_convo_14
+
+s
+line scripts/0_lobby_leave_convo_17
+function start_next_round
+skip outro
+goto marker end
+
+marker no
+
+p
+line scripts/0_lobby_leave_convo_25
+
+face s 2 1
+s
+line scripts/0_lobby_leave_convo_29
+goto marker end
+
+marker end

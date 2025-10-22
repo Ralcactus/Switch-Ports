@@ -1,0 +1,71 @@
+face p 0 0
+face s 0 0
+s
+line scripts/0_lobby_dom_AAA_4
+face s 0 0
+s
+line scripts/0_lobby_dom_AAA_7
+d
+line scripts/0_lobby_dom_AAA_9
+face p 0 0
+d
+line scripts/0_lobby_dom_AAA_12
+line scripts/0_lobby_dom_AAA_13
+s
+line scripts/0_lobby_dom_AAA_15
+face s 2 0
+s
+line scripts/0_lobby_dom_AAA_18
+face s 0 1
+s
+line scripts/0_lobby_dom_AAA_21
+face p 0 2
+p
+line scripts/0_lobby_dom_AAA_24
+face p 0 3
+face s 0 3
+p
+line scripts/0_lobby_dom_AAA_28
+face p 0 0
+p
+line scripts/0_lobby_dom_AAA_31
+face p 0 1
+p
+line scripts/0_lobby_dom_AAA_34
+line scripts/0_lobby_dom_AAA_35
+d
+line scripts/0_lobby_dom_AAA_37
+face p 0 0
+p
+line scripts/0_lobby_dom_AAA_40
+line scripts/0_lobby_dom_AAA_41
+face p 0 1
+p
+line scripts/0_lobby_dom_AAA_44
+face s 0 1
+s
+line scripts/0_lobby_dom_AAA_47
+p
+line scripts/0_lobby_dom_AAA_49
+d
+line scripts/0_lobby_dom_AAA_51
+p
+line scripts/0_lobby_dom_AAA_53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.dom 1
+setflag _0.dom.done 1
+setflag _0.dom.read.AAA 1
+function lobby_tick_time 2

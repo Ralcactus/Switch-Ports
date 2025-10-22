@@ -1,0 +1,66 @@
+face s 0 0
+face p 0 0
+p
+line scripts/0_lobby_abbie_BAA_3
+face p 1 2
+p
+line scripts/0_lobby_abbie_BAA_6
+face s 1 0
+s
+line scripts/0_lobby_abbie_BAA_9
+line scripts/0_lobby_abbie_BAA_10
+face s 0 1
+s
+line scripts/0_lobby_abbie_BAA_13
+face p 0 0
+p
+line scripts/0_lobby_abbie_BAA_16
+face a 0 0
+a
+line scripts/0_lobby_abbie_BAA_19
+face a 1 2
+a
+line scripts/0_lobby_abbie_BAA_22
+face a 0 0
+a
+line scripts/0_lobby_abbie_BAA_25
+face p 0 2
+p
+line scripts/0_lobby_abbie_BAA_28
+line scripts/0_lobby_abbie_BAA_29
+line scripts/0_lobby_abbie_BAA_30
+face a 1 2
+a
+line scripts/0_lobby_abbie_BAA_33
+face a 0 0
+a
+line scripts/0_lobby_abbie_BAA_36
+line scripts/0_lobby_abbie_BAA_37
+face p 0 0
+p
+line scripts/0_lobby_abbie_BAA_40
+face a 1 2
+a
+line scripts/0_lobby_abbie_BAA_43
+face a 2 2
+a
+line scripts/0_lobby_abbie_BAA_46
+line scripts/0_lobby_abbie_BAA_47
+face a 1 0
+a
+line scripts/0_lobby_abbie_BAA_50
+face a 0 0
+a
+line scripts/0_lobby_abbie_BAA_53
+face s 0 0
+s
+line scripts/0_lobby_abbie_BAA_56
+
+
+
+
+
+setflag _0.abbie.read.BAA 1
+setflag _0.abbie.branch BAA
+function lobby_tick_time
+goto script 0/lobby/abbie/questions

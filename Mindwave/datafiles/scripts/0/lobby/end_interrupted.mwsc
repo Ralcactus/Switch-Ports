@@ -1,0 +1,67 @@
+char pandora p left
+char smalls s right
+
+
+
+checkflag _0.pandora.alone 1
+goto marker alone
+
+
+s
+allow_player_input 0
+function lobby_bgm_gain 0
+function sfx_play snd_lobby_notification
+
+
+
+s
+line scripts/0_lobby_end_interrupted_18
+face s 1 0
+
+s
+line scripts/0_lobby_end_interrupted_22
+allow_player_input 1
+s
+line scripts/0_lobby_end_interrupted_25
+
+face p 0 0
+p
+line scripts/0_lobby_end_interrupted_29
+checkflag _0.slate_kat.odd 1
+goto marker 10y
+goto marker 10n
+marker 10n
+goto marker end
+marker 10y
+face p 0 1
+p
+line scripts/0_lobby_end_interrupted_38
+goto marker end
+
+
+marker alone
+p
+allow_player_input 0
+function lobby_bgm_gain 0
+function sfx_play snd_lobby_notification
+
+p
+line scripts/0_lobby_end_interrupted_50
+face p 1 0
+
+p
+line scripts/0_lobby_end_interrupted_54
+allow_player_input 1
+p
+line scripts/0_lobby_end_interrupted_57
+face p 0 0
+p
+line scripts/0_lobby_end_interrupted_60
+goto marker end
+
+
+
+
+marker end
+skip outro
+function start_next_round

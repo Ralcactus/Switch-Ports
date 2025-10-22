@@ -1,0 +1,65 @@
+face p 0 2
+p
+line scripts/0_lobby_iris_A_2
+face i 0 0
+i
+line scripts/0_lobby_iris_A_5
+face i 0 1
+i
+line scripts/0_lobby_iris_A_8
+line scripts/0_lobby_iris_A_9
+line scripts/0_lobby_iris_A_10
+line scripts/0_lobby_iris_A_11
+line scripts/0_lobby_iris_A_12
+line scripts/0_lobby_iris_A_13
+face i 0 0
+i
+line scripts/0_lobby_iris_A_16
+p
+line scripts/0_lobby_iris_A_18
+i
+line scripts/0_lobby_iris_A_20
+p
+line scripts/0_lobby_iris_A_22
+i
+line scripts/0_lobby_iris_A_24
+p
+line scripts/0_lobby_iris_A_26
+face i 0 0
+i
+line scripts/0_lobby_iris_A_29
+face p 0 3
+p
+line scripts/0_lobby_iris_A_32
+face p 1 2
+p
+line scripts/0_lobby_iris_A_35
+face i 0 2
+i
+line scripts/0_lobby_iris_A_38
+face i 1 0
+i
+line scripts/0_lobby_iris_A_41
+face i 2 0
+i
+line scripts/0_lobby_iris_A_44
+face p 0 0
+p
+line scripts/0_lobby_iris_A_47
+face p 0 1
+p
+line scripts/0_lobby_iris_A_50
+face i 0 3
+i
+line scripts/0_lobby_iris_A_53
+face p 0 0
+p
+line scripts/0_lobby_iris_A_56
+face i 0 1
+setflag _0.iris.read.A 1
+setflag _0.iris.branch A
+function lobby_tick_time
+p
+line scripts/0_lobby_iris_A_62
+
+goto script 0/lobby/iris/questions

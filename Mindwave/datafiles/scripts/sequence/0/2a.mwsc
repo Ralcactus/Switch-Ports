@@ -1,0 +1,6 @@
+wait for marker line1
+text_auto 1
+speaker_voice terminal
+line scripts/sequence_0_2a_3
+wait for marker fadeout
+clear

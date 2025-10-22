@@ -1,0 +1,106 @@
+face s 0 1
+s
+line scripts/0_lobby_roxy_meet_3
+
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line scripts/0_lobby_roxy_meet_12
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line scripts/0_lobby_roxy_meet_19
+
+goto marker branch26e
+
+marker branch26e
+
+face p 0 0
+p
+line scripts/0_lobby_roxy_meet_27
+face s 0 0
+s
+line scripts/0_lobby_roxy_meet_30
+line scripts/0_lobby_roxy_meet_31
+face s 0 1
+s
+line scripts/0_lobby_roxy_meet_34
+face s 2 1
+s
+line scripts/0_lobby_roxy_meet_37
+face p 1 2
+p
+line scripts/0_lobby_roxy_meet_40
+face s 1 0
+s
+line scripts/0_lobby_roxy_meet_43
+face p 4 0
+face s 0 1
+s
+line scripts/0_lobby_roxy_meet_47
+face p 1 0
+p
+line scripts/0_lobby_roxy_meet_50
+
+checkflag _0.alex.met 1
+goto marker branch1y
+goto marker branch1n
+
+marker branch1y
+face p 4 0
+p
+line scripts/0_lobby_roxy_meet_59
+goto marker branch1e
+
+marker branch1n
+face p 4 0
+p
+line scripts/0_lobby_roxy_meet_65
+goto marker branch1e
+
+marker branch1e
+face s 0 0
+s
+line scripts/0_lobby_roxy_meet_71
+line scripts/0_lobby_roxy_meet_72
+face r 0 1
+r
+line scripts/0_lobby_roxy_meet_75
+face p 4 0
+face s 0 3
+s
+line scripts/0_lobby_roxy_meet_79
+face s 0 0
+s
+line scripts/0_lobby_roxy_meet_82
+face r 1 0
+r
+line scripts/0_lobby_roxy_meet_85
+line scripts/0_lobby_roxy_meet_86
+face p 0 0
+
+s
+line scripts/0_lobby_roxy_meet_90
+line scripts/0_lobby_roxy_meet_91
+p
+line scripts/0_lobby_roxy_meet_93
+face r 0 0
+r
+line scripts/0_lobby_roxy_meet_96
+
+
+
+
+
+
+setflag _0.roxy.met 1
+incflag _0.chars_met 1
+
+goto script 0/lobby/roxy/questions

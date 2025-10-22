@@ -1,0 +1,31 @@
+wait for marker line1
+pause
+speaker_voice terminal
+line scripts/sequence_0_1b_3
+clear
+resume
+wait for marker line2
+pause
+line scripts/sequence_0_1b_8
+clear
+resume
+wait for marker line3
+pause
+line scripts/sequence_0_1b_13
+resume
+clear
+wait for marker info
+pause
+line scripts/sequence_0_1b_18
+line scripts/sequence_0_1b_19
+line scripts/sequence_0_1b_20
+speaker_icon pandora
+speaker_voice pandora
+line scripts/sequence_0_1b_23
+speaker_icon none
+resume
+text_auto 1
+speaker_voice terminal
+line scripts/sequence_0_1b_28
+wait for marker textclear
+clear

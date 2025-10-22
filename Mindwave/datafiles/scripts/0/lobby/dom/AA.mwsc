@@ -1,0 +1,153 @@
+face s 0 1
+face p 0 0
+s
+line scripts/0_lobby_dom_AA_4
+face d 0 0
+d
+line scripts/0_lobby_dom_AA_7
+line scripts/0_lobby_dom_AA_8
+face p 1 0
+p
+line scripts/0_lobby_dom_AA_11
+
+face p 0 4
+p
+line scripts/0_lobby_dom_AA_15
+line scripts/0_lobby_dom_AA_16
+face s 0 0
+s
+line scripts/0_lobby_dom_AA_19
+face s 0 3
+s
+line scripts/0_lobby_dom_AA_22
+face s 0 1
+s
+line scripts/0_lobby_dom_AA_25
+face p 0 1
+p
+line scripts/0_lobby_dom_AA_28
+face p 1 1
+p
+line scripts/0_lobby_dom_AA_31
+face d 0 0
+d
+line scripts/0_lobby_dom_AA_34
+face p 0 0
+face d 0 1
+d
+line scripts/0_lobby_dom_AA_38
+face s 0 0
+s
+line scripts/0_lobby_dom_AA_41
+face s 0 2
+face p 0 4
+s
+line scripts/0_lobby_dom_AA_45
+face p 0 2
+p
+line scripts/0_lobby_dom_AA_48
+face p 0 4
+p
+line scripts/0_lobby_dom_AA_51
+face p 1 1 
+p
+line scripts/0_lobby_dom_AA_54
+face s 1 0
+s
+line scripts/0_lobby_dom_AA_57
+face s 2 1
+face p 1 0
+s
+line scripts/0_lobby_dom_AA_61
+face p 0 3
+face s 0 1 
+p
+line scripts/0_lobby_dom_AA_65
+face p 0 4
+p
+line scripts/0_lobby_dom_AA_68
+d
+line scripts/0_lobby_dom_AA_70
+face p 0 1
+p
+line scripts/0_lobby_dom_AA_73
+line scripts/0_lobby_dom_AA_74
+face d 0 0
+d
+line scripts/0_lobby_dom_AA_77
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.dom.read.AA 1
+setflag _0.dom.branch AA
+function lobby_tick_time
+goto script 0/lobby/dom/questions

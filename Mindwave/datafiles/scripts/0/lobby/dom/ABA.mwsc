@@ -1,0 +1,76 @@
+face s 0 0
+face p 0 2
+p
+line scripts/0_lobby_dom_ABA_3
+line scripts/0_lobby_dom_ABA_4
+face p 0 0
+p
+line scripts/0_lobby_dom_ABA_7
+face s 2 0
+s
+line scripts/0_lobby_dom_ABA_10
+face s 0 1
+s
+line scripts/0_lobby_dom_ABA_13
+face d 1 0
+d
+line scripts/0_lobby_dom_ABA_16
+face p 1 2
+p
+line scripts/0_lobby_dom_ABA_19
+d
+line scripts/0_lobby_dom_ABA_21
+line scripts/0_lobby_dom_ABA_22
+face p 0 0
+p
+line scripts/0_lobby_dom_ABA_25
+face d 1 1
+d
+line scripts/0_lobby_dom_ABA_28
+face d 1 0
+d
+line scripts/0_lobby_dom_ABA_31
+face d 0 0
+d
+line scripts/0_lobby_dom_ABA_34
+p
+line scripts/0_lobby_dom_ABA_36
+face p 0 2
+p
+line scripts/0_lobby_dom_ABA_39
+face p 0 4
+p
+line scripts/0_lobby_dom_ABA_42
+d
+line scripts/0_lobby_dom_ABA_44
+face s 0 1
+s
+line scripts/0_lobby_dom_ABA_47
+face p 0 0
+p
+line scripts/0_lobby_dom_ABA_50
+line scripts/0_lobby_dom_ABA_51
+d
+line scripts/0_lobby_dom_ABA_53
+line scripts/0_lobby_dom_ABA_54
+face p 0 1
+p
+line scripts/0_lobby_dom_ABA_57
+s
+line scripts/0_lobby_dom_ABA_59
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.dom 1
+setflag _0.dom.done 1
+setflag _0.dom.read.ABA 1
+function lobby_tick_time 2

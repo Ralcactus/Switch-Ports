@@ -1,0 +1,151 @@
+face s 0 0
+checkflag nickname_panda 1
+goto marker branch22y
+goto marker branch22n
+
+marker branch22y
+
+s
+line scripts/0_lobby_slate_kat_A_8
+
+goto marker branch22e
+
+marker branch22n
+
+s
+line scripts/0_lobby_slate_kat_A_15
+
+goto marker branch22e
+
+marker branch22e
+
+
+
+face p 0 2
+p
+line scripts/0_lobby_slate_kat_A_25
+
+
+face p 4 0
+p
+line scripts/0_lobby_slate_kat_A_30
+face k 0 0
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_A_34
+
+
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_A_39
+line scripts/0_lobby_slate_kat_A_40
+line scripts/0_lobby_slate_kat_A_41
+
+
+
+
+
+
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line scripts/0_lobby_slate_kat_A_56
+line scripts/0_lobby_slate_kat_A_57
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line scripts/0_lobby_slate_kat_A_64
+line scripts/0_lobby_slate_kat_A_65
+
+goto marker branch26e
+
+marker branch26e
+
+face p 1 2
+p
+line scripts/0_lobby_slate_kat_A_73
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_A_76
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_A_79
+face p 0 2
+p
+line scripts/0_lobby_slate_kat_A_82
+l
+line scripts/0_lobby_slate_kat_A_84
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_A_87
+face p 0 2
+p
+line scripts/0_lobby_slate_kat_A_90
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_A_93
+line scripts/0_lobby_slate_kat_A_94
+face s 0 0
+face p 4 0
+p
+line scripts/0_lobby_slate_kat_A_98
+k
+line scripts/0_lobby_slate_kat_A_100
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_A_103
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch29y
+goto marker branch29n
+
+marker branch29y
+
+s
+line scripts/0_lobby_slate_kat_A_112
+
+goto marker branch29e
+
+marker branch29n
+
+s
+line scripts/0_lobby_slate_kat_A_119
+
+goto marker branch29e
+
+marker branch29e
+
+l
+line scripts/0_lobby_slate_kat_A_126
+line scripts/0_lobby_slate_kat_A_127
+face k 0 1
+k
+line scripts/0_lobby_slate_kat_A_130
+
+k
+line scripts/0_lobby_slate_kat_A_133
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_A_136
+face p 0 0
+l
+line scripts/0_lobby_slate_kat_A_139
+k
+line scripts/0_lobby_slate_kat_A_141
+line scripts/0_lobby_slate_kat_A_142
+l
+line scripts/0_lobby_slate_kat_A_144
+line scripts/0_lobby_slate_kat_A_145
+
+setflag _0.slate_kat.read.A 1
+setflag _0.slate_kat.branch A
+function lobby_tick_time 2
+goto script 0/lobby/slate_kat/questions

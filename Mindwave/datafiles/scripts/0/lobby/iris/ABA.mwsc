@@ -1,0 +1,68 @@
+face p 0 0
+p
+line scripts/0_lobby_iris_ABA_3
+face i 2 0
+i
+line scripts/0_lobby_iris_ABA_6
+line scripts/0_lobby_iris_ABA_7
+face i 0 0
+i
+line scripts/0_lobby_iris_ABA_10
+face p 0 2
+p
+line scripts/0_lobby_iris_ABA_13
+face i 1 0
+i
+line scripts/0_lobby_iris_ABA_16
+face i 0 1
+i
+line scripts/0_lobby_iris_ABA_19
+face i 0 3
+i
+line scripts/0_lobby_iris_ABA_22
+line scripts/0_lobby_iris_ABA_23
+p
+line scripts/0_lobby_iris_ABA_25
+face p 0 0
+p
+line scripts/0_lobby_iris_ABA_28
+line scripts/0_lobby_iris_ABA_29
+i
+line scripts/0_lobby_iris_ABA_31
+line scripts/0_lobby_iris_ABA_32
+face i 2 0
+i
+line scripts/0_lobby_iris_ABA_35
+face p 4 0
+p
+line scripts/0_lobby_iris_ABA_38
+i
+line scripts/0_lobby_iris_ABA_40
+line scripts/0_lobby_iris_ABA_41
+face i 0 0
+i
+line scripts/0_lobby_iris_ABA_44
+line scripts/0_lobby_iris_ABA_45
+face p 0 2
+p
+line scripts/0_lobby_iris_ABA_48
+face p 1 0
+p
+line scripts/0_lobby_iris_ABA_51
+face p 1 2
+p
+line scripts/0_lobby_iris_ABA_54
+face p 0 3
+p
+line scripts/0_lobby_iris_ABA_57
+face i 1 0
+i
+line scripts/0_lobby_iris_ABA_60
+face p 0 0
+p
+line scripts/0_lobby_iris_ABA_63
+
+setflag _0.iris.read.ABA 1
+setflag _0.iris.branch ABA
+function lobby_tick_time
+goto script 0/lobby/iris/questions

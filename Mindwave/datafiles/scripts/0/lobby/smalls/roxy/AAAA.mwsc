@@ -1,0 +1,56 @@
+face s 0 0
+s
+line scripts/0_lobby_smalls_roxy_AAAA_2
+face s 0 1
+s
+line scripts/0_lobby_smalls_roxy_AAAA_5
+face p 1 2
+p
+line scripts/0_lobby_smalls_roxy_AAAA_8
+face p 0 2
+p
+line scripts/0_lobby_smalls_roxy_AAAA_11
+s
+line scripts/0_lobby_smalls_roxy_AAAA_13
+face s 1 0
+s
+line scripts/0_lobby_smalls_roxy_AAAA_16
+line scripts/0_lobby_smalls_roxy_AAAA_17
+face p 1 0
+p
+line scripts/0_lobby_smalls_roxy_AAAA_20
+face p 0 2
+p
+line scripts/0_lobby_smalls_roxy_AAAA_23
+face s 0 0
+s
+line scripts/0_lobby_smalls_roxy_AAAA_26
+line scripts/0_lobby_smalls_roxy_AAAA_27
+face s 1 0
+s
+line scripts/0_lobby_smalls_roxy_AAAA_30
+face s 2 0
+s
+line scripts/0_lobby_smalls_roxy_AAAA_33
+face s 0 2
+s
+line scripts/0_lobby_smalls_roxy_AAAA_36
+face p 1 2
+p
+line scripts/0_lobby_smalls_roxy_AAAA_39
+face s 0 0
+s
+line scripts/0_lobby_smalls_roxy_AAAA_42
+face s 0 3
+s
+line scripts/0_lobby_smalls_roxy_AAAA_45
+face s 0 1
+s
+line scripts/0_lobby_smalls_roxy_AAAA_48
+
+
+
+setflag _0.smalls.roxy 2
+setflag _0.smalls.roxy.branch AAAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

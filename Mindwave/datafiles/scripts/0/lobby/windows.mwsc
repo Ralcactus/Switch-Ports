@@ -1,0 +1,49 @@
+char pandora p left
+char smalls s right
+
+face s 0 0
+s
+line scripts/0_lobby_windows_6
+face p 0 0
+p
+line scripts/0_lobby_windows_9
+face s 2 0
+s
+line scripts/0_lobby_windows_12
+face s 0 1
+s
+line scripts/0_lobby_windows_15
+line scripts/0_lobby_windows_16
+face p 1 0
+p
+line scripts/0_lobby_windows_19
+face p 0 0
+p
+line scripts/0_lobby_windows_22
+face p 0 2
+p
+line scripts/0_lobby_windows_25
+line scripts/0_lobby_windows_26
+face p 1 2
+p
+line scripts/0_lobby_windows_29
+face s 1 0
+s
+line scripts/0_lobby_windows_32
+line scripts/0_lobby_windows_33
+face p 4 0
+p
+line scripts/0_lobby_windows_36
+face p 0 0
+p
+line scripts/0_lobby_windows_39
+line scripts/0_lobby_windows_40
+face s 0 0
+s
+line scripts/0_lobby_windows_43
+face s 0 1
+s
+line scripts/0_lobby_windows_46
+
+setflag _0.windows.done 1
+function lobby_tick_time 0.5

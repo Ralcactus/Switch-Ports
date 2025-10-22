@@ -1,0 +1,19 @@
+function cs_0_1_scr_terminalsong_start
+function play_crowd_ambience
+char pandora p left
+char terminal t right
+
+t
+line scripts/0_terminal0_6
+|style font fnt_pixel|...and welcome to Mindscape Tower,|p ,| home to Mindscape Co.|p ,|
+|style font fnt_pixel|...creators of the most cutting edge developments in the world of cognitive technology and entertain-|skip|  
+p
+line scripts/0_terminal0_10
+face p 1 0
+
+Just make it quick.|p|
+There's like a million people behind me.
+
+t
+line scripts/0_terminal0_16
+skip outro

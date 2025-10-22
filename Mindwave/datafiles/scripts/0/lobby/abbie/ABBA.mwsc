@@ -1,0 +1,94 @@
+face p 1 0
+face s 0 0
+p
+line scripts/0_lobby_abbie_ABBA_4
+face s 2 0
+s
+line scripts/0_lobby_abbie_ABBA_7
+face s 0 2
+s
+line scripts/0_lobby_abbie_ABBA_10
+face a 1 2
+a
+line scripts/0_lobby_abbie_ABBA_13
+face a 0 0
+a
+line scripts/0_lobby_abbie_ABBA_16
+line scripts/0_lobby_abbie_ABBA_17
+face s 0 1
+s
+line scripts/0_lobby_abbie_ABBA_20
+line scripts/0_lobby_abbie_ABBA_21
+face p 1 2
+p
+line scripts/0_lobby_abbie_ABBA_24
+s
+line scripts/0_lobby_abbie_ABBA_26
+a
+line scripts/0_lobby_abbie_ABBA_28
+face p 4 0
+p
+line scripts/0_lobby_abbie_ABBA_31
+face p 1 0
+p
+line scripts/0_lobby_abbie_ABBA_34
+line scripts/0_lobby_abbie_ABBA_35
+face p 0 1
+p
+line scripts/0_lobby_abbie_ABBA_38
+set p front_when_speak 0
+set p x -200
+wait 1 second
+a
+line scripts/0_lobby_abbie_ABBA_43
+face s 2 1
+s
+line scripts/0_lobby_abbie_ABBA_46
+face s 0 1
+s
+line scripts/0_lobby_abbie_ABBA_49
+face a 1 0
+a
+line scripts/0_lobby_abbie_ABBA_52
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.ABBA 1
+setflag _0.abbie.done 1

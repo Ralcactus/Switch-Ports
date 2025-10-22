@@ -1,0 +1,52 @@
+face p 0 0
+face s 0 0
+p
+line scripts/0_lobby_roxy_A_3
+face p 0 2
+p
+line scripts/0_lobby_roxy_A_6
+face r 1 0
+r
+line scripts/0_lobby_roxy_A_9
+face p 1 2
+p
+line scripts/0_lobby_roxy_A_12
+face r 0 0
+r
+line scripts/0_lobby_roxy_A_15
+face r 0 1
+r
+line scripts/0_lobby_roxy_A_18
+face p 0 2
+p
+line scripts/0_lobby_roxy_A_21
+line scripts/0_lobby_roxy_A_22
+face p 0 4
+face s 0 2
+s
+line scripts/0_lobby_roxy_A_26
+face p 1 2
+p
+line scripts/0_lobby_roxy_A_29
+face r 1 0
+r
+line scripts/0_lobby_roxy_A_32
+line scripts/0_lobby_roxy_A_33
+face r 1 1
+r
+line scripts/0_lobby_roxy_A_36
+face r 1 0
+r
+line scripts/0_lobby_roxy_A_39
+face s 1 0
+s
+line scripts/0_lobby_roxy_A_42
+face p 1 2
+p
+line scripts/0_lobby_roxy_A_45
+
+
+setflag _0.roxy.read.A 1
+setflag _0.roxy.branch A
+function lobby_tick_time
+goto script 0/lobby/roxy/questions

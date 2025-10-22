@@ -1,0 +1,66 @@
+p
+line scripts/0_lobby_smalls_dom_ABA_4
+face p 1 0
+p
+line scripts/0_lobby_smalls_dom_ABA_7
+line scripts/0_lobby_smalls_dom_ABA_8
+face p 0 1
+p
+line scripts/0_lobby_smalls_dom_ABA_11
+face s 0 1
+s
+line scripts/0_lobby_smalls_dom_ABA_14
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_ABA_17
+line scripts/0_lobby_smalls_dom_ABA_18
+face p 0 0
+p
+line scripts/0_lobby_smalls_dom_ABA_21
+line scripts/0_lobby_smalls_dom_ABA_22
+face p 0 2
+p
+line scripts/0_lobby_smalls_dom_ABA_25
+face s 0 3
+s
+line scripts/0_lobby_smalls_dom_ABA_28
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_ABA_31
+face s 1 0
+s
+line scripts/0_lobby_smalls_dom_ABA_34
+line scripts/0_lobby_smalls_dom_ABA_35
+face p 1 0
+p
+line scripts/0_lobby_smalls_dom_ABA_38
+face p 0 0
+p
+line scripts/0_lobby_smalls_dom_ABA_41
+face s 0 1
+s
+line scripts/0_lobby_smalls_dom_ABA_44
+face p 0 4
+p
+line scripts/0_lobby_smalls_dom_ABA_47
+face p 0 0
+p
+line scripts/0_lobby_smalls_dom_ABA_50
+face s 0 0
+s
+line scripts/0_lobby_smalls_dom_ABA_53
+p
+line scripts/0_lobby_smalls_dom_ABA_55
+face s 0 2
+s
+line scripts/0_lobby_smalls_dom_ABA_58
+
+
+
+
+
+
+setflag _0.smalls.dom 2
+setflag _0.smalls.dom.branch ABA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

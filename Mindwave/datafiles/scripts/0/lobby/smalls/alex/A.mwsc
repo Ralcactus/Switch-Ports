@@ -1,0 +1,95 @@
+face p 1 0
+p
+line scripts/0_lobby_smalls_alex_A_3
+face s 0 0
+s
+line scripts/0_lobby_smalls_alex_A_6
+face p 1 0
+p
+line scripts/0_lobby_smalls_alex_A_9
+line scripts/0_lobby_smalls_alex_A_10
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_13
+line scripts/0_lobby_smalls_alex_A_14
+
+
+s
+line scripts/0_lobby_smalls_alex_A_18
+checkflag _0.abbie.met 1
+goto marker branch7y
+goto marker branch7n
+marker branch7y
+
+
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_27
+line scripts/0_lobby_smalls_alex_A_28
+checkflag _0.abbie.done 1
+goto marker branch2y
+goto marker branch2n
+marker branch2n
+face s 2 1
+s
+line scripts/0_lobby_smalls_alex_A_35
+face s 0 2
+s
+line scripts/0_lobby_smalls_alex_A_38
+marker branch2y
+goto marker branch1e
+
+marker branch7n
+checkflag _0.roxy.met 1
+goto marker branch3y
+goto marker branch3n
+marker branch3y
+
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_50
+face s 0 0
+s
+line scripts/0_lobby_smalls_alex_A_53
+goto marker branch1e
+
+marker branch3n
+checkflag _0.dom.met 1
+goto marker branch4y
+goto marker branch1e
+marker branch4y
+
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_64
+
+
+goto marker branch1e
+marker branch1e
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_71
+face s 1 0
+s
+line scripts/0_lobby_smalls_alex_A_74
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_77
+face p 1 2
+p
+line scripts/0_lobby_smalls_alex_A_80
+face s 2 1
+s
+line scripts/0_lobby_smalls_alex_A_83
+face s 0 1
+s
+line scripts/0_lobby_smalls_alex_A_86
+face p 1 2
+p
+line scripts/0_lobby_smalls_alex_A_89
+
+
+setflag _0.smalls.alex 2
+setflag _0.smalls.iris.branch A
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

@@ -1,0 +1,234 @@
+char pandora p left +45
+set p layer 0
+char smalls s left -70
+char alex a right
+
+checkflag _0.alex.met 0
+goto marker firstMeet
+goto marker alreadyMet
+
+marker alreadyMet
+p
+line scripts/0_lobby_alex_click_11
+line scripts/0_lobby_alex_click_12
+s
+line scripts/0_lobby_alex_click_14
+goto marker end
+
+
+marker firstMeet
+
+checkflag _0.chars_met 0
+goto marker firstConvo
+goto marker notFirstConvo
+
+
+marker firstConvo
+set a name mystery
+face s 0 0
+face p 0 0
+s
+line scripts/0_lobby_alex_click_30
+p
+line scripts/0_lobby_alex_click_32
+face p 0 2
+p
+line scripts/0_lobby_alex_click_35
+line scripts/0_lobby_alex_click_36
+face s 0 2
+s
+line scripts/0_lobby_alex_click_39
+p
+line scripts/0_lobby_alex_click_41
+face s 0 1
+s
+line scripts/0_lobby_alex_click_44
+face p 1 0
+p
+line scripts/0_lobby_alex_click_47
+face s 1 0
+s
+line scripts/0_lobby_alex_click_50
+p
+line scripts/0_lobby_alex_click_52
+face p 1 2
+p
+line scripts/0_lobby_alex_click_55
+face s 2 1
+s
+line scripts/0_lobby_alex_click_58
+face p 0 0
+p
+line scripts/0_lobby_alex_click_61
+a
+line scripts/0_lobby_alex_click_63
+face p 1 2
+p
+line scripts/0_lobby_alex_click_66
+face s 0 3
+s
+line scripts/0_lobby_alex_click_69
+a
+line scripts/0_lobby_alex_click_71
+line scripts/0_lobby_alex_click_72
+line scripts/0_lobby_alex_click_73
+line scripts/0_lobby_alex_click_74
+line scripts/0_lobby_alex_click_75
+face a 0 1
+a
+line scripts/0_lobby_alex_click_78
+face s 0 3
+face p 4 0
+p
+line scripts/0_lobby_alex_click_82
+set a name alex
+face a 0 0
+a
+line scripts/0_lobby_alex_click_86
+face s 0 0
+s
+line scripts/0_lobby_alex_click_89
+a
+line scripts/0_lobby_alex_click_91
+line scripts/0_lobby_alex_click_92
+
+set a x -200
+wait 1 second
+face s 0 3
+p
+line scripts/0_lobby_alex_click_98
+s
+line scripts/0_lobby_alex_click_100
+face p 1 2
+p
+line scripts/0_lobby_alex_click_103
+face s 0 0
+s
+line scripts/0_lobby_alex_click_106
+face s 2 0
+s
+line scripts/0_lobby_alex_click_109
+setflag _0.alex.firstSpoken 1
+goto marker endFlags
+
+
+
+
+
+
+marker notFirstConvo
+set a name mystery
+
+face s 0 0
+s
+line scripts/0_lobby_alex_click_123
+face p 1 0
+p
+line scripts/0_lobby_alex_click_126
+line scripts/0_lobby_alex_click_127
+face s 0 1
+s
+line scripts/0_lobby_alex_click_130
+face p 4 0
+p
+line scripts/0_lobby_alex_click_133
+face s 1 0
+s
+line scripts/0_lobby_alex_click_136
+face p 0 0
+p
+line scripts/0_lobby_alex_click_139
+face s 0 1
+s
+line scripts/0_lobby_alex_click_142
+face p 1 0
+p
+line scripts/0_lobby_alex_click_145
+face p 0 0
+p
+line scripts/0_lobby_alex_click_148
+a
+line scripts/0_lobby_alex_click_150
+line scripts/0_lobby_alex_click_151
+line scripts/0_lobby_alex_click_152
+line scripts/0_lobby_alex_click_153
+line scripts/0_lobby_alex_click_154
+line scripts/0_lobby_alex_click_155
+line scripts/0_lobby_alex_click_156
+face a 0 1
+a
+line scripts/0_lobby_alex_click_159
+p
+line scripts/0_lobby_alex_click_161
+face a 0 0
+set a name alex
+a
+line scripts/0_lobby_alex_click_165
+face s 0 0
+s
+line scripts/0_lobby_alex_click_168
+face p 0 2
+p
+line scripts/0_lobby_alex_click_171
+a
+line scripts/0_lobby_alex_click_173
+face s 0 0
+s
+line scripts/0_lobby_alex_click_176
+a
+line scripts/0_lobby_alex_click_178
+
+set a x -200
+wait 1 second
+face s 2 0
+s
+line scripts/0_lobby_alex_click_184
+face s 0 1
+face p 0 0
+p
+line scripts/0_lobby_alex_click_188
+face p 4 0
+p
+line scripts/0_lobby_alex_click_191
+s
+line scripts/0_lobby_alex_click_193
+
+
+
+
+setflag _0.alex.firstSpoken 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+goto marker endFlags
+
+
+marker endFlags
+function lobby_tick_time 4
+incflag _0.chars_met 1
+setflag _0.alex.met 1
+setflag _0.smalls.alex 1
+marker end

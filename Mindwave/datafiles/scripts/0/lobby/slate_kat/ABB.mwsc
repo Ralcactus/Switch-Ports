@@ -1,0 +1,51 @@
+face s 0 0
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_ABB_3
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_ABB_6
+face s 1 0
+s
+line scripts/0_lobby_slate_kat_ABB_9
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_ABB_12
+line scripts/0_lobby_slate_kat_ABB_13
+line scripts/0_lobby_slate_kat_ABB_14
+face s 0 0
+l
+line scripts/0_lobby_slate_kat_ABB_17
+face s 1 0
+s
+line scripts/0_lobby_slate_kat_ABB_20
+face p 0 2
+p
+line scripts/0_lobby_slate_kat_ABB_23
+line scripts/0_lobby_slate_kat_ABB_24
+l
+line scripts/0_lobby_slate_kat_ABB_26
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_ABB_29
+face k 0 1
+face s 0 0
+k
+line scripts/0_lobby_slate_kat_ABB_33
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_ABB_36
+face p 1 0
+p
+line scripts/0_lobby_slate_kat_ABB_39
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_ABB_42
+face k 0 2
+k
+line scripts/0_lobby_slate_kat_ABB_45
+
+setflag _0.slate_kat.read.AAA 1
+setflag _0.slate_kat.branch AAA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions

@@ -1,0 +1,107 @@
+face s 0 0
+s
+line scripts/0_lobby_abbie_BA_2
+a
+line scripts/0_lobby_abbie_BA_4
+face a 1 0
+a
+line scripts/0_lobby_abbie_BA_7
+
+
+
+allow_player_input 0
+face a 0 0
+a
+line scripts/0_lobby_abbie_BA_14
+face a 1 0
+a
+line scripts/0_lobby_abbie_BA_17
+
+
+
+a
+line scripts/0_lobby_abbie_BA_22
+face a 1 2
+a
+line scripts/0_lobby_abbie_BA_25
+face a 0 0
+a
+line scripts/0_lobby_abbie_BA_28
+
+
+face a 2 2
+a
+line scripts/0_lobby_abbie_BA_33
+face a 1 0
+a
+line scripts/0_lobby_abbie_BA_36
+face a 4 0
+face p 4 0
+a
+line scripts/0_lobby_abbie_BA_40
+
+allow_player_input 1
+
+
+face a 0 0
+a
+line scripts/0_lobby_abbie_BA_47
+face a 6 2
+a
+line scripts/0_lobby_abbie_BA_50
+face s 0 1
+s
+line scripts/0_lobby_abbie_BA_53
+face a 6 0
+a
+line scripts/0_lobby_abbie_BA_56
+face a 0 0
+a
+line scripts/0_lobby_abbie_BA_59
+face p 0 0
+p
+line scripts/0_lobby_abbie_BA_62
+a
+line scripts/0_lobby_abbie_BA_64
+face p 0 1
+p
+line scripts/0_lobby_abbie_BA_67
+face s 1 0
+s
+line scripts/0_lobby_abbie_BA_70
+face a 4 0
+a
+line scripts/0_lobby_abbie_BA_73
+face s 0 0
+p
+line scripts/0_lobby_abbie_BA_76
+face a 1 0
+a
+line scripts/0_lobby_abbie_BA_79
+face p 0 0
+a
+line scripts/0_lobby_abbie_BA_82
+s
+line scripts/0_lobby_abbie_BA_84
+face a 2 2
+a
+line scripts/0_lobby_abbie_BA_87
+face a 0 0
+a
+line scripts/0_lobby_abbie_BA_90
+line scripts/0_lobby_abbie_BA_91
+face a 3 1
+a
+line scripts/0_lobby_abbie_BA_94
+face a 5 0
+a
+line scripts/0_lobby_abbie_BA_97
+face p 0 1
+p
+line scripts/0_lobby_abbie_BA_100
+
+
+setflag _0.abbie.read.BA 1
+setflag _0.abbie.branch BA
+function lobby_tick_time
+goto script 0/lobby/abbie/questions

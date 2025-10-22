@@ -1,0 +1,88 @@
+face p 0 0
+face s 0 0
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line scripts/0_lobby_roxy_AB_9
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line scripts/0_lobby_roxy_AB_16
+
+goto marker branch26e
+
+marker branch26e
+
+face p 1 2
+p
+line scripts/0_lobby_roxy_AB_24
+face s 2 1
+s
+line scripts/0_lobby_roxy_AB_27
+face p 0 4
+p
+line scripts/0_lobby_roxy_AB_30
+face s 0 1
+s
+line scripts/0_lobby_roxy_AB_33
+line scripts/0_lobby_roxy_AB_34
+face r 2 0
+r
+line scripts/0_lobby_roxy_AB_37
+line scripts/0_lobby_roxy_AB_38
+face r 3 0
+r
+line scripts/0_lobby_roxy_AB_41
+face p 0 0
+p
+line scripts/0_lobby_roxy_AB_44
+face r 2 0
+r
+line scripts/0_lobby_roxy_AB_47
+line scripts/0_lobby_roxy_AB_48
+face p 4 0
+face s 0 0
+s
+line scripts/0_lobby_roxy_AB_52
+line scripts/0_lobby_roxy_AB_53
+line scripts/0_lobby_roxy_AB_54
+face r 3 0
+r
+line scripts/0_lobby_roxy_AB_57
+face p 4 0
+p
+line scripts/0_lobby_roxy_AB_60
+face s 2 0
+s
+line scripts/0_lobby_roxy_AB_63
+r
+line scripts/0_lobby_roxy_AB_65
+face s 0 0
+face p 0 0
+p
+line scripts/0_lobby_roxy_AB_69
+r
+line scripts/0_lobby_roxy_AB_71
+p
+line scripts/0_lobby_roxy_AB_73
+r
+line scripts/0_lobby_roxy_AB_75
+face p 1 0
+p
+line scripts/0_lobby_roxy_AB_78
+face r 0 0
+r
+line scripts/0_lobby_roxy_AB_81
+line scripts/0_lobby_roxy_AB_82
+
+setflag _0.roxy.read.AB 1
+setflag _0.roxy.branch AB
+function lobby_tick_time
+goto script 0/lobby/roxy/questions

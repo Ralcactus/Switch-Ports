@@ -1,0 +1,84 @@
+face p 0 0
+p
+line scripts/0_lobby_abbie_BB_2
+face p 4 0
+p
+line scripts/0_lobby_abbie_BB_5
+face a 0 0
+a
+line scripts/0_lobby_abbie_BB_8
+face p 0 1
+p
+line scripts/0_lobby_abbie_BB_11
+line scripts/0_lobby_abbie_BB_12
+a
+line scripts/0_lobby_abbie_BB_14
+line scripts/0_lobby_abbie_BB_15
+face s 0 1
+s
+line scripts/0_lobby_abbie_BB_18
+face a 2 2
+a
+line scripts/0_lobby_abbie_BB_21
+face a 0 0
+a
+line scripts/0_lobby_abbie_BB_24
+face a 1 2
+face s 0 0
+a
+line scripts/0_lobby_abbie_BB_28
+face p 0 2
+p
+line scripts/0_lobby_abbie_BB_31
+face a 0 0
+a
+line scripts/0_lobby_abbie_BB_34
+face a 1 0
+a
+line scripts/0_lobby_abbie_BB_37
+face a 1 2
+a
+line scripts/0_lobby_abbie_BB_40
+face p 1 0
+p
+line scripts/0_lobby_abbie_BB_43
+face a 0 0
+a
+line scripts/0_lobby_abbie_BB_46
+face a 2 2
+a
+line scripts/0_lobby_abbie_BB_49
+line scripts/0_lobby_abbie_BB_50
+face a 1 2
+a
+line scripts/0_lobby_abbie_BB_53
+face a 0 0
+a
+line scripts/0_lobby_abbie_BB_56
+face s 0 1
+s
+line scripts/0_lobby_abbie_BB_59
+face a 1 0
+a
+line scripts/0_lobby_abbie_BB_62
+face a 1 0
+a
+line scripts/0_lobby_abbie_BB_65
+face a 0 0
+a
+line scripts/0_lobby_abbie_BB_68
+face p 0 0
+p
+line scripts/0_lobby_abbie_BB_71
+
+
+
+
+
+
+
+setflag nickname_panda 1
+setflag _0.abbie.read.BB 1
+setflag _0.abbie.branch BB
+function lobby_tick_time 2
+goto script 0/lobby/abbie/questions

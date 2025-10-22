@@ -1,0 +1,5 @@
+wait for marker ugh
+text_auto 1
+line scripts/sequence_0_0_2
+wait for marker ughbye
+clear

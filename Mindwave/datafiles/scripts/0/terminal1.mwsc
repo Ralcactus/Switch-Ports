@@ -1,0 +1,18 @@
+function play_crowd_ambience
+char pandora p left
+char terminal t right
+t
+line scripts/0_terminal1_4
+face p 2 0
+p
+line scripts/0_terminal1_7
+t
+line scripts/0_terminal1_9
+|style font fnt_pixel|Note that by |speed 4|passing these gates you hereby provide Mindscape Co. legal permission to record and|skip| 
+|style font fnt_pixel||speed 4|monitor the activity of your MINDWAVE gameplay within this tournament in order to broadcast any/all matches to the world, and to|skip| 
+|style font fnt_pixel||speed 4| train our patented Mindscape Neural Network for enhancing future official MINDWAVE gameplay opportunities.|skip| 
+|style font fnt_pixel|Please proceed to the lobby and wait for the event to begin.
+|style font fnt_pixel|Remember,|p ,| the most important thing is to have fun and to treat your fellow contestants with kindness!
+|style font fnt_pixel|Thank you for participating,|p ,| and we wish you luck!
+p
+line scripts/0_terminal1_17

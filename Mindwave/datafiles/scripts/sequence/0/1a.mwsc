@@ -1,0 +1,36 @@
+wait for marker line1
+pause
+speaker_voice announcer
+line scripts/sequence_0_1a_3
+resume
+pause at marker panEnd
+line scripts/sequence_0_1a_6
+no_text_continue_until marker panEnd
+line scripts/sequence_0_1a_8
+resume
+clear
+pause at marker spaceout_effect
+wait for marker line4
+line scripts/sequence_0_1a_13
+wait for marker spaceout_effect
+line scripts/sequence_0_1a_15
+speaker_voice normal
+line scripts/sequence_0_1a_17
+line scripts/sequence_0_1a_18
+line scripts/sequence_0_1a_19
+line scripts/sequence_0_1a_20
+text_wavy 0 0
+resume
+clear
+no_text_continue_until marker startleEnd
+pause at marker startleEnd
+line scripts/sequence_0_1a_26
+line scripts/sequence_0_1a_27
+clear
+resume
+wait for marker terminalDialogue
+pause
+speaker_voice terminal
+line scripts/sequence_0_1a_33
+line scripts/sequence_0_1a_34
+resume

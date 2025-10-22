@@ -1,0 +1,57 @@
+char pandora p left
+char smalls s right
+face p 3 0
+p
+line scripts/0_meetsmalls_4
+face s 0 2
+s
+line scripts/0_meetsmalls_7
+face p 0 2
+p
+line scripts/0_meetsmalls_10
+face s 1 0
+s
+line scripts/0_meetsmalls_13
+p
+line scripts/0_meetsmalls_15
+face s 0 1
+s
+line scripts/0_meetsmalls_18
+face p 1 2
+p
+line scripts/0_meetsmalls_21
+face s 2 0
+s
+line scripts/0_meetsmalls_24
+face s 2 1
+s
+line scripts/0_meetsmalls_27
+face p 0 2
+p
+line scripts/0_meetsmalls_30
+face s 0 0
+s
+line scripts/0_meetsmalls_33
+line scripts/0_meetsmalls_34
+face p 0 0
+p
+line scripts/0_meetsmalls_37
+face p 0 1
+p
+line scripts/0_meetsmalls_40
+face p 1 0
+p
+line scripts/0_meetsmalls_43
+face s 0 1
+s
+line scripts/0_meetsmalls_46
+face p 0 2
+p
+line scripts/0_meetsmalls_49
+face s 0 0
+s
+line scripts/0_meetsmalls_52
+face p 0 1
+p
+line scripts/0_meetsmalls_55
+skip outro

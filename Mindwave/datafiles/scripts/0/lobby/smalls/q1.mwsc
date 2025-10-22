@@ -1,0 +1,54 @@
+p
+line scripts/0_lobby_smalls_q1_1
+face s 1 0
+s
+line scripts/0_lobby_smalls_q1_4
+p
+line scripts/0_lobby_smalls_q1_6
+face s 0 1
+s
+line scripts/0_lobby_smalls_q1_9
+face p 0 2
+p
+line scripts/0_lobby_smalls_q1_12
+face p 1 2
+p
+line scripts/0_lobby_smalls_q1_15
+
+face p 1 0
+p
+line scripts/0_lobby_smalls_q1_19
+line scripts/0_lobby_smalls_q1_20
+face p 0 2
+p
+line scripts/0_lobby_smalls_q1_23
+face s 0 0
+s
+line scripts/0_lobby_smalls_q1_26
+face p 0 0
+p
+line scripts/0_lobby_smalls_q1_29
+line scripts/0_lobby_smalls_q1_30
+face s 1 0
+s
+line scripts/0_lobby_smalls_q1_33
+face s 0 0
+s
+line scripts/0_lobby_smalls_q1_36
+p
+line scripts/0_lobby_smalls_q1_38
+face s 2 0
+s
+line scripts/0_lobby_smalls_q1_41
+face p 0 2
+p
+line scripts/0_lobby_smalls_q1_44
+face s 2 1
+s
+line scripts/0_lobby_smalls_q1_47
+
+
+
+setflag _0.smalls.q1 2
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return

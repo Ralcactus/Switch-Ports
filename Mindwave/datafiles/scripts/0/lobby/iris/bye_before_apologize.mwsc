@@ -1,0 +1,10 @@
+face p 0 0
+p
+line scripts/0_lobby_iris_bye_before_apologize_2
+set p x -200
+
+p
+line scripts/0_lobby_iris_bye_before_apologize_6
+face i 0 2
+
+setflag _0.pandora.alone 0

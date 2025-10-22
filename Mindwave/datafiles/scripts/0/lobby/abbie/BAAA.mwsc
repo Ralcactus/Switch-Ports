@@ -1,0 +1,85 @@
+face a 0 0
+face s 0 0
+face p 0 0
+a
+line scripts/0_lobby_abbie_BAAA_5
+face a 2 2
+a
+line scripts/0_lobby_abbie_BAAA_8
+face a 1 2
+a
+line scripts/0_lobby_abbie_BAAA_11
+face s 0 1
+s
+line scripts/0_lobby_abbie_BAAA_14
+line scripts/0_lobby_abbie_BAAA_15
+face p 1 0
+p
+line scripts/0_lobby_abbie_BAAA_18
+face a 4 0
+a
+line scripts/0_lobby_abbie_BAAA_21
+face p 0 1
+p
+line scripts/0_lobby_abbie_BAAA_24
+face p 0 0
+p
+line scripts/0_lobby_abbie_BAAA_27
+face p 0 2
+p
+line scripts/0_lobby_abbie_BAAA_30
+face a 0 0
+a
+line scripts/0_lobby_abbie_BAAA_33
+face p 4 0
+p
+line scripts/0_lobby_abbie_BAAA_36
+a
+line scripts/0_lobby_abbie_BAAA_38
+face p 0 0
+p
+line scripts/0_lobby_abbie_BAAA_41
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.BAAA 1
+setflag _0.abbie.done 1
+end_transition perlin
+function lobby_timer_set_interrupt 0
+function lobby_tick_time
+sequence id "sqcs_0_abbiehug" script "sequence/0/abbiehug"

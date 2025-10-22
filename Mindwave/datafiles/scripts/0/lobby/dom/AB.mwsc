@@ -1,0 +1,148 @@
+face p 0 0
+face s 0 0
+p
+line scripts/0_lobby_dom_AB_3
+face p 0 2
+p
+line scripts/0_lobby_dom_AB_6
+d
+line scripts/0_lobby_dom_AB_8
+set s x -200
+set p x 0
+face d 0 1
+d
+line scripts/0_lobby_dom_AB_13
+face p 0 0
+p
+line scripts/0_lobby_dom_AB_16
+face p 1 0
+p
+line scripts/0_lobby_dom_AB_19
+face d 0 0
+d
+line scripts/0_lobby_dom_AB_22
+line scripts/0_lobby_dom_AB_23
+face p 0 2
+p
+line scripts/0_lobby_dom_AB_26
+d
+line scripts/0_lobby_dom_AB_28
+face p 0 4
+p
+line scripts/0_lobby_dom_AB_31
+face p 0 0
+p
+line scripts/0_lobby_dom_AB_34
+face p 1 2 
+p
+line scripts/0_lobby_dom_AB_37
+d
+line scripts/0_lobby_dom_AB_39
+face p 0 2
+p
+line scripts/0_lobby_dom_AB_42
+line scripts/0_lobby_dom_AB_43
+line scripts/0_lobby_dom_AB_44
+face p 1 1
+p
+line scripts/0_lobby_dom_AB_47
+face d 0 1
+d
+line scripts/0_lobby_dom_AB_50
+face p 0 2
+p
+line scripts/0_lobby_dom_AB_53
+face p 0 1
+p
+line scripts/0_lobby_dom_AB_56
+set s x -70
+set p x 45
+d
+line scripts/0_lobby_dom_AB_60
+face s 1 0
+face p 4 0
+s
+line scripts/0_lobby_dom_AB_64
+face s 0 0
+s
+line scripts/0_lobby_dom_AB_67
+face p 0 0
+p
+line scripts/0_lobby_dom_AB_70
+face s 2 1
+s
+line scripts/0_lobby_dom_AB_73
+face s 0 0
+s
+line scripts/0_lobby_dom_AB_76
+face d 0 0
+d
+line scripts/0_lobby_dom_AB_79
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.dom.read.AB 1
+setflag _0.dom.branch AB
+function lobby_tick_time
+goto script 0/lobby/dom/questions

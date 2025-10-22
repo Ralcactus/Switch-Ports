@@ -1,0 +1,11 @@
+face s 0 1
+s
+line scripts/0_lobby_roxy_approach_2
+face r 0 0
+r
+line scripts/0_lobby_roxy_approach_5
+face r 1 0
+r
+line scripts/0_lobby_roxy_approach_8
+
+goto script 0/lobby/roxy/questions

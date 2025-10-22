@@ -1,0 +1,16 @@
+pause at marker stareend
+wait for marker line1
+speaker_voice announcer_small
+line scripts/sequence_0_4_4
+line scripts/sequence_0_4_5
+clear
+jump to marker backstart
+resume
+
+pause at marker backend
+wait for marker line2
+line scripts/sequence_0_4_12
+line scripts/sequence_0_4_13
+clear
+jump to marker openstart
+resume

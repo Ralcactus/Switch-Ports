@@ -1,0 +1,133 @@
+face s 0 1
+face p 0 2
+p
+line scripts/0_lobby_dom_A_5
+d
+line scripts/0_lobby_dom_A_7
+face p 0 2
+d
+line scripts/0_lobby_dom_A_10
+face d 0 0
+d
+line scripts/0_lobby_dom_A_13
+p
+line scripts/0_lobby_dom_A_15
+face p 0 0
+p
+line scripts/0_lobby_dom_A_18
+face d 0 1
+d
+line scripts/0_lobby_dom_A_21
+p
+line scripts/0_lobby_dom_A_23
+line scripts/0_lobby_dom_A_24
+face p 0 2
+p
+line scripts/0_lobby_dom_A_27
+face d 0 0
+d
+line scripts/0_lobby_dom_A_30
+face p 1 0
+face d 0 1
+d
+line scripts/0_lobby_dom_A_34
+face p 0 4
+p
+line scripts/0_lobby_dom_A_37
+face p 0 0
+p
+line scripts/0_lobby_dom_A_40
+face p 1 0 
+p
+line scripts/0_lobby_dom_A_43
+face p 0 2
+p
+line scripts/0_lobby_dom_A_46
+face s 1 0
+s
+line scripts/0_lobby_dom_A_49
+face s 1 0
+s
+line scripts/0_lobby_dom_A_52
+face p 1 0
+p
+line scripts/0_lobby_dom_A_55
+face p 1 2
+p
+line scripts/0_lobby_dom_A_58
+face s 2 1
+s
+line scripts/0_lobby_dom_A_61
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.dom.read.A 1
+setflag _0.dom.branch A
+function lobby_tick_time
+goto script 0/lobby/dom/questions

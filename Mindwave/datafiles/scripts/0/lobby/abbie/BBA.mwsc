@@ -1,0 +1,70 @@
+face s 2 1
+s
+line scripts/0_lobby_abbie_BBA_2
+face p 1 2
+face s 0 1
+p
+line scripts/0_lobby_abbie_BBA_6
+face a 2 2
+a
+line scripts/0_lobby_abbie_BBA_9
+face p 1 0
+p
+line scripts/0_lobby_abbie_BBA_12
+face a 4 1
+a
+line scripts/0_lobby_abbie_BBA_15
+face p 0 0
+p
+line scripts/0_lobby_abbie_BBA_18
+face a 1 0
+a
+line scripts/0_lobby_abbie_BBA_21
+face a 0 0
+a
+line scripts/0_lobby_abbie_BBA_24
+face p 1 0
+p
+line scripts/0_lobby_abbie_BBA_27
+s
+line scripts/0_lobby_abbie_BBA_29
+face a 3 1
+a
+line scripts/0_lobby_abbie_BBA_32
+face p 0 2
+p
+line scripts/0_lobby_abbie_BBA_35
+face p 0 1
+p
+line scripts/0_lobby_abbie_BBA_38
+face s 2 0
+s
+line scripts/0_lobby_abbie_BBA_41
+face a 1 2
+a
+line scripts/0_lobby_abbie_BBA_44
+face s 0 1
+s
+line scripts/0_lobby_abbie_BBA_47
+p
+line scripts/0_lobby_abbie_BBA_49
+face a 0 0
+a
+line scripts/0_lobby_abbie_BBA_52
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.BBA 1
+setflag _0.abbie.done 1
+function lobby_tick_time

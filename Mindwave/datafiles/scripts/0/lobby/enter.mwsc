@@ -1,0 +1,51 @@
+char pandora p left
+char smalls s right
+face s 1 0
+s
+line scripts/0_lobby_enter_5
+face s 0 1
+s
+line scripts/0_lobby_enter_8
+face p 1 2
+p
+line scripts/0_lobby_enter_11
+line scripts/0_lobby_enter_12
+face s 1 0
+s
+line scripts/0_lobby_enter_15
+line scripts/0_lobby_enter_16
+
+
+
+
+s
+line scripts/0_lobby_enter_22
+face s 0 1
+s
+line scripts/0_lobby_enter_25
+face p 1 0
+p
+line scripts/0_lobby_enter_28
+face p 1 2
+p
+line scripts/0_lobby_enter_31
+s
+line scripts/0_lobby_enter_33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.q1 1
+setflag _0.smalls.q2 1
+
+setflag _0.lobby_intro 1

@@ -1,0 +1,12 @@
+face p 0 0
+p
+line scripts/0_lobby_slate_kat_bye_2
+face s 0 1
+s
+line scripts/0_lobby_slate_kat_bye_5
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_bye_8
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_bye_11

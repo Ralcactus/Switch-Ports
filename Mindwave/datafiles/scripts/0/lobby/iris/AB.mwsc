@@ -1,0 +1,91 @@
+face p 0 0
+p
+line scripts/0_lobby_iris_AB_2
+line scripts/0_lobby_iris_AB_3
+face p 1 0
+p
+line scripts/0_lobby_iris_AB_6
+face i 0 1
+i
+line scripts/0_lobby_iris_AB_9
+line scripts/0_lobby_iris_AB_10
+line scripts/0_lobby_iris_AB_11
+face i 1 0
+i
+line scripts/0_lobby_iris_AB_14
+p
+line scripts/0_lobby_iris_AB_16
+face i 0 3
+i
+line scripts/0_lobby_iris_AB_19
+face i 1 0
+i
+line scripts/0_lobby_iris_AB_22
+face i 2 0
+i
+line scripts/0_lobby_iris_AB_25
+line scripts/0_lobby_iris_AB_26
+face i 0 3
+i
+line scripts/0_lobby_iris_AB_29
+face p 0 0
+p
+line scripts/0_lobby_iris_AB_32
+face i 0 1
+i
+line scripts/0_lobby_iris_AB_35
+line scripts/0_lobby_iris_AB_36
+face p 0 2
+p
+line scripts/0_lobby_iris_AB_39
+i
+line scripts/0_lobby_iris_AB_41
+checkflag _0.abbie.met 1
+goto marker branch1Y
+goto marker branch1N
+
+marker branch1Y
+face p 0 2
+p
+line scripts/0_lobby_iris_AB_49
+face p 1 0 
+p
+line scripts/0_lobby_iris_AB_52
+face i 0 1
+i
+line scripts/0_lobby_iris_AB_55
+face p 0 0
+p
+line scripts/0_lobby_iris_AB_58
+line scripts/0_lobby_iris_AB_59
+line scripts/0_lobby_iris_AB_60
+face p 0 2
+p
+line scripts/0_lobby_iris_AB_63
+line scripts/0_lobby_iris_AB_64
+face p 1 0
+p
+line scripts/0_lobby_iris_AB_67
+goto marker branch1E
+
+marker branch1N
+face p 0 0
+p
+line scripts/0_lobby_iris_AB_73
+face p 1 0
+p
+line scripts/0_lobby_iris_AB_76
+face p 1 2
+p
+line scripts/0_lobby_iris_AB_79
+goto marker branch1E
+
+marker branch1E
+i
+line scripts/0_lobby_iris_AB_84
+line scripts/0_lobby_iris_AB_85
+
+setflag _0.iris.read.AB 1
+setflag _0.iris.branch AB
+function lobby_tick_time
+goto script 0/lobby/iris/questions

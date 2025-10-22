@@ -1,0 +1,74 @@
+face s 0 0
+face p 0 0
+s
+line scripts/0_lobby_slate_kat_BA_3
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_BA_6
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_BA_9
+face k 0 1
+k
+line scripts/0_lobby_slate_kat_BA_12
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_BA_15
+face l 1 0
+l
+line scripts/0_lobby_slate_kat_BA_18
+k
+line scripts/0_lobby_slate_kat_BA_20
+face s 0 0
+s
+line scripts/0_lobby_slate_kat_BA_23
+k
+line scripts/0_lobby_slate_kat_BA_25
+face l 0 0
+face k 0 1
+l
+line scripts/0_lobby_slate_kat_BA_29
+face k 0 0
+k
+line scripts/0_lobby_slate_kat_BA_32
+face s 0 0
+s
+line scripts/0_lobby_slate_kat_BA_35
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line scripts/0_lobby_slate_kat_BA_44
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line scripts/0_lobby_slate_kat_BA_51
+
+goto marker branch26e
+
+marker branch26e
+
+face p 4 0
+p
+line scripts/0_lobby_slate_kat_BA_59
+s
+line scripts/0_lobby_slate_kat_BA_61
+face l 0 0
+l
+line scripts/0_lobby_slate_kat_BA_64
+line scripts/0_lobby_slate_kat_BA_65
+line scripts/0_lobby_slate_kat_BA_66
+line scripts/0_lobby_slate_kat_BA_67
+line scripts/0_lobby_slate_kat_BA_68
+
+setflag _0.slate_kat.read.BA 1
+setflag _0.slate_kat.branch BA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions

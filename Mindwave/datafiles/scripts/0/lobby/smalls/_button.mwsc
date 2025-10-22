@@ -1,0 +1,7 @@
+char pandora p left
+char smalls s right
+s
+line scripts/0_lobby_smalls__button_3
+p
+setflag _0.smalls.anythingelse 0
+goto script 0/lobby/smalls/questions

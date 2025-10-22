@@ -1,0 +1,9 @@
+face p 0 0
+p
+line scripts/0_lobby_dom_bye_3
+face d 0 0
+d
+line scripts/0_lobby_dom_bye_6
+face s 0 1
+s
+line scripts/0_lobby_dom_bye_9

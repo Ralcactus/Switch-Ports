@@ -1,0 +1,28 @@
+face s 0 0
+s
+line scripts/0_lobby_roxy_ABAA_2
+face s 0 1
+s
+line scripts/0_lobby_roxy_ABAA_5
+face p 0 0
+p
+line scripts/0_lobby_roxy_ABAA_8
+face p 0 1
+p
+line scripts/0_lobby_roxy_ABAA_11
+face r 1 1
+r
+line scripts/0_lobby_roxy_ABAA_14
+face p 1 2
+p
+line scripts/0_lobby_roxy_ABAA_17
+face r 0 1
+r
+line scripts/0_lobby_roxy_ABAA_20
+
+
+setflag _0.smalls.roxy 1
+setflag _0.roxy.read.ABAA 1
+setflag _0.roxy.done 1
+
+function lobby_tick_time

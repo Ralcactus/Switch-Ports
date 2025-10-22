@@ -1,0 +1,54 @@
+set p x 0
+set s x -200
+
+checkflag _0.iris.branch 0
+goto marker seenQ1N
+goto marker seenQ1Y
+
+marker seenQ1N
+face p 4 0
+p
+line scripts/0_lobby_iris_approach_11
+face p 1 2
+p
+line scripts/0_lobby_iris_approach_14
+face i 0 2
+i
+line scripts/0_lobby_iris_approach_17
+goto marker end
+
+marker seenQ1Y
+checkflag _0.iris.branch A
+goto marker awkwardHi
+checkflag _0.iris.branch A2
+goto marker awkwardHi
+
+face i 0 1
+i
+line scripts/0_lobby_iris_approach_28
+face p 0 0
+p
+line scripts/0_lobby_iris_approach_31
+line scripts/0_lobby_iris_approach_32
+line scripts/0_lobby_iris_approach_33
+i
+line scripts/0_lobby_iris_approach_35
+goto marker end
+
+
+
+marker awkwardHi
+face p 0 4
+p
+line scripts/0_lobby_iris_approach_43
+face i 0 0 
+i
+line scripts/0_lobby_iris_approach_46
+setflag _0.iris.branch A2
+goto marker end
+
+
+
+marker end
+setflag _0.pandora.alone 1
+goto script 0/lobby/iris/questions
