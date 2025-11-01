@@ -1,0 +1,13 @@
+event_inherited();
+glyph_player = false;
+touching = false;
+z = 0;
+alarm[0] = 2;
+talking = false;
+anim_idle = spr_map_bridget;
+anim_talk = spr_map_bridget_thinking;
+idle_is_talk = false;
+override_animations = false;
+char_speak = "no character set";
+anim_init();
+anim_play(anim_idle);

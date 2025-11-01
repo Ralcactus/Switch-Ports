@@ -1,0 +1,13 @@
+event_inherited();
+width = 45;
+xoff = 0;
+yoff = 0;
+z = 0;
+scale = 1;
+out = false;
+draw_me = true;
+z = 0;
+render_layer = 0;
+inside_solid = false;
+scale_out = true;
+scale_size = 1;

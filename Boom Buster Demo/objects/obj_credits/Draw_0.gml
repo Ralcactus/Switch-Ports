@@ -1,0 +1,13 @@
+draw_sprite(spr_credits, 0, 0, -yoff);
+var _w = 36;
+var _h = 1026;
+var bar_h = 260;
+var _y = (yoff / credits_h) * (_h - bar_h);
+draw_set_color(c_black);
+draw_set_alpha(0.4);
+draw_rectangle(23, 30, 23 + _w, 30 + _h, false);
+draw_set_alpha(1);
+draw_set_color(c_white);
+draw_rectangle(18, 30 + _y, 64, 30 + bar_h + _y, false);
+draw_sprite_ext(spr_scrollarrow, 0, 85, 24, 1, 1, 0, c_white, alpha_top);
+draw_sprite_ext(spr_scrollarrow, 1, 85, 996, 1, 1, 0, c_white, alpha_bottom);

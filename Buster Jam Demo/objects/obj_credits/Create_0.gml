@@ -1,0 +1,11 @@
+testvariablenothing = false;
+credits = [];
+array_push(credits, ["Vinny Kowski", "Co-Creator / Co-Director", "Producer", "Programming", "Writing", "Game Design", "Map Design", "Mini-Game Design"]);
+array_push(credits, ["Miles Day", "Co-Creator / Co-Director", "Art & Animation", "Character Design", "Mini-Game Design", "Assistant Writing"]);
+array_push(credits, ["Audio", "Sound Direction: Miles Day, Vinny Kowski", "Lead Composer: Sonny Z", "Additional Compositions: Miles Day"]);
+array_push(credits, ["Voice Acting", "Buster: Vinny Kowski", "Bridget: Marissa Lenti", "The Wizard: Jason Marnocha"]);
+array_push(credits, ["Libraries", "Input: JujuAdams"]);
+scroll_y = 0;
+scroll_yto = scroll_y;
+scroll_max = -1600;
+surf = -4;

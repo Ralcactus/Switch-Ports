@@ -1,0 +1,2 @@
+stomped = false;
+spun = false;

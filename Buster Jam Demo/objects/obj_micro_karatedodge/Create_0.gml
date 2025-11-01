@@ -1,0 +1,12 @@
+bg_x = 0;
+alarm[0] = 1;
+ready = true;
+time = 0;
+shader = sha_heatwave;
+uTime = shader_get_uniform(shader, "Time");
+uTexel = shader_get_uniform(shader, "Texel");
+uFreq = shader_get_uniform(shader, "uFreq");
+uSize = shader_get_uniform(shader, "uSize");
+surf = -4;
+global.game_music = "bgm_micro_karate";
+global.game_music_loops = true;

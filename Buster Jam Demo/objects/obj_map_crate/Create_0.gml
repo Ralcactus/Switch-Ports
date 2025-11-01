@@ -1,0 +1,10 @@
+event_inherited();
+alarm[0] = 1;
+z = 0;
+width = 144;
+length = 168;
+height = 288;
+my_solid = -4;
+already_got = false;
+anim_init();
+freeze_ignore = false;

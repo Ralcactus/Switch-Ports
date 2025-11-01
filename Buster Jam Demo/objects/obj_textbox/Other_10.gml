@@ -1,0 +1,11 @@
+time = 12;
+auto = false;
+auto_done = false;
+accept_inputs = false;
+scr_dialogue_reset(text);
+text_center_set = false;
+timer[0] = -1;
+timer[1] = 2;
+ready = true;
+done = false;
+text_ended = false;

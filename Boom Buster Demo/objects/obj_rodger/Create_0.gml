@@ -1,0 +1,13 @@
+event_inherited();
+stompable = true;
+spinnable = false;
+sprite_stomp = spr_rodger_stomped;
+sprite_turn = spr_rodger_turn;
+sprite_spun = spr_rodger_spun;
+mask_hurt = spr_rodger_mask_hurt;
+eyes_sprite = spr_rodger_eyes;
+possible_eyes = [spr_rodger];
+eyes_lenY_min = -1;
+eyes_lenY_max = 0;
+eyes_lenX_min = -3;
+eyes_lenX_max = 3;

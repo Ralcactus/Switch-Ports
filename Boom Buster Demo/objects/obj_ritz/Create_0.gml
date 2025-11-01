@@ -1,0 +1,11 @@
+event_inherited();
+path_lock_timer = 1;
+has_collision = false;
+grav = 0;
+hspd = 0;
+vspd = 0;
+stompable = false;
+spinnable = false;
+facing_lock = true;
+mypath = -4;
+invincible = true;

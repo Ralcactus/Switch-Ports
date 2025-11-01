@@ -1676,6 +1676,7 @@
     {"id":{"name":"ms4_spr_topbar","path":"sprites/ms4_spr_topbar/ms4_spr_topbar.yy",},},
     {"id":{"name":"ms4_spr_window","path":"sprites/ms4_spr_window/ms4_spr_window.yy",},},
     {"id":{"name":"ms5_spr_bg_table","path":"sprites/ms5_spr_bg_table/ms5_spr_bg_table.yy",},},
+    {"id":{"name":"Sprite1301","path":"sprites/Sprite1301/Sprite1301.yy",},},
     {"id":{"name":"ms5_spr_bg_wrap","path":"sprites/ms5_spr_bg_wrap/ms5_spr_bg_wrap.yy",},},
     {"id":{"name":"ms5_spr_bubble_pop","path":"sprites/ms5_spr_bubble_pop/ms5_spr_bubble_pop.yy",},},
     {"id":{"name":"ms5_spr_bubble_unpop","path":"sprites/ms5_spr_bubble_unpop/ms5_spr_bubble_unpop.yy",},},

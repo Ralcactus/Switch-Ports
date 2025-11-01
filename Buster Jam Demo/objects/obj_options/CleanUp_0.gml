@@ -1,0 +1,11 @@
+ini_open("settings.ini");
+ini_write_real("GAME", "Keyboard Scheme", global.keyboard);
+ini_write_real("GAME", "Gamepad Icons", global.gamepad_icons);
+ini_write_real("VIDEO", "Vsync", global.vsync);
+ini_write_real("VIDEO", "Texfilter", global.texfilter);
+ini_write_real("VIDEO", "Fullscreen", window_get_fullscreen());
+ini_write_real("VIDEO", "Window Scale", global.window_scale);
+ini_write_real("AUDIO", "Master", global.master_vol);
+ini_write_real("AUDIO", "BGM", global.bgm_vol);
+ini_write_real("AUDIO", "SFX", global.sfx_vol);
+fixed_ini_close();

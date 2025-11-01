@@ -1,0 +1,9 @@
+xstart = x;
+ystart = y;
+image_blend_start = image_blend;
+image_angle_start = image_angle;
+image_xscale_start = image_xscale;
+image_yscale_start = image_yscale;
+layer_start = layer;
+image_index_start = image_index;
+image_alpha_start = image_alpha;

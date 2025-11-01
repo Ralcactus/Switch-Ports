@@ -1,0 +1,15 @@
+physics_init_2d_micro();
+my_solid = obj_sketchcollect_solid;
+my_onewayU = obj_nouse;
+my_onewayL = obj_nouse;
+my_onewayR = obj_nouse;
+my_onewayD = obj_nouse;
+my_ground_par = obj_sketchcollect_solid;
+my_barrier = obj_nouse;
+runspd = 10;
+acc = 1;
+jump_strength = -24;
+alarm[0] = 1;
+anim_init();
+facing = 1;
+deac = false;

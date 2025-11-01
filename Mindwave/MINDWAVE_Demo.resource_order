@@ -1455,6 +1455,7 @@
     {"name":"ms4_spr_topbar","order":605,"path":"sprites/ms4_spr_topbar/ms4_spr_topbar.yy",},
     {"name":"ms4_spr_window","order":606,"path":"sprites/ms4_spr_window/ms4_spr_window.yy",},
     {"name":"ms5_spr_bg_table","order":607,"path":"sprites/ms5_spr_bg_table/ms5_spr_bg_table.yy",},
+    {"name":"Sprite1301","order":1300,"path":"sprites/Sprite1301/Sprite1301.yy",},
     {"name":"ms5_spr_bg_wrap","order":608,"path":"sprites/ms5_spr_bg_wrap/ms5_spr_bg_wrap.yy",},
     {"name":"ms5_spr_bubble_pop","order":609,"path":"sprites/ms5_spr_bubble_pop/ms5_spr_bubble_pop.yy",},
     {"name":"ms5_spr_bubble_unpop","order":610,"path":"sprites/ms5_spr_bubble_unpop/ms5_spr_bubble_unpop.yy",},
