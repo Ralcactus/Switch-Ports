@@ -245,9 +245,10 @@ function lock_cam(_x, _y, _lock, _lockbboxdata)
     return [_x, _y];
 }
 
-function update_cam(_calculate_view = true, _set_view = true)
+
+function update_cam(arg0 = true, arg1 = true)
 {
-    if (_calculate_view)
+    if (arg0)
     {
         var _xOff = camX + camshake;
         var _yOff = camY + camshake;
@@ -259,13 +260,13 @@ function update_cam(_calculate_view = true, _set_view = true)
         var _zTo = camZ - (dsin(camYAW) * dcos(camPITCH));
         var _cW = camera_get_view_width(camera);
         var _cH = camera_get_view_height(camera);
-		viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo,   _yTo,   _zTo, 0, -1, 0);
-		projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
-		view2D = matrix_build_lookat(_cW * 0.5, _cH * 0.5, -16000, _cW * 0.5, _cH * 0.5, 0, 0, 1, 0);
-		proj2D = matrix_build_projection_ortho(_cW, _cH, 1, 32000);
+        viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, 1, 0);
+        projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
+        view2D = matrix_build_lookat(_cW / 2, _cH / 2, -16000, _cW / 2, _cH / 2, 0, 0, 1, 0);
+        proj2D = matrix_build_projection_ortho(_cW, -_cH, 1, 32000);
     }
     
-    if (_set_view)
+    if (arg1)
     {
         camera_set_view_mat(camera, viewMat);
         camera_set_proj_mat(camera, projMat);
