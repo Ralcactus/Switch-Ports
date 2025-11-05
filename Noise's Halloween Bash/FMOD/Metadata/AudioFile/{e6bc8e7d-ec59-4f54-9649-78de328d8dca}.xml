@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+    <object class="AudioFile" id="{e6bc8e7d-ec59-4f54-9649-78de328d8dca}">
+        <property name="assetPath">
+            <value>SFX/Noise2.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.4626666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b35f431-ce0c-458a-8f89-010023a08aa4}</destination>
+        </relationship>
+    </object>
+</objects>

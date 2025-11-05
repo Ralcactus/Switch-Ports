@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+    <object class="AudioFile" id="{dfacdf22-7229-4eb1-9e19-c2c8153d3d9f}">
+        <property name="assetPath">
+            <value>SFX/heartdie.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.5186666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b35f431-ce0c-458a-8f89-010023a08aa4}</destination>
+        </relationship>
+    </object>
+</objects>

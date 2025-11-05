@@ -1,3 +1,0 @@
-if (cantmove == 0)
-{
-}

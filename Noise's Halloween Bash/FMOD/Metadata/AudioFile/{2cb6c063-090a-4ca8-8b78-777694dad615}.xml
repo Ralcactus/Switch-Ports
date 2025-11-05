@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+    <object class="AudioFile" id="{2cb6c063-090a-4ca8-8b78-777694dad615}">
+        <property name="assetPath">
+            <value>SFX/gibland1.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.128</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b35f431-ce0c-458a-8f89-010023a08aa4}</destination>
+        </relationship>
+    </object>
+</objects>

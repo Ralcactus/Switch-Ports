@@ -1,1 +1,0 @@
-controller.win = true;

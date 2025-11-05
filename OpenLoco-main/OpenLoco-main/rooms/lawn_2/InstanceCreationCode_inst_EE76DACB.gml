@@ -1,1 +1,0 @@
-targetRoom = lawn_3;

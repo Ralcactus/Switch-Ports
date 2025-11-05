@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+    <object class="AudioFile" id="{6389b312-beab-4f8d-9187-70aa25c41d37}">
+        <property name="assetPath">
+            <value>SFX/katieedited_Sound_Ideas,_CARTOON,_SCRAPE_-_CONTINUOUS_SANDPAPER_SCRATCHING,_WOOD_v2.ogg</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.3026667</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{1b35f431-ce0c-458a-8f89-010023a08aa4}</destination>
+        </relationship>
+    </object>
+</objects>

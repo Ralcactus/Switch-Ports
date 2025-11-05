@@ -1,6 +1,0 @@
-{
-	"name": "Sort... Or 'Splode!",
-	"bgm":"bgm_grotto",
-	"elements":[{"x":608.0,"cx":1480.0,"y":896.0,"spd":0.0,"ind":0.0,"row":0.0,"timestamp":180.0},{"x":1184.0,"cx":1480.0,"y":896.0,"spd":0.0,"ind":1.0,"row":0.0,"timestamp":600.0}]
-	
-}

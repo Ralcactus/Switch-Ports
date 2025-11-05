@@ -1,0 +1,12 @@
+image_speed = 0;
+vsp = 0;
+dothing = false;
+shadow = false;
+shadowind = 0;
+float = false;
+ascend = false;
+cycle = 0;
+blink = 0;
+startsave = false;
+depth = -11000;
+atmosphere = event_instance("event:/sfx/misc/atmosphere");

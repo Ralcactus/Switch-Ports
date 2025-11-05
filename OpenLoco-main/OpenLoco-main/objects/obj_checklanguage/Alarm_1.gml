@@ -1,1 +1,0 @@
-activateall = 1;

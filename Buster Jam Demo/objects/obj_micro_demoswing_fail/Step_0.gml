@@ -1,1 +1,0 @@
-alpha = approach(alpha, 1, 0.15);

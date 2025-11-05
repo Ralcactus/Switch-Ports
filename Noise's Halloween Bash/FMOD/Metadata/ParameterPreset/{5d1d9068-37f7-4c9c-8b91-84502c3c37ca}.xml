@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+    <object class="ParameterPreset" id="{5d1d9068-37f7-4c9c-8b91-84502c3c37ca}">
+        <property name="name">
+            <value>jegcaption</value>
+        </property>
+        <relationship name="folder">
+            <destination>{3c2f2e5e-3d5d-4e15-9981-22cdb494ff12}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{d6c5cb1d-82a9-4252-a70f-bd337f81bc0d}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{d6c5cb1d-82a9-4252-a70f-bd337f81bc0d}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="maximum">
+            <value>4</value>
+        </property>
+        <property name="isGlobal">
+            <value>true</value>
+        </property>
+        <property name="isReadOnly">
+            <value>true</value>
+        </property>
+        <property name="parameterType">
+            <value>1</value>
+        </property>
+    </object>
+</objects>

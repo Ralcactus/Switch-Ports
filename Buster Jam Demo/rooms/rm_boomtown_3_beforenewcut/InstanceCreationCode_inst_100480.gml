@@ -1,1 +1,0 @@
-clamp_right = true;

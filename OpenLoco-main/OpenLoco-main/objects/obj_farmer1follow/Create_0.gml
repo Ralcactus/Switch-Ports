@@ -1,1 +1,0 @@
-farmerpos = 0;

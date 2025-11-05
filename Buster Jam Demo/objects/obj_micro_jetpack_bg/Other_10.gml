@@ -1,1 +1,0 @@
-anim_play(spr_micro_jetpack_graffiti_win);

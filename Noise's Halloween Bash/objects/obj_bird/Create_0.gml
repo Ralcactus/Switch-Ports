@@ -1,0 +1,13 @@
+event_inherited();
+deadspr = spr_bird_dead;
+palettespr = spr_noisepalette;
+curpalette = 0;
+bboxhmul = 0.25;
+nohit = true;
+addtosaveroom = false;
+dir = image_xscale;
+scale = 1;
+pathpos = 0;
+skipcycle = false;
+alarm[0] = 120;
+image_speed = 0.35;

@@ -1,0 +1,9 @@
+image_speed = 0;
+vsp = 0;
+hsp = 0;
+grav = 0.5;
+angle = random_range(1, 270);
+palettespr = spr_noisepalette;
+curpalette = 0;
+collideables = [obj_solid, obj_slope, obj_slopePlatform, obj_platform, obj_oneWayWall];
+z = 0;

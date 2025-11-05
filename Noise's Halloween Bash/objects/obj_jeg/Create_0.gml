@@ -1,0 +1,11 @@
+save_open();
+already = bool(ini_read_real("ObtuseAndFranklyUnnecessary", "educationAndLearning", 0));
+save_close();
+z = 0;
+faceangle = 270;
+depth = 0;
+kickedass = false;
+experienced = false;
+startsave = false;
+kickass = event_instance("event:/sfx/misc/jegkickass");
+experience = event_instance("event:/sfx/misc/jegexperience");

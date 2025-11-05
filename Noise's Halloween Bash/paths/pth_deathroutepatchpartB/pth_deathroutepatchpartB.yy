@@ -1,0 +1,25 @@
+{
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "pth_deathroutepatchpartB",
+  "closed": false,
+  "kind": 1,
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+  "points": [
+    {"speed":100.0,"x":-64.0,"y":928.0,},
+    {"speed":100.0,"x":64.0,"y":928.0,},
+    {"speed":100.0,"x":64.0,"y":832.0,},
+    {"speed":100.0,"x":288.0,"y":832.0,},
+    {"speed":100.0,"x":256.0,"y":736.0,},
+    {"speed":100.0,"x":192.0,"y":704.0,},
+    {"speed":100.0,"x":64.0,"y":704.0,},
+    {"speed":100.0,"x":64.0,"y":608.0,},
+    {"speed":100.0,"x":96.0,"y":544.0,},
+    {"speed":100.0,"x":192.0,"y":544.0,},
+    {"speed":100.0,"x":256.0,"y":634.0,},
+  ],
+  "precision": 4,
+}

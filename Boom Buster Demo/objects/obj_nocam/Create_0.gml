@@ -1,1 +1,0 @@
-vertical_only = false;

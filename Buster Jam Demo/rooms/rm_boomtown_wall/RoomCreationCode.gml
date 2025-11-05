@@ -1,2 +1,0 @@
-sprite_prefetch(spr_boomtown_wizardstatue);
-sprite_prefetch(spr_boomtown_wizardstatue_shards);

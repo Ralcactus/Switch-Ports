@@ -1,9 +1,0 @@
-hspd = 13;
-vspd = 0;
-angle_spd = irandom_range(1, 4) * choose(-1, 1);
-image_speed = 0;
-image_index = irandom_range(0, sprite_get_number(sprite_index) - 1);
-grav = 0.8;
-hit = false;
-ready = false;
-alarm[0] = 2;

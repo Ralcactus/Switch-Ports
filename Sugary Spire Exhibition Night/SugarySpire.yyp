@@ -1092,6 +1092,7 @@
     {"id":{"name":"spr_tvHUD_comboMeter_fill","path":"sprites/spr_tvHUD_comboMeter_fill/spr_tvHUD_comboMeter_fill.yy",},},
     {"id":{"name":"spr_player_PZ_mach3_turnFall_intro","path":"sprites/spr_player_PZ_mach3_turnFall_intro/spr_player_PZ_mach3_turnFall_intro.yy",},},
     {"id":{"name":"spr_titlePizzelle_exhib1","path":"sprites/spr_titlePizzelle_exhib1/spr_titlePizzelle_exhib1.yy",},},
+    {"id":{"name":"obj_fmod","path":"objects/obj_fmod/obj_fmod.yy",},},
     {"id":{"name":"spr_crackerkicker_walk","path":"sprites/spr_crackerkicker_walk/spr_crackerkicker_walk.yy",},},
     {"id":{"name":"spr_tutorial_stargateBG","path":"sprites/spr_tutorial_stargateBG/spr_tutorial_stargateBG.yy",},},
     {"id":{"name":"fg_molasses_rain_escape","path":"sprites/fg_molasses_rain_escape/fg_molasses_rain_escape.yy",},},

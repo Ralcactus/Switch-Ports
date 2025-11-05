@@ -1,0 +1,15 @@
+event_inherited();
+image_speed = 0.35;
+flung = false;
+flungval = 0;
+splatted = false;
+splattedslide = false;
+splattedy = 0;
+splatscale = 1.2;
+stretch = 0;
+screamsnd = event_instance("event:/sfx/player/voice/scream");
+palettespr = -1;
+curpalette = -1;
+surf = -1;
+texel = shader_get_uniform(shd_smudge_premultiply, "texel");
+radius = shader_get_uniform(shd_smudge_premultiply, "radius");

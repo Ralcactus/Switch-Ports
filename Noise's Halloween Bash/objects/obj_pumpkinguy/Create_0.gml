@@ -1,0 +1,13 @@
+event_inherited();
+scr_define_collide();
+triggerNitros = true;
+grav = 0.5;
+chasing = false;
+shoottimer = 40;
+pumpkin = instance_nearest(x, y, obj_pumpkin);
+deadspr = spr_pumpkinjoe_dead;
+image_speed = 0.35;
+stepped = false;
+footstepsnd = event_instance("event:/sfx/enemy/pumpkinjoestep");
+spotted = false;
+blendvalue = 255;

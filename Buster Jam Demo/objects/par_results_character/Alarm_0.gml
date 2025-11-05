@@ -1,2 +1,0 @@
-x += xoff;
-ready = true;

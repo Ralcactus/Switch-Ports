@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+    <object class="ParameterPreset" id="{a3f18a37-8730-4f87-b28d-132fe720dfaa}">
+        <property name="name">
+            <value>bringtorank</value>
+        </property>
+        <relationship name="folder">
+            <destination>{3c2f2e5e-3d5d-4e15-9981-22cdb494ff12}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{9cdcb4ef-ed48-4003-b92a-e5ddca3de00a}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{9cdcb4ef-ed48-4003-b92a-e5ddca3de00a}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="isGlobal">
+            <value>true</value>
+        </property>
+        <property name="isReadOnly">
+            <value>true</value>
+        </property>
+        <property name="parameterType">
+            <value>1</value>
+        </property>
+    </object>
+</objects>

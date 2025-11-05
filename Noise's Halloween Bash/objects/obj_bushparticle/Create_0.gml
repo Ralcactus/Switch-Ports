@@ -1,0 +1,10 @@
+event_inherited();
+hsp = irandom_range(0, 8);
+endhsp = irandom_range(1, 3);
+endhsp = min(endhsp, hsp);
+vsp = irandom_range(-2, -7);
+leafwave = 0;
+image_angle = irandom(360);
+grav = 0.25;
+image_speed = 0;
+image_alpha = 2;

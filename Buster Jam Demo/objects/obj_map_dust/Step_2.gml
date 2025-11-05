@@ -1,1 +1,0 @@
-depth_pos = y;

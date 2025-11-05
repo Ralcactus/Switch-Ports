@@ -1,1 +1,0 @@
-mwsc.tick();

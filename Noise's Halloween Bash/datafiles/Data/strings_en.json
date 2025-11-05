@@ -1,0 +1,333 @@
+{
+	"menu": {
+		"options": {
+			"input": {
+				"name": "Input Config",
+				"keyname": "Keyboard Config",
+				"padname": "Gamepad Config",
+				"bindname": "Bindings",
+				"debugname": "Debug Bindings",
+				"deadzones": {
+					"name": "Deadzones",
+					"horizdeadzone": "Horiz. Deadzone",
+					"vertdeadzone": "Vert. Deadzone"
+				},
+				
+				"up": "Up",
+				"down": "Down",
+				"left": "Left",
+				"right": "Right",
+				"jump": "Jump",
+				"attack": "Attack",
+				"dash": "Sprint",
+				"slide": "Slide",
+				"inv": "Inventory",
+				"map": "Open Map",
+				"pause": "Pause",
+				"zoomin": "Map Zoom In",
+				"zoomout": "Map Zoom Out",
+				
+				"debug_menu": "Debug Menu Open",
+				"debug_cam_up": "Freecam Up",
+				"debug_cam_down": "Freecam Down",
+				"debug_cam_forward": "Freecam Forward",
+				"debug_cam_back": "Freecam Back",
+				"debug_cam_left": "Freecam Left",
+				"debug_cam_right": "Freecam Right",
+				"debug_cam_lookleft": "Freecam Look Left",
+				"debug_cam_lookright": "Freecam Look Right",
+				"debug_cam_lookup": "Freecam Look Up",
+				"debug_cam_lookdown": "Freecam Look Down",
+				
+				"resetbinds": "Reset Bindings"
+			},
+			"video": {
+				"name": "Video Config",
+				"fullscreen": {
+					"name": "Fullscreen",
+					"windowed": "Off",
+					"exclusive": "Exclusive",
+					"borderless": "Borderless"
+				},
+				"resolution": "Resolution",
+				"aspectratio": "Aspect Ratio",
+				"scalemode": {
+					"name": "Scale Mode",
+					"fit": "Fit",
+					"fill": "Fill",
+					"perfect": "Pixel Perfect",
+					"exact": "Exact"
+				},
+				"border": {
+					"name": "Border",
+					"none": "None"
+				},
+				"outlines": "Advanced Effects",
+				"aa": "Anti-Aliasing",
+				"vsync": "VSync"
+			},
+			"videodesc": {
+				"scalemode": "How the game view should be scaled to match the window size",
+				"border": "What image to fill the black regions around the game view on odd window sizes with",
+				"outlines": "Toggles the 3D outline effect and shadow clipping\n\nDisabling may improve performance on lower-end hardware",
+				"aa": "If the game view should be anti-aliased on non-integer resolutions"
+			},
+			"audio": {
+				"name": "Audio Config",
+				"mastervolume": "Master Volume",
+				"musicvolume": "Music Volume",
+				"sfxvolume": "SFX Volume",
+				"unfocusedmute": "Unfocused Mute",
+				"musicattenuation": "Music Attenuation",
+				"attenuationwait": "Wait Time"
+			},
+			"audiodesc": {
+				"unfocusedmute": "Mutes all game audio if the game window isn't focused",
+				"musicattenuation": "Mutes the games music if any media is being played through a Windows Media Control compatible application.",
+				"attenuationwait": "How much time is needed of there being no played media for the music to get unmuted"
+			},
+			"access": {
+				"name": "Accessibility Config",
+				"screenshake": "Screen Shake",
+				"rumble": "Gamepad Rumble",
+				"colouredscore": "Coloured Score",
+				"speedruntimer": "Speedrun Timer"
+			},
+			"accessdesc": {
+				"colouredscore": "If each character on the score counter should be individually coloured"
+			},
+			"savedelete": {
+				"name": "Delete Save Data",
+				"question": "Are you sure you want\nto delete all save data?"
+			},
+			"closegame": {
+				"name": "Close Game",
+				"question": "Are you sure you want\nto close the game?"
+			},
+			"tips": {
+				"generic": "[U][D] Navigate\n[J] Select\n[A] Exit",
+				"keyconfig": "[U][D] Navigate\n[J] Select\n[I] Clear Bind\n[A] Exit",
+				"selection": "[U][D] Navigate\n[L][R] Adjust\n[J] Apply\n[A] Exit",
+				"selectionauto": "[U][D] Navigate\n[L][R] Adjust\n[A] Exit",
+				"slider": "[L][R] Adjust\n[A] Apply",
+				"slideralone": "[U][D] Navigate\n[L][R] Adjust\n[A] Exit",
+				"keybinder": "[?] Rebind"
+			},
+			"generic": {
+				"on": "On",
+				"off": "Off",
+				"yes": "Yes",
+				"no": "No",
+				"seconds": "Seconds"
+			}
+		},
+		"title": {
+			"start": "Start Game",
+			"options": "Options",
+			"manual": "Manual",
+			"extras": "Extras",
+			"exitquestion": "Are you sure you want to close the game?",
+			"exityes": "[J] Yes",
+			"exitno": "[A] No",
+			"outdated": "You are playing an outdated version!\nPlease update to the latest version by going {H:{0}}here{/}."
+		},
+		"manual": {
+		"text": [
+				[[0, 0, ""]],
+				[[82, -100, "\"Onesie-Wearing Man-Child\"\nThe star of the show!"], [-62, 150, "\"A Compassionate Party Host\"\nThe Noise's sweet love!"]],
+				[[0, -120, "Halloween is here, and Noisette is \nhosting a Halloween party! \nUnfortunately, there aren't enough \npumpkins to sell the spooky vibes.\nThe Noise, being the \"ever so reliable\" \ndoughnut that he is, sets out to \nfulfill Noisette's party needs."]],
+				[[0, -140, "Collect Pumpkins! \nYou need 5 Pumpkins to \nfinish the level \nGrab 5 more to get \na Perfect Ranking!"], [0, 70, "Destroy Crates! \nA variety of these Crates contribute \nto your final score!"]],
+				[[0, -140, "Don't die! \nYou'll lose small progress and \na few bonuses if you do"], [0, 70, "Get to the end! \nBoth paths will lead to it"]],
+				[[0, -140, "Punch by pressing the \nAttack key on ground!"], [0, 70, "Kick by pressing the \nAttack key in mid-air! \nThis gives you brief airtime"]],
+				[[0, -140, "Slide by pressing the \nDown key while moving!"], [0, 70, "Tornado Spin by pressing the \nAttack key while Sprinting!"]],
+				[[0, -140, "Head-Slam by pressing \nthe Down key in mid-air!"], [0, 70, "Hover by holding the \nJump key in mid-air!"]],
+				[[0, -140, "Wall Slide by touching \na wall in mid-air!"], [0, 70, "Wall Jump by Jumping during \na Wall Slide!"]],
+				[[0, -140, "Somersault by Jumping during a turn!"]],
+				[[77, -105, "Moves around aimlessly \nA wanderer at best"], [77, 159, "Stands in place and \nspits Fly Plasma if \nThe Noise gets too close"]],
+				[[77, -105, "Follows The Noise and \nshoots Witch Brewery \nif he tries escaping"], [77, 159, "Gets aggravated and \nchases The Noise \nwhen he collects \na nearby Pumpkin"]],
+				[[77, -105, "Flies in place \nand hurts The Noise \nfrom its underside \n(respawns after awhile)"], [77, 159, "Flies in place and \nexhales fire at \nconsistent intervals \n(respawns after awhile)"]],
+				[[40, -120, "Gives 1 candy \n(Adds to Crate Score)"], [-40, -20, "Gives a random amount \nof candy \n(Adds to Crate Score)"], [40, 75, "Breaks in 5 bounces \nHead-Slamming or breaking it \nfrom the side does not give \ncandy \n(Adds to Crate Score)"], [-40, 170, "Cannot be destroyed \nby a bounce \n(Adds to Crate Score)"]],
+				[[-40, -120, "Starts a 3 second explosion \ntimer on bounce \nExplodes on side damage \n(Adds to Crate Score)"], [40, -20, "Explodes on contact \nFind the Nitro Detonator to \nset them off \n(Adds to Crate Score)"], [-40, 75, "Gives The Noise up \nto 2 extra hit points \n(Adds to Crate Score)"], [40, 190, "A respawn spot for \nwhen The Noise dies \n(DOES NOT add \nto Crate Score)"]],
+				[[40, -120, "Explodes but does not hurt \nThe Noise \n(Adds to Crate Score)"], [-40, -20, "Ignites fire from all sides at \nconsistent intervals \nIts flames burn The Noise \n(Adds to Crate Score)"], [40, 75, "Turns into a Nitro Crate \nafter 3 bounces \n(Adds to Crate Score)"]],
+				[[-40, -103, "Switches Happy and Sad Crates"], [40, 92, "When Happy, The Noise cannot \npass through \nWhen Sad, The Noise can \npass through"]],
+				[[0, -60, "Find these outhouses to unlock Fast Travel!\nThe flag warns you that until you hit\na checkpoint, important collectibles\nwill not save on death."]],
+				[[0, -60, "Get to the Death Platform\nwithout dying to access the Death Route!\n\nAn arduous trial awaits you,\nalong with its valuable treasure..."]],
+				[[0, -60, "By grabbing many collectibles\nin succession, they'll turn gold,\nand become more valuable!"]],
+				[[0, -140, "Jumping after Crouching\ngives The Noise a higher jump!"], [0, 70, "Jumping after Head-Slamming \nthe ground also gives \nThe Noise a higher jump!"]],
+				[[0, -140, "Attacking during a Slide boosts \nThe Noise at incredible speeds!"], [0, 70, "Attacking after Head-Slamming into \nthe ground makes The Noise Slide!"]],
+				[[0, 0, ""]]
+			],
+			"previous": "[L] Previous",
+			"next": "[R] Next"
+		},
+		"map": {
+			"movetip": "[M] Fast Move\n[U][D][L][R] Move Map",
+			"zoomin": "[Z] Zoom In",
+			"zoomout": "[X] Zoom Out",
+			"layerswap": "[I] Swap Layer Focus",
+			"outhouse": "Hold [I] To Teleport",
+			"nomap": "No Map (Sorry!)"
+		},
+		"soundtest": {
+			"uptop": "{W}NHB SOUND TEST{/}",
+			"tipplay": "[J] Play",
+			"tipexit": "[A] Exit",
+			"tippause": "[J] Pause",
+			"tipunpause": "[J] Unpause",
+			"tipstop": "[A] Stop",
+			"playing": "NOW PLAYING:\n{0}",
+			"title": "1. Castaway",
+			"patch": "2. Glass Shoes in a Minefield",
+			"pause": "3. Duty Calls",
+			"bonus": "4. Road To Somewhere",
+			"rank": "5. Phenomo-Noise!",
+			"credits": "6. Closing the (Accounting) Books",
+			"titledraft": "B1. Castaway (Draft)",
+			"patchdraft": "B2. Glass Shoes in a Minefield (Draft)",
+			"pausedraft": "B3. Duty Calls (Draft)",
+			"bonusdraft": "B4. Road To Somewhere (Draft)",
+			"creditsdraft": "B5. Closing the (Accounting) Books (Draft)",
+			"anguish": "ˑˈʺ˟̐̃̆ʺ˭̉̈́ʺ̉̀ʺ˪˿̌̃̆ʺ˻̈˾ʺ˛̈́̏̃̍̂"
+		},
+		"concepts": {
+			"zoomedin": "[M] Fast Move\n[J][A] Go Back",
+			"zoomedout": "[A] Exit\n[J] View",
+			"co_attack": "Attacks",
+			"co_checkpoint1": "Checkpoint 1",
+			"co_checkpoint2": "Checkpoint 2",
+			"co_coverart1": "Cover Art 1",
+			"co_coverart2": "Cover Art 2",
+			"co_credits": "Credits",
+			"co_dead": "Impaled Noise",
+			"co_death": "Dead Noise",
+			"co_deathroute": "Death Route",
+			"co_deathroutetower": "Skull Tower",
+			"co_endplatform": "End Platform",
+			"co_endshot": "Ending Shot",
+			"co_fastrun": "Fast Run",
+			"co_firefrog": "Torchstool",
+			"co_flyguy": "Fly Guy",
+			"co_intro": "Level Intro",
+			"co_levelend": "Level End",
+			"co_levelrouting": "Level Routing",
+			"co_musiclevel": "Music Level",
+			"co_noisette": "Noisette Design",
+			"co_ostcover1": "OST Cover 1",
+			"co_ostcover2": "OST Cover 2",
+			"co_pausemenu": "Pause Menu",
+			"co_philbert": "Philbert",
+			"co_pumpkin": "Pumpkin Joe",
+			"co_pot1": "Toss Pot 1",
+			"co_pot2": "Toss Pot 2",
+			"co_potanimation": "Pot Animation",
+			"co_punch": "Air Punch",
+			"co_results1": "Results 1",
+			"co_results2": "Results 2",
+			"co_rope": "Chains",
+			"co_sexbomb": "Mic Stand",
+			"co_slop": "Slop",
+			"co_snail": "Snail Bob",
+			"co_titlescreen1": "Titlescreen 1",
+			"co_titlescreen2": "Titlescreen 2",
+			"co_triplejump": "Triple Jump",
+			"co_soundtest": "Soundtest"
+		},
+		"devvideos": {
+			"start": "[J] Start",
+			"09-07-2024-A": "Markiplier - WARNING: SCARIEST GAME IN YEARS",
+			"09-07-2024-Afbt": "Markiplier - SCARIEST GAME IN YEARS",
+			"06-10-2024-A": "+TEK - Gambling Turntable",
+			"06-10-2024-B": "Rayman Legends OST - Castle Invaded",
+			"07-10-2024-A": "Rayman Legends OST - Forest Invaded",
+			"09-10-2024-A": "Rayman Legends OST - Fiesta de los Muertos",
+			"10-10-2024-A": "Rayman OST - Harmony",
+			"10-10-2024-B": "Sonic Adventure 2 OST - I'm A Spy!",
+			"10-10-2024-C": "ClascyJitto - Messages From Our Sponsors",
+			"12-10-2024-A": "KONKON P - groove rave",
+			"12-10-2024-B": "Rayman Legends OST - Grannies World Tour",
+			"02-11-2024-A": "Rayman Legends OST - Olympus Maximus Invaded",
+			"03-11-2024-A": "Rayman Origins OST - Glacier Cocktail",
+			"04-11-2024-A": "Rayman 3 OST - The Hoodstomper: Master Kaag",
+			"09-11-2024-A": "Rayman 2 OST - The Walk of Life",
+			"17-11-2024-A": "Rayman Origins OST - Jibberish Jungle",
+			"22-11-2024-A": "nelward - Level One",
+			"22-12-2024-A": "Dirty Art Club - I'll Meet You In Brasil",
+			"23-12-2024-A": "Featurecast - Recipe for the Perfect Afro",
+			"16-02-2025-A": "Banjo-Tooie OST - Klungo's Theme",
+			"23-02-2025-A": "Banjo-Kazooie OST - Mad Monster Mansion",
+			"24-03-2025-A": "Rayman Legends OST - Castle Invaded"
+		},
+		"extras": "Extras",
+		"disclaimercontinue": "[J] Continue",
+		"noinput": "{S}Gamepad Disconnected!{/}\n{W}Awaiting input...{/}"
+	},
+	"tips": {
+		"tutorial": {
+			"punchtip": "{W}{R}Press [A] to Punch{/}",
+			"walljumptip": "{W}{R}Jump off of a wall to Wall Jump{/}",
+			"hovertip": "{W}{R}Hold [J] in mid-air to Hover{/}",
+			"slidetip": "{W}{R}Press [S] while moving to Slide{/}",
+			"maptip": "{W}{R}Press [B] to toggle the Map{/}"
+		},
+		"menu": {
+			"options": {
+				"keybindsreset": "{V}Keyboard Bindings Reset!{/}",
+				"padbindsreset": "{V}Gamepad Bindings Reset!{/}",
+				"allbindsreset": "{V}Controls Reset!{/}",
+				"savedatawiped": "{V}Save Data Wiped!{/}"
+			}
+		},
+		"pumpkin": {
+			"gotall": "{V}You have all 10 pumpkins!{/}",
+			"gothalf": "{V}Halfway there...{/}",
+			"gotanyplural": "{V}{0} Pumpkins left...{/}",
+			"gotanysingular": "{V}{0} Pumpkin left...{/}",
+			"comebackplural": "{S}Come back with {0} more pumpkins you {1}!!{/}",
+			"comebacksingular": "{S}Come back with {0} more pumpkin you {1}!!{/}",
+			"comebackinsults": ["bellend", "muppet", "idjit", "plonker", "twat", "knob", "wanker", "cunt"]
+		}
+	},
+	"exitprompt": {
+		"question": "Are you sure you want to leave?",
+		"yes": "[J] Yes",
+		"no": "[A] No"
+	},
+	"checkpointtext": "CHECKPOINT",
+	"roomnames": ["Patch Entrance", "Hop Like a Marsupial", "Variety Set", "Waste Disposal", "Greasy Walls and Floors", "Lock and Key", "Locked Roundabouts", "Convergence"],
+	"pumpkins": [
+		["lerp32", 0, 1], 
+		["Luigio", 2],
+		["maphiscrazy", 3], 
+		["dudithebudi", 4], 
+		["Roley", 5, 6, 7, 8], 
+		["MrUnown", 9, 10], 
+		["kette", 11, 12], 
+		["Pulstar", 13, 14, 15, 16, 17, 18], 
+		["Cap'n Mongo", 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+	],
+	"credits": {
+		"gamename": "Noise's Halloween Bash",
+		"continue": "(Cont.)",
+		"roles": ["ARTISTS", "PROGRAMMERS", "LEVEL DESIGNERS", "MUSICIAN", "PLAYTESTERS", "PUMPKINS", "SPECIAL THANKS", "FMOD STUDIO"],
+		"role0": ["kaytea42", "lerp32", "maphiscrazy", "Cap'n Mongo"],
+		"role1": ["kaytea42", "lerp32", "Extended-Tangent"],
+		"role2": ["kaytea42", "Luigio"],
+		"role3": ["osp08"],
+		"role4": ["Funkleberry0504", "Pulstar", "Roley", "Fito", "kette", "dudithebudi", "MrUnown"],
+		"role6": ["Tour De Pizza", "Juju Adams", "Alynne Keith", "YellowAfterLife"],
+		"role7": ["Firelight Technologies\nPty Ltd."],
+		"endshottip": "[A] Back to Title",
+		"perfect": ["PERF", "ECT"]
+	},
+	"special": [
+		"ᄐᄬᄽᄹᄰᄯძᄱᄺᄽძᄭᄰᄬᄿᄴᄹᄲძᄿᄳᄰძᄲᄬᄸᄰძᅂᄴᄿᄳძᄬვᄒᄺᄺᄯძᄽᄬᄹᄶძᄺᄽძᄳᄴᄲᄳᄰᄽჹ",
+		"ᄤᄺᅀძᄭᄰᄬᄿძᄿᄳᄰძᄲᄬᄸᄰძᅂᄴᄿᄳძᄬძᄛᄰᄽᄱᄰᄮᄿძᄽᄬᄹᄶჹვᄒᄺძᅄᄺᅀწ",
+		"ᄍᄰᄬᄿძᄿᄳᄰძᄛᄰᄽᄴᄷᄺᅀᄾძᄝᄺᅀᄿᄰჹძᄝᄬᄯᄴᄮᄬᄷწ"
+	],
+	"experience": ["⟨⟽⠁⟹⟂⟂⟂➴⠈⠃➴⟿⟽⟷⟿➴⟵⠇⠇⟂⟂⟂", "⟣⠃⠃⟼➴⠍⟹⟵⟼➴⟶⟵⟶⠍⟂⟂⟂", "⟝➴⟼⟵⠊⟹➴⠉⟼⟂⟂⟂", "⟵➴⟞⟹⟻➻⠇➴⠋⠃⠆⠈⟼➴⠃⟺➴⟹⠌⠄⟹⠆⟽⟹⠂⟷⟹⟂"],
+	"ascension": {
+		"question": "ШљьЇѠіќЇњќљьЇѠіќЇўшѕћЇћіЇшњъьѕыЦ",
+		"yes": "[J] Yes",
+		"no": "[A] No"
+	}
+}

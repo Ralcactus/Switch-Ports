@@ -1,0 +1,11 @@
+DISCLAIMER!
+
+Noise's Halloween Bash is a fanmade,
+non-profit Pizza Tower fangame that is in no way
+affiliated or endorsed by Tour De Pizza.
+
+This game has effects that may trigger seizures
+for people with photosensitive epilepsy.
+
+Pressing F1 or clicking both sticks on the Gamepad in this
+screen or the options menu will reset your control binds.

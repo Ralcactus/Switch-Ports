@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4a552ac9-c09a-4239-a398-c81fc15a51b4}">
+		<property name="name">
+			<value>mapmuffle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3c2f2e5e-3d5d-4e15-9981-22cdb494ff12}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d92a767a-1bd8-42c2-9dcd-93e98d28aec8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d92a767a-1bd8-42c2-9dcd-93e98d28aec8}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

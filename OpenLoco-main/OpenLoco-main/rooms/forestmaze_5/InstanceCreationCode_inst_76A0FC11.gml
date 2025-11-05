@@ -1,1 +1,0 @@
-targetRoom = forestmaze_4;

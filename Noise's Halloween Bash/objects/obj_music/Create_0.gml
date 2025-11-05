@@ -1,0 +1,12 @@
+musicmap = ds_map_create();
+global.music = noone;
+global.pausemusic = event_instance("event:/music/pause");
+add_music(Titlescreen, "event:/music/mainmenu", false);
+add_music(Patch1, "event:/music/patch", false);
+add_music(PatchDeathRoute, "event:/music/bonus", false);
+add_music(Patch3A, "event:/music/patch", false);
+add_music(Patch3B, "event:/music/patch", false);
+add_music(Patch5, "event:/music/patch", false);
+add_music(RankRoom, "event:/music/rank", false);
+add_music(Credits, "event:/music/credits", false);
+add_music(PatchPerilousRoute, "event:/music/perilous", false);

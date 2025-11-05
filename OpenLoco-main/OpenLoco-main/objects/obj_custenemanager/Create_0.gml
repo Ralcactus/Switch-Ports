@@ -1,2 +1,0 @@
-level = "";
-rank = "d";

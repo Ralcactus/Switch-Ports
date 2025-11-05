@@ -1,0 +1,25 @@
+{
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "pth_24",
+  "closed": false,
+  "kind": 1,
+  "parent": {
+    "name": "Numbered Paths",
+    "path": "folders/Paths/Numbered Paths.yy",
+  },
+  "points": [
+    {"speed":100.0,"x":5568.0,"y":2144.0,},
+    {"speed":100.0,"x":5856.0,"y":2208.0,},
+    {"speed":100.0,"x":5984.0,"y":2112.0,},
+    {"speed":100.0,"x":6112.0,"y":2112.0,},
+    {"speed":100.0,"x":6176.0,"y":2400.0,},
+    {"speed":100.0,"x":6208.0,"y":2624.0,},
+    {"speed":100.0,"x":6304.0,"y":2624.0,},
+    {"speed":100.0,"x":6784.0,"y":2624.0,},
+    {"speed":100.0,"x":6912.0,"y":2912.0,},
+    {"speed":100.0,"x":7008.0,"y":2976.0,},
+    {"speed":100.0,"x":7424.0,"y":2976.0,},
+  ],
+  "precision": 4,
+}

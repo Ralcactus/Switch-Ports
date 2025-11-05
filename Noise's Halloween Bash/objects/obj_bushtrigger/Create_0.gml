@@ -1,0 +1,1 @@
+playerinside = false;
