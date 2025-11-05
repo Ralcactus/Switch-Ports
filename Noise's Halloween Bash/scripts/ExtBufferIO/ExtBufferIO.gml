@@ -170,7 +170,7 @@ function ext_buffer_pack(_buffer, _value, _type = undefined)
 		}
 		else
 		{
-			show_debug_message($"[ERROR] {_GMFUNCTION_} :: Cannot encoding value: '{_value}', invalid type.");
+			show_debug_message("[ERROR] {_GMFUNCTION_} :: Cannot encoding value: '{_value}', invalid type.");
 		}
 	}
 }

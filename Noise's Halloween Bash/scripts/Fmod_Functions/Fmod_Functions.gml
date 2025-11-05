@@ -22,27 +22,27 @@ function fmod_path_bundle(_file)
 
 	
 	if (is_gmrt && os_type == os_windows) {
-		return $"{working_directory}/assets/{_file}";
+		return "{working_directory}/assets/{_file}";
 	}
 		
 	if (os_type == os_switch)
 	{
 		if (GM_build_type == "exe")
-			return $"rom:/{working_directory}{_file}";
+			return "rom:/{working_directory}{_file}";
 		else
-			return $"host:/{working_directory}{_file}";
+			return "host:/{working_directory}{_file}";
 	}
 	else if (os_type == os_android) {
-		return $"file:///android_asset/{_file}";
+		return "file:///android_asset/{_file}";
 	}
 	
-	return $"{working_directory}{_file}"
+	return "{working_directory}{_file}"
 }
 
 /// @param {string} file
 /// @returns {string}
 function fmod_path_user(_file) {
-	return $"{game_save_id}{_file}";
+	return "{game_save_id}{_file}";
 }
 
 /// @param {enum.FMOD_RESULT} error_code

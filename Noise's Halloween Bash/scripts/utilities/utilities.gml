@@ -701,3 +701,26 @@ function string_shift(_str, _val)
     
     return _newstr;
 }
+
+function struct_get_names(struct){
+    var map = json_parse(json_stringify(struct))
+    var names = []
+    var key = ds_map_find_first(map)
+
+	if !is_struct(struct) || ds_exists(map, ds_type_map)
+		return []
+
+    while !is_undefined(key){
+        array_push(names, key)
+        key = ds_map_find_next(map, key)
+    }
+
+    ds_map_destroy(map);
+    return names;
+}
+
+
+function gpu_set_depth(_depth) {
+    global.gpu_depth = _depth //might help later??? idk..
+}
+

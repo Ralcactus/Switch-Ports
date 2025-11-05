@@ -14,7 +14,7 @@
   "androidsourcedir": "",
   "author": "",
   "classname": "Fmod_iOS",
-  "copyToTargets": 3035426153142681806,
+  "copyToTargets": 2891310965066825870,
   "date": "2025-11-02T08:57:44.5080633+10:00",
   "description": "",
   "exportToGame": true,
