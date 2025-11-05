@@ -23,7 +23,6 @@ if (!obj_drawcontroller.debugcam)
         
         if (!input_player_using_gamepad())
         {
-            window_mouse_set_locked(true);
             var _sens = 7;
             yaw += (window_mouse_get_delta_x() / _sens);
             window_mouse_set(window_get_width() / 2, window_get_height() / 2);
@@ -33,7 +32,6 @@ if (!obj_drawcontroller.debugcam)
         }
         else
         {
-            window_mouse_set_locked(false);
             var _sens = 1;
             yaw += (input_check_opposing("debug_cam_lookleft", "debug_cam_lookright") / _sens);
             _pressed = input_check_pressed("attack");
@@ -55,8 +53,6 @@ if (!obj_drawcontroller.debugcam)
             }
         }
     }
-    else
-        window_mouse_set_locked(false);
 }
 
 cursorind += 0.35;

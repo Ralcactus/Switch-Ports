@@ -20,7 +20,7 @@ if (hasphysics && !magnetised)
         magnetised = true;
 }
 
-if (!place_meeting(x, y, [par_destructible]) && inblock)
+if (!place_meeting(x, y, par_destructible) && inblock)
     inblock = false;
 
 if (place_meeting(x, y, collectors) && !(collectonland && !magnetised) && !collected && player_collideable())

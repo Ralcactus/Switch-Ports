@@ -11,7 +11,12 @@ if (obj_player.state != states.hitstun)
         instance_destroy();
     else
     {
-        var _num = instance_place_list(x, y, [par_enemy, par_destructible, obj_destroyablenitro, obj_destroyablecheckpoint, obj_destroyableflame, obj_destroyabletnt, obj_destroyableswitchcrate], global.instancelist, true);
+        var _num = 0
+		var wario2 = [par_enemy, par_destructible, obj_destroyablenitro, obj_destroyablecheckpoint, obj_destroyableflame, obj_destroyabletnt, obj_destroyableswitchcrate]
+
+		for (var i = 0; i < array_length(wario2); i++)
+		    _num += instance_place_list(x, y, wario2[i], global.instancelist, true)
+
         
         for (var _i = 0; _i < _num; _i++)
         {

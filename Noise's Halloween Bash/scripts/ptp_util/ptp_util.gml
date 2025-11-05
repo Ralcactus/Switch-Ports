@@ -107,11 +107,13 @@ function count_in_room(_room, _func)
     }
     else
     {
-        var _info = room_get_info(_room, false, true, false, false, false);
-        return array_length(array_filter(_info.instances, _func));
+        //var _info = room_get_info(_room, false, true, false, false, false);
+        //return array_length(array_filter(_info.instances, _func));
+		return 0
     }
 }
 
+/*
 function loop_in_room(_room, _func)
 {
     if (is_array(_room))
@@ -125,6 +127,7 @@ function loop_in_room(_room, _func)
         array_foreach(_info.instances, _func);
     }
 }
+*/
 
 function running_on_steamdeck()
 {

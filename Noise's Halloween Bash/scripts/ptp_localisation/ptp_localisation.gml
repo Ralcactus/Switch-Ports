@@ -18,8 +18,8 @@ function string_get(_str)
     
     if (is_undefined(_prevvar))
         return "UNDEFINED STRING";
-    else
-        _prevvar = variable_clone(_prevvar);
+    //else
+        //_prevvar = variable_clone(_prevvar); why does this exist?
     
     for (var p = 1; p < argument_count; p++)
     {

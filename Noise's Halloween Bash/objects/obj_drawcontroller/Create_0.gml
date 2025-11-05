@@ -15,6 +15,7 @@ gpu_set_alphatestenable(true);
 gpu_set_alphatestref(0);
 gpu_set_texrepeat(true);
 gpu_set_blendenable(true);
+gpu_set_cullmode(cull_noculling)
 application_surface_draw_enable(false);
 
 gameframe_init();
@@ -146,6 +147,7 @@ hudgemsurf = -1;
 scoresparkles = array_create(0);
 scoresparkletimer = 0;
 
+
 function ScoreSparkle(xx, yy) constructor
 {
     x = xx + random_range(-32, 32);
@@ -257,10 +259,10 @@ function update_cam(_calculate_view = true, _set_view = true)
         var _zTo = camZ - (dsin(camYAW) * dcos(camPITCH));
         var _cW = camera_get_view_width(camera);
         var _cH = camera_get_view_height(camera);
-        viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, 1, 0);
-        projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
-        view2D = matrix_build_lookat(_cW / 2, _cH / 2, -16000, _cW / 2, _cH / 2, 0, 0, 1, 0);
-        proj2D = matrix_build_projection_ortho(_cW, -_cH, 1, 32000);
+		viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo,   _yTo,   _zTo, 0, -1, 0);
+		projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
+		view2D = matrix_build_lookat(_cW * 0.5, _cH * 0.5, -16000, _cW * 0.5, _cH * 0.5, 0, 0, 1, 0);
+		proj2D = matrix_build_projection_ortho(_cW, _cH, 1, 32000);
     }
     
     if (_set_view)
@@ -360,7 +362,13 @@ function draw_tiles()
 {
     var _roomind = array_find_pos(global.levelrooms, room);
     gpu_push_state();
-    gpu_set_blendenable(false);
+	matrix_set(matrix_world, matrix_build_identity())
+	matrix_set(matrix_view, viewMat)
+	matrix_set(matrix_projection, projMat)
+	gpu_set_ztestenable(true)
+	gpu_set_zwriteenable(true)
+	gpu_set_cullmode(cull_noculling)
+	gpu_set_blendenable(false)
     shader_set(shd_3dtiles);
     shader_set_uniform_i(outlineTileOutlining, global.outlineDrawing);
     shader_set_uniform_f(u_tileLightLevel, globallight);
@@ -387,8 +395,19 @@ function draw_models()
 		obj_outhouse, 
 		par_switchsolid
 	];
-    var _num = collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), _objects, false, true, global.instancelist, false);
-    
+
+	var _num = 0
+	for (var i = 0; i < array_length(_objects); i++)
+		_num += collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), _objects[i], false, true, global.instancelist, false);
+
+	gpu_push_state()
+	matrix_set(matrix_world, matrix_build_identity())
+	matrix_set(matrix_view, viewMat)
+	matrix_set(matrix_projection, projMat)
+	gpu_set_ztestenable(true)
+	gpu_set_zwriteenable(true)
+	gpu_set_cullmode(cull_noculling)
+
     for (var i = 0; i < _num; i++)
     {
         with (global.instancelist[| i])
@@ -400,21 +419,30 @@ function draw_models()
         }
     }
     
-    ds_list_clear(global.instancelist);
-    
-    with (obj_titlescreen)
-        event_user(0);
+	with (obj_titlescreen)
+	{
+	    if (visible) 
+			event_user(0);
+	}
+
+	ds_list_clear(global.instancelist);
+	gpu_pop_state();
 }
 
 function draw_assets()
 {
     gpu_push_state();
+	matrix_set(matrix_world, matrix_build_identity())
+	matrix_set(matrix_view, view2D)
+	matrix_set(matrix_projection, proj2D)
+	gpu_set_ztestenable(false)
+	gpu_set_zwriteenable(false)
     gpu_set_cullmode(0);
     
     for (var i = 0; i < array_length(assetLayers); i++)
     {
         var _l = assetLayers[i];
-        matrix_set(2, matrix_build(0, 0, _l.depth, 0, 0, 0, 1, 1, 1));
+        matrix_set(2, matrix_build_identity());
         
         for (var b = 0; b < array_length(_l.elements); b++)
         {

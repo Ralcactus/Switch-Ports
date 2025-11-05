@@ -66,7 +66,9 @@ for (var i = 0; i < array_length(groupstobeloaded); i++)
         array_push(texturelist, pagetextures[b]);
 }
 
-threedeeslist = global.levelrooms;
+threedeeslist = array_create(array_length(global.levelrooms))
+array_copy(threedeeslist, 0, global.levelrooms, 0, array_length(global.levelrooms))
+
 maplist = [];
 array_copy(maplist, 0, global.levelrooms, 0, array_length(global.levelrooms) - 4);
 trace(maplist);

@@ -5,8 +5,12 @@ if (array_length(maplist) > 0)
     var _room = array_pop(maplist);
     trace(string("Phase 4: Generating Map for room {0}", room_get_name(_room)));
     var r = array_find_pos(global.levelrooms, _room);
-    var _roominfo = room_get_info(_room, false, false, true, true, true);
-    
+    //var _roominfo = room_get_info(_room, false, false, true, true, true);
+
+	var file = file_text_open_read(working_directory + "Room Data/map_" + room_get_name(_room) + ".json");
+    var _roominfo = json_parse(file_text_read_string(file));
+    file_text_close(file);
+	
     with (obj_levelmap)
     {
         vBuffMap[r] = vertex_create_buffer();

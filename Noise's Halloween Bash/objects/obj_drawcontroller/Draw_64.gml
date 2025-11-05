@@ -88,8 +88,14 @@ if (scr_hudroom())
     
     var _touching = false;
     
-    with (obj_player)
-        _touching = place_meeting(x, y, [obj_outhouse, obj_mirror]);
+	with (obj_player){
+	    var wow = [obj_outhouse, obj_mirror];
+
+	    for (var i = 0; i < array_length(wow); i++){
+	        if place_meeting(x, y, wow[i])
+	            other._touching = true
+	    }
+	}
     
     if (obj_player.state == states.normal && _touching)
     {

@@ -58,8 +58,6 @@ if (!game_paused())
 
 if (!debugcam)
 {
-    if (room != Jeg)
-        window_mouse_set_locked(false);
     
     var _lockcond = obj_player.state != states.falllocked && !(obj_player.state == states.platformlocked && obj_player.sprite_index != spr_player_platformhop);
     
@@ -223,7 +221,6 @@ else if (!in_debug_menu() && !game_paused() && debugcamcontrols)
     
     if (!input_player_using_gamepad())
     {
-        window_mouse_set_locked(true);
         var _sens = 7;
         
         if (room == Titlescreen)
@@ -237,7 +234,6 @@ else if (!in_debug_menu() && !game_paused() && debugcamcontrols)
     }
     else
     {
-        window_mouse_set_locked(false);
         var _sens = 1;
         
         if (room == Titlescreen)
@@ -249,8 +245,6 @@ else if (!in_debug_menu() && !game_paused() && debugcamcontrols)
     
     camPITCH = clamp(camPITCH, -85, 85);
 }
-else
-    window_mouse_set_locked(false);
 
 listener_setPosition(0, camX, camY, camZ);
 
@@ -333,7 +327,11 @@ if (!game_paused())
 }
 
 globallight = (room == PatchPerilousEntrance) ? 0.5 : 1;
-var _num = collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), shadedobjects, false, true, global.instancelist, false);
+
+var _num = 0
+for (var i = 0; i < array_length(shadedobjects); i++)
+    _num += collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), shadedobjects[i], false, true, global.instancelist, false)
+
 
 for (var i = 0; i < _num; i++)
 {
@@ -385,8 +383,13 @@ ds_list_clear(billboardlist);
 
 if (room != Init)
 {
-    _num = collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), [obj_player, par_billboard], false, true, billboardlist, false);
-    toshadow = array_create(_num, noone);
+	var _num = 0;
+	var wario2 = [obj_player, par_billboard];
+
+	for (var i = 0; i < array_length(wario2); i++)
+	    _num += collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), wario2[i], false, true, billboardlist, false);
+
+	toshadow = array_create(_num, noone);
 }
 
 prevcamx = camX;

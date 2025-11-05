@@ -262,7 +262,12 @@ function scr_solid(_x, _y, _obj_array = [obj_solid, obj_slope, obj_slopePlatform
     var old_y = y;
     x = _x;
     y = _y;
-    var num = instance_place_list(x, y, _obj_array, il, true);
+	
+	var num = 0
+	
+	for (var i = 0; i < array_length(_obj_array); i++)
+	    num += instance_place_list(x, y, _obj_array[i], il, true)
+		
     var _collided = false;
     
     for (var i = 0; i < num; i++)
@@ -372,7 +377,10 @@ function scr_destroy_horizontal(_h, _obj_array = [par_destructible, obj_destroya
     
     if (_h != 0)
     {
-        var _num = instance_place_list(x + _h, y, _obj_array, il, false);
+		var _num = 0
+		for (var i = 0; i < array_length(_obj_array); i++)
+		    _num += instance_place_list(x + _h, y, _obj_array[i], il, false);
+
         
         while (!ds_list_empty(il))
         {
@@ -416,7 +424,10 @@ function scr_destroy_vertical(_v, _obj_array = [par_destructible, obj_destroyabl
     
     if (_v != 0)
     {
-        var _num = instance_place_list(x, y + _v, _obj_array, il, false);
+		var _num = 0
+		for (var i = 0; i < array_length(_obj_array); i++)
+		    _num += instance_place_list(x, y + _v, _obj_array[i], il, false)
+
         
         while (!ds_list_empty(il))
         {
@@ -577,10 +588,15 @@ function fast_ray(_x1, _y1, _x2, _y2, _obj_array = [obj_solid, obj_slope, obj_sl
     var _num = 0;
     var _up = _y2 < _y1;
     
-    if (floor(_x1) == floor(_x2))
-        _num = collision_line_list(_x1, _y1, _x2, _y2, _obj_array, false, true, _il, true);
-    else
-        _num = collision_rectangle_list(_x1, _y1, _x2, _y2, _obj_array, false, true, _il, true);
+
+	if (floor(_x1) == floor(_x2)){
+	    for (var i = 0; i < array_length(_obj_array); i++)
+	        _num += collision_line_list(_x1, _y1, _x2, _y2, _obj_array[i], false, true, _il, true)
+	}
+	else{
+	    for (var i = 0; i < array_length(_obj_array); i++)
+	        _num += collision_rectangle_list(_x1, _y1, _x2, _y2, _obj_array[i], false, true, _il, true)
+	}
     
     for (var _i = 0; _i < _num; _i++)
     {
