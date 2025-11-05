@@ -432,17 +432,12 @@ function draw_models()
 function draw_assets()
 {
     gpu_push_state();
-	matrix_set(matrix_world, matrix_build_identity())
-	matrix_set(matrix_view, view2D)
-	matrix_set(matrix_projection, proj2D)
-	gpu_set_ztestenable(false)
-	gpu_set_zwriteenable(false)
     gpu_set_cullmode(0);
     
     for (var i = 0; i < array_length(assetLayers); i++)
     {
         var _l = assetLayers[i];
-        matrix_set(2, matrix_build_identity());
+        matrix_set(2, matrix_build(0, 0, _l.depth, 0, 0, 0, 1, 1, 1));
         
         for (var b = 0; b < array_length(_l.elements); b++)
         {
