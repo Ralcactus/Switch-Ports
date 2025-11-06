@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "gameframe",
+  "name": "fixed_ini_close",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Gameframe",
-    "path": "folders/Extensions/Gameframe.yy",
+    "name": "ptpteamjr_noise_game",
+    "path": "ptpteamjr_noise_game.yyp",
   },
 }

@@ -17,7 +17,7 @@ switch (savestate)
         {
             var _ini = buffer_read(loadbuff, buffer_string);
             ini_open_from_string(_ini);
-            savestr = ini_close();
+            savestr = fixed_ini_close();
             buffer_delete(loadbuff);
             savestate = save_state.idle;
             trace("Game Load Status: ", async_load[? "status"]);

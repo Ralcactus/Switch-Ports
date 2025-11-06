@@ -42,5 +42,5 @@ gpu_set_blendenable(false);
 draw_surface_ext(finalsurf, _viewx, _viewy, appscalex, appscaley, 0, c_white, 1);
 gpu_set_blendenable(true);
 gpu_set_texfilter(false);
-__display_gui_restore();
-gameframe_draw();
+
+

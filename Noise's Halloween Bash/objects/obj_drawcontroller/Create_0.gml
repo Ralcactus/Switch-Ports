@@ -18,17 +18,9 @@ gpu_set_blendenable(true);
 gpu_set_cullmode(cull_noculling)
 application_surface_draw_enable(false);
 
-gameframe_init();
-global.gameframe_caption_font = font_caption;
-global.gameframe_caption_text = window_get_caption();
-global.gameframe_caption_icon = spr_icon;
-global.gameframe_border_width = 2;
 
-if (window_is_rounded())
-{
-    global.gameframe_border_width = 0;
-    global.gameframe_caption_draw_border = function() { }
-}
+
+
 
 mouse_xprev = mouse_x;
 mouse_yprev = mouse_y;

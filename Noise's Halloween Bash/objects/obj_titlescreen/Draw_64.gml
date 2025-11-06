@@ -52,6 +52,7 @@ if (!started)
     draw_set_halign(fa_right);
     __draw_text_hook(get_game_width() - 20, get_game_height() - 20, "V" + global.gamever);
     
+	/*
     if (!is_latest())
     {
         draw_set_font(font_warning);
@@ -63,7 +64,8 @@ if (!started)
         draw_set_alpha(1);
         draw_text_fancy(_warningposx, _warningposy, _str);
     }
-    
+    */
+	
     pal_swap_set(obj_player.palettespr, obj_player.curpalette, false);
     draw_sprite_ext(spr_noisecolour, 0, get_game_width(), floor((get_game_height() - 34) + palindicatoryoff), 1, 1, 0, c_white, palindicatoralpha);
     pal_swap_reset();

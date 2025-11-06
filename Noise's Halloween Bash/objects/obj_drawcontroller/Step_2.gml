@@ -1,38 +1,10 @@
-global.gameframe_can_input = room != Init;
 
-if (!hovering)
-    global.gameframe_default_cursor = -2;
-else
-{
-    global.gameframe_default_cursor = -21;
-    
-    if (mouse_check_button_pressed(mb_left) && clicklink != -1)
-        url_open(clicklink);
-}
 
-gameframe_update();
+
 goawaytimer = max(goawaytimer - 1, 0);
 
-if (room != Jeg)
-{
-    if ((device_mouse_x_to_gui(0) != mouse_xprev || device_mouse_y_to_gui(0) != mouse_yprev) && gameframe_mouse_in_window())
-    {
-        if (!(debugcam && debugcamcontrols && game_paused() && !in_debug_menu()))
-            goawaytimer = 100;
-    }
-}
 
-if (goawaytimer <= 0)
-{
-    global.gameframe_alpha = approach(global.gameframe_alpha, 0, 0.1);
-    global.gameframe_set_cursor = false;
-    window_set_cursor(cr_none);
-}
-else
-{
-    global.gameframe_alpha = approach(global.gameframe_alpha, 1, 0.1);
-    global.gameframe_set_cursor = true;
-}
+
 
 mouse_xprev = device_mouse_x_to_gui(0);
 mouse_yprev = device_mouse_y_to_gui(0);
@@ -229,7 +201,6 @@ else if (!in_debug_menu() && !game_paused() && debugcamcontrols)
         camYAW += (window_mouse_get_delta_x() / _sens);
         camPITCH -= (window_mouse_get_delta_y() / _sens);
         window_mouse_set(window_get_width() / 2, window_get_height() / 2);
-        global.gameframe_set_cursor = false;
         window_set_cursor(cr_none);
     }
     else

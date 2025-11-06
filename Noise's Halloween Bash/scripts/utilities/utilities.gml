@@ -724,3 +724,13 @@ function gpu_set_depth(_depth) {
     global.gpu_depth = _depth //might help later??? idk..
 }
 
+
+function array_shift(array)
+{
+	for (var i = 0; i < array_length(array) - 1; i++)
+		array[i] = array[i + 1]
+    
+	array_resize(array, array_length(array) - 1)
+	return array
+}
+
