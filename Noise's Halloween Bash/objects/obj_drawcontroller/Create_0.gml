@@ -33,7 +33,8 @@ if (window_is_rounded())
 mouse_xprev = mouse_x;
 mouse_yprev = mouse_y;
 goawaytimer = 100;
-camera = view_camera[0];
+camera = camera_create_view(0, 0, get_game_width(), get_game_height(), 0, noone, 0, 0, 0, 0)
+view_camera[0] = camera;
 zoom = 1;
 camDist = -270;
 camFov = 88;
@@ -42,8 +43,8 @@ view2D = -1;
 proj2D = -1;
 viewMat = -1;
 projMat = -1;
-camX = x;
-camY = y;
+camX = 0;
+camY = 0;
 camZ = depth;
 camYAW = 0;
 camPITCH = 0;
@@ -260,7 +261,8 @@ function update_cam(arg0 = true, arg1 = true)
         var _zTo = camZ - (dsin(camYAW) * dcos(camPITCH));
         var _cW = camera_get_view_width(camera);
         var _cH = camera_get_view_height(camera);
-        viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, 1, 0);
+        viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, -1, 0);
+		viewMat = matrix_multiply(viewMat, matrix_build(0, 0, 0, 0, 0, 0, -1, 1, 1));
         projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
         view2D = matrix_build_lookat(_cW / 2, _cH / 2, -16000, _cW / 2, _cH / 2, 0, 0, 1, 0);
         proj2D = matrix_build_projection_ortho(_cW, -_cH, 1, 32000);
@@ -268,9 +270,7 @@ function update_cam(arg0 = true, arg1 = true)
     
     if (arg1)
     {
-        camera_set_view_mat(camera, viewMat);
-        camera_set_proj_mat(camera, projMat);
-        camera_apply(camera);
+		camera_set_view_pos(camera, round(camX - camera_get_view_width(camera) * 0.5), round(camY - camera_get_view_height(camera) * 0.5))
     }
 }
 
@@ -455,3 +455,4 @@ function draw_assets()
 
 if (instance_number(obj_drawcontroller) > 1)
     show_error("Fatal Error! More than 1 draw controller object found! Check your code!", true);
+
