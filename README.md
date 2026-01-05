@@ -35,7 +35,7 @@ quick note: once you use a title id, trying to change any setting besides projec
 
 ### **Im getting an error about runtime not fully installing?**
 if you get an error like this:
-![Example Image](download error.png)
+![runtime download error](https://github.com/Ralcactus/Switch-Ports/blob/main/runtime_download%20error.png?raw=true)
 
 press windows+R and paste in "%programdata\GameMakerStudio2\Cache\runtimes\"
 
