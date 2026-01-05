@@ -57,7 +57,7 @@ go back to gamemaker and press the refresh button in the master runtime settings
 
 #### Theres no folder with the name "runtime-2023.2.0.87"
 
-Download this file: GameMaker [runtime-2023.2.0.87.7.7z](https://drive.google.com/file/d/1XEmEk6x25MBEab9m7nEDnI6NAb27Kj_t/view)
+Download this file: [GameMaker runtime-2023.2.0.87.7](https://drive.google.com/file/d/1XEmEk6x25MBEab9m7nEDnI6NAb27Kj_t/view)
 extract it with 7zip (not windows in built extractor as its known to have issues) and place the folder inside "%programdata\GameMakerStudio2\Cache\runtimes\" directory, then procced to the "Theres a folder with the name "runtime-2023.2.0.87" section
 
 
