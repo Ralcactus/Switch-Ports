@@ -6,14 +6,7 @@ A repository containing ports of GameMaker games for the Nintendo Switch.
 
 ## Current Progress
 | Game | Progress info |
-| ------------- | ------------- |
-| Sugary Spire Exhibition Night | 50% done. 60 fps (maybe) 90% of the time, slows down after fadeouts. needs sounds implemented. Besides that fully playable|
-| Pizza Tower Sage 19 Plus | 30% done. 20 fps on hardware, needs sounds implemented, screen size broken|
-| Sugary Spire United | 40% done. 60 fps, crashes after titlescreen and on 3rd menu option on switch|
-
-
-currently being thought of:
-Scampton The Great -- i have "ported" it, which i mean the menu works on switch but no controller support which i have to add manually
+Will update later!
 
 ## Compiling
 Don't worry! no nintendo sdk nor illegal content is required!
@@ -40,7 +33,37 @@ quick note: once you use a title id, trying to change any setting besides projec
 
 ## Issues!!!!!
 
-### ** My Game Isn't saving**
+### **Im getting an error about runtime not fully installing?**
+if you get an error like this:
+![Example Image](download error.png)
+
+press windows+R and paste in "%programdata\GameMakerStudio2\Cache\runtimes\"
+
+#### Theres a folder with the name "runtime-2023.2.0.87"
+
+open gamemaker and press retry on the popup, when at the project select press file, prefrences, runtime, then master. 
+press windows+R again and this time paste "%programdata\GameMakerStudio2\". open the runtime.json in any text editor
+
+with gamemaker STILL OPEN paste this inside:
+```json
+{
+    "active": "2023.2.0.87",
+    "2023.2.0.87": "C:\\ProgramData/GameMakerStudio2/Cache/runtimes\\runtime-2023.2.0.87&https://gms.yoyogames.com/Zeus-Runtime.rss"
+}
+```
+go back to gamemaker and press the refresh button in the master runtime settings.
+
+
+
+#### Theres no folder with the name "runtime-2023.2.0.87"
+
+Download this file: GameMaker [runtime-2023.2.0.87.7.7z](https://drive.google.com/file/d/1XEmEk6x25MBEab9m7nEDnI6NAb27Kj_t/view)
+extract it with 7zip (not windows in built extractor as its known to have issues) and place the folder inside "%programdata\GameMakerStudio2\Cache\runtimes\" directory, then procced to the "Theres a folder with the name "runtime-2023.2.0.87" section
+
+
+
+
+### **My Game Isn't saving**
 Add this:
 ```gml
 function fixed_ini_close(){
