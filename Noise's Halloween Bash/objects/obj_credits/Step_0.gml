@@ -172,6 +172,7 @@ if (!endshot)
             
             if (device_mouse_y_to_gui(0) > 33)
             {
+                global.gameframe_set_cursor = false;
                 window_set_cursor(cr_none);
             }
         }

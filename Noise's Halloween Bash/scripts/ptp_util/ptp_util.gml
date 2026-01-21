@@ -109,7 +109,7 @@ function count_in_room(_room, _func)
     {
         //var _info = room_get_info(_room, false, true, false, false, false);
         //return array_length(array_filter(_info.instances, _func));
-		return 0
+		return 0;
     }
 }
 

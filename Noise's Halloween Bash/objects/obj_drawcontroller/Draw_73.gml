@@ -1,11 +1,10 @@
 gpu_push_state();
 gpu_set_cullmode(2);
 var _objects = [obj_cratecounter, par_gem];
-
 var _num = 0
 for (var i = 0; i < array_length(_objects); i++)
     _num += collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), _objects[i], false, true, global.instancelist, false);
-
+	
 for (var i = 0; i < _num; i++)
 {
     with (global.instancelist[| i])

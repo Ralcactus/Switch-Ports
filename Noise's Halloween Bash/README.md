@@ -14,4 +14,9 @@ Packages Imported
 ### NOTES
 - A FMOD project recreation is included, but is currently unfinished and has some minor issues
 
+### ISSUES
+- (FMOD Recreation) Snail Slither Sound fails to play (3D Sound issue)
+- (FMOD Recreation) Fire Frog Sound plays regardless of player position (3D Sound issue)
+- (FMOD Recreation) Pausing or enabling the "Unfocused Mute" option doesn't fade in/out music when needed (Bus Issue)
+
 Decompilation made by burnedpopcorn180

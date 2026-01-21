@@ -48,15 +48,8 @@ for (var i = 0; i < array_length(_layers); i++)
     {
         var _map = layer_tilemap_get_id(_layer);
         
-        if (_map < 0)
+        if (!layer_tilemap_exists(_layer, _map))
             continue;
-			
-		array_push(tileLayers, 
-		{
-		    id: _layer,
-		    depth: layer_get_depth(_layer),
-		    map: _map
-		})
     }
     
     layer_set_visible(_layer, false);

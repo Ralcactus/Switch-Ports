@@ -66,8 +66,11 @@ function cratebounceeffect(_effect_obj)
 #region Models
 function draw_model(_model, _x, _y, _z, _xscale, _yscale, _zscale, _xrot, _yrot, _zrot)
 {
+    if (is_undefined(global.loadedModels) || global.loadedModels == noone)
+        exit;
+
     matrix_set(2, matrix_build(_x, _y, _z, _xrot, _yrot, _zrot, _xscale, _yscale, _zscale));
-    
+
     if (is_array(_model))
     {
         for (var i = 0; i < array_length(_model); i++)
@@ -75,23 +78,59 @@ function draw_model(_model, _x, _y, _z, _xscale, _yscale, _zscale, _xrot, _yrot,
     }
     else if (is_string(_model))
         model_submit(_model);
-    
+
     matrix_set(2, matrix_build_identity());
 }
 
 function model_submit(_material)
 {
-    var _altmaterial = variable_struct_get(global.altMaterials, _material);
-    
-    if (!is_undefined(_altmaterial))
+    // loadedModels must exist and be a ds_map
+    if (is_undefined(global.loadedModels) || global.loadedModels == noone)
+        exit;
+
+    // Resolve alt material -> actual model key + material overrides
+    var _useAlt = false;
+    var _modelKey = _material;
+
+    var _lib = undefined;
+    var _mat = undefined;
+
+    if (!is_undefined(global.altMaterials) && is_struct(global.altMaterials))
     {
-        var _model = global.loadedModels[? _altmaterial.model];
-        _model.SetMaterialForMeshes(_altmaterial.library, _altmaterial.material);
-        _model.Submit();
+        var _alt = variable_struct_get(global.altMaterials, _material);
+        if (!is_undefined(_alt))
+        {
+            _useAlt = true;
+            _modelKey = _alt.model;
+            _lib = _alt.library;
+            _mat = _alt.material;
+        }
     }
-    else
-        global.loadedModels[? _material].Submit();
+
+    // Key must exist in ds_map before we index it
+    if (!ds_map_exists(global.loadedModels, _modelKey))
+    {
+        // Uncomment if you want a one-line clue on Switch/YYC:
+        // trace("MODEL MISSING: " + string(_modelKey) + " (from " + string(_material) + ")");
+        exit;
+    }
+
+    var _model = global.loadedModels[? _modelKey];
+
+    // Must be a struct that actually has Submit()
+    if (is_undefined(_model) || !is_struct(_model) || !variable_struct_exists(_model, "Submit"))
+    {
+        // trace("MODEL BAD TYPE: " + string(_modelKey) + " => " + string(_model));
+        exit;
+    }
+
+    // Apply alt material if provided and method exists
+    if (_useAlt && variable_struct_exists(_model, "SetMaterialForMeshes"))
+        _model.SetMaterialForMeshes(_lib, _mat);
+
+    _model.Submit();
 }
+
 
 function import_material(_lib, _model_file)
 {
@@ -702,35 +741,17 @@ function string_shift(_str, _val)
     return _newstr;
 }
 
-function struct_get_names(struct){
-    var map = json_parse(json_stringify(struct))
-    var names = []
-    var key = ds_map_find_first(map)
-
-	if !is_struct(struct) || ds_exists(map, ds_type_map)
-		return []
-
-    while !is_undefined(key){
-        array_push(names, key)
-        key = ds_map_find_next(map, key)
-    }
-
-    ds_map_destroy(map);
-    return names;
-}
-
-
-function gpu_set_depth(_depth) {
-    global.gpu_depth = _depth //might help later??? idk..
-}
-
-
-function array_shift(array)
+function struct_get_names(_struct)
 {
-	for (var i = 0; i < array_length(array) - 1; i++)
-		array[i] = array[i + 1]
-    
-	array_resize(array, array_length(array) - 1)
-	return array
+	if (!is_struct(_struct))
+		return [];
+		
+	return variable_struct_get_names(_struct);
 }
 
+
+
+function gpu_set_depth(_depth)
+{
+    global.gpu_depth = _depth;
+}

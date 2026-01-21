@@ -61,6 +61,7 @@
     {"name":"__scribble_get_buffer_a","order":2,"path":"scripts/__scribble_get_buffer_a/__scribble_get_buffer_a.yy",},
     {"name":"scribble_fallback_font","order":13,"path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},
     {"name":"shdVideo","order":201,"path":"shaders/shdVideo/shdVideo.yy",},
+    {"name":"Sprite1926","order":204,"path":"sprites/Sprite1926/Sprite1926.yy",},
     {"name":"__scribble_font_add_sprite","order":9,"path":"scripts/__scribble_font_add_sprite/__scribble_font_add_sprite.yy",},
     {"name":"scribble_anim_wheel","order":8,"path":"scripts/scribble_anim_wheel/scribble_anim_wheel.yy",},
     {"name":"__scribble_get_state","order":14,"path":"scripts/__scribble_get_state/__scribble_get_state.yy",},

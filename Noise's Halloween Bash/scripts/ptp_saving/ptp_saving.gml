@@ -13,7 +13,7 @@ function save_open()
 
 function save_close()
 {
-    obj_savesystem.savestr = fixed_ini_close();
+    obj_savesystem.savestr = ini_close();
 }
 
 function get_savestate()

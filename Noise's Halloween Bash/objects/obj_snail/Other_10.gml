@@ -13,7 +13,7 @@ if (!event_isplaying(slithersnd))
 event_set_3d_position_struct(slithersnd, _attr);
 
 if (killed)
-    event_stop(slithersnd, 1);
+    event_stop(slithersnd, true);
 
 if ((scr_solid(x + image_xscale, y) && !place_meeting(x + sign(hsp), y, obj_slope)) || !(scr_solid(x + (image_xscale * 15), y + 31) || place_meeting(x + (image_xscale * 15), y + 31, obj_platform)))
     image_xscale *= -1;

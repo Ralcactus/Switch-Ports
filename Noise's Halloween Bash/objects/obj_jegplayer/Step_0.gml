@@ -26,6 +26,7 @@ if (!obj_drawcontroller.debugcam)
             var _sens = 7;
             yaw += (window_mouse_get_delta_x() / _sens);
             window_mouse_set(window_get_width() / 2, window_get_height() / 2);
+            global.gameframe_set_cursor = false;
             window_set_cursor(cr_none);
             _pressed = input_mouse_check_pressed(1);
         }

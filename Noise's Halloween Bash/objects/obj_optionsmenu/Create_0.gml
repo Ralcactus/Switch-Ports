@@ -805,7 +805,7 @@ if (room == Titlescreen)
         };
     }
     
-    //array_push(_baseoptions.options, _closegame);
+    array_push(_baseoptions.options, _closegame);
 	#endregion
 }
 #endregion

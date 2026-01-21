@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collision",
-    "path": "folders/Objects/Level Objects/Collision.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Level Objects/Enemies.yy",
   },
   "parentObjectId": {
     "name": "par_enemy",

@@ -6,44 +6,27 @@
 /// 
 /// Returns: A dotobj model (a struct)
 ///          This model can be drawn using the submit() method e.g. sponza_model.Submit();
-/// 
-/// 
-/// 
-/// This script uses a vertex format laid out as follows:
-/// - 3D Position
-/// - Normal
-/// - Colour
-/// - Texture Coordinate
-/// If a model has missing data, then a suitable default value will be used instead
-/// 
-/// .obj format documentation can be found here:
-/// http://paulbourke.net/dataformats/obj/
-/// 
-/// The .obj format does not natively support vertex colours; vertex colours will
-/// default to white and 100% alpha. If you use a custom exporter that supports
-/// vertex colours (such as MeshLab or MeshMixer) then vertex colours will be
-/// respected in the final vertex buffer.
-/// 
-/// Texture coordinates for .obj models will typically be normalised and in the
-/// range (0,0) -> (1,1). Please use another script to remap texture coordinates
-/// to GameMaker's atlased UV space.
-/// 
-/// This .obj load does *not* support the following features:
-/// - Smoothing groups
-/// - Map libraries
-/// - Freeform curve/surface geometry (NURBs/Bezier curves etc.)
-/// - Line primitives
-/// - Separate in-file LOD
-
 function DotobjModelLoad()
 {
     var _buffer          = argument[0];
+	
+    //=========================================================
+    // HARD GUARD: if buffer load failed, buffer handle is -1
+    //=========================================================
+    if ((_buffer == -1) || (!buffer_exists(_buffer)))
+    {
+        show_debug_message("DotobjModelLoad(): ERROR - invalid buffer (buffer handle = " + string(_buffer) + "). File load likely failed.");
+        return undefined;
+    }
+	
     var _model_directory = ((argument_count > 1) && (argument[1] != undefined))? argument[1] : "";
     
     if (DOTOBJ_OUTPUT_LOAD_TIME) var _timer = get_timer();
     
     //Tidy up the model directory
-    if (string_char_at(_model_directory, string_length(_model_directory)) != "\\") _model_directory += "\\";
+	_model_directory = string_replace_all(_model_directory, "\\", "/");
+	if (string_char_at(_model_directory, string_length(_model_directory)) != "/") _model_directory += "/";
+
     
     //Create some variables to track errors
     var _vec4_error            = false;
@@ -111,8 +94,23 @@ function DotobjModelLoad()
     var _meta_vertex_buffers = 0;
     var _meta_triangles      = 0;
 
-    //Start at the start of the buffer...
-    var _buffer_size = buffer_get_size(_buffer);
+    //=========================================================
+    // SWITCH-SAFE PARSE BUFFER (growable copy + "\n\0")
+    //=========================================================
+    // Some targets (Switch) are stricter about buffer_string reads.
+    // If the OBJ doesn't end in whitespace, the final token may not be null-terminated.
+    // Fix: copy into a growable buffer and append '\n' + '\0'.
+    var _src_size = buffer_get_size(_buffer);
+    var _parse = buffer_create(_src_size + 2, buffer_grow, 1);
+    buffer_copy(_buffer, 0, _src_size, _parse, 0);
+    buffer_poke(_parse, _src_size,     buffer_u8, 10); // '\n'
+    buffer_poke(_parse, _src_size + 1, buffer_u8, 0);  // '\0'
+    
+    // From here onward, parse from _parse
+    _buffer = _parse;
+    var _buffer_size = _src_size + 2;
+    //=========================================================
+
     var _old_tell = buffer_tell(_buffer);
     buffer_seek(_buffer, buffer_seek_start, 0);
 
@@ -129,7 +127,6 @@ function DotobjModelLoad()
         if (!_line_started)
         {
             //If we haven't found a valid starting character yet (i.e. a character that has ASCII code > 32)...
-        
             if (_value > 32)
             {
                 //If we find a valid starting character, update the line-start position and start reading the line!
@@ -142,7 +139,12 @@ function DotobjModelLoad()
             if ((_value == 10) || (_value == 13) || (_value == 32) || (_i >= _buffer_size))
             {
                 //Put in a null character at the breaking character so we can easily read the value
-                if (_i < _buffer_size) buffer_poke(_buffer, buffer_tell(_buffer)-1, buffer_u8, 0);
+                //GUARD: never allow buffer_poke at -1
+                if (_i < _buffer_size)
+                {
+                    var _p = buffer_tell(_buffer) - 1;
+                    if (_p >= 0) buffer_poke(_buffer, _p, buffer_u8, 0);
+                }
             
                 //Jump back to the where the value started, then read it in as a string
                 buffer_seek(_buffer, buffer_seek_start, _value_read_start);
@@ -276,11 +278,11 @@ function DotobjModelLoad()
                                 ++_f;
                             }
                         break;
-                    
+
                         case "l": //Line definition
                             if (DOTOBJ_OUTPUT_WARNINGS && !DOTOBJ_IGNORE_LINES) show_debug_message("DotobjModelLoad(): Warning! Line primitives are not currently supported. (ln=" + string(_meta_line) + ")");
                         break;
-                    
+
                         case "g": //Group definition
                             //Build the group name from all the line data
                             var _group_name = "";
@@ -304,7 +306,7 @@ function DotobjModelLoad()
                                 var _mesh_vertexes_array = vertexes_array;
                             }
                         break;
-                    
+
                         case "o": //Object definition
                             //Build the object name from all the line data
                             var _group_name = "";
@@ -335,7 +337,7 @@ function DotobjModelLoad()
                                 show_debug_message("DotobjModelLoad(): Warning! Object \"" + string(_string) + "\" found. Objects are not supported; use groups instead, or set DOTOBJ_OBJECTS_ARE_GROUPS to <true>. (ln=" + string(_meta_line) + ")");
                             }
                         break;
-                    
+
                         case "s": //Section definition
                             if (DOTOBJ_OUTPUT_WARNINGS && !_smoothing_group_error)
                             {
@@ -343,7 +345,7 @@ function DotobjModelLoad()
                                 _smoothing_group_error = true;
                             }
                         break;
-                    
+
                         case "#": //Comments
                             if (DOTOBJ_OUTPUT_COMMENTS)
                             {
@@ -359,7 +361,7 @@ function DotobjModelLoad()
                                 show_debug_message("DotobjModelLoad(): \"" + _string + "\"");
                             }
                         break;
-                    
+
                         case "mtllib":
                             //Build the library name from all the line data
                             var _material_library = _model_directory;
@@ -376,7 +378,7 @@ function DotobjModelLoad()
                             DotobjMaterialLoadFile(_material_library);
                             if (DOTOBJ_OUTPUT_DEBUG) show_debug_message("DotobjModelLoad(): Set material library to \"" + _material_library + "\"");
                         break;
-                    
+
                         case "usemtl":
                             //Build the material name from all the line data
                             var _material_specific = "";
@@ -422,7 +424,7 @@ function DotobjModelLoad()
                             if (_mrgb_buffer == undefined) _mrgb_buffer = buffer_create(1024, buffer_grow, 1);
                             buffer_write(_mrgb_buffer, buffer_text, _line_data_list[| 1]);
                         break;
-                    
+
                         case "maplib":
                         case "usemap":
                             if (DOTOBJ_OUTPUT_WARNINGS && !_map_error)
@@ -431,12 +433,12 @@ function DotobjModelLoad()
                                 _map_error = true;
                             }
                         break;
-                    
+
                         case "shadow_obj":
                         case "trace_obj":
                             if (DOTOBJ_OUTPUT_WARNINGS) show_debug_message("DotobjModelLoad(): Warning! \"" + string(_line_data_list[| 0]) + "\" is an external .obj reference. This is not supported. (ln=" + string(_meta_line) + ")");
                         break;
-                    
+
                         case "vp":
                         case "cstype":
                         case "deg":
@@ -462,17 +464,17 @@ function DotobjModelLoad()
                         case "res":   //Depreciated
                             if (DOTOBJ_OUTPUT_WARNINGS) show_debug_message("DotobjModelLoad(): Warning! \"" + string(_line_data_list[| 0]) + "\" is for mathematical curves/surfaces. This is not supported. (ln=" + string(_meta_line) + ")");
                         break;
-                    
+
                         case "lod":
                             if (DOTOBJ_OUTPUT_WARNINGS) show_debug_message("DotobjModelLoad(): Warning! In-file LODs are not currently supported. (ln=" + string(_meta_line) + ")");
                         break;
-                    
+
                         case "bevel":
                         case "c_interp":
                         case "d_interp":
                             if (DOTOBJ_OUTPUT_WARNINGS) show_debug_message("DotobjModelLoad(): Warning! \"" + string(_line_data_list[| 0]) + "\" is a rendering attribute. This is not supported. (ln=" + string(_meta_line) + ")");
                         break;
-                    
+
                         default: //Something else that we don't recognise!
                             if (DOTOBJ_OUTPUT_WARNINGS) show_debug_message("DotobjModelLoad(): Warning! \"" + string(_line_data_list[| 0]) + "\" is not recognised. (ln=" + string(_meta_line) + ")");
                         break;
@@ -684,14 +686,6 @@ function DotobjModelLoad()
                         var _in_u3 = _texture_list[|  _tex_index_3  ]; //U
                         var _in_v3 = _texture_list[|  _tex_index_3+1]; //V
                         
-                        //Not sure if this is needed, but it's in here just in case
-                        //if (_flip_texcoords)
-                        //{
-                        //    _in_v1 = 1 - _in_v1;
-                        //    _in_v2 = 1 - _in_v2;
-                        //    _in_v3 = 1 - _in_v3;
-                        //}
-                        
                         //Find the position/texture vectors from point 1 to point 2
                         var _x1 = _in_x2 - _in_x1;
                         var _y1 = _in_y2 - _in_y1;
@@ -706,11 +700,9 @@ function DotobjModelLoad()
                         var _u2 = _in_u3 - _in_u1;
                         var _v2 = _in_v3 - _in_v1;
                         
-                        //Uuh... Not sure what this bit does...
                         var _r = _u1*_v2 - _u2*_v1;
                         if (_r != 0)
                         {
-                            //Speeeeeeed
                             _r = 1/_r;
                             
                             var _tx = (_v2*_x1 - _v1*_x2) * _r
@@ -721,39 +713,15 @@ function DotobjModelLoad()
                             var _by = (_u1*_y2 - _u2*_y1) * _r
                             var _bz = (_u1*_z2 - _u2*_z1) * _r
                             
-                            //show_debug_message("t = " + string(_tx) + "," + string(_ty) + "," + string(_tz));
-                            //show_debug_message("b = " + string(_bx) + "," + string(_by) + "," + string(_bz));
-                            
-                            //Update the tangents I guess?
                             _tangent_list[|   _pos_index_1] += _tx;
                             _tangent_list[|   _pos_index_2] += _ty;
                             _tangent_list[|   _pos_index_3] += _tz;
                             
-                            //And the bitangents too, why not  
                             _bitangent_list[| _pos_index_1] += _bx;
                             _bitangent_list[| _pos_index_2] += _by;
                             _bitangent_list[| _pos_index_3] += _bz;
                         }
-                        //else
-                        //{
-                        //    //I don't think this warning is meaningful
-                        //    //We get (r==0) values when texture coordinates for a triangle are degenerate, and
-                        //    // in those situations we probably want to not adjust the position's tangent/bitangent
-                        //    if (DOTOBJ_OUTPUT_WARNINGS)
-                        //    {
-                        //        show_debug_message("DotobjModelLoad(): WARNING! (r == 0), input values follow:");
-                        //        show_debug_message("                     " + string(_in_u1) + ", " + string(_in_v1));
-                        //        show_debug_message("                     " + string(_in_u2) + ", " + string(_in_v2));
-                        //        show_debug_message("                     " + string(_in_u3) + ", " + string(_in_v3));
-                        //        show_debug_message("                     -->");
-                        //        show_debug_message("                     " + string(_u1) + ", " + string(_v1));
-                        //        show_debug_message("                     " + string(_u2) + ", " + string(_v2));
-                        //        show_debug_message("                     -->");
-                        //        show_debug_message("                     " + string(_u1*_v2) + " - " + string(_u2*_v1));
-                        //    }
-                        //}
                         
-                        //Next triangle!
                         _i += 6;
                     }
                 }
@@ -820,9 +788,6 @@ function DotobjModelLoad()
                     _line_counter++;
                 }
                 
-                //N.B. This whole vertex decoding thing that uses strings can probably be done earlier by parsing data as it comes out of the buffer
-                //     This can definitely be improved in terms of speed!
-            
                 //Get the vertex string, and count how many slashes it contains
                 var _vertex_string = _mesh_vertexes_array[_i];
                 _i++;
@@ -830,26 +795,21 @@ function DotobjModelLoad()
                 var _slash_count = string_count("/", _vertex_string);
                 if (_slash_count == 0)
                 {
-                    //If there are no slashes in the string, then it's a simple vertex position definition
                     _v_index = _vertex_string;
                     _t_index = undefined;
                     _n_index = undefined;
                 }
                 else if (_slash_count == 1)
                 {
-                    //If there's one slash in the string, then it's a position + texture coordinate definition
                     _v_index = string_copy(  _vertex_string, 1, string_pos("/", _vertex_string)-1);
                     _t_index = string_delete(_vertex_string, 1, string_pos("/", _vertex_string)  );
                     _n_index = undefined;
                 }
                 else if (_slash_count == 2)
                 {
-                    //If there're two slashes in the string, then it could be one of two things...
-                
                     var _double_slash_count = string_count("//", _vertex_string);
                     if (_double_slash_count == 0)
                     {
-                        //If we find no double slashes then this is a position + UV + normal defintion
                         _v_index       = string_copy(  _vertex_string, 1, string_pos( "/", _vertex_string)-1);
                         _vertex_string = string_delete(_vertex_string, 1, string_pos( "/", _vertex_string)  );
                         _t_index       = string_copy(  _vertex_string, 1, string_pos( "/", _vertex_string)-1);
@@ -857,7 +817,6 @@ function DotobjModelLoad()
                     }
                     else if (_double_slash_count == 1)
                     {
-                        //If we find a single double slash then this is a position + normal defintion
                         _vertex_string = string_replace(_vertex_string, "//", "/" );
                         _v_index       = string_copy(   _vertex_string, 1, string_pos("/", _vertex_string)-1);
                         _t_index       = undefined;
@@ -881,11 +840,9 @@ function DotobjModelLoad()
                     continue;
                 }
                 
-                //If we've got any blank strings set the indices to 0
                 if ((_n_index == "") || (_n_index == undefined)) _n_index = 0;
                 if ((_t_index == "") || (_t_index == undefined)) _t_index = 0;
                 
-                //Some .obj file use negative references to look at data recently defined. This isn't supported!
                 if ((_v_index < 0) || (_n_index < 0) || (_t_index < 0))
                 {
                     ++_negative_references;
@@ -897,13 +854,10 @@ function DotobjModelLoad()
                 _n_index = 3*floor(real(_n_index));
                 _t_index = 2*floor(real(_t_index));
                 
-                //Write the position
-                _vx = _position_list[| _v_index  ]; //X
-                _vy = _position_list[| _v_index+1]; //Y
-                _vz = _position_list[| _v_index+2]; //Z
+                _vx = _position_list[| _v_index  ];
+                _vy = _position_list[| _v_index+1];
+                _vz = _position_list[| _v_index+2];
                 
-                //If we have some invalid data, log the warning, and move on to the next vertex
-                //(Incidentally, if the position data is broken then the colour data will be broken too)
                 if ((_vx == undefined) || (_vy == undefined) || (_vz == undefined))
                 {
                     ++_missing_positions;
@@ -912,14 +866,12 @@ function DotobjModelLoad()
                 
                 vertex_position_3d(_vbuff, _vx, _vy, _vz);
                 
-                //Write the normal
                 if (_n_index >= 0)
                 {
-                    _nx = _normal_list[| _n_index  ]; //Normal X
-                    _ny = _normal_list[| _n_index+1]; //Normal Y
-                    _nz = _normal_list[| _n_index+2]; //Normal Z
+                    _nx = _normal_list[| _n_index  ];
+                    _ny = _normal_list[| _n_index+1];
+                    _nz = _normal_list[| _n_index+2];
                     
-                    //If we have some invalid data, log the warning, then default to (0,0,0)
                     if ((_nx == undefined) || (_ny == undefined) || (_nz == undefined))
                     {
                         ++_missing_normals;
@@ -931,20 +883,17 @@ function DotobjModelLoad()
                 
                 vertex_normal(_vbuff, _nx, _ny, _nz);
             
-                //Write the colour
-                _cr = _colour_list[| _c_index  ]*255; //Red
-                _cg = _colour_list[| _c_index+1]*255; //Green
-                _cb = _colour_list[| _c_index+2]*255; //Blue
-                _ca = _colour_list[| _c_index+3];     //Alpha
+                _cr = _colour_list[| _c_index  ]*255;
+                _cg = _colour_list[| _c_index+1]*255;
+                _cb = _colour_list[| _c_index+2]*255;
+                _ca = _colour_list[| _c_index+3];
                 vertex_colour(_vbuff, make_colour_rgb(_cr, _cg, _cb), _ca);
             
-                //Write the UVs
                 if (_t_index >= 0) 
                 {
-                    _tx = _texture_list[| _t_index  ]; //U
-                    _ty = _texture_list[| _t_index+1]; //V
+                    _tx = _texture_list[| _t_index  ];
+                    _ty = _texture_list[| _t_index+1];
                     
-                    //If we have some invalid data, log the warning, then default to (0,0)
                     if ((_tx == undefined) || (_ty == undefined))
                     {
                         ++_missing_uvs;
@@ -959,7 +908,6 @@ function DotobjModelLoad()
                 
                 vertex_texcoord(_vbuff, _tx, _ty);
                 
-                //Write the tangent, including handedness
                 if (_write_tangents)
                 {
                     if (_write_null_tangent)
@@ -968,7 +916,6 @@ function DotobjModelLoad()
                     }
                     else
                     {
-                        //Fetch our tangent/bitangent values for this position
                         var _tx = _tangent_list[| _v_index  ];
                         var _ty = _tangent_list[| _v_index+1];
                         var _tz = _tangent_list[| _v_index+2];
@@ -977,14 +924,6 @@ function DotobjModelLoad()
                         var _by = _bitangent_list[| _v_index+1];
                         var _bz = _bitangent_list[| _v_index+2];
                         
-                        //show_debug_message("in normal     = " + string(_nx) + "," + string(_ny) + "," + string(_nz));
-                        //show_debug_message("in tangent    = " + string(_tx) + "," + string(_ty) + "," + string(_tz));
-                        //show_debug_message("in bitangent  = " + string(_bx) + "," + string(_by) + "," + string(_bz));
-                        
-                        //"Gram-Schmidt orthogonalize"... apparently
-                        //        dot = normal.tangent
-                        //    tangent = tangent - normal*dot
-                        //    tangent = normalize(tangent)
                         var _dot = dot_product_3d(_nx, _ny, _nz,   _tx, _ty, _tz);
                         _tx -= _nx * _dot;
                         _ty -= _ny * _dot;
@@ -998,39 +937,25 @@ function DotobjModelLoad()
                             _tz /= _length;
                         }
                 
-                        //Figure out the handedness of the bitangent
-                        //    cross = n x tan1
-                        //      dot = cross . tan2
-                        //     hand = (dot < 0)? -1 : 1
                         var _cross_x = _ny*_tz - _nz*_ty;
                         var _cross_y = _nz*_tx - _nx*_tz;
                         var _cross_z = _nx*_ty - _ny*_tx;
                         var _dot = dot_product_3d(_cross_x, _cross_y, _cross_z, _bx, _by, _bz)
                         var _handedness = (_dot < 0)? -1 : 1;
                         
-                        //Actually write the data!
                         vertex_float4(_vbuff, _tx, _ty, _tz, _handedness);
-                        
-                        //show_debug_message("out tangent = " + string(_tx) + "," + string(_ty) + "," + string(_tz) + ", handedness = " + string(_handedness));
                     }
                 }
             }
             
-            //Once we've finished iterating over the triangles, finish our vertex buffer
             vertex_end(_vbuff);
-        
-            //Clean up memory for meshes
             _mesh_struct.vertexes_array = undefined;
-            
-            //Move to the next mesh
             ++_mesh;
         }
     
-        //Move to the next group
         ++_g;
     }
 
-    //Update axis-aligned bounding box variables
     with(_model_struct.aabb)
     {
         x1 = _aabb_x1;
@@ -1040,10 +965,7 @@ function DotobjModelLoad()
         y2 = _aabb_y2;
         z2 = _aabb_z2;
     }
-    
-    //show_debug_message("DotobjModelLoad(): AABB = " + string(_aabb_x1) + ", " + string(_aabb_y1) + ", "+ string(_aabb_z1) + " --> " + string(_aabb_x2) + ", " + string(_aabb_y2) + ", "+ string(_aabb_z2));
 
-    //Clean up our data structures
     ds_list_destroy(_position_list );
     ds_list_destroy(_colour_list   );
     ds_list_destroy(_normal_list   );
@@ -1061,10 +983,12 @@ function DotobjModelLoad()
         buffer_delete(_mrgb_buffer);
     }
     
-    //Return to the old tell position for the buffer
+    // Return tell position (not super meaningful now that we're parsing a copy, but harmless)
     buffer_seek(_buffer, buffer_seek_start, _old_tell);
-    
-    //Report errors if we found any
+
+    // IMPORTANT: delete our parse buffer copy
+    buffer_delete(_parse);
+
     if (DOTOBJ_OUTPUT_WARNINGS)
     {
         if (_negative_references > 0) show_debug_message("DotobjModelLoad(): Warning! .obj had negative position references (x" + string(_negative_references) + ")");
@@ -1073,9 +997,7 @@ function DotobjModelLoad()
         if (_missing_uvs         > 0) show_debug_message("DotobjModelLoad(): Warning! .obj referenced missing UVs (x"           + string(_missing_uvs        ) + ")");
     }
 
-    //If we want to report the load time, do it!
     if (DOTOBJ_OUTPUT_LOAD_TIME) show_debug_message("DotobjModelLoad(): lines=" + string(_meta_line) + ", groups=" + string(array_length(_groups_array)) + ", vertex buffers=" + string(_meta_vertex_buffers) + ", triangles=" + string(_meta_triangles) + ". Time to load was " + string((get_timer() - _timer)/1000) + "ms");
 
-    //Return our data
     return _model_struct;
 }

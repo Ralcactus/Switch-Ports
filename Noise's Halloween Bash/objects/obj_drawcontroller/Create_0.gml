@@ -251,13 +251,29 @@ function update_cam(arg0 = true, arg1 = true)
         var _xTo = _xOff + (dcos(camYAW) * dcos(camPITCH));
         var _yTo = _yOff - dsin(camPITCH);
         var _zTo = camZ - (dsin(camYAW) * dcos(camPITCH));
+		camera_set_view_size(camera, get_game_width(), get_game_height());
+		
         var _cW = camera_get_view_width(camera);
         var _cH = camera_get_view_height(camera);
-        viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, -1, 0);
-		viewMat = matrix_multiply(viewMat, matrix_build(0, 0, 0, 0, 0, 0, -1, 1, 1));
-        projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
+		
+		camAsp = _cW / _cH;
+		projMat = matrix_build_projection_perspective_fov(camFov, camAsp, 1, 32000);
+		
+		if (os_type == os_windows){
+		    var flippery = matrix_build(0, 0, 0, 0, 0, 0, -1, 1, 1);
+		    projMat = matrix_multiply(flippery, projMat);
+			
+		}
+	
+		if (os_type != os_windows)
+		    viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, 1, 0);
+		else
+		    viewMat = matrix_build_lookat(_xFrom, _yFrom, _zFrom, _xTo, _yTo, _zTo, 0, -1, 0);
+
+
+
         view2D = matrix_build_lookat(_cW / 2, _cH / 2, -16000, _cW / 2, _cH / 2, 0, 0, 1, 0);
-        proj2D = matrix_build_projection_ortho(_cW, -_cH, 1, 32000);
+        proj2D = matrix_build_projection_ortho(_cW, _cH, 1, 32000);
     }
     
     if (arg1)
@@ -348,79 +364,114 @@ function draw_background()
     }
     
     surface_reset_target();
-    draw_surface_ext(bgsurf, 0, get_game_height(), 1, -1, 0, c_white, 1);
+    draw_surface(bgsurf, 0, 0);
 }
 
 function draw_tiles()
 {
     var _roomind = array_find_pos(global.levelrooms, room);
+
     gpu_push_state();
-	matrix_set(matrix_world, matrix_build_identity())
-	matrix_set(matrix_view, viewMat)
-	matrix_set(matrix_projection, projMat)
-	gpu_set_ztestenable(true)
-	gpu_set_zwriteenable(true)
-	gpu_set_cullmode(cull_noculling)
-	gpu_set_blendenable(false)
+    matrix_set(matrix_world, matrix_build_identity());
+    matrix_set(matrix_view, viewMat);
+    matrix_set(matrix_projection, projMat);
+	
+    gpu_set_ztestenable(true);
+    gpu_set_zwriteenable(true);
+    gpu_set_cullmode(cull_noculling);
+    gpu_set_blendenable(false);
+
     shader_set(shd_3dtiles);
     shader_set_uniform_i(outlineTileOutlining, global.outlineDrawing);
     shader_set_uniform_f(u_tileLightLevel, globallight);
-    
+
     if (array_get_undefined(vBuffTiles, _roomind) != undefined && array_get_undefined(roomTileset, _roomind) != -1 && array_get_undefined(roomTileset, _roomind) != undefined)
         vertex_submit(vBuffTiles[_roomind], pr_trianglelist, tileset_get_texture(roomTileset[_roomind]));
-    
-    with (obj_jegplayer)
-        event_user(0);
-    
+
     shader_reset();
     gpu_pop_state();
-}
+    matrix_set(matrix_world, matrix_build_identity());
+    matrix_set(matrix_view, view2D);
+    matrix_set(matrix_projection, proj2D);
 
+	if (os_type == os_switch){
+		gpu_set_ztestenable(false);
+		gpu_set_zwriteenable(false);
+		gpu_set_cullmode(cull_noculling);
+		gpu_set_blendenable(true);
+		shader_reset();		
+	}
+	
+    with (obj_jegplayer)
+        event_user(0);
+}
 function draw_models()
 {
-    var _objects = 
-	[
-		par_bouncysolid, 
-		obj_endplatform, 
-		obj_deathplatform, 
-		obj_deathplatformend, 
-		obj_movingplatformguy, 
-		obj_outhouse, 
-		par_switchsolid
-	];
+    var _objects =
+    [
+        par_bouncysolid,
+        obj_endplatform,
+        obj_deathplatform,
+        obj_deathplatformend,
+        obj_movingplatformguy,
+        obj_outhouse,
+        par_switchsolid
+    ];
 
-	var _num = 0
-	for (var i = 0; i < array_length(_objects); i++)
-		_num += collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), _objects[i], false, true, global.instancelist, false);
+    var _num = 0;
+    for (var i = 0; i < array_length(_objects); i++)
+        _num += collision_circle_list(camX, camY, max(global.maxscreenwidth, global.maxscreenheight), _objects[i], false, true, global.instancelist, false);
 
-	gpu_push_state()
-	matrix_set(matrix_world, matrix_build_identity())
-	matrix_set(matrix_view, viewMat)
-	matrix_set(matrix_projection, projMat)
-	gpu_set_ztestenable(true)
-	gpu_set_zwriteenable(true)
-	gpu_set_cullmode(cull_noculling)
+    gpu_push_state();
+    matrix_set(matrix_world, matrix_build_identity());
+    matrix_set(matrix_view, viewMat);
+    matrix_set(matrix_projection, projMat);
+    gpu_set_ztestenable(true);
+    gpu_set_zwriteenable(true);
+    gpu_set_cullmode(cull_noculling);
 
     for (var i = 0; i < _num; i++)
     {
         with (global.instancelist[| i])
         {
-            if (!visible)
-                continue;
-            
+            if (!visible) 
+				continue;
+				
             event_user(0);
         }
     }
-    
-	with (obj_titlescreen)
-	{
-	    if (visible) 
-			event_user(0);
-	}
 
-	ds_list_clear(global.instancelist);
-	gpu_pop_state();
+    ds_list_clear(global.instancelist);
+
+	if (os_type == os_windows)
+	{
+	    with (obj_titlescreen)
+	    {
+	        if (visible)
+	            event_user(0);
+	    }
+	}
+	
+    gpu_pop_state();
+    matrix_set(matrix_world, matrix_build_identity());
+    matrix_set(matrix_view, view2D);
+    matrix_set(matrix_projection, proj2D);
+	
+	if (os_type != os_windows){
+		gpu_set_ztestenable(false);
+		gpu_set_zwriteenable(false);
+		gpu_set_cullmode(cull_noculling);
+		gpu_set_blendenable(true);
+		shader_reset();
+
+		with (obj_titlescreen)
+		{
+			if (visible)
+			    event_user(0);
+		}	
+	}
 }
+
 
 function draw_assets()
 {

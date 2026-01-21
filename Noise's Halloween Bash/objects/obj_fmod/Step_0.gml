@@ -1,3 +1,4 @@
+/*
 fmod_studio_system_set_parameter_by_name("mastermute", global.unfocusedmute && !window_has_focus(), false);
 
 if (global.musicattenuation)

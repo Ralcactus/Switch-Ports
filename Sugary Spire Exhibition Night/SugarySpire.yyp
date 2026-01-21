@@ -855,6 +855,7 @@
     {"id":{"name":"spr_tvHUD_weakSignal","path":"sprites/spr_tvHUD_weakSignal/spr_tvHUD_weakSignal.yy",},},
     {"id":{"name":"shdVideo","path":"shaders/shdVideo/shdVideo.yy",},},
     {"id":{"name":"spr_thundercloud_scared","path":"sprites/spr_thundercloud_scared/spr_thundercloud_scared.yy",},},
+    {"id":{"name":"Sprite1926","path":"sprites/Sprite1926/Sprite1926.yy",},},
     {"id":{"name":"spr_candysona_dead28","path":"sprites/spr_candysona_dead28/spr_candysona_dead28.yy",},},
     {"id":{"name":"bgwafer_escape1","path":"sprites/bgwafer_escape1/bgwafer_escape1.yy",},},
     {"id":{"name":"spr_tvHUD_player_PZ_idleAnim_1","path":"sprites/spr_tvHUD_player_PZ_idleAnim_1/spr_tvHUD_player_PZ_idleAnim_1.yy",},},

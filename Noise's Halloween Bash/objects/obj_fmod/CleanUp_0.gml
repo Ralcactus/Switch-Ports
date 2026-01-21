@@ -1,3 +1,4 @@
+/*
 var _events = ds_map_keys_to_array(global.sound_map);
 
 for (var i = 0; i < array_length(_events); i++)
