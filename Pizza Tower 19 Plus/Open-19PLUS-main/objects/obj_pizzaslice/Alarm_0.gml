@@ -1,1 +1,0 @@
-cancollect = 1;

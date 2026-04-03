@@ -1,1 +1,0 @@
-yellow_flash = false;

@@ -1,1 +1,0 @@
-npc_jerald("mines", "Sugarshack Mines")

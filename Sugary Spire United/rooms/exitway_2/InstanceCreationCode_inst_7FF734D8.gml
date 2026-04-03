@@ -1,1 +1,0 @@
-targetRoom = exitway_3;

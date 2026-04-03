@@ -1,5 +1,0 @@
-function anon_gml_RoomCC_estate_secret1_2_Create_9_gml_RoomCC_estate_secret1_2_Create() //gml_Script_anon_gml_RoomCC_estate_secret1_2_Create_9_gml_RoomCC_estate_secret1_2_Create
-{
-	gml_Script_portal_activate(120297, 1)
-}
-

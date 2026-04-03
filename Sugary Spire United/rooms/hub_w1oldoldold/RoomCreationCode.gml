@@ -1,1 +1,0 @@
-global.harrycolor = 0;

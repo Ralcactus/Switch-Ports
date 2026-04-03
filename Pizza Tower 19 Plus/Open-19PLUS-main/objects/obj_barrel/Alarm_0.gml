@@ -1,1 +1,0 @@
-barrelspawn = 1;

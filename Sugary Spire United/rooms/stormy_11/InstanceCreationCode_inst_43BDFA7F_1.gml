@@ -1,1 +1,0 @@
-targetRoom = stormy_10;

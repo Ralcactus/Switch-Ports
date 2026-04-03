@@ -1,1 +1,0 @@
-npc_jerald("bee", "Sting Operation")

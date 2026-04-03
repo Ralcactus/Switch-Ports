@@ -1,1 +1,0 @@
-targetRoom = dance_10;

@@ -1,1 +1,0 @@
-showtext = false;

@@ -1,1 +1,0 @@
-targetRoom = newtutorial_3;

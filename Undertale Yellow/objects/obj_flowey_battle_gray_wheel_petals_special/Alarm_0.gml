@@ -1,1 +1,0 @@
-hit_flash = false;

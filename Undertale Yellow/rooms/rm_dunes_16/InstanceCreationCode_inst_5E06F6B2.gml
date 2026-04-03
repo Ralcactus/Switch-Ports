@@ -1,1 +1,0 @@
-minecart_direction = "right";

@@ -1,2 +1,0 @@
-instance_destroy(obj_ceroba_phase_2_p1_circling_lantern);
-instance_destroy(obj_ceroba_attack_fireball);

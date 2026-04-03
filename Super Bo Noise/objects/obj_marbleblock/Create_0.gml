@@ -1,1 +1,0 @@
-playerindex = 0

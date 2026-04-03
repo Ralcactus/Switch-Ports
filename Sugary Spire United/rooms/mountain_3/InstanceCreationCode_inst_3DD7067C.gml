@@ -1,1 +1,0 @@
-targetRoom = mountain_2;

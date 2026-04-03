@@ -1,1 +1,0 @@
-global.coneblock = 0

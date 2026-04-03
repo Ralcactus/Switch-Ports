@@ -1,1 +1,0 @@
-npc_jerald("martian", "Martian Outpost")

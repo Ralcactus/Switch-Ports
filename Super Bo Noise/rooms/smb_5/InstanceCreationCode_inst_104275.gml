@@ -1,1 +1,0 @@
-targetRoom = smb_3

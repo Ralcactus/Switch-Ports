@@ -1,1 +1,0 @@
-collider_type = "red";

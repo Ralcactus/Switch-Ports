@@ -1,4 +1,0 @@
-with (self.create_afterimage(x, y, sprite_index, 0))
-    image_xscale = other.image_xscale
-flash = 1
-alarm[1] = 10

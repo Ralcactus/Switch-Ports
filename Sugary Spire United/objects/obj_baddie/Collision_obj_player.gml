@@ -1,2 +1,0 @@
-if (obj_player.state == states.cottondrill || obj_player.state == states.coneboy_inhale115 || obj_player.state == states.frostburn || obj_player.state == states.cookiemount || obj_player.state == states.cookiemountfireass || obj_player.state == states.cookiemountattack)
-	instance_destroy();

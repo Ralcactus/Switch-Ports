@@ -1,1 +1,0 @@
-stickpressed = 0;

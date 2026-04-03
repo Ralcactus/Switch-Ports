@@ -1,1 +1,0 @@
-puzzlecount = 0;

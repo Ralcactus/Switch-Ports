@@ -1,2 +1,0 @@
-script_execute(scr_battle_core_directory_enemy_attack_start);
-instance_destroy();

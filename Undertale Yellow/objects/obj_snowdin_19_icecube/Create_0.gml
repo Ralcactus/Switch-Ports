@@ -1,2 +1,0 @@
-shrink = false;
-active = false;

@@ -1,2 +1,0 @@
-abletomove = true;
-showtext = true;

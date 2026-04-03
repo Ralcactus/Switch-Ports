@@ -1,9 +1,0 @@
-targetRoom = water_1
-sprite_index = spr_gate_water
-titlecard_sprite = spr_titlecards
-titlecard_index = 1
-title_sprite = spr_titlecards_title
-title_index = 1
-group_arr = ["fishgroup"]
-title_music = water_titlecard
-level = "fish"

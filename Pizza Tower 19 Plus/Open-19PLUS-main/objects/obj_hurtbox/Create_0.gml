@@ -1,1 +1,0 @@
-hurttype = 0;

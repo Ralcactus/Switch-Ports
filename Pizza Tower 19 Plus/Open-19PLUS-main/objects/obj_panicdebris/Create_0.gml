@@ -1,2 +1,0 @@
-randomise();
-start = 0;

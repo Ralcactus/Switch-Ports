@@ -1,1 +1,0 @@
-triggerdistance = 300

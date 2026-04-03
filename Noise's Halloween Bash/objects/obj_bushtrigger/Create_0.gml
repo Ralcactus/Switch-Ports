@@ -1,1 +1,0 @@
-playerinside = false;

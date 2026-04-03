@@ -1,1 +1,0 @@
-audio_stop_sound(snd_chargeshot_charge);

@@ -1,4 +1,0 @@
-instance_destroy(obj_battle_enemy_attack_tellyvis_logo_white);
-instance_destroy(obj_battle_enemy_attack_tellyvis_logo_blue);
-instance_destroy(obj_battle_enemy_attack_tellyvis_logo_orange);
-instance_destroy();

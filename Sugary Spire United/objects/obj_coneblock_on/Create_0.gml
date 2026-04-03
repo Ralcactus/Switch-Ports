@@ -1,1 +1,0 @@
-state = global.coneblock;

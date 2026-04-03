@@ -1,1 +1,0 @@
-targetRoom = estate_6_old;

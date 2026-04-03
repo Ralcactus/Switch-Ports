@@ -1,1 +1,0 @@
-shaky_text = false;

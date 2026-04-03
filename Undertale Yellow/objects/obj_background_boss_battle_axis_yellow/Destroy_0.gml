@@ -1,1 +1,0 @@
-instance_destroy(obj_bacgkround_boss_battle_axis_number_spawner);

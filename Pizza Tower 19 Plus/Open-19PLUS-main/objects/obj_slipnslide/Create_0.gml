@@ -1,9 +1,0 @@
-jump = 0;
-hsp = 0;
-vsp = 0;
-grav = 0.4;
-grounded = 0;
-image_speed = 0;
-baddieID = noone;
-banana = 0;
-important = 0;

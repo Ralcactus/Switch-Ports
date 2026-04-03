@@ -1,2 +1,0 @@
-hurted = false
-keyParticles = false

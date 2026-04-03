@@ -1,2 +1,0 @@
-instance_destroy(obj_battle_enemy_attack_ceroba_diamond);
-instance_destroy(obj_battle_enemy_attack_ceroba_white_soul);

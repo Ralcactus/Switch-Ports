@@ -1,1 +1,0 @@
-targetRoom = plain_3

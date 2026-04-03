@@ -1,1 +1,0 @@
-targetRoom = faketut_2

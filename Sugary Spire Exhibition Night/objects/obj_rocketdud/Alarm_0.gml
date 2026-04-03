@@ -1,1 +1,0 @@
-collide = 1

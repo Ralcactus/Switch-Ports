@@ -1,2 +1,0 @@
-playercollided = false;
-playerfell = false;

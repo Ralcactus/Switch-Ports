@@ -1,5 +1,0 @@
-ini_open("silversave.ini")
-ini_write_real("Collects", ID, 1)
-scr_controlprompt("[spr_promptfont]See you soon...")
-ini_close()
-instance_destroy()

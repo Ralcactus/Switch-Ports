@@ -1,1 +1,0 @@
-draw_sprite_ext(spr_loadbar, 4 - ((array_length(tex_list) / tex_max) * 4), 896, 448, 1, 1, 0, c_white, 1);

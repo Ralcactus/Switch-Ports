@@ -1,2 +1,0 @@
-if (other.state == (41 << 0))
-    sprite_index = spr_pizzaportalentrancestart

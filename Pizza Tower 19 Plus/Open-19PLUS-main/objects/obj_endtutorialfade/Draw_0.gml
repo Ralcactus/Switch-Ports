@@ -1,1 +1,0 @@
-draw_sprite_stretched_ext(spr_1x1, 0, camera_get_view_x(view_camera[1]), camera_get_view_y(view_camera[1]), camera_get_view_width(view_camera[1]), camera_get_view_height(view_camera[1]), c_white, fadealpha);

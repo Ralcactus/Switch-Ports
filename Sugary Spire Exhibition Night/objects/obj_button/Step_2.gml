@@ -1,1 +1,0 @@
-logicOutput = currentState == PlayerState.normal

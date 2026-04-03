@@ -1,1 +1,0 @@
-toggle_collision_function();

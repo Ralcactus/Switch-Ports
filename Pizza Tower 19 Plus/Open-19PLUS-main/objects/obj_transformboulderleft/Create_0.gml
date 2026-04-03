@@ -1,9 +1,0 @@
-hsp = 0;
-vsp = 0;
-grav = 0.4;
-startx = x;
-starty = y;
-grounded = 0;
-movespeed = 10;
-image_xscale = -1;
-image_speed = 0.2;

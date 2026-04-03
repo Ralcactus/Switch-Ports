@@ -1,9 +1,0 @@
-targetRoom = virtualinsanity;
-active = true;
-touched = false;
-playerid = noone;
-isexit = false;
-depth = 50;
-image_speed = 0.35;
-darkalpha = 1;
-foundsecret = false;

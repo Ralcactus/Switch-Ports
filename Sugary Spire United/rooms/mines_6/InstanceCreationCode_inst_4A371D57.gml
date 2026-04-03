@@ -1,1 +1,0 @@
-targetRoom = mines_7;

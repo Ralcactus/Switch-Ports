@@ -1,1 +1,0 @@
-x -= wind_speed;

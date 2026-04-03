@@ -1,1 +1,0 @@
-targetdoor = image_index;
