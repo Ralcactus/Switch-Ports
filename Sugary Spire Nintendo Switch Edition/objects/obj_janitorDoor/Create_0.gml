@@ -1,0 +1,10 @@
+image_index = 0
+image_speed = 0.35
+depth = 8
+spriteDoorUnlocked = spr_worlddoor_open
+spriteDoorLocked = spr_worlddoor_closed
+spriteDoorEscape = spr_worlddoor_closed
+spriteDoorLight = spr_null
+spriteDoorLock = spr_worlddoor_lock
+sprite_index = spriteDoorLocked
+lightIndex = 0

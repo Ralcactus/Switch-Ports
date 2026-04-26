@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sound_slaphit",
+  "audioGroupId":{
+    "name":"group_sfx",
+    "path":"audiogroups/group_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.244,
+  "exportDir":"",
+  "name":"sound_slaphit",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/NX/Fmod Remake/Audio/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_slaphit.wav",
+  "volume":1.0,
+}

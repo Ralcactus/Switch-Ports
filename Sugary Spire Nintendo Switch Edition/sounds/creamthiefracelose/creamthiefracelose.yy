@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"creamthiefracelose",
+  "audioGroupId":{
+    "name":"group_sfx",
+    "path":"audiogroups/group_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.444,
+  "exportDir":"",
+  "name":"creamthiefracelose",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/NX/Fmod Remake/Audio/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"creamthiefracelose.wav",
+  "volume":1.0,
+}

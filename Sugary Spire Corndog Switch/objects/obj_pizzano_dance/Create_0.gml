@@ -1,0 +1,16 @@
+pizz_x = -5;
+pizz_y = 800;
+xstart = pizz_x;
+ystart = pizz_y;
+depth = obj_roomnames.depth + 1;
+image_speed = 0.35;
+state = UnknownEnum.Value_1;
+trapX = 0;
+trapY = 0;
+shot = false;
+botcount = instance_number(obj_pizzanotrap_botspawn);
+botsactive = true;
+botthrown = false;
+leave = false;
+timeleft = time_in_frames(0, 30);
+maxtime = timeleft;

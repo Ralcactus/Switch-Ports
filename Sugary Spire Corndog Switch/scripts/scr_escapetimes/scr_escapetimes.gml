@@ -1,0 +1,122 @@
+function scr_escapetimes(arg0 = room)
+{
+    var seconds = 0;
+    var minutes = 0;
+    
+    switch (arg0)
+    {
+        case steamy_12:
+            minutes = 4;
+            seconds = 0;
+            break;
+        
+        case entryway_11:
+            minutes = 3;
+            seconds = 0;
+            break;
+        
+        case molasses_9:
+            minutes = 5;
+            seconds = 0;
+            break;
+        
+        case mineshaft_12:
+            minutes = 5;
+            seconds = 45;
+            break;
+        
+        case dragonlair_2:
+            minutes = 15;
+            seconds = 30;
+            break;
+        
+        case mountain_11:
+            minutes = 5;
+            seconds = 0;
+            break;
+        
+        case entryway_1:
+            minutes = 5;
+            seconds = 0;
+            break;
+        
+        case sucrose_2:
+            minutes = 7;
+            seconds = 30;
+            break;
+        
+        case dance_pillar:
+            minutes = 4;
+            seconds = 0;
+            break;
+        
+        case cafe_10:
+            minutes = 4;
+            seconds = 30;
+            break;
+        
+        case bee_12:
+            minutes = 4;
+            seconds = 0;
+            break;
+        
+        case souractive_G8:
+            minutes = 4;
+            seconds = 30;
+            break;
+        
+        default:
+            minutes = 3;
+            seconds = 0;
+            break;
+    }
+    
+    var time_array;
+    time_array[0] = minutes;
+    time_array[1] = seconds;
+    return time_array;
+}
+
+function scr_laptimes(arg0 = room)
+{
+    var seconds = 0;
+    var minutes = 0;
+    
+    switch (arg0)
+    {
+        case entryway_portal:
+            minutes = 0;
+            seconds = 45;
+            break;
+        
+        case steamy_portal:
+            minutes = 1;
+            seconds = 0;
+            break;
+        
+        case molasses_1:
+            minutes = 1;
+            seconds = 20;
+            break;
+        
+        case mines_1:
+            minutes = 1;
+            seconds = 45;
+            break;
+        
+        case sucrose_portal:
+            minutes = 2;
+            seconds = 30;
+            break;
+        
+        default:
+            minutes = 0;
+            seconds = 45;
+            break;
+    }
+    
+    var time_array;
+    time_array[0] = minutes;
+    time_array[1] = seconds;
+    return time_array;
+}

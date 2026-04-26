@@ -1,0 +1,11 @@
+fmod_event_stop(global.RankMusicInst, false);
+scr_hatScript();
+global.levelname = "none";
+obj_parent_player.targetDoor = "A";
+obj_parent_player.targetRoom = hub_w1;
+instance_create(x, y, obj_fadeoutTransition);
+alarm[0] = -1;
+alarm[1] = -1;
+alarm[2] = -1;
+alarm[3] = -1;
+alarm[5] = -1;

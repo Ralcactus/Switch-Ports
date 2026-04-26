@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"samba_de_spire",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":56.472,
+  "exportDir":"",
+  "name":"samba_de_spire",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"samba_de_spire.wav",
+  "volume":1.0,
+}

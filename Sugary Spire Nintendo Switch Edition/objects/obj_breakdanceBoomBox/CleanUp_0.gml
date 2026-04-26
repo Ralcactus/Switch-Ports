@@ -1,0 +1,3 @@
+fmod_studio_event_instance_set_paused(songInst, false)
+fmod_studio_event_instance_stop(songInst, FMOD_STUDIO_STOP_MODE.ALLOWFADEOUT)
+fmod_studio_event_instance_release(songInst)

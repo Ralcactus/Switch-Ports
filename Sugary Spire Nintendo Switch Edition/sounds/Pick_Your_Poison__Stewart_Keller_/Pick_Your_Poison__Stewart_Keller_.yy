@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Pick_Your_Poison__Stewart_Keller_",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":91.00933,
+  "exportDir":"",
+  "name":"Pick_Your_Poison__Stewart_Keller_",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Pick_Your_Poison__Stewart_Keller_.wav",
+  "volume":1.0,
+}

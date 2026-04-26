@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"string_height_scribble_ext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"string_height_scribble_ext",
+  "parent":{
+    "name":"Scribble",
+    "path":"folders/Scribble.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

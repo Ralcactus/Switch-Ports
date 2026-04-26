@@ -1,0 +1,11 @@
+image_speed = 0
+playerID = -4
+count = 0
+collectSpeed = 25
+movespeed = 0
+dirAdj = -1
+dir = 0
+grav = 0.5
+hsp = random_range(-10, 10)
+vsp = random_range(-7, -12)
+isCollect = false

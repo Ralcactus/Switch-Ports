@@ -1,0 +1,13 @@
+title_index = 0;
+title = 0;
+vsp = 0;
+mvsp = 0;
+blinking = false;
+alarm[2] = 120;
+x = 832;
+y = 290;
+image_alpha = 3;
+depth = -10;
+image_speed = 0;
+alpha = 3;
+depth = obj_tv.depth - 1;

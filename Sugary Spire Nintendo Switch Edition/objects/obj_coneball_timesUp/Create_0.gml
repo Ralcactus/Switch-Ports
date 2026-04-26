@@ -1,0 +1,22 @@
+depth = -151
+sndMoving = fmod_createEventInstance("event:/SFX/coneball/moving")
+mySoundArray = [sndMoving]
+image_speed = 0.35
+image_alpha = 0
+alarm[0] = 10
+x = obj_parent_player.x
+y = obj_parent_player.y
+dis = 800
+mindis = 150
+dir = 0
+timer = 150
+atktimer = 250
+projcool = 5
+fading = false
+alpha = 1
+attack = 1
+noConeballRoom = false
+savedCamY = y
+savedCamX = x
+sprite_index = spr_blotchsplotch
+event_play_oneshot("event:/SFX/coneball/blotchlaugh")

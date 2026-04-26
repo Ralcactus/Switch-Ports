@@ -1,0 +1,14 @@
+collectvanish = false
+collectboxid = -4
+use_palette = true
+in_the_void = false
+depth = 2
+sprite_index = spr_dogtreat
+image_index = irandom(image_number - 1)
+col = irandom_range(1, 5)
+image_speed = 0.35
+image_alpha = 1
+escape = false
+global.collected = 0
+gotowardsPlayer = false
+movespeed = 0

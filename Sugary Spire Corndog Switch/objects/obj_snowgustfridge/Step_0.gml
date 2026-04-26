@@ -1,0 +1,41 @@
+if (place_meeting(x, y, obj_parent_player))
+{
+    with (obj_parent_player)
+    {
+        if (place_meeting(x, y, other) && state != UnknownEnum.Value_134 && state != UnknownEnum.Value_132 && !cutscene)
+        {
+            if (state != UnknownEnum.Value_152 && state != UnknownEnum.Value_150 && state != UnknownEnum.Value_153)
+            {
+                state = UnknownEnum.Value_150;
+                movespeed = clamp(movespeed, 0, 8);
+                var myButton1 = get_control_string(global.key_jump);
+                scr_controlprompt("[spr_buttonfont]" + myButton1 + "[spr_promptfont]Jump  " + "[spr_buttonfont]" + myButton1 + "[spr_promptfont]Double Jump");
+                other.sprite_index = spr_fridge_attack;
+                other.image_index = 0;
+            }
+        }
+    }
+}
+
+if (point_in_rectangle(obj_parent_player.x, obj_parent_player.y, x - 300, y - 100, x + 300, y + 100))
+{
+    if (sprite_index == spr_fridge_idle)
+    {
+        sprite_index = spr_fridge_opening;
+        image_index = 0;
+    }
+    
+    if (sprite_index == spr_fridge_opening && animation_end())
+        sprite_index = spr_fridge_open;
+}
+else
+{
+    if ((sprite_index != spr_fridge_closing && sprite_index != spr_fridge_idle && sprite_index != spr_fridge_attack) || (sprite_index == spr_fridge_attack && animation_end()))
+    {
+        sprite_index = spr_fridge_closing;
+        image_index = 0;
+    }
+    
+    if (sprite_index == spr_fridge_closing && animation_end())
+        sprite_index = spr_fridge_idle;
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_step",
+  "audioGroupId":{
+    "name":"group_sfx",
+    "path":"audiogroups/group_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.489333,
+  "exportDir":"",
+  "name":"sfx_step",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/NX/Fmod Remake/Audio/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_step.wav",
+  "volume":1.0,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Mines392",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.0,
+  "exportDir":"",
+  "name":"Mines392",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Mines392.wav",
+  "volume":1.0,
+}

@@ -1,0 +1,16 @@
+depth = -99;
+global.particleSystem = part_system_create();
+global.particlesMap = ds_map_create();
+global.particles = part_emitter_create(global.particleSystem);
+global.particleList = ds_list_create();
+global.collectParticleList = ds_list_create();
+particle_init(spr_parryeffect, 0.35, -99);
+particle_init(spr_landcloud, 0.35, 0);
+particle_init(spr_bangEffect, 0.35, 0);
+particle_init(spr_cloudEffect, 0.35, 0);
+particle_init(spr_enemypuncheffect, 0.35, 0);
+particle_init(spr_punchdust, 0.35, 0);
+particle_init(spr_poofeffect, 0.35, 0);
+particle_init(spr_smallpoof, 0.35, 0);
+particle_init(spr_highJumpCloud1, 0.35, 0);
+particle_init(spr_landcloud, 0.35, 0);

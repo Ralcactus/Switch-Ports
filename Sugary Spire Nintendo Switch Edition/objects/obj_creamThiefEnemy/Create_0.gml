@@ -1,0 +1,23 @@
+event_inherited()
+state = PlayerState.frozen
+active = false
+movespeed = 12
+baddieStunTimer = 0
+flying = 0
+straightthrow = 0
+thrown = 0
+reset = 0
+flash = false
+baddieSpriteIdle = spr_creamthief_idle
+baddieSpriteStun = spr_creamthief_idle
+baddieSpriteWalk = spr_creamthief_walk
+baddieSpriteTurn = spr_creamthief_idle
+baddieSpriteGrabbed = spr_creamthief_idle
+baddieSpriteScared = spr_creamthief_idle
+baddieSpriteDead = spr_creamthief_idle
+baddieSpriteRage = spr_creamthief_idle
+flash = false
+slapped = 0
+birdCreated = 0
+boundbox = 0
+grav = 0.5

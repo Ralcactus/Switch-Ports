@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"icepop_02",
+  "audioGroupId":{
+    "name":"group_sfx",
+    "path":"audiogroups/group_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.78,
+  "exportDir":"",
+  "name":"icepop_02",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/NX/Fmod Remake/Audio/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"icepop_02.wav",
+  "volume":1.0,
+}

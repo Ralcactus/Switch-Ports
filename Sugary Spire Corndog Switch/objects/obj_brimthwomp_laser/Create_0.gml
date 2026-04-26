@@ -1,0 +1,9 @@
+savedYscale = sign(image_yscale);
+image_xscale = 0.125;
+image_yscale = 0;
+blastTimer = 80;
+blastDuration = 60;
+blasted = false;
+fadeout = false;
+yscaleAdjust = false;
+targetID = -4;

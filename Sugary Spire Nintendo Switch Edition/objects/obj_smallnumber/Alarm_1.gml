@@ -1,0 +1,1 @@
+startDying = true

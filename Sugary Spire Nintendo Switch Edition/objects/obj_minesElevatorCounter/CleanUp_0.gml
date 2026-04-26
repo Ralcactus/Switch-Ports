@@ -1,0 +1,4 @@
+fmod_studio_event_instance_stop(elevator_music, false)
+fmod_studio_event_instance_release(elevator_music)
+fmod_studio_event_instance_stop(elevator_ambiance, false)
+fmod_studio_event_instance_release(elevator_ambiance)

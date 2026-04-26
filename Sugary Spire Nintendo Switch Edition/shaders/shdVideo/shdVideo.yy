@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdVideo",
+  "name":"shdVideo",
+  "parent":{
+    "name":"Videos",
+    "path":"folders/NX/Videos.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"DESERT_SECRET452",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":50.42,
+  "exportDir":"",
+  "name":"DESERT_SECRET452",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"DESERT_SECRET452.ogg",
+  "volume":1.0,
+}

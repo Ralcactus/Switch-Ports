@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sucrose_full",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":142.576,
+  "exportDir":"",
+  "name":"sucrose_full",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sucrose_full.wav",
+  "volume":1.0,
+}

@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_steamy3",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_steamy3",
+  "out_columns":29,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"tilespr_ts_steamy3",
+    "path":"sprites/tilespr_ts_steamy3/tilespr_ts_steamy3.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Cottontown",
+    "path":"texturegroups/Cottontown",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":17.000153,
+  "tileHeight":32,
+  "tilehsep":4,
+  "tilevsep":4,
+  "tileWidth":32,
+  "tilexoff":2,
+  "tileyoff":2,
+  "tile_count":848,
+}

@@ -1,0 +1,18 @@
+event_inherited();
+calmdowndude = 0;
+vsp = 0;
+hsp = 0;
+movespeed = 2;
+idlemovespeed = 2;
+hand_index = 0;
+laserID = -4;
+charging = false;
+blasting = false;
+blasted = false;
+blastcooldown = 0;
+bounced = false;
+chargecooldown = 100;
+chargecooldownMax = 100;
+bumpcooldown = 80;
+image_xscale = choose(1, -1);
+scr_baddiesounds_init();

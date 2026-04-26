@@ -1,0 +1,10 @@
+draw_x = 200
+draw_y = -64
+newdraw_y = 600
+showtext = false
+showTextBuffer = 0
+_message = "NO ROOMNAME FOUND-1265"
+maxwidth = 295
+alpha = 1
+offsetx = 211
+offsety = 34

@@ -1,0 +1,47 @@
+draw_set_halign(fa_center);
+draw_set_font(global.font);
+draw_option(150, 30 + ScrollY, "BACK", optionselected == UnknownEnum.Value_0);
+draw_option(800, 30 + ScrollY, "GAMEPAD", optionselected == UnknownEnum.Value_0);
+var _yy = 50;
+var _x1 = 400;
+var _x2 = 600;
+draw_option(_x1, _yy + ScrollY, "UP", optionselected == UnknownEnum.Value_1);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_up));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "RIGHT", optionselected == UnknownEnum.Value_2);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_right));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "LEFT", optionselected == UnknownEnum.Value_3);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_left));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "DOWN", optionselected == UnknownEnum.Value_4);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_down));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "JUMP", optionselected == UnknownEnum.Value_5);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_jump));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "ATTACK", optionselected == UnknownEnum.Value_6);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_slap));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "TAUNT", optionselected == UnknownEnum.Value_7);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_taunt));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "SHOOT", optionselected == UnknownEnum.Value_8);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_shoot));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "DASH", optionselected == UnknownEnum.Value_9);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_attack));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "START", optionselected == UnknownEnum.Value_10);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_start));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "SPECIAL", optionselected == UnknownEnum.Value_11);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_special));
+_yy += 50;
+draw_set_font(global.smallfont);
+var _string_width = string_width(subtitle) + 32;
+
+if (string_length(subtitle) >= 1)
+    draw_sprite_ext(spr_optionSubtitle, 0, 480, 521, _string_width / 32, 1, 0, c_white, 1);
+
+draw_text(480, 512, subtitle);

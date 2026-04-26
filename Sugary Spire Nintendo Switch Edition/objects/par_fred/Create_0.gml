@@ -1,0 +1,9 @@
+fred_y = y
+vsp = 0
+player_y = y
+playerTarget = false
+pit = false
+pit_y = room_height
+peek = sprite_get_height(sprite_index)
+image_speed = 0.35
+depth = 4

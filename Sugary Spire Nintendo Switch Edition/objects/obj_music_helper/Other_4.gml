@@ -1,0 +1,9 @@
+audio_sound_gain(glucodetry4, 1, 0);
+audio_sound_gain(SK_hub_theme, 1, 0);
+audio_sound_gain(entryway, 1, 0);
+audio_sound_gain(steamy, 1, 0);
+audio_sound_gain(clocktower, 1, 0);
+audio_sound_gain(mu_mineshaft1, 1, 0);
+audio_sound_gain(cobaltostver, 1, 0);
+audio_sound_gain(gennyswamp, 1, 0);
+audio_sound_gain(gennyswamp_found, 1, 0);

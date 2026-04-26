@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Gem_Full_maybe",
+  "audioGroupId":{
+    "name":"group_sfx",
+    "path":"audiogroups/group_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.798667,
+  "exportDir":"",
+  "name":"Gem_Full_maybe",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/NX/Fmod Remake/Audio/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Gem_Full_maybe.wav",
+  "volume":1.0,
+}

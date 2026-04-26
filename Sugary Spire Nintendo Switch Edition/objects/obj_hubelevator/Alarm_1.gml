@@ -1,0 +1,1 @@
+state = PlayerState.frozen

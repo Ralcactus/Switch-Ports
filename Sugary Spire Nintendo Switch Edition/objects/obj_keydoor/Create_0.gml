@@ -1,0 +1,10 @@
+image_index = 0
+image_speed = 0.35
+depth = 8
+spriteDoorUnlocked = spr_doorvisited
+spriteDoorLocked = spr_keydoor
+spriteDoorEscape = spr_doorblocked
+spriteDoorLight = spr_null
+spriteDoorLock = spr_lock
+sprite_index = spriteDoorLocked
+lightIndex = 0

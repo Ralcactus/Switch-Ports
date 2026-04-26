@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"minecart_cobalt",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":161.96931,
+  "exportDir":"",
+  "name":"minecart_cobalt",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"minecart_cobalt.wav",
+  "volume":1.0,
+}

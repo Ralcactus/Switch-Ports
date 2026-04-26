@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Sunshine_Stewart_Keller_M",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":79.569336,
+  "exportDir":"",
+  "name":"Sunshine_Stewart_Keller_M",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sunshine_Stewart_Keller_M.wav",
+  "volume":1.0,
+}

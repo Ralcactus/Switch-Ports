@@ -1,0 +1,1 @@
+targetRoom = casino_1;

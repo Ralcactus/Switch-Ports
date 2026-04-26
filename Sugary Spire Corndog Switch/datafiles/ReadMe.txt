@@ -1,0 +1,1 @@
+Hello Playtesters. This build is rawer than usual, very raw. But it's gonna be this for a while until we release another major build and I suppose you guys have waited too long and changes have been drastic.

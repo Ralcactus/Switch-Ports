@@ -1,0 +1,10 @@
+image_index = 0;
+image_speed = 0.35;
+depth = 8;
+spriteDoorUnlocked = spr_doorvisited;
+spriteDoorLocked = spr_doorblocked;
+spriteDoorEscape = spr_doorblocked;
+spriteDoorLight = spr_doorlight;
+spriteDoorLock = spr_null;
+sprite_index = spriteDoorUnlocked;
+lightIndex = irandom_range(0, sprite_get_number(spriteDoorLight) - 1);

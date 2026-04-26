@@ -1,0 +1,10 @@
+velocity = 6
+parried = false
+depth = -1
+image_speed = 0.35
+alarm[0] = 1
+falling = 0
+alarm[1] = 90
+vsp = 0
+image_alpha = 1
+visible = true

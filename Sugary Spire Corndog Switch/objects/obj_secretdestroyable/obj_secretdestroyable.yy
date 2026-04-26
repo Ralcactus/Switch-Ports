@@ -1,0 +1,47 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_secretdestroyable",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_secretdestroyable",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"secretdestroyables",
+    "path":"folders/Objects/level/destroyables/secretdestroyables.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_destructibles",
+    "path":"objects/obj_destructibles/obj_destructibles.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":0,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"layer_tile","filters":[],"listItems":[],"multiselect":false,"name":"layer_tile","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Tiles_1\"","varType":2,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_secret_smallbreak_debug",
+    "path":"sprites/spr_secret_smallbreak_debug/spr_secret_smallbreak_debug.yy",
+  },
+  "spriteMaskId":null,
+  "tags":[
+    "Standard Level Asset",
+  ],
+  "visible":false,
+}

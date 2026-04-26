@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bongos_chocoa",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":139.05733,
+  "exportDir":"",
+  "name":"bongos_chocoa",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bongos_chocoa.wav",
+  "volume":1.0,
+}

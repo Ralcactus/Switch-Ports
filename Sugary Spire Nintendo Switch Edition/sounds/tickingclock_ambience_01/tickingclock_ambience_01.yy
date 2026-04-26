@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"tickingclock_ambience_01",
+  "audioGroupId":{
+    "name":"group_sfx",
+    "path":"audiogroups/group_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.097333,
+  "exportDir":"",
+  "name":"tickingclock_ambience_01",
+  "parent":{
+    "name":"Sfx",
+    "path":"folders/NX/Fmod Remake/Audio/Sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"tickingclock_ambience_01.wav",
+  "volume":1.0,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__view_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__view_set",
+  "parent":{
+    "name":"compat",
+    "path":"folders/Scripts/compat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

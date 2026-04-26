@@ -1,0 +1,648 @@
+#-----------------------#
+# Basic Information
+#-----------------------#
+
+# Game Version.
+"version" :	"v4.0.0.0"
+# This value matches the version of the game the lang file was last updated for.
+# It will not always match the in-game version number.
+
+# Translation Name
+"language" : "English"
+
+# Relative path to sprites folder
+"langFolder" : "EN"
+
+
+#-----------------------#
+#      Important Notes     
+#
+# This folder must contain a Dictionary.json file
+# which lists sprites, keys, or fonts to be taken
+# from the given paths. Note that sprites 
+# without text are not supported for replacement.
+#
+# Animated sprites, fonts, and keys should utilize 
+# sprite strips with no additional padding or offsets.
+
+# -------------
+# GAMEPAD ICONS
+# -------------
+# [kU] Up
+# [kL] Left
+# [kR] Right
+# [kD] Down
+# [kF] Forward
+# [kB] Backwards
+# [kG] Grab
+# [kM] Mach
+# [kJ] Jump
+# [kT] Taunt
+# [kGP] Groundpound
+# [kSJ] Superjump
+# [kFWD] Forwards
+# [kBCK] Backwards
+# -------------
+# DIALOG PROFILES
+# -------------
+# [pNPC] Ice Pop / NPC dialog
+# [pPrompt] Tutorial Prompts
+
+#-----------------------#
+
+
+
+
+
+
+#-----------------------#
+# Dialogue
+#-----------------------#
+
+# Ice Pop's Dialogue
+# Default Line (Can Be Overridden)
+"icepop_hub_default" : "I'll give you my cigar, if I can have yours!"
+
+# Default Escape Line (Currently Hardcoded)
+"icepop_default_escape" : "HOLY MOLY!!"
+
+# Tutorial Dialogue
+"icepop_tut_1" : "Ho ho! Hello there, kiddo, I'm your Ice-Pop! I'm here to teach you some new things you should know! Before that though, I just want you to try making it through this room real quick. No sweat, right?"
+"icepop_tut_2" : "Usually, there's little candy creatures in these things, but I put my annoying grandchildren in them instead! Make sure to grab 'em if ya see 'em."
+"icepop_tut_3" : "Those pesky jawbreakers in the way? Not to worry! Your Super Jump [kSJ] can smash right through those tough blocks! You can also adjust yourself slightly left or right while going up."
+"icepop_tut_4" : "Tally Ho! My egg of a son, Ice Pop, won't tell you this, but I, Grandpa Cone, will. A lass like yourself can hover in the air with [kG]. Pressing it twice will do a cool roll attack!"
+"icepop_tut_5" : "With enough speed from your Mach Run, you can press [kD] to slide through jawbreakers! Go ahead kiddo, try it out!"
+"icepop_tut_6" : "If you press [kJ] while you're scootin' up a wall, you'll be able to wallkick off of it and move freely! This can break weaker blocks. When you land, this will boost you forward if you keep [kM] held!"
+"icepop_tut_7" : "While you're doing a wallkick, press [kD] to quickly fall down! Go get 'em sport!"
+"icepop_tut_8" : "Oh, I just remembered! If you ever see /1 Rudy, go and say hi to him for me! He's got keys for all the locked doors around here, I'm sure he'll letcha in if you ask nicely. I know how much you youngsters love collecting trinkets and such..."
+"icepop_tut_9" : "That big gummy guy over there is /1 Harry. If you smack him, the door you came in from will open again! Once that happens, you had better scoot your way back quickly. If you're fast enough, you can pay a visit to /2 Polka and go 'round again, /3 ya silly sprat!"
+"icepop_tut_10" : "During a wallkick, press [kG] while midair to cancel it into a Mach Run! You can use this to break Jawbreaker blocks!"
+
+
+# Painter's Demo Dialogue
+# Painter is supposed to be French, hence all the French/French-derived words and odd sentence structure.
+# Main Hub Dialogue
+"demopainter_newfile"        : "Hmm... You are the one who scattered my precious /1 INK! The Critics are already en route... you had better bring my INK back to me before they arrive."
+"demopainter_nosecrets"      : "Hmm... My patience is shrinking, tiny candy lady. Find my /1 INK."
+"demopainter_fewsecrets"     : "Hmm... I see you have started to return some of my /1 INK, but there is still more left. There is little time for us to chit the chat, I'm afraid, I'm much too busy preparing the show..."
+"demopainter_3secrets"       : "Hmm... Did you see them? Look at their beady little eyes... They think they can critique me? MOI? Hmph."
+"demopainter_6secrets"       : "Hmm... You're halfway there, confiseur, but please hurry. If they are kept waiting any longer, the Critics are sure to pen a scathing critique of me in one of those free magazines you find on airplanes..."
+"demopainter_9secrets"       : "Hmm... Perhaps I judged you too harshly, confiseur. The Critics seem to appreciate your roguish smile and lovable antics..."
+"demopainter_allsecrets"     : "Hmm... Finally, you've recovered all of my /1 INK! Please, mademoiselle, enjoy the show."
+"demopainter_invalidsecrets" : "Hmm... There is something to be said for the strange connection which any interactive art has to its host medium. Even the most well-preserved copy of Madden NFL 2001 is only as good as the PlayStation 2 upon which it runs, or as pure as the intentions of one who runs it... You understand, right?"
+
+# Dialogue for After the Allotted 1 Hour of Playtime
+"demopainter_overtimeallsecrets"    : "Hmm... Your time at the exhibition may have expired, Confiseur, but I implore you to enjoy the art for as long as you wish! You have done me a great service, and it is no shellac off my back if you wish to stay a little longer."
+"demopainter_overtimenotallsecrets" : "Hmm... You may have bought a ticket, Confiseur, but you are only owed 60 short minutes from moi. Your unhelpful behind had better make itself scarce before someone notices that your time is up..."
+
+
+# Molasses Room Dialogue
+# This is placeholder for now, unsure if we need a line for this.
+"demopainter_molasses"              : "No! Not The Frog too! Now all of my paintings are ruined..."
+"demopainter_molasses_gotsecrets_a" : "Hmm... My beautiful The Frog, at last you have been restored to your former glory! I promise never to take my eye off of you again..."
+"demopainter_molasses_gotsecrets_b" : "Hmm... I'm impressed to see such refinement to your tastes, confiseur. You know, this piece is my Magnum Oculus, so I'm not surprised that you gravitated towards it so strongly."
+"demopainter_molasses_sleeping"     : "Zzz... A starving artist like me needs his beauty sleep too..."
+
+
+# Holiday Dialogue
+"demopainter_newyears"   : "Hmm... I don't really understand what all the fuss is about. I can hardly see anything through these glasses..."
+"demopainter_valentines" : "Hmm... All the cards at the store say things like \"I love you\" and \"You're special.\" Where's the card that says \"I admire your original compositions and appreciate their deeper subtextual meaning?\" I wish someone would get me one of those instead..."
+
+
+# Small Thoughts
+"demopainter_thoughtbuffer"  : "Hmm..."
+"demopainter_idlethought_1"  : "Hmm... \"Art block\"?\nCall it art curse!\nThat's what it is..."
+"demopainter_idlethought_2"  : "Hmm... If it all goes\nwrong, I can always\nreturn to jock life..."
+"demopainter_idlethought_3"  : "Hmm... Maybe this will\nfinally get people off\ntheir phones..."
+"demopainter_idlethought_4"  : "Hmm... Does the dry\ncleaner handle magic ink?\nOr just normal ink?"
+"demopainter_idlethought_5"  : "Hmm... The bathroom\ndidn't arrive in time.\nI hope noone noticed."
+"demopainter_idlethought_6"  : "Hmm... I wonder if\nI could write a\nbook about this..."
+
+
+# Critic Dialogue
+"democritic_1_d" : "Ah... This painting\nbelongs in the trash..."
+"democritic_1_c" : "Ah... It's...\nsomething..."
+"democritic_1_b" : "Ah... It seems\nto insist upon itself..."
+"democritic_1_a" : "Ah... Interesting\nbrushwork..."
+"democritic_1_s" : "Ah... This piece is\ndelightfully abstract..."
+"democritic_1_p" : "Ah... I get it now!"
+
+"democritic_2_d" : "Er... The Painter seems to\nhave missed a spot..."
+"democritic_2_c" : "Er... Looks weird..."
+"democritic_2_b" : "Er... What is this...\nSome Gum...?"
+"democritic_2_a" : "Er... This works..."
+"democritic_2_s" : "Er... It's rather\nerudite."
+"democritic_2_p" : "Er... It's too good,\neven for me!"
+
+"democritic_3_d" : "Umm... Looks too...\n\"anime?\""
+"democritic_3_c" : "Umm... Would be better\nif The Painter\ndrew me instead!"
+"democritic_3_b" : "Umm... I could have\ndrawn this better..."
+"democritic_3_a" : "Umm... Interesting style,\nI suppose..."
+"democritic_3_s" : "Umm... The colors here\nare immaculate!"
+"democritic_3_p" : "Umm... I can't take my\neyes off this piece!"
+
+"democritic_4_d" : "Oui... This thumb here\nappears to be backwards..."
+"democritic_4_c" : "Oui... A child could\ndraw this..."
+"democritic_4_b" : "Oui... Needs more shading..."
+"democritic_4_a" : "Oui... It's \"fine\", but\nnot \"fine art\"..."
+"democritic_4_s" : "Oui... This piece is\nquite delectable..."
+"democritic_4_p" : "Oui... C'est trop beau\npour mes propres\nyeux!"
+
+"democritic_icepop" : "That's right... I, Grandpa Cone, did quite\na good job, didn't I?"
+
+# Judgement Hint Prompt
+
+"demo_judgement_hint" : "The Painter is waiting for you in The Frog's room..."
+
+#-----------------------#
+# Level Names
+#-----------------------#
+
+"floor_demoEN"    : "Exhibition Night"
+"level_entryway"  : "Crunchy Construction"
+"level_steamy"    : "Cottontown"
+"level_mineshaft" : "Sugarshack Mines"
+"level_molasses"  : "Molasses Swamp"
+
+
+
+#-----------------------#
+# Achievements
+#-----------------------#
+
+# Exhibition Night
+"task_en_all_s"                  : "S Ranked"
+"task_en_all_s_desc"             : "Get all S ranks in the demo"
+"task_en_all_p"                  : "P Ranked"
+"task_en_all_p_desc"             : "Get all P ranks in the demo"
+
+# Crunchy Construction
+"task_cc_all_breakables"         : "Every Nook and Cranny"
+"task_cc_all_breakables_desc"    : "Break every secret block in Crunchy Construction"
+"task_cc_speedrun"               : "Quick Delivery"
+"task_cc_speedrun_desc"          : "Reach [iGH] [#DB0A0A]Harry[c_white] in less than 2 minutes\nin Crunchy Construction"
+"task_cc_no_slip"                : "0 Days"
+"task_cc_no_slip_desc"           : "Avoid slipping in Crunchy Construction"
+
+# Cottontown
+"task_ct_clock_room"             : "What Time Won't Tell"
+"task_ct_clock_room_desc"        : "Find the clock room in Cottontown"
+"task_ct_all_witches"            : "Witch Hunt"
+"task_ct_all_witches_desc"       : "Kill every [iCw] [#ef91da]Cottonwitch[c_white] in Cottontown"
+"task_ct_few_cotton_blocks"      : "Thanks, I'll Pass"
+"task_ct_few_cotton_blocks_desc" : "Drill into just 10 or fewer cotton blocks\nbefore the escape in Cottontown"
+
+# Sugarshack Mines
+"task_sm_all_miners"             : "Outsourcing"
+"task_sm_all_miners_desc"        : "Give every gnome a complete gem\nin Sugarshack Mines"
+"task_sm_minecart_nohit"         : "Mined The Gap"
+"task_sm_minecart_nohit_desc"    : "Avoid getting hit or falling off the track on the Minecart in Sugarshack Mines"
+"task_sm_slug"                   : "Whack-A-Slug"
+"task_sm_slug_desc"              : "Kill at least 5 airborne [iSl] [#ed2c48]Sluggies[c_white] in Sugarshack Mines"
+
+# Molasses Swamp
+"task_ms_all_geyser"             : "On The Rocks"
+"task_ms_all_geyser_desc"        : "Activate all dormant geysers\nin Molasses Swamp"
+"task_ms_guardian_parry"         : "Home Insecurity"
+"task_ms_guardian_parry_desc"    : "Supertaunt the [iGu] [#893b3b]Guardian[c_white] three times\nin Molasses Swamp"
+"task_ms_catch"                  : "Leapfrog"
+"task_ms_catch_desc"             : "Play catch with two [iFf] [#006858]Fling Frogs[c_white]\nin Molasses Swamp"
+
+
+
+#-----------------------#
+# Palettes
+#-----------------------#
+"palette_PZ_classic"                     : "Classic Duds"
+"palette_PZ_classic_desc"                : "Came with your birth"
+"palette_PZ_classic_thought"             : "Classic!"
+
+"palette_PZ_exhibitionnight"             : "Exhibition Duds"
+"palette_PZ_exhibitionnight_desc"        : "Unlocked by showing up to the Exhibition Night"
+"palette_PZ_exhibitionnight_thought"     : "Timely!"
+
+"palette_PZ_exhibitionred"               : "Painter Red"
+"palette_PZ_exhibitionred_desc"          : "Unlocked by finding 3 Secrets\nat the Exhibition Night"
+"palette_PZ_exhibitionred_thought"       : "Antsy!"
+"palette_PZ_exhibitionred_hint"          : "Try finding some INK..."
+
+"palette_PZ_exhibitionblack"             : "Painter Black"
+"palette_PZ_exhibitionblack_desc"        : "Unlocked by finding 6 Secrets\nat the Exhibition Night"
+"palette_PZ_exhibitionblack_thought"     : "Sleek!"
+"palette_PZ_exhibitionblack_hint"        : "Try finding more INK..."
+
+"palette_PZ_exhibitionpurple"            : "Painter Purple"
+"palette_PZ_exhibitionpurple_desc"       : "Unlocked by finding 9 Secrets\nat the Exhibition Night"
+"palette_PZ_exhibitionpurple_thought"    : "Regal!"
+"palette_PZ_exhibitionpurple_hint"       : "Try finding even more INK..."
+
+"palette_PZ_noise"                       : "Noise"
+"palette_PZ_noise_desc"                  : "Unlocked by finding every Secret\nat the Exhibition Night"
+"palette_PZ_noise_thought"               : "\nCopyright Tour de Pizza"
+"palette_PZ_noise_hint"                  : "Try finding all of the missing INK..."
+
+"palette_PZ_exhibitionpaper"             : "Notebook"
+"palette_PZ_exhibitionpaper_desc"        : "Unlocked by scoring a Sick 3-Pointer\nin the Painter's Gallery"
+"palette_PZ_exhibitionpaper_thought"     : "College Rule!"
+"palette_PZ_exhibitionpaper_hint"        : "Try shooting some hoops..."
+
+"palette_PZ_exhibitionbrain"             : "Brainy Duds"
+"palette_PZ_exhibitionbrain_desc"        : "Unlocked by facing judgment"
+"palette_PZ_exhibitionbrain_thought"     : "Smart!"
+"palette_PZ_exhibitionbrain_hint"        : "Try preparing yourself for criticism..."
+
+"palette_PZ_exhibitionbraingold"         : "Golden Brainy Duds"
+"palette_PZ_exhibitionbraingold_desc"    : "Unlocked by getting the highest judgment"
+"palette_PZ_exhibitionbraingold_thought" : "Shiny!"
+"palette_PZ_exhibitionbraingold_hint"    : "Try getting the best feedback..."
+
+"palette_PZ_exhibitionentryway"          : "Hazardous"
+"palette_PZ_exhibitionentryway_desc"     : "Unlocked by cleaning out all of the trash\nin Crunchy Construction"
+"palette_PZ_exhibitionentryway_thought"  : "Dangerous!"
+"palette_PZ_exhibitionentryway_hint"     : "Try cleaning up the construction site..."
+
+"palette_PZ_exhibitionsteamy"            : "Cotton Candy"
+"palette_PZ_exhibitionsteamy_desc"       : "Unlocked by digging into a Cotton Block\nfor 5 seconds straight"
+"palette_PZ_exhibitionsteamy_thought"    : "Good for her!"
+"palette_PZ_exhibitionsteamy_hint"       : "Try digging around for a bit longer..."
+
+"palette_PZ_exhibitionmineshaft"         : "Fred's Choice"
+"palette_PZ_exhibitionmineshaft_desc"    : "Unlocked by bouncing repeatedly on Fred the Worm's head in Sugarshack Mines"
+"palette_PZ_exhibitionmineshaft_thought" : "Worms..."
+"palette_PZ_exhibitionmineshaft_hint"    : "Try giving a certain worm\na real pain in the neck..."
+
+"palette_PZ_exhibitionmolasses"          : "Frog Pajamas"
+"palette_PZ_exhibitionmolasses_desc"     : "Unlocked by drowning 3 Box Frogs\nin Molasses Swamp"
+"palette_PZ_exhibitionmolasses_thought"  : "Humid!"
+"palette_PZ_exhibitionmolasses_hint"     : "Try teaching a few amphibians how to swim..."
+
+
+
+#-----------------------#
+# Judgment
+#-----------------------#
+"judgment_title_none"          : "None"
+"judgment_title_disappointing" : "Disappointing"
+"judgment_title_fine"          : "Fine"
+"judgment_title_perfect"       : "Perfect"
+"judgment_title_fast"          : "Fast"
+"judgment_title_holyshit"      : "HOLY SHIT!"
+
+# Judgment Cutscene Dialogue
+"judgmentinfo_default"         : "[j_painter_pose,normal]Hmmm? You'd like to know what I think of your performance tonight?"
+
+"judgmentinfo_disappointing_1" : "[j_painter_pose,upset]Honestly, I'm not sure why you bothered showing up in the first place..."
+"judgmentinfo_disappointing_2" : "True art is to be admired, imbecile! Instead of showing your respect for my creative genius, you ran around like a rat, mandhandling my work with your filthy little gloves."
+"judgmentinfo_disappointing_3" : "I had hoped for more from you, confiseur. How disappointing..."
+
+"judgmentinfo_fine_1"          : "[j_painter_pose,normal]It was... adequate, je suppose."
+"judgmentinfo_fine_2"          : "[j_painter_pose,upset]But did you not also sense something more to my paintings? [delay][j_painter_pose,normal]It saddens me that you failed to fully appreciate their depth."
+"judgmentinfo_fine_3"          : "[j_painter_pose,devious]Regardless, confiseur, you performed acceptably..."
+
+"judgmentinfo_perfect_1"       : "[j_painter_pose,devious]Not only have you returned all of my precious INK, but you did it with such showmanship too!"
+"judgmentinfo_perfect_2"       : "[j_painter_pose,devious]I was worried your fiasco would upset the Critics, but I've never seen them so enthralled!"
+"judgmentinfo_perfect_3"       : "[j_painter_pose,normal]I'm sure you're quite happy too, no?  [j_painter_pose,upset]Don't think I didn't see you lining your pockets while you were busy \"admiring\" my paintings!"
+"judgmentinfo_perfect_4"       : "[j_painter_pose,devious]Ha! I jest. You earned it, confiseur. Your performance tonight was beyond reproach!"
+
+"judgmentinfo_fast_1"          : "[j_painter_pose,devious]You haven't given me enough time to think about it! I feel that-"
+"judgmentinfo_fast_2"          : "[j_painter_pose,upset]Quit looking at your timepiece, you blasted thing!"
+"judgmentinfo_fast_3"          : "[j_painter_pose,normal]You ought to slow down a little now and then, it might do you some good."
+
+"judgmentinfo_holyshit_1"      : "[j_painter_pose,surprised]Mon Dieu, my expectations for you have been completely and utterly surpassed!"
+"judgmentinfo_holyshit_2"      : "[j_painter_pose,devious]Magnifique![delay] Fantastique![delay] [j_painter_pose,normal]Confiseur, for you I have no more words!"
+"judgmentinfo_holyshit_3"      : "[j_painter_pose,upset]If only the others could appreciate my art the way you do. C'est la vie..."
+
+"judgmentinfo_ending"          : "[j_painter_pose,normal]Now, if you'll excuse me, I have some important meditations to return to..."
+"judgmentinfo_additional"      : "[j_painter_pose,devious]Ehm, you wouldn't happen to know anything about that, would you...?"
+
+
+
+#-----------------------#
+# Prompts
+#-----------------------#
+
+# NOTE: Basically all of these go to scribble draw commands.
+
+
+# Character Name.
+"prompt_PZ" : "Pizzelle"
+"prompt_PN" : "Pizzano"
+"prompt_JB" : "Jack Black"
+
+# Control prompts.
+# These are fragments used in the pop-ups that explain transfo controls.
+"prompt_jump"       : "Jump"
+"prompt_doublejump" : "Double Jump"
+"prompt_dash"       : "Dash"
+"prompt_crouch"     : "Crouch"
+"prompt_pullback"   : "Pull Back"
+"prompt_test" 		: "[kL][kD][kU] Testing [kL][kL]"
+
+"prompt_werecotton" : "[kJ][kJ] Double Jump [kG] Dig"
+"prompt_minecart" : "[kJ] Jump [kD] Crouch"
+"prompt_fling" : "[kL][kD][kR] Pull Back"
+"prompt_fireass" : "[kG] Dash"
+
+# Tutorial prompt.
+"prompt_lap_unlockall" : "All Lap 2 portals unlocked!"
+"prompt_lap_unlock"    : "Lap Portal unlocked!"
+
+# Skip prompt.
+"prompt_intro_skip" : "Skip"
+
+# Hurt Milestone Prompt.
+"prompt_hurt" : "You have hurt /1 /2 times..."
+
+# Progress-related prompts.
+"prompt_confecti_found"      : "You found /1 Confecti out of 5!"
+"prompt_last_confecti_found" : "You have found all 5 Confecti!"
+
+# Slightly different prompt for the tutorial.
+# Ice Pop's grandkids aren't "real" confecti, hence the use of air quotes.
+"prompt_tut_confecti_found"      : "You found /1 \"Confecti\" out of 5!"
+"prompt_tut_last_confecti_found" : "You have found all 5 \"Confecti\"!"
+
+"prompt_secret_found"        : "You found the /1 Secret. /2 of 3!"
+
+# Ordinals used in some prompts.
+"prompt_ord_first"  : "First"
+"prompt_ord_second" : "Second"
+"prompt_ord_third"  : "Third"
+
+# Singular and plural versions of the same word.
+"prompt_secret_singular" : "Secret"
+"prompt_secret_plural"   : "Secrets"
+
+# Painter Mixtape prompts.
+"prompt_mixtape_nosoundtest" : "This would be more useful with all /1 INK..."
+"prompt_mixtape_soundtest" : "You have new tunes to listen to!"
+
+# Miscellaneous Prompt
+"prompt_guilttrip" : "What did he do to you...?"
+
+
+
+#-----------------------#
+# Room Names
+#-----------------------#
+
+# Currently, only hub rooms use names.
+"romname_missing"  : "MISSING ROOM? THEN GO FIND IT!"
+"romname_hallway"  : "Exhibition Night"
+"romname_mainhub"  : "Beautiful Mystical Gallery"
+"romname_molasses" : "Weird Mystical Painting"
+
+
+
+#-----------------------#
+# Game Window Name
+#-----------------------#
+
+# Levels
+"winname_tutorial" : "A quick warm-up for the Exhibition Night"
+"winname_entryway" : "A city under construction in the Exhibition Night"
+"winname_cotton"   : "A very steamy and cottony Exhibition Night"
+"winname_mines"    : "A dark and scary cave below the Exhibition Night"
+"winname_swamp"    : "A sticky and shitty bog, just like the Exhibition Night"
+
+# Hub
+"winname_hub": "Welcome to the Exhibition Night!"
+"winname_mind": "Hmmm.... Exhibition Night..."
+
+
+
+# Menus/Misc Rooms
+"winname_init"        : "Sugary Spire: Exhibition Night"
+"winname_intro"       : "Exhibition Night: The Movie"
+"winname_logos"       : "Paint's still drying at the Exhibition Night"
+"winname_disclaimer"  : "A quick warning before the Exhibition Night"
+"winname_fileselect"  : "Place a bid at the Exhibition Night"
+"winname_levelselect" : "Choosing your stuff at the Exhibition Night"
+"winname_devroom"     : "The brushwork behind the Exhibition Night"
+"winname_titlecard"   : "Like what you see at the Exhibition Night?"
+"winname_rank"        : "Did you do it? Exhibition Night!"
+"winname_credit"	  : "Behind the scenes of the Exhibition Night"
+
+#-----------------------#
+# Credit Category Names
+#-----------------------#
+"credits_lead"			: "Lead Director and Project Manager"
+"credits_directors"		: "Directors"
+"credits_programmers"		: "Programmers"
+"credits_artists"		: "Artists"
+"credits_levels"		: "Level Design"
+"credits_music"			: "Musicians"
+"credits_sfx"			: "SFX Design"
+"credits_qa"			: "Quality Assurance"
+"credits_langhead"		: "Localization Heads"
+"credits_langES"		: "LATAM Spanish Localization"
+"credits_langRU"		: "Russian Localization"
+"credits_langPTBR"		: "Brazilian Portuguese Localization"
+"credits_voice"			: "Voicework"
+"credits_trailer"		: "Trailer Animation"
+"credits_website"		: "Website"
+"credits_playtest"		: "Playtesting"
+"credits_thanks"		: "Special Thanks"
+"credits_tdp"			: "Tour de Pizza"
+"credits_and"			: "And..."
+"credits_you"			: "You!"
+#-----------------------#
+# Menu Text
+#-----------------------#
+# Controller Prompts.
+"controller_connect"    : "Controller Found."
+"controller_disconnect" : "Controller Disconnected."
+"controller_prompt"     : "Press /1 to Connect."
+
+# File Delete
+"main_menu_filedelete"  : "HOLD TO DELETE SAVE /1"
+"main_menu_leavegame"   : "EXIT THE GAME?"
+"main_menu_yes"         : "YES"
+"main_menu_no"          : "NO"
+
+# Pause Menu
+"pause_resume"      : "RESUME"
+"pause_options"     : "OPTIONS"
+"pause_retry"       : "RETRY"
+"pause_tasks"       : "TASKS"
+"pause_exit"        : "EXIT"
+"pause_menu"        : "MAIN MENU"
+
+# Tasks Menu
+"menutask_clothes"  : "CLOTHES"
+"menutask_unknown"  : "???"
+
+# Options Menu
+"opt_audio"         : "AUDIO"
+"opt_video"         : "VIDEO"
+"opt_game"          : "GAME"
+"opt_controls"      : "CONTROLS"
+"opt_language" 	    : "LANGUAGE"
+"opt_back"          : "BACK"
+"opt_on"            : "ON"
+"opt_off"           : "OFF"
+"opt_confirm"       : "CONFIRM SETTING\nREVERTING IN /1..."
+
+# Video Submenu
+"opt_vid_windowmode"            : "WINDOW MODE"
+"opt_vid_windowmode_windowed"   : "WINDOWED"
+"opt_vid_windowmode_exclusive"  : "EXCLUSIVE"
+"opt_vid_windowmode_borderless" : "BORDERLESS"
+"opt_vid_resolution"            : "RESOLUTION"
+"opt_vid_letterbox"            	: "LETTERBOX"
+"opt_vid_letterbox_simple"	: "SIMPLE"
+"opt_vid_letterbox_doodle"	: "DOODLE"
+"opt_vid_letterbox_dynamic"	: "DYNAMIC"
+"opt_vid_vsync"                 : "VSYNC"
+"opt_vid_texturefilter"         : "TEXTURE FILTERING"
+"opt_vid_showHUD"               : "SHOW HUD" 
+
+# Audio Submenu
+"opt_aud_master"  : "MASTER"
+"opt_aud_music"   : "MUSIC"
+"opt_aud_sfx"     : "SFX"
+"opt_aud_focus"   : "UNFOCUSED MUTE"
+"opt_aud_attenuation"   : "MUSIC ATTENUATION"
+"opt_aud_speaker" : "SPEAKER MODE"
+"opt_aud_stereo"  : "STEREO"
+"opt_aud_mono"    : "MONO"
+
+# Controller Submenu
+
+"opt_ctrl_keyboard"              : "KEYBOARD"
+"opt_ctrl_controller"            : "CONTROLLER"
+"opt_ctrl_bindings"              : "BINDINGS"
+"opt_ctrl_keyboardsuperjump"     : "DIR. SUPERJUMP"
+"opt_ctrl_keyboardgroundpound"   : "DIR. GROUNDPOUND"
+"opt_ctrl_deadzones"             : "DEADZONES"
+"opt_ctrl_controllersuperjump"   : "DIR. SUPERJUMP"
+"opt_ctrl_controllergroundpound" : "DIR. GROUNDPOUND"
+
+# Deadzone Setup Submenu
+"opt_ctrl_dz_gen"        : "GENERAL"
+"opt_ctrl_dz_vert"       : "VERTICAL"
+"opt_ctrl_dz_horiz"      : "HORIZONTAL"
+"opt_ctrl_dz_press"      : "PRESS"
+"opt_ctrl_dz_superjump"  : "SUPERJUMP"
+"opt_ctrl_dz_crouchwalk" : "CROUCHWALK"
+
+# Game Settings Submenu
+"opt_game_vibrate"          : "VIBRATION"
+"opt_game_screenshake"      : "SCREEN SHAKE"
+"opt_game_timer"            : "TIMER"
+"opt_game_timer_type"       : "TIMER TYPE"
+"opt_game_timer_type_level" : "PER LEVEL"
+"opt_game_timer_type_save"  : "PER SAVE"
+"opt_game_timer_type_both"  : "BOTH"
+"opt_game_timerspeedrun"    : "SPEEDRUN TIMER"
+"opt_game_reset_clothes"    : "RESET CLOTHES PROGRESS"
+"reset_clothes_confirm"     : "RESET CLOTHES PROGRESS"
+
+# Language Submenu
+"opt_access_lang" : "LANGUAGE"
+
+# Keyconfig Input Names
+"opt_keyconfig_up"           : "up"
+"opt_keyconfig_down"         : "down"
+"opt_keyconfig_left"         : "left"
+"opt_keyconfig_right"        : "right"
+"opt_keyconfig_jump"         : "jump"
+"opt_keyconfig_slap"         : "grab"
+"opt_keyconfig_taunt"        : "taunt"
+"opt_keyconfig_shoot"        : "shoot"
+"opt_keyconfig_attack"       : "run"
+"opt_keyconfig_superjump"    : "superjump"
+"opt_keyconfig_groundpound"  : "groundpound"
+"opt_keyconfig_start"        : "start"
+
+"opt_keyconfig_menuup"		 : "menu up"
+"opt_keyconfig_menudown"	 : "menu down"
+"opt_keyconfig_menuleft"	 : "menu left"
+"opt_keyconfig_menuright"	 : "menu right"
+"opt_keyconfig_menuconfirm"	 : "confirm"
+"opt_keyconfig_menuback"	 : "exit"
+"opt_keyconfig_menudelete"	 : "delete"
+
+"opt_keyconfig_cancel"		 : "CANCEL"
+"opt_keyconfig_deny"		 : "EXIT WITHOUT SAVING"
+"opt_keyconfig_save"		 : "SAVE CHANGES"
+
+# Keyconfig Controller Input Names
+"opt_keyconfig_upc"          : "upc"
+"opt_keyconfig_downc"        : "downc"
+"opt_keyconfig_leftc"        : "leftc"
+"opt_keyconfig_rightc"       : "rightc"
+"opt_keyconfig_jumpc"        : "jumpc"
+"opt_keyconfig_slapc"        : "slapc"
+"opt_keyconfig_tauntc"       : "tauntc"
+"opt_keyconfig_shootc"       : "shootc"
+"opt_keyconfig_attackc"      : "attackc"
+"opt_keyconfig_superjumpc"   : "superjumpc"
+"opt_keyconfig_groundpoundc" : "groundpoundc"
+"opt_keyconfig_startc"       : "startc"
+"opt_keyconfig_specialc"     : "specialc"
+
+# Keyconfig UI Text
+"opt_keyconfig_inputprompt"  : "PRESS ANY BUTTON"
+"opt_keyconfig_bind"         : "BIND"
+"opt_keyconfig_clear"        : "CLEAR"
+"opt_keyconfig_reset"        : "RESET"
+
+# Key Names
+# Keyboard
+"key_left"        : "LEFT"
+"key_right"       : "RIGHT"
+"key_up"          : "UP"
+"key_down"        : "DOWN"
+"key_enter"       : "ENTER"
+"key_escape"      : "ESCAPE"
+"key_space"       : "SPACE"
+"key_shift"       : "SHIFT"
+"key_control"     : "CONTROL"
+"key_alt"         : "ALT"
+"key_backspace"   : "BACKSPACE"
+"key_tab"         : "TAB"
+"key_home"        : "HOME"
+"key_end"         : "END"
+"key_delete"      : "DEL"
+"key_insert"      : "INS"
+"key_pageup"      : "PGU"
+"key_pagedown"    : "PGD"
+"key_pause"       : "PAU"
+"key_printscreen" : "PTSC"
+"key_numpad0"     : "NP0"
+"key_numpad1"     : "NP1"
+"key_numpad2"     : "NP2"
+"key_numpad3"     : "NP3"
+"key_numpad4"     : "NP4"
+"key_numpad5"     : "NP5"
+"key_numpad6"     : "NP6"
+"key_numpad7"     : "NP7"
+"key_numpad8"     : "NP8"
+"key_numpad9"     : "NP9"
+"key_multiply"    : "*"
+"key_divide"      : "/"
+"key_add"         : "+"
+"key_subtract"    : "-"
+"key_decimal"     : "."
+
+# Controller
+"key_select"   : "SELECT"
+"key_start"    : "START"
+"key_stickl"   : "STICK L"
+"key_stickr"   : "STICK R"
+"key_padup"    : "UP"
+"key_padleft"  : "LEFT"
+"key_padright" : "RIGHT"
+"key_paddown"  : "DOWN"
+
+# Undefined
+"key_presskey" : "PRESS KEY"
+
+
+
+#-----------------------#
+# Debug stuff
+#-----------------------#
+"loadingSprites": "LOADING TRANSLATION..."
+"loadingGeneric": "LOADING..."

@@ -1,0 +1,13 @@
+collectvanish = false;
+collectboxid = -4;
+use_palette = true;
+in_the_void = false;
+depth = 2;
+col = 0;
+image_speed = 0.35;
+image_alpha = 1;
+escape = false;
+global.collected = 0;
+global.collectsound = 0;
+gotowardsPlayer = false;
+movespeed = 0;

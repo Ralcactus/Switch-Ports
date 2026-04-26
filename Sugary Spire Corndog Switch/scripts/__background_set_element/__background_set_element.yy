@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__background_set_element",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__background_set_element",
+  "parent":{
+    "name":"compat",
+    "path":"folders/Scripts/compat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

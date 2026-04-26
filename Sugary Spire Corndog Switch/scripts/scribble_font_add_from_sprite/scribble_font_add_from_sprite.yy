@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scribble_font_add_from_sprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scribble_font_add_from_sprite",
+  "parent":{
+    "name":"Scribble",
+    "path":"folders/Scribble.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

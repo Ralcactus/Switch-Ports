@@ -1,0 +1,9 @@
+maxAttackBuffer = 20;
+maxCooldown = 150;
+xThreshold = 250;
+yThreshold = 250;
+importantEnemy = false;
+attackBuffer = 0;
+cooldown = 0;
+state = UnknownEnum.Value_1;
+importantEnemy = false;

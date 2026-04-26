@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__scribble_gen_9_write_vbuffs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__scribble_gen_9_write_vbuffs",
+  "parent":{
+    "name":"Scribble",
+    "path":"folders/Scribble.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

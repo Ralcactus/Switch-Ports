@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"PIZZASCARE_SUGAR_SECRET",
+  "audioGroupId":{
+    "name":"group_music",
+    "path":"audiogroups/group_music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":50.4,
+  "exportDir":"",
+  "name":"PIZZASCARE_SUGAR_SECRET",
+  "parent":{
+    "name":"Music",
+    "path":"folders/NX/Fmod Remake/Audio/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"PIZZASCARE_SUGAR_SECRET.wav",
+  "volume":1.0,
+}

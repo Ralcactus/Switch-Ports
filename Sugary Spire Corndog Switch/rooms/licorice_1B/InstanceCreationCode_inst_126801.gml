@@ -1,0 +1,1 @@
+targetRoom = licorice_2;

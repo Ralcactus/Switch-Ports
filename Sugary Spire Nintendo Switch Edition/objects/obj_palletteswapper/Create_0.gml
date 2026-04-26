@@ -1,0 +1,11 @@
+drawing = false
+palettename = "NULL"
+bgblend = 0
+textblend = 0
+fally = -540
+image_speed = 0.35
+palsel = spr_player_PP_ACS
+curchar = 0
+palnames[0] = ["NONE", "DEFAULT", "SUGAR", "FAMILIAR GREMLIN", "MASSACRE", "RIVALS", "GUM", "OLD SCHOOL", "ZOMBIFIED", "FORESTATION", "LAMDA", "GOLDEN", "GNOME WIZARD"]
+palnames[1] = ["NONE", "DEFAULT", "FAMILIAR GREMLIN", "FAMILIAR CHEF", "LASAGNA", "SPICE", "PLUMBER", "GREEN APPLE", "GRAPE SODA", "ANTIPATHIC", "GUMMY BEAR", "LIME"]
+palnames[2] = ["NONE", "DEFAULT", "FAMILIAR SLIME", "RAGE", "RAT", "RETRO", "CLOUDY DAY", "SADNESS"]
