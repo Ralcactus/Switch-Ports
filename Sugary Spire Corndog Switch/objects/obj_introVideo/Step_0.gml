@@ -1,11 +1,11 @@
 scr_getinput();
 
-if (!showText && keyboard_check_pressed(vk_anykey))
+if (!showText && (keyboard_check_pressed(vk_anykey) || key_slap2 || key_jump2))
 {
     showText = true;
     alarm[0] = 120;
 }
-else if (showText && key_slap2)
+else if (showText && (key_jump2 || key_slap2))
 {
     event_user(0);
     video_close();

@@ -35,7 +35,9 @@ while (i < array_length(a))
             hspeed: layer_get_hspeed(a[i]),
             vspeed: layer_get_vspeed(a[i]),
             xShift: global.ScrollOffset * layer_get_hspeed(a[i]),
-            yShift: global.ScrollOffset * layer_get_vspeed(a[i])
+            yShift: global.ScrollOffset * layer_get_vspeed(a[i]),
+			xScroll: 0,
+			yScroll: 0
         };
     }
     
@@ -79,7 +81,9 @@ while (i < array_length(a))
             hspeed: layer_get_hspeed(a[i]),
             vspeed: layer_get_vspeed(a[i]),
             xShift: global.ScrollOffset * layer_get_hspeed(a[i]),
-            yShift: global.ScrollOffset * layer_get_vspeed(a[i])
+            yShift: global.ScrollOffset * layer_get_vspeed(a[i]),
+			xScroll: 0,
+			yScroll: 0
         };
     }
     

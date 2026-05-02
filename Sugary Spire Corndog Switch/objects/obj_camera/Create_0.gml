@@ -36,7 +36,6 @@ lastRank = "No Rank";
 bubblescale = 0;
 global.CameraViewWidth = camera_get_view_width(view_camera[0]);
 global.CameraViewHeight = camera_get_view_height(view_camera[0]);
-window_set_size(960, 540);
 global.maxwave = 0;
 global.wave = 0;
 pizzaindex = 0;

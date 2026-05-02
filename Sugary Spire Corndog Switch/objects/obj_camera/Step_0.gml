@@ -1,6 +1,6 @@
 DrawHUD = true;
 
-if (room == timesuproom || room == souractive_tutorial || room == rm_levelSelect || room == rank_room || room == rm_credits || room == rm_titlecard || room == hub_w1 || room == hub_w2 || room == tutorial_1 || room == mineshaft_elevator || room == rm_poker || instance_exists(obj_bosscontroller))
+if (room == timesuproom || room == souractive_tutorial || room == rm_levelSelect || room == rank_room || room == rm_credits || room == rm_titlecard || room == hub_w1 || room == hub_w2 || room == hub_w3 || room == hub_w4 || room == hub_hallway|| room == tutorial_1 || room == mineshaft_elevator || room == rm_poker || instance_exists(obj_bosscontroller))
     DrawHUD = false;
 
 if (get_panic() && !global.freezeframe)

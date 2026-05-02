@@ -1,1 +1,1 @@
-room_goto_fixed(rm_levelSelect);
+room_goto_fixed(realtitlescreen);

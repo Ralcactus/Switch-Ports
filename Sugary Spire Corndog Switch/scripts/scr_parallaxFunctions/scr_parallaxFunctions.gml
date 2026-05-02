@@ -1,5 +1,3 @@
-global.ParallaxMap = ds_map_create();
-
 function scr_addParallaxLayer(arg0, arg1, arg2 = [])
 {
     ds_map_set(global.ParallaxMap, arg0, 

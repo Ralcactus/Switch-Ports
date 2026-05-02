@@ -45,6 +45,34 @@ currentSecretStatus = false;
 addRoomMusic(realtitlescreen, "event:/music/titlescreen", undefined, undefined);
 addRoomMusic(palroom, "event:/music/options", undefined, undefined);
 addRoomMusic(rm_devroom, "event:/music/devroom", undefined, undefined);
+addRoomMusic(hub_hallway, "event:/music/hub", undefined, function(arg0, arg1, arg2)
+{
+    var event_state = undefined;
+    
+    switch (arg0)
+    {
+        case hub_w1:
+		case hub_hallway:
+        default:
+            event_state = 0;
+            break;
+        
+        case hub_w2:
+            event_state = 1;
+            break;    
+			
+        case hub_w3:
+            event_state = 2;
+            break;		
+			
+        case hub_w4:
+            event_state = 3;
+            break;
+    }
+    
+    if (!is_undefined(event_state))
+        fmod_event_setParameter(arg1, "state", event_state, false);
+});
 addRoomMusic(hub_w1, "event:/music/hub", undefined, function(arg0, arg1, arg2)
 {
     var event_state = undefined;
@@ -52,12 +80,21 @@ addRoomMusic(hub_w1, "event:/music/hub", undefined, function(arg0, arg1, arg2)
     switch (arg0)
     {
         case hub_w1:
+		case hub_hallway:
         default:
             event_state = 0;
             break;
         
         case hub_w2:
             event_state = 1;
+            break;    
+			
+        case hub_w3:
+            event_state = 2;
+            break;		
+			
+        case hub_w4:
+            event_state = 3;
             break;
     }
     

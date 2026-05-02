@@ -35,10 +35,11 @@ function scr_savelevelDetails()
     ini_update_stat("Confecti", string(global.levelname) + "3", global.CrackFollow);
     ini_update_stat("Confecti", string(global.levelname) + "4", global.WormFollow);
     ini_update_stat("Confecti", string(global.levelname) + "5", global.CandyFollow);
-    
-    if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", string(global.levelname), "none")))
-        ini_write_string("Ranks", string(global.levelname), global.rank);
-    
+	ini_write_string("Ranks", string(global.levelname), global.rank);
+	
+    if (string(global.levelname) == "tutorial")
+        ini_update_stat("Misc", "completedtutorial", true);
+	
     ini_close();
     fmod_event_play(global.RankMusicInst);
     fmod_event_setPause(global.RankMusicInst, false);

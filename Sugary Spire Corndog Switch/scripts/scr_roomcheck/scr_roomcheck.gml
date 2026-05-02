@@ -6,6 +6,6 @@ function scr_roomcheck()
 
 function is_hub()
 {
-    var hub_rooms = [hub_w1, hub_w2, hub_basement, hub_hallway];
+    var hub_rooms = [hub_w1, hub_w2, hub_w3, hub_w4, hub_basement, hub_hallway];
     return array_contains(hub_rooms, room);
 }

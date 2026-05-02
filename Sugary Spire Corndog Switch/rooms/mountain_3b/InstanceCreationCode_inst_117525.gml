@@ -1,1 +1,1 @@
-hookStopID = 117562;
+hookStopID = inst_117562;

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"_decompiled_ts_hubshop1",
   "bboxMode":0,
-  "bbox_bottom":416,
+  "bbox_bottom":415,
   "bbox_left":0,
-  "bbox_right":384,
+  "bbox_right":319,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"9ba3f508-604f-487d-8f7d-820911cf32e6","name":"9ba3f508-604f-487d-8f7d-820911cf32e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":32,
+  "gridY":32,
   "height":416,
   "HTile":false,
   "layers":[

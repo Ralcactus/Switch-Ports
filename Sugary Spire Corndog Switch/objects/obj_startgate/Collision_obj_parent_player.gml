@@ -25,7 +25,18 @@ with (obj_parent_player)
     
     if (sprite_index == spr_entergate && animation_end() && !instance_exists(obj_titlecard))
     {
-        with (instance_create(x, y, obj_titlecard))
-            info = other_id.info;
+		if (targetRoom != tutorial_1){
+	        with (instance_create(x, y, obj_titlecard))
+	            info = other_id.info;
+		}
+		else{
+			if (!instance_exists(obj_fadeoutTransition))
+			{
+			    instance_create(x, y, obj_fadeoutTransition, 
+			    {
+			        levelStart: true
+			    });
+			}
+		}
     }
 }

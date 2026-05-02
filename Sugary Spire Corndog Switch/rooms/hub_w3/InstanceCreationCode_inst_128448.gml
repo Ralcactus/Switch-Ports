@@ -1,6 +1,6 @@
-targetRoom = mountain_intro;
+targetRoom = casino_1;
 targetDoor = "A";
-level = "fudge";
+level = "casino";
 depth = 101;
 var a = gate_createlayer(spr_fudge_startgate, 5, 0, 0);
 

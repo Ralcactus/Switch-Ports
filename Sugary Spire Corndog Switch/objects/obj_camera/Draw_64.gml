@@ -76,7 +76,7 @@ if (global.levelname != "none" && global.showplaytimer && room != hub_w1 && room
     draw_text(823, 512, string_hash_to_newline(string(global.playhour) + string(tinyish) + string(global.playminutes) + string(tiny) + string(global.playseconds) + string(tinier) + string(global.playmiliseconds)));
 }
 
-if (global.levelname != "none" && room != timesuproom && room != rank_room && room != timesuproom && room != hub_w1 && room != hub_w2 && room != hub_basement && !instance_exists(obj_bosscontroller))
+if (global.levelname != "none" && room != timesuproom && room != rank_room && room != timesuproom && room != hub_w1 && room != hub_w2 && room != hub_w3 && room != hub_hallway && room != hub_w4 && room != hub_basement && !instance_exists(obj_bosscontroller))
 {
     if (!instance_exists(obj_startgate))
     {

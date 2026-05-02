@@ -15,6 +15,9 @@ if (instance_number(obj_parallax) > 1)
 layerArray = [];
 var i = 5;
 
+xScroll = 0;
+yScroll = 0;
+
 repeat (5)
     layers[i--] = -4;
 
