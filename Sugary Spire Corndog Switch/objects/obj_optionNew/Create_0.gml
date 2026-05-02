@@ -114,6 +114,11 @@ create_option_toggle(game_option, "HITSTUN", undefined, function(arg0)
     quick_write_option("Settings", "hitstun", arg0);
     global.hitstunEnabled = arg0;
 }).value = global.hitstunEnabled;
+create_option_toggle(game_option, "WALLKICK", undefined, function(arg0)
+{
+    quick_write_option("Settings", "wallkick", arg0);
+    global.wallkick = arg0;
+}).value = global.wallkick;
 menus[UnknownEnum.Value_3] = create_option_menu(1, UnknownEnum.Value_0, game_option);
 menus[UnknownEnum.Value_4] = create_option_menu(1, UnknownEnum.Value_0, game_option);
 optionselected = 0;

@@ -156,6 +156,14 @@ function scr_characterSprite()
     spr_miniMach = scr_getCharacterSprite(spr_player_mini_mach);
     spr_miniUppercut = scr_getCharacterSprite(spr_player_mini_uppercut);
     spr_miniBump = scr_getCharacterSprite(spr_player_mini_bump);
+	
+	spr_wallJumpIntro = scr_getCharacterSprite(spr_player_PZ_wallJump_intro)
+	spr_wallJump = scr_getCharacterSprite(spr_player_PZ_wallJump)
+	spr_wallJumpCancelIntro = scr_getCharacterSprite(spr_player_PZ_wallJumpCancel_intro)
+	spr_wallJumpCancel = scr_getCharacterSprite(spr_player_PZ_wallJumpCancel)
+	spr_wallJumpFastFallIntro = scr_getCharacterSprite(spr_player_PZ_wallJumpFastFall_intro)
+	spr_wallJumpFastFall = scr_getCharacterSprite(spr_player_PZ_wallJumpFastFall)
+	
     var char_arr = [UnknownEnum.Value_0, UnknownEnum.Value_1, UnknownEnum.Value_3, UnknownEnum.Value_4];
     
     for (var i = 0; i < array_length(char_arr); i++)

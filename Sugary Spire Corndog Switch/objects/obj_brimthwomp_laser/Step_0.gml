@@ -73,5 +73,19 @@ for (var i = 0; i < ds_list_size(solids_list); i++)
 
 ds_list_destroy(solids_list);
 
-if (hit_valid_solid)
-    image_yscale = (abs(nearest_solid_y - y) / sprite_get_height(sprite_index)) * sign(savedYscale);
+var _spr_h = sprite_get_height(sprite_index);
+
+if (hit_valid_solid && _spr_h > 0 && nearest_solid_y != infinity && nearest_solid_y != -infinity)
+{
+    image_yscale = (abs(nearest_solid_y - y) / _spr_h) * sign(savedYscale);
+}
+else
+{
+    image_yscale = savedYscale;
+}
+
+if (savedYscale != savedYscale || savedYscale == 0)
+    savedYscale = 1;
+
+if (image_yscale != image_yscale || image_yscale == 0)
+    image_yscale = 0.01 * sign(savedYscale);

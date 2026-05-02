@@ -160,7 +160,7 @@ function state_player_doughmountpancake()
     movespeed = approach(movespeed, 20, 0.15);
     sprite_index = spr_player_PZ_dogMount_inflated;
     
-    if (place_meeting_collision(x + xscale, y, UnknownEnum.Value_1) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_chocofrog))
+    if (place_meeting_collision(x + xscale, y, UnknownEnum.Value_1) && !place_meeting(x + xscale, y, obj_chocofrog))
     {
         var test_y = 0;
         test_y -= slope_check_up(x + xscale, y, 32);

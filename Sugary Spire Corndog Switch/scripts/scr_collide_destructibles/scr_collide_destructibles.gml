@@ -24,7 +24,7 @@ function check_and_destroy(arg0, arg1, arg2)
 
 function scr_collide_destructibles()
 {
-    var side_to_side_states = [UnknownEnum.Value_64, UnknownEnum.Value_120, UnknownEnum.Value_119, UnknownEnum.Value_121, UnknownEnum.Value_53, UnknownEnum.Value_150, UnknownEnum.Value_152, UnknownEnum.Value_151, UnknownEnum.Value_36, UnknownEnum.Value_71, UnknownEnum.Value_133, UnknownEnum.Value_109, UnknownEnum.Value_65, UnknownEnum.Value_3, UnknownEnum.Value_145, UnknownEnum.Value_28, UnknownEnum.Value_97, UnknownEnum.Value_102, UnknownEnum.Value_17, UnknownEnum.Value_62, UnknownEnum.Value_88, UnknownEnum.Value_92, UnknownEnum.Value_94, UnknownEnum.Value_95, UnknownEnum.Value_104, UnknownEnum.Value_72, UnknownEnum.Value_57, UnknownEnum.Value_103, UnknownEnum.Value_100, UnknownEnum.Value_130, UnknownEnum.Value_105, UnknownEnum.Value_123, UnknownEnum.Value_124, UnknownEnum.Value_106, UnknownEnum.Value_78, UnknownEnum.Value_79, UnknownEnum.Value_108];
+    var side_to_side_states = [UnknownEnum.Value_64, UnknownEnum.Value_120, UnknownEnum.Value_119, UnknownEnum.Value_121, UnknownEnum.Value_53, UnknownEnum.Value_150, UnknownEnum.Value_152, UnknownEnum.Value_151, UnknownEnum.Value_36, UnknownEnum.Value_71, UnknownEnum.Value_133, UnknownEnum.Value_109, UnknownEnum.Value_65, UnknownEnum.Value_3, UnknownEnum.Value_145, UnknownEnum.Value_28, UnknownEnum.Value_97, UnknownEnum.Value_102, UnknownEnum.Value_17, UnknownEnum.Value_62, UnknownEnum.Value_88, UnknownEnum.Value_92, UnknownEnum.Value_94, UnknownEnum.Value_95, UnknownEnum.Value_104, UnknownEnum.Value_72, UnknownEnum.Value_57, UnknownEnum.Value_103, UnknownEnum.Value_100, UnknownEnum.Value_130, UnknownEnum.Value_105, UnknownEnum.Value_123, UnknownEnum.Value_124, UnknownEnum.Value_106, UnknownEnum.Value_78, UnknownEnum.Value_79, UnknownEnum.Value_108, UnknownEnum.Value_160];
     
     if (array_contains(side_to_side_states, state) || (state == UnknownEnum.Value_139 && substate == 0) || (state == UnknownEnum.Value_87 && sprite_index == spr_player_PZ_cotton_attack))
     {
@@ -33,13 +33,13 @@ function scr_collide_destructibles()
         check_and_destroy(x + xscale, y, obj_destructibles);
     }
     
-    if ((state == UnknownEnum.Value_28 && sprite_index == spr_dive) || state == UnknownEnum.Value_109 || (state == UnknownEnum.Value_62 && vsp > 0))
+    if ((state == UnknownEnum.Value_28 && sprite_index == spr_dive) || state == UnknownEnum.Value_160 || state == UnknownEnum.Value_109 || (state == UnknownEnum.Value_62 && vsp > 0))
     {
         check_and_destroy(x + hsp, y + vsp, obj_destructibles);
         check_and_destroy(x + sign(hsp), y + sign(vsp), obj_destructibles);
     }
     
-    if (((state == UnknownEnum.Value_17 || state == UnknownEnum.Value_102 || state == UnknownEnum.Value_33 || state == UnknownEnum.Value_94) && vsp >= 0) || (state == UnknownEnum.Value_12 || state == UnknownEnum.Value_96 || state == UnknownEnum.Value_123 || (state == UnknownEnum.Value_139 && substate == 2) || state == UnknownEnum.Value_109) || ((state == UnknownEnum.Value_11 || state == UnknownEnum.Value_88) && vsp < 0))
+    if (((state == UnknownEnum.Value_17 || state == UnknownEnum.Value_102 || state == UnknownEnum.Value_160 || state == UnknownEnum.Value_33 || state == UnknownEnum.Value_94) && vsp >= 0) || (state == UnknownEnum.Value_12 || state == UnknownEnum.Value_96 || state == UnknownEnum.Value_123 || (state == UnknownEnum.Value_139 && substate == 2) || state == UnknownEnum.Value_109) || ((state == UnknownEnum.Value_11 || state == UnknownEnum.Value_88) && vsp < 0))
     {
         check_and_destroy(x, y + vsp, obj_destructibles);
         check_and_destroy(x, y + sign(vsp), obj_destructibles);

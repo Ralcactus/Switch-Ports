@@ -164,4 +164,5 @@ enum UnknownEnum
 	Value_157,
 	Value_158,
 	Value_159,
+	Value_160 = 160
 }

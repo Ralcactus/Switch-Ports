@@ -5,6 +5,6 @@ condition = function()
 
 output = function()
 {
-    (129166).signEnabled = true;
-    (129167).signEnabled = false;
+    (inst_129166).signEnabled = true;
+    (inst_129167).signEnabled = false;
 };

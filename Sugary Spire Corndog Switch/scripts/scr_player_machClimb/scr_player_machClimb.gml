@@ -103,30 +103,59 @@ function state_player_climbwall()
     {
         inputBufferJump = 0;
         image_index = 0;
-        sprite_index = spr_secondjump1;
-        vsp = -9;
-        jumpStop = false;
-        xscale *= -1;
-        state = UnknownEnum.Value_64;
+		if (character == UnknownEnum.Value_0 && global.wallkick == true)
+		{
+			jumpStop = false
+			xscale *= -1
+			state = UnknownEnum.Value_160
+			//fmod_studio_event_instance_start(sndWallkickStart)
+			vsp = -14
+			sprite_index = spr_wallJumpIntro
+			movespeed = 4 * xscale
+			hsp = movespeed
+			dir = xscale
+			
+			//repeat (5)
+				//create_radiating_particle(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), spr_spinningFireParticle)
+			
+			with (instance_create(x, y, obj_jumpdust, 
+			{
+				playerID: id
+			}))
+			{
+				image_xscale = other.xscale
+				sprite_index = spr_wallkick_effect
+			}
+			
+			//fmod_studio_event_instance_start(sndJump)
+		}
+		else
+		{
+	        sprite_index = spr_secondjump1;
+	        vsp = -9;
+	        jumpStop = false;
+	        xscale *= -1;
+	        state = UnknownEnum.Value_64;
         
-        if (movespeed >= 12 && !place_meeting(x + xscale, y, obj_molassesWall))
-        {
-            if (movespeed > 15)
-                movespeed = 15;
+	        if (movespeed >= 12 && !place_meeting(x + xscale, y, obj_molassesWall))
+	        {
+	            if (movespeed > 15)
+	                movespeed = 15;
             
-            sprite_index = spr_mach3jump;
-            state = UnknownEnum.Value_65;
-        }
-        else if (place_meeting(x + xscale, y, obj_molassesWall))
-        {
-            sprite_index = spr_mach2jump;
-            movespeed = clamp(movespeed, 6, 10);
-            create_debris(x + (xscale * 16), y + 46, spr_molassesgoop);
-            event_play_oneshot("event:/SFX/player/goopjump", x, y);
-        }
+	            sprite_index = spr_mach3jump;
+	            state = UnknownEnum.Value_65;
+	        }
+	        else if (place_meeting(x + xscale, y, obj_molassesWall))
+	        {
+	            sprite_index = spr_mach2jump;
+	            movespeed = clamp(movespeed, 6, 10);
+	            create_debris(x + (xscale * 16), y + 46, spr_molassesgoop);
+	            event_play_oneshot("event:/SFX/player/goopjump", x, y);
+	        }
         
-        instance_create(x, y, obj_jumpdust);
-        fmod_event_play(sndJump);
+	        instance_create(x, y, obj_jumpdust);
+	        fmod_event_play(sndJump);
+		}
     }
     
     if (grounded && verticalMovespeed < 0)

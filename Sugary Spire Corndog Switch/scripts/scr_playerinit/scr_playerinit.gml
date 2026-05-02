@@ -667,6 +667,10 @@ function scr_playerstate()
         case UnknownEnum.Value_159:
             state_function = state_player_vampire;
             break;
+        
+        case UnknownEnum.Value_160:
+            state_function = state_player_wallkick;
+            break;
     }
     
     stateName = "states.undefined";
