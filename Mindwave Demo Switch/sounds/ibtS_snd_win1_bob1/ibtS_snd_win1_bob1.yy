@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ibtS_snd_win1_bob1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.1494784,
+  "exportDir":"",
+  "name":"ibtS_snd_win1_bob1",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ibtS_snd_win1_bob1.ogg",
+  "volume":0.2,
+}

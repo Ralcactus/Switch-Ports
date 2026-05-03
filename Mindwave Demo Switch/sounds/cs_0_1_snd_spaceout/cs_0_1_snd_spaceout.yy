@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"cs_0_1_snd_spaceout",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":14.490884,
+  "exportDir":"",
+  "name":"cs_0_1_snd_spaceout",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"cs_0_1_snd_spaceout.wav",
+  "volume":1.0,
+}

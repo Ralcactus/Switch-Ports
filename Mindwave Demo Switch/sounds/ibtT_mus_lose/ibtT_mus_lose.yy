@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ibtT_mus_lose",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.787755,
+  "exportDir":"",
+  "name":"ibtT_mus_lose",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ibtT_mus_lose.mp3",
+  "volume":1.0,
+}

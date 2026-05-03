@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mt0_snd_pencil",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.9195464,
+  "exportDir":"",
+  "name":"mt0_snd_pencil",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mt0_snd_pencil.ogg",
+  "volume":0.64,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mf0_snd_click2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8432426,
+  "exportDir":"",
+  "name":"mf0_snd_click2",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mf0_snd_click2.ogg",
+  "volume":1.0,
+}

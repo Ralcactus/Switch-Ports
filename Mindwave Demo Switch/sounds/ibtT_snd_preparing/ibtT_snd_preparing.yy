@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ibtT_snd_preparing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.692313,
+  "exportDir":"",
+  "name":"ibtT_snd_preparing",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ibtT_snd_preparing.ogg",
+  "volume":0.6,
+}

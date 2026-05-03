@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mf1_snd_nature",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":10.153854,
+  "exportDir":"",
+  "name":"mf1_snd_nature",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mf1_snd_nature.ogg",
+  "volume":0.49,
+}

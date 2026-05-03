@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ms0_mus",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.7280045,
+  "exportDir":"",
+  "name":"ms0_mus",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ms0_mus.mp3",
+  "volume":1.0,
+}

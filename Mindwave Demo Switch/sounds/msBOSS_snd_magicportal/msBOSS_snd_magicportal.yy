@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"msBOSS_snd_magicportal",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":10.03102,
+  "exportDir":"",
+  "name":"msBOSS_snd_magicportal",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"msBOSS_snd_magicportal.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ms12_snd_ring",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.807687,
+  "exportDir":"",
+  "name":"ms12_snd_ring",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ms12_snd_ring.ogg",
+  "volume":1.0,
+}

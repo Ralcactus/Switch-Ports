@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_gamepad",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_gamepad",
+  "parent":{
+    "name":"NX",
+    "path":"folders/NX.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

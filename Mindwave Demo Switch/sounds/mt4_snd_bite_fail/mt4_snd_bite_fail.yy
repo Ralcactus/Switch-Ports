@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mt4_snd_bite_fail",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.3750112,
+  "exportDir":"",
+  "name":"mt4_snd_bite_fail",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mt4_snd_bite_fail.ogg",
+  "volume":1.0,
+}

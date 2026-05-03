@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"cs_0_4_0_snd_sfx",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.604898,
+  "exportDir":"",
+  "name":"cs_0_4_0_snd_sfx",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"cs_0_4_0_snd_sfx.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mt1_snd_O",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.209297,
+  "exportDir":"",
+  "name":"mt1_snd_O",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mt1_snd_O.wav",
+  "volume":1.0,
+}
