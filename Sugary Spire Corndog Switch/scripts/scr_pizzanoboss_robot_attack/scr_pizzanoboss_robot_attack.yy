@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pizzanoboss_robot_attack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pizzanoboss_robot_attack",
+  "parent":{
+    "name":"boss",
+    "path":"folders/Scripts/boss.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

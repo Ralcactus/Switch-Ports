@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pizzanoboss_pickattack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pizzanoboss_pickattack",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

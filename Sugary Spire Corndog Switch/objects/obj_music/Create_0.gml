@@ -45,6 +45,7 @@ currentSecretStatus = false;
 addRoomMusic(realtitlescreen, "event:/music/titlescreen", undefined, undefined);
 addRoomMusic(palroom, "event:/music/options", undefined, undefined);
 addRoomMusic(rm_devroom, "event:/music/devroom", undefined, undefined);
+addRoomMusic(boss_pizzano, "event:/music/boss/pizzano", undefined, undefined);
 addRoomMusic(hub_hallway, "event:/music/hub", undefined, function(arg0, arg1, arg2)
 {
     var event_state = undefined;
