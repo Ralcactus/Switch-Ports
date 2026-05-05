@@ -11,4 +11,4 @@ instance_create(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox
 event_play_multiple("event:/SFX/general/breakblock", x, y);
 ini_open("saveData.ini");
 ini_write_string("Misc", "TutorialBlock", "1");
-ini_close();
+ini_close_os();

@@ -4184,7 +4184,6 @@
     {"roomId":{"name":"souractive_5","path":"rooms/souractive_5/souractive_5.yy",},},
     {"roomId":{"name":"souractive_tutorial","path":"rooms/souractive_tutorial/souractive_tutorial.yy",},},
     {"roomId":{"name":"casino_2","path":"rooms/casino_2/casino_2.yy",},},
-    {"roomId":{"name":"casino_3","path":"rooms/casino_3/casino_3.yy",},},
     {"roomId":{"name":"hub_w3","path":"rooms/hub_w3/hub_w3.yy",},},
     {"roomId":{"name":"souractive_G1","path":"rooms/souractive_G1/souractive_G1.yy",},},
     {"roomId":{"name":"tutorial_4","path":"rooms/tutorial_4/tutorial_4.yy",},},
@@ -4204,6 +4203,7 @@
     {"roomId":{"name":"licorice_12","path":"rooms/licorice_12/licorice_12.yy",},},
     {"roomId":{"name":"hub_w4","path":"rooms/hub_w4/hub_w4.yy",},},
     {"roomId":{"name":"boss_pizzano","path":"rooms/boss_pizzano/boss_pizzano.yy",},},
+    {"roomId":{"name":"casino_3","path":"rooms/casino_3/casino_3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

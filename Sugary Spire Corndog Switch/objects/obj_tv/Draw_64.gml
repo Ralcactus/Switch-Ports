@@ -155,7 +155,12 @@ else
 draw_set_alpha(promptalpha);
 draw_text_scribble(480, promptY, "[fa_middle][shake]" + controlprompt);
 draw_set_alpha(1);
-draw_set_font(font_console);
+
+draw_set_font(global.promptfont);
+draw_set_halign(fa_left);
 
 if (global.levelname == "casino")
-    draw_text(camera_get_view_width(view_camera[0]) / 2, 50, global.PokerChips);
+    draw_text(50, 200, "POKER CHIPS: " + string(global.PokerChips));
+
+draw_set_font(font_console);
+

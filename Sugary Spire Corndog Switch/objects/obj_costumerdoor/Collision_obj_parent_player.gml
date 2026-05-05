@@ -14,7 +14,7 @@ if (other.key_up2 && !instance_exists(obj_palettechanger))
         
         ini_open("Custom/" + string(_players.characters) + "_" + string(_players.customSavedPalette) + "_palettes.ini");
         palettename = ini_read_string("General", "PaletteName", "Palette 1");
-        ini_close();
+        ini_close_os();
         input = palettename;
         var i = 0;
         
@@ -42,7 +42,7 @@ if (other.key_up2 && !instance_exists(obj_palettechanger))
                         break;
                 }
                 
-                ini_close();
+                ini_close_os();
                 input = string(round(colorvalue * 255));
                 keyboard_string = string(round(colorvalue * 255));
             }

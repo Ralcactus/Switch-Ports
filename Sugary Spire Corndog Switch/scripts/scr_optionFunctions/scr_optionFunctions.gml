@@ -127,7 +127,7 @@ function init_option()
     global.soundVolume = ini_read_real("Settings", "soundvol", 1);
     global.masterVolume = ini_read_real("Settings", "mastervol", 1);
     global.wallkick = ini_read_real("Settings", "wallkick", 0);
-    ini_close();
+    ini_close_os();
 }
 
 function quick_write_option(arg0, arg1, arg2)
@@ -139,5 +139,5 @@ function quick_write_option(arg0, arg1, arg2)
     else
         ini_write_real(arg0, arg1, arg2);
     
-    ini_close();
+    ini_close_os();
 }

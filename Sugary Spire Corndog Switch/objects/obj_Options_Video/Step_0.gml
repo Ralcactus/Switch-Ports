@@ -56,7 +56,7 @@ if (canmove)
                 window_set_fullscreen(optionsaved_fullscreen);
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "fullscrn", optionsaved_fullscreen);
-                ini_close();
+                ini_close_os();
                 global.fullscreen = optionsaved_fullscreen;
             }
             
@@ -89,7 +89,7 @@ if (canmove)
                 
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "resolution", optionsaved_resolution);
-                ini_close();
+                ini_close_os();
                 alarm[1] = 1;
                 global.selectedResolution = optionsaved_resolution;
             }
@@ -107,7 +107,7 @@ if (canmove)
                 event_play_oneshot("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "hitstun", optionsaved_hitstun);
-                ini_close();
+                ini_close_os();
                 global.hitstunEnabled = optionsaved_hitstun;
             }
             
@@ -124,7 +124,7 @@ if (canmove)
                 event_play_oneshot("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "smthcam", optionsaved_smoothcam);
-                ini_close();
+                ini_close_os();
                 global.smoothcam = optionsaved_smoothcam;
             }
             
@@ -141,7 +141,7 @@ if (canmove)
                 event_play_oneshot("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "screenmelt", optionsaved_screenmelt);
-                ini_close();
+                ini_close_os();
                 global.screenmelt = optionsaved_screenmelt;
             }
             
@@ -158,7 +158,7 @@ if (canmove)
                 event_play_oneshot("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "scrntilt", optionsaved_screentilt);
-                ini_close();
+                ini_close_os();
                 global.screentilt = optionsaved_screentilt;
             }
             
@@ -175,7 +175,7 @@ if (canmove)
                 event_play_oneshot("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "smoothscale", optionsaved_smoothscale);
-                ini_close();
+                ini_close_os();
                 global.smoothscale = optionsaved_smoothscale;
             }
             
@@ -192,7 +192,7 @@ if (canmove)
                 event_play_oneshot("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "lowperf", optionsaved_lowperformance);
-                ini_close();
+                ini_close_os();
                 
                 if (optionsaved_lowperformance != global.lowperformance)
                 {

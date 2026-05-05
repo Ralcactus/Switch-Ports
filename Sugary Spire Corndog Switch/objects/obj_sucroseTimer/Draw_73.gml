@@ -1,3 +1,4 @@
+/*
 if (bg_flash > 0)
 {
     draw_set_alpha(bg_flash);

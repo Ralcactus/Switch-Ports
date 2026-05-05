@@ -23,7 +23,7 @@ function scr_initinput()
     global.key_attackC = ini_read_string("ControllerButton", "attack", 32774);
     global.key_startC = ini_read_string("ControllerButton", "start", 32778);
     global.key_specialC = ini_read_string("ControllerButton", "special", 32775);
-    ini_close();
+    ini_close_os();
 }
 
 function scr_resetinput()
@@ -52,5 +52,5 @@ function scr_resetinput()
     ini_write_string("ControllerButton", "start", 32778);
     ini_write_string("ControllerButton", "special", 32773);
     scr_initinput();
-    ini_close();
+    ini_close_os();
 }

@@ -105,5 +105,5 @@ if (showtext)
     }
     
     draw_sprite_ext(_rankspr, 0, x - 32, y - 218, 1, 1, 0, c_white, 1);
-    ini_close();
+    ini_close_os();
 }

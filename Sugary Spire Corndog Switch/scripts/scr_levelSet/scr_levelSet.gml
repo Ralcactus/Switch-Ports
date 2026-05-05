@@ -83,10 +83,10 @@ function scr_levelSet()
     global.lapmusic = false;
     ini_open("saveData.ini");
     var ranks = ini_read_string("Ranks", string(global.levelname), "none");
-    ini_close();
+    ini_close_os();
     ini_open("saveData.ini");
     global.kungAirTime = ini_read_string("achievments", "kungAirTime", 0);
-    ini_close();
+    ini_close_os();
     global.showplaytimer = ranks != "none";
     
     with (obj_camera)

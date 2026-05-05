@@ -40,7 +40,7 @@ function scr_savelevelDetails()
     if (string(global.levelname) == "tutorial")
         ini_update_stat("Misc", "completedtutorial", true);
 	
-    ini_close();
+    ini_close_os();
     fmod_event_play(global.RankMusicInst);
     fmod_event_setPause(global.RankMusicInst, false);
     var rank_as_num = clamp(5 - rank_checker(), 0, 5);
@@ -66,6 +66,6 @@ function confecti_count_level(arg0)
             confecti_count++;
     }
     
-    ini_close();
+    ini_close_os();
     return confecti_count;
 }

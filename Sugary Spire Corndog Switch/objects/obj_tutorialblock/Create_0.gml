@@ -11,5 +11,5 @@ else if (ini_read_string("Ranks", "tutorial", "none") != "none")
     alarm[0] = 80;
 }
 
-ini_close();
+ini_close_os();
 depth = 4;

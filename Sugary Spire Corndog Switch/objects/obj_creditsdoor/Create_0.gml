@@ -4,7 +4,7 @@ var entrywayrank = ini_read_string("Ranks", "entryway", "none");
 var cottonrank = ini_read_string("Ranks", "steamy", "none");
 var moleassrank = ini_read_string("Ranks", "molasses", "none");
 var minesrank = ini_read_string("Ranks", "mines", "none");
-ini_close();
+ini_close_os();
 DoorUnlock = entrywayrank != "none" && cottonrank != "none" && moleassrank != "none" && minesrank != "none";
 event_inherited();
 

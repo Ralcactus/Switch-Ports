@@ -1,6 +1,9 @@
 if (ds_list_find_index(global.BaddieRoom, id) != -1 && !importantEnemy)
     exit;
-
+	
+if (instance_exists(obj_sucroseTimer))
+	obj_sucroseTimer.addseconds += 3;
+		
 repeat (3)
 {
     instance_create(x, y, obj_slapstar);

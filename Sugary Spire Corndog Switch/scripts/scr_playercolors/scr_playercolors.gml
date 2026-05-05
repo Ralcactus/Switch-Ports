@@ -67,7 +67,7 @@ function scr_playercolors()
         colored[colorindex[i]][2] = ini_read_real(string(characters) + "Colors" + string(colorindex[i]), "Blue", 0);
     }
     
-    ini_close();
+    ini_close_os();
     
     for (var i = 0; i < colorHeight; i++)
         color[i] = make_color_rgb(colored[i][0], colored[i][1], colored[i][2]);

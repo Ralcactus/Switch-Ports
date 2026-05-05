@@ -21,7 +21,7 @@ function scr_hatScript()
     if (ini_read_real("HatsUnlock", "World1", false) == false && (entryway != "none" && steamy != "none" && molasses != "none" && mines != "none"))
         ini_write_real("HatsUnlock", "World1", true);
     
-    ini_close();
+    ini_close_os();
     ini_open("optionData.ini");
     
     if (ini_read_real("HatsUnlock", "Entryway", false) == false && entryway == "s")
@@ -39,7 +39,7 @@ function scr_hatScript()
     if (ini_read_real("HatsUnlock", "World1", false) == false && (entryway != "none" && steamy != "none" && molasses != "none" && mines != "none"))
         ini_write_real("HatsUnlock", "World1", true);
     
-    ini_close();
+    ini_close_os();
 }
 
 function scr_normalAchievments()
@@ -49,5 +49,5 @@ function scr_normalAchievments()
     if (global.kungAirTime == 0 && kungAirTime >= 50)
         global.kungAirTime = 1;
     
-    ini_close();
+    ini_close_os();
 }

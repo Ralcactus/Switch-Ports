@@ -10,7 +10,7 @@ global.screenmelt = ini_read_real("Settings", "screenmelt", 1);
 global.tvmessages = ini_read_real("Settings", "tvmsg", 1);
 global.lowperformance = ini_read_real("Settings", "lowperf", 0);
 global.smoothscale = ini_read_real("Settings", "smoothscale", 1);
-ini_close();
+ini_close_os();
 optionsaved_fullscreen = global.fullscreen;
 optionsaved_resolution = global.selectedResolution;
 optionsaved_smoothcam = global.smoothcam;

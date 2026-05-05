@@ -31,7 +31,7 @@ if (canmove)
             ini_write_string("ControlsKeys", "attack", global.key_attack);
             ini_write_string("ControlsKeys", "start", global.key_start);
             ini_write_string("ControlsKeys", "special", global.key_special);
-            ini_close();
+            ini_close_os();
             event_play_oneshot("event:/SFX/ui/confirm");
             instance_destroy();
         }
@@ -58,7 +58,7 @@ if (canmove)
                 ini_write_string("ControlsKeys", "attack", global.key_attack);
                 ini_write_string("ControlsKeys", "start", global.key_start);
                 ini_write_string("ControlsKeys", "special", global.key_special);
-                ini_close();
+                ini_close_os();
                 event_play_oneshot("event:/SFX/ui/confirm");
                 instance_destroy();
             }

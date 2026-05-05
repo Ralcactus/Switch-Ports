@@ -51,7 +51,7 @@ if (canmove)
                 event_play_multiple("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "mastervol", optionsaved_masterVolume);
-                ini_close();
+                ini_close_os();
                 global.masterVolume = optionsaved_masterVolume;
                 set_volume_options();
             }
@@ -70,7 +70,7 @@ if (canmove)
                 event_play_multiple("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "musicvol", optionsaved_musicVolume);
-                ini_close();
+                ini_close_os();
                 global.musicVolume = optionsaved_musicVolume;
                 set_volume_options();
             }
@@ -89,7 +89,7 @@ if (canmove)
                 event_play_multiple("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "soundvol", optionsaved_soundVolume);
-                ini_close();
+                ini_close_os();
                 global.soundVolume = optionsaved_soundVolume;
                 set_volume_options();
             }
@@ -107,7 +107,7 @@ if (canmove)
                 event_play_multiple("event:/SFX/ui/confirm");
                 ini_open("optionData.ini");
                 ini_write_real("Settings", "dialoguevol", optionsaved_dialogueVolume);
-                ini_close();
+                ini_close_os();
                 global.dialogueVolume = optionsaved_dialogueVolume;
                 set_volume_options();
             }

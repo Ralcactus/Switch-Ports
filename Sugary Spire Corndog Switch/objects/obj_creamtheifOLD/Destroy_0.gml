@@ -67,6 +67,6 @@ if (ds_list_find_index(global.BaddieRoom, id) == -1 || importantEnemy)
     var obj = object_get_name(object_index);
     var checkkills = ini_read_real("Kills", obj, 0);
     ini_write_real("Kills", obj, checkkills + 1);
-    ini_close();
+    ini_close_os();
     ds_list_add(global.BaddieRoom, id);
 }

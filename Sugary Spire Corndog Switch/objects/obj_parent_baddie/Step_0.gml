@@ -152,8 +152,9 @@ if (global.freezeframe && state != UnknownEnum.Value_9)
     state = UnknownEnum.Value_9;
 }
 
-if (markedForDeath && !global.freezeframe && object_index != obj_iceblock)
+if (markedForDeath && !global.freezeframe && object_index != obj_iceblock){
     instance_destroy();
+}
 
 if (flash && alarm[2] <= 0)
     alarm[2] = room_speed * 0.15;

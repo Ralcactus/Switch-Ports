@@ -1,5 +1,8 @@
 if (ds_list_find_index(global.SaveRoom, id) == -1)
 {
+	if (instance_exists(obj_sucroseTimer))
+		obj_sucroseTimer.addseconds += 3;
+		
     event_play_oneshot("event:/SFX/enemies/kill");
     event_play_oneshot("event:/SFX/player/punch", x, y);
     event_play_oneshot((object_index == obj_chocofrog) ? "event:/SFX/general/frogdeathbig" : "event:/SFX/general/frogdeath", x, y);

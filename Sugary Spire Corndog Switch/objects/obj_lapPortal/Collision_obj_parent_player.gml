@@ -14,7 +14,7 @@ if (other.state != UnknownEnum.Value_110 && sprite_index == spr_lappingportal_id
     global.ComboTime = 60;
     ini_open("saveData.ini");
     var ranks = ini_read_string("Ranks", string(global.levelname), "none");
-    ini_close();
+    ini_close_os();
     
     if (ranks != "p")
         ds_list_add(global.SaveRoom, id);

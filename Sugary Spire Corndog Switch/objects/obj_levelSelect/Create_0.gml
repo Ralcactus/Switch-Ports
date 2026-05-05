@@ -18,7 +18,7 @@ gotoLevel = function(arg0, arg1)
     scr_levelstart(arg0, arg1);
     ini_open("saveData.ini");
     var ranks = ini_read_string("Ranks", string(global.levelname), "none");
-    ini_close();
+    ini_close_os();
     global.showplaytimer = ranks != "none";
     
     with (obj_parent_player)
@@ -51,7 +51,7 @@ addLevel(1, "sheriff", "Boss 2", rm_missing);
 addLevel(2, "dance", "Dance Off", dance_1);
 addLevel(2, "bee", "Sting Operation", bee_1);
 addLevel(2, "casino", "Coneboy Casino", casino_1);
-addLevel(2, "pizzano", "Boss 3", rm_missing);
+addLevel(2, "pizzano", "Boss 3", boss_pizzano);
 addLevel(3, "souractive", "Souractive", souractive_1);
 addLevel(3, "licorice", "Licorice Castle", licorice_1);
 addLevel(3, "sucrose", "Sucrose Snowstorm", sucrose_start);

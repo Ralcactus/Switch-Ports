@@ -3,7 +3,7 @@ global.musicVolume = ini_read_real("Settings", "musicvol", 0.6);
 global.dialogueVolume = ini_read_real("Settings", "dialoguevol", 1);
 global.soundVolume = ini_read_real("Settings", "soundvol", 1);
 global.masterVolume = ini_read_real("Settings", "mastervol", 1);
-ini_close();
+ini_close_os();
 optionsaved_masterVolume = global.masterVolume;
 optionsaved_dialogueVolume = global.dialogueVolume;
 optionsaved_musicVolume = global.musicVolume;

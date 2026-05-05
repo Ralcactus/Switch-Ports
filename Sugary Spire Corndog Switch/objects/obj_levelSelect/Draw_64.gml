@@ -80,6 +80,6 @@ if (_rank != "none")
 else
     draw_sprite_ext_flash(_rankspr, 0, x - 32, y - 218, 1, 1, 0, 0, 1);
 
-ini_close();
+ini_close_os();
 draw_text_scribble(480, 450, string("[fa_middle][shake][spr_promptfont]{0}", world_name));
 draw_text_scribble(480, 500, string("[fa_middle][shake][spr_promptfont]{0}", level_name));

@@ -24,7 +24,7 @@ if (!stop && player.key_right2 != 0)
     
     ini_open("Custom/" + string(player.characters) + "_" + string(player.customSavedPalette) + "_palettes.ini");
     palettename = ini_read_string("General", "PaletteName", "Palette 1");
-    ini_close();
+    ini_close_os();
     input = palettename;
     global.oldcolorchoosen = 0;
     global.colorchoosen = 0;
@@ -118,7 +118,7 @@ if (((player.key_jump2 || keyboard_check_pressed(vk_enter)) || player.key_slap2)
         palettename = string(input);
         ini_open("Custom/" + string(player.characters) + "_" + string(player.customSavedPalette) + "_palettes.ini");
         ini_write_string("General", "PaletteName", palettename);
-        ini_close();
+        ini_close_os();
     }
     else
     {

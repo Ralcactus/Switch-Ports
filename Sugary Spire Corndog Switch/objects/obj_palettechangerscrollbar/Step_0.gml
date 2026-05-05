@@ -19,7 +19,7 @@ while (readcolor)
             break;
     }
     
-    ini_close();
+    ini_close_os();
     finalvalue = round(colorvalue * 255);
     input = string(finalvalue);
     readcolor = false;

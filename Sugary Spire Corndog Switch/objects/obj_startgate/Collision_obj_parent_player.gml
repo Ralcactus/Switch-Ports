@@ -10,7 +10,7 @@ with (obj_parent_player)
         scr_levelstart(other.level, other.targetRoom);
         ini_open("saveData.ini");
         var ranks = ini_read_string("Ranks", string(global.levelname), "none");
-        ini_close();
+        ini_close_os();
         global.showplaytimer = ranks != "none";
         machTwo = 0;
         obj_camera.chargeCameraX = 0;
