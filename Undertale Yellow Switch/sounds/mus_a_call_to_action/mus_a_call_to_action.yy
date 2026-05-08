@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":21.94,
+  "duration":0.0,
   "exportDir":"",
   "name":"mus_a_call_to_action",
   "parent":{
