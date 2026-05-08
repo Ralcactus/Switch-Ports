@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_sme_yellow_rhythm_create_note",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_sme_yellow_rhythm_create_note",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GMLive_new",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GMLive_new",
+  "parent":{
+    "name":"GMLive",
+    "path":"folders/Scripts/GMLive.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

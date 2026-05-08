@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_save_flowey_dunes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_save_flowey_dunes",
+  "parent":{
+    "name":"SAVE",
+    "path":"folders/Scripts/General/SAVE.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

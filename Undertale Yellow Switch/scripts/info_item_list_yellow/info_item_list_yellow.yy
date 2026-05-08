@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"info_item_list_yellow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"info_item_list_yellow",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

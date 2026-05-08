@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_chem_compound_puzzle",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_chem_compound_puzzle",
+  "out_columns":1,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Chem Lab",
+    "path":"folders/Tile Sets/Steamworks/Chem Lab.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_chem_compound_puzzle",
+    "path":"sprites/_decompiled_ts_chem_compound_puzzle/_decompiled_ts_chem_compound_puzzle.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Steamworks",
+    "path":"texturegroups/Steamworks",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":2,
+}

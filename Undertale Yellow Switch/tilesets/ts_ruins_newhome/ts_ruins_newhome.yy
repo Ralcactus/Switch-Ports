@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_ruins_newhome",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_ruins_newhome",
+  "out_columns":11,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Ruins",
+    "path":"folders/Tile Sets/Ruins.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_ruins_newhome",
+    "path":"sprites/_decompiled_ts_ruins_newhome/_decompiled_ts_ruins_newhome.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"newhome",
+    "path":"texturegroups/newhome",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":132,
+}

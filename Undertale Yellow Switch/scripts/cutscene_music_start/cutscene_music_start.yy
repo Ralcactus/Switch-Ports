@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_music_start",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_music_start",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Scripts/General/Cutscenes/Music.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

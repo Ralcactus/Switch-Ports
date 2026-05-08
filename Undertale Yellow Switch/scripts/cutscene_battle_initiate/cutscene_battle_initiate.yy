@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_battle_initiate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_battle_initiate",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Scripts/General/Cutscenes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

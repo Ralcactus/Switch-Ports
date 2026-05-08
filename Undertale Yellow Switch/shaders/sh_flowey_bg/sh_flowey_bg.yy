@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_flowey_bg",
+  "name":"sh_flowey_bg",
+  "parent":{
+    "name":"Flowey",
+    "path":"folders/Shaders/Flowey.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

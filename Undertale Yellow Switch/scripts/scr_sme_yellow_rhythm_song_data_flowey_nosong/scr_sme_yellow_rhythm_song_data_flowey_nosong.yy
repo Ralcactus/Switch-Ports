@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_sme_yellow_rhythm_song_data_flowey_nosong",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_sme_yellow_rhythm_song_data_flowey_nosong",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

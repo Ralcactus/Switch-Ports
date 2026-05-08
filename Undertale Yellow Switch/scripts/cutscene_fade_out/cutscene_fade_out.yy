@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_fade_out",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_fade_out",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Scripts/General/Cutscenes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

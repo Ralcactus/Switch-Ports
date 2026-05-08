@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_flowey_world_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_flowey_world_tileset",
+  "out_columns":8,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_flowey_world_tileset",
+    "path":"sprites/_decompiled_ts_flowey_world_tileset/_decompiled_ts_flowey_world_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"BattleHotlandFloweyPhase1",
+    "path":"texturegroups/BattleHotlandFloweyPhase1",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":70,
+}

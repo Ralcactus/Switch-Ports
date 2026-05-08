@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_steamworks_garden",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_steamworks_garden",
+  "out_columns":23,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Steamworks",
+    "path":"folders/Tile Sets/Steamworks.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_steamworks_garden",
+    "path":"sprites/_decompiled_ts_steamworks_garden/_decompiled_ts_steamworks_garden.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Steamworks",
+    "path":"texturegroups/Steamworks",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":529,
+}

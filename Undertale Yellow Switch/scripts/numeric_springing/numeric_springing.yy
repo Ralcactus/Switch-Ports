@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"numeric_springing",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"numeric_springing",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_actor_into_follower",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_actor_into_follower",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Scripts/General/Cutscenes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

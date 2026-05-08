@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_camera_move",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_camera_move",
+  "parent":{
+    "name":"Camera",
+    "path":"folders/Scripts/General/Cutscenes/Camera.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

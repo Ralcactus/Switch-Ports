@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"joystick_direction",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"joystick_direction",
+  "parent":{
+    "name":"Joystick",
+    "path":"folders/Scripts/Input/Joystick.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

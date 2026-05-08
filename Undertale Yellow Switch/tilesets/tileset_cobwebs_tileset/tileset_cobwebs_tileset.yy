@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tileset_cobwebs_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tileset_cobwebs_tileset",
+  "out_columns":3,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_tileset_cobwebs_tileset",
+    "path":"sprites/_decompiled_tileset_cobwebs_tileset/_decompiled_tileset_cobwebs_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Ruins",
+    "path":"texturegroups/Ruins",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":10,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":36,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":18,
+}

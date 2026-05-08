@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_dialogue_nogui",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_dialogue_nogui",
+  "parent":{
+    "name":"Dialogue",
+    "path":"folders/Scripts/General/Cutscenes/Dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

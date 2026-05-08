@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_dialogue_dark",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_dialogue_dark",
+  "parent":{
+    "name":"Dialogue",
+    "path":"folders/Scripts/General/Cutscenes/Dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

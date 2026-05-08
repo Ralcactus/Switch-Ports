@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_sfx_play_at_frame",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_sfx_play_at_frame",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Scripts/General/Cutscenes/Music.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

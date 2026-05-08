@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_saving",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_saving",
+  "parent":{
+    "name":"NX",
+    "path":"folders/NX.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

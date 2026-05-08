@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"overlay_darkness_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"overlay_darkness_tileset",
+  "out_columns":1,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_overlay_darkness_tileset",
+    "path":"sprites/_decompiled_overlay_darkness_tileset/_decompiled_overlay_darkness_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"GeneralUse",
+    "path":"texturegroups/GeneralUse",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":2,
+}

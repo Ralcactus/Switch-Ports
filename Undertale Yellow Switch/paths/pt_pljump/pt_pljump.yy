@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"pt_pljump",
+  "closed":true,
+  "kind":0,
+  "name":"pt_pljump",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":80.0,"x":160.0,"y":176.0,},
+    {"speed":100.0,"x":160.0,"y":170.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

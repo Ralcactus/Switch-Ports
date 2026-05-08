@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_ruins_dr_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_ruins_dr_tileset",
+  "out_columns":11,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Ruins",
+    "path":"folders/Tile Sets/Ruins.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_ruins_dr_tileset",
+    "path":"sprites/_decompiled_ts_ruins_dr_tileset/_decompiled_ts_ruins_dr_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Ruins",
+    "path":"texturegroups/Ruins",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":132,
+}

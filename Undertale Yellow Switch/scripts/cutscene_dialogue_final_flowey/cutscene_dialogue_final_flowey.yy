@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_dialogue_final_flowey",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_dialogue_final_flowey",
+  "parent":{
+    "name":"Dialogue",
+    "path":"folders/Scripts/General/Cutscenes/Dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

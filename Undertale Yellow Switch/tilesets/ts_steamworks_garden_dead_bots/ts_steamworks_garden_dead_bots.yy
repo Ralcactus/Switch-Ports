@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_steamworks_garden_dead_bots",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_steamworks_garden_dead_bots",
+  "out_columns":6,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Steamworks",
+    "path":"folders/Tile Sets/Steamworks.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_steamworks_garden_dead_bots",
+    "path":"sprites/_decompiled_ts_steamworks_garden_dead_bots/_decompiled_ts_steamworks_garden_dead_bots.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Steamworks",
+    "path":"texturegroups/Steamworks",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":36,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"seq_pacifist_credits_Events",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"seq_pacifist_credits_Events",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

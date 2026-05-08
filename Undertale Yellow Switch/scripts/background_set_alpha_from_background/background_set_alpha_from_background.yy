@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"background_set_alpha_from_background",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"background_set_alpha_from_background",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/Scripts/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

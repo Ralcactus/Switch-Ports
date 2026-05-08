@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sound_discard",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sound_discard",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Scripts/General/Sound.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

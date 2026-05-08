@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_text_counter",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_text_counter",
+  "parent":{
+    "name":"Text",
+    "path":"folders/Scripts/General/Text.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

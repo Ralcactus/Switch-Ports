@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_audio_stop_sound",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_audio_stop_sound",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Scripts/General/Sound.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

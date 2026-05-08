@@ -1,0 +1,19 @@
+{
+  "$GMPath":"",
+  "%Name":"pt_iceblock",
+  "closed":false,
+  "kind":1,
+  "name":"pt_iceblock",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":336.0,"y":176.0,},
+    {"speed":100.0,"x":432.0,"y":144.0,},
+    {"speed":120.0,"x":496.0,"y":224.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

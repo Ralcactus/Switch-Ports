@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_init_flags_dunes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_init_flags_dunes",
+  "parent":{
+    "name":"Initialize",
+    "path":"folders/Scripts/General/Initialize.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

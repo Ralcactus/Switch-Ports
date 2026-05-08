@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_text_increase_overworld",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_text_increase_overworld",
+  "parent":{
+    "name":"Text",
+    "path":"folders/Scripts/General/Text.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_sme_yellow_rhythm_out_gen_end_script_el_bailador",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_sme_yellow_rhythm_out_gen_end_script_el_bailador",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

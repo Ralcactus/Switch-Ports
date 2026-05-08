@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"asset_oasis_path_1_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"asset_oasis_path_1_tileset",
+  "out_columns":1,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Dunes",
+    "path":"folders/Tile Sets/Dunes.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_asset_oasis_path_1_tileset",
+    "path":"sprites/_decompiled_asset_oasis_path_1_tileset/_decompiled_asset_oasis_path_1_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Dunes",
+    "path":"texturegroups/Dunes",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":289,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":395,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":1,
+}

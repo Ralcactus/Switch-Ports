@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"pt_garbage_can",
+  "closed":true,
+  "kind":1,
+  "name":"pt_garbage_can",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":0.0,"y":-30.0,},
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":0.0,"y":30.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

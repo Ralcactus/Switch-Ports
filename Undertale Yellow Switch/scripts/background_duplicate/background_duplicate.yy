@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"background_duplicate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"background_duplicate",
+  "parent":{
+    "name":"Backgrounds",
+    "path":"folders/Scripts/Backgrounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

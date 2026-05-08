@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_bridge_snowdin_16_yellow_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_bridge_snowdin_16_yellow_tileset",
+  "out_columns":2,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_bridge_snowdin_16_yellow_tileset",
+    "path":"sprites/_decompiled_ts_bridge_snowdin_16_yellow_tileset/_decompiled_ts_bridge_snowdin_16_yellow_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Snowdin",
+    "path":"texturegroups/Snowdin",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":30,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":19,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":6,
+}

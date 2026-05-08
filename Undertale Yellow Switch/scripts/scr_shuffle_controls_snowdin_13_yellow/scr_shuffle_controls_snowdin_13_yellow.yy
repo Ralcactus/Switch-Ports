@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_shuffle_controls_snowdin_13_yellow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_shuffle_controls_snowdin_13_yellow",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

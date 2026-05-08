@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"bg_snowdin_11_branches_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"bg_snowdin_11_branches_tileset",
+  "out_columns":1,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Snowdin",
+    "path":"folders/Tile Sets/Snowdin.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_bg_snowdin_11_branches_tileset",
+    "path":"sprites/_decompiled_bg_snowdin_11_branches_tileset/_decompiled_bg_snowdin_11_branches_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Snowdin",
+    "path":"texturegroups/Snowdin",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":640,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":380,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":1,
+}

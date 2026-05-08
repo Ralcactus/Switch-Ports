@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_draw_dialogue_box_anywhere",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_draw_dialogue_box_anywhere",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

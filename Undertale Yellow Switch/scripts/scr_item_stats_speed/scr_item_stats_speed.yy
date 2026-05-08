@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_item_stats_speed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_item_stats_speed",
+  "parent":{
+    "name":"Items",
+    "path":"folders/Scripts/General/Items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_item_use_text_yellow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_item_use_text_yellow",
+  "parent":{
+    "name":"Items",
+    "path":"folders/Scripts/General/Items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

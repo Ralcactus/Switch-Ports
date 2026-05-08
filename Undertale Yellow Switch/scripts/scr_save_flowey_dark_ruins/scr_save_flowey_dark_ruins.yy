@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_save_flowey_dark_ruins",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_save_flowey_dark_ruins",
+  "parent":{
+    "name":"SAVE",
+    "path":"folders/Scripts/General/SAVE.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

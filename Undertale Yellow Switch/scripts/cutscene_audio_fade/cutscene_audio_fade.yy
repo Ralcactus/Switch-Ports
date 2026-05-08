@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_audio_fade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_audio_fade",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Scripts/General/Cutscenes/Music.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

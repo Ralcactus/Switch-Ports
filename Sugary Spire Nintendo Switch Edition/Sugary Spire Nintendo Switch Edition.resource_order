@@ -10,7 +10,6 @@
   "ResourceOrderSettings":[
     {"name":"obj_music_helper","order":2,"path":"objects/obj_music_helper/obj_music_helper.yy",},
     {"name":"fmod_fakeinit","order":1,"path":"scripts/fmod_fakeinit/fmod_fakeinit.yy",},
-    {"name":"ini_close_os","order":1,"path":"scripts/ini_close_os/ini_close_os.yy",},
     {"name":"scr_fmod_statehandle","order":4,"path":"scripts/scr_fmod_statehandle/scr_fmod_statehandle.yy",},
     {"name":"scr_fmodpath_convert","order":3,"path":"scripts/scr_fmodpath_convert/scr_fmodpath_convert.yy",},
     {"name":"scr_getinput_functions","order":1,"path":"scripts/scr_getinput_functions/scr_getinput_functions.yy",},
@@ -93,6 +92,7 @@
     {"name":"scr_player_wallkick","order":2,"path":"scripts/scr_player_wallkick/scr_player_wallkick.yy",},
     {"name":"scr_retro_pal_swapper_utilities","order":1,"path":"scripts/scr_retro_pal_swapper_utilities/scr_retro_pal_swapper_utilities.yy",},
     {"name":"scr_retro_pal_swapper","order":1,"path":"scripts/scr_retro_pal_swapper/scr_retro_pal_swapper.yy",},
+    {"name":"scr_saving","order":1,"path":"scripts/scr_saving/scr_saving.yy",},
     {"name":"shdVideo","order":1,"path":"shaders/shdVideo/shdVideo.yy",},
     {"name":"A_5","order":1,"path":"sounds/A_5/A_5.yy",},
     {"name":"A_6","order":2,"path":"sounds/A_6/A_6.yy",},

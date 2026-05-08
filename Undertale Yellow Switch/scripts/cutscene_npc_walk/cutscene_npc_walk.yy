@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cutscene_npc_walk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cutscene_npc_walk",
+  "parent":{
+    "name":"NPCs",
+    "path":"folders/Scripts/General/Cutscenes/NPCs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

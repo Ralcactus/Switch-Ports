@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"pt_small_jump",
+  "closed":true,
+  "kind":0,
+  "name":"pt_small_jump",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":180.0,"y":370.0,},
+    {"speed":100.0,"x":180.0,"y":355.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

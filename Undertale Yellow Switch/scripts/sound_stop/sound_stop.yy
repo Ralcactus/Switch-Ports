@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sound_stop",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sound_stop",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Scripts/General/Sound.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

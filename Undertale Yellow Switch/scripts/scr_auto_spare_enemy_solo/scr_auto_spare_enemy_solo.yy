@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_auto_spare_enemy_solo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_auto_spare_enemy_solo",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

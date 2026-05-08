@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cts_shufflers_puzzle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cts_shufflers_puzzle",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

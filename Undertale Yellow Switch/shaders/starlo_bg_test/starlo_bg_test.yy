@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"starlo_bg_test",
+  "name":"starlo_bg_test",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

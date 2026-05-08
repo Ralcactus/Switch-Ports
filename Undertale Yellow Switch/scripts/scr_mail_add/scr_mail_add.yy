@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_mail_add",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mail_add",
+  "parent":{
+    "name":"Mail",
+    "path":"folders/Scripts/General/Mail.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

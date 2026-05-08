@@ -1,3 +1,6 @@
+if (os_type == os_switch)
+	switch_accounts_select_account(true, false, false);
+
 scr_gameInit()
 depth = 5
 draw_flush()

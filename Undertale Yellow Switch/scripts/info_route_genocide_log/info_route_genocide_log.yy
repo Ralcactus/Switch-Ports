@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"info_route_genocide_log",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"info_route_genocide_log",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

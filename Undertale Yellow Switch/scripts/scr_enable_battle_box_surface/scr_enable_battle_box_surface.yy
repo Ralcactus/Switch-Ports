@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_enable_battle_box_surface",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_enable_battle_box_surface",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

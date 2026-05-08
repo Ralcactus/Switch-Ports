@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"pt_dalvhead",
+  "closed":true,
+  "kind":0,
+  "name":"pt_dalvhead",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":320.0,"y":126.0,},
+    {"speed":100.0,"x":320.0,"y":130.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

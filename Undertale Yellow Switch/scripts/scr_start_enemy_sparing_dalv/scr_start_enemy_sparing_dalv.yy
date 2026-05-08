@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_start_enemy_sparing_dalv",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_start_enemy_sparing_dalv",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"pt_dunes_37_couch_jump",
+  "closed":true,
+  "kind":0,
+  "name":"pt_dunes_37_couch_jump",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

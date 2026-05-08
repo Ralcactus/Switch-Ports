@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"keyboard_multicheck_released",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"keyboard_multicheck_released",
+  "parent":{
+    "name":"Input",
+    "path":"folders/Scripts/Input.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

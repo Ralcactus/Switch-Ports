@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"introduction_must_read_before_using",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"introduction_must_read_before_using",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

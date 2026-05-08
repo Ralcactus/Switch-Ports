@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dialogue_battle_action_selected_action_1_jandroid_b",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_dialogue_battle_action_selected_action_1_jandroid_b",
+  "parent":{
+    "name":"Dialogue",
+    "path":"folders/Scripts/General/Dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

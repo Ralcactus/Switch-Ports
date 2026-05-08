@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dummy_training_pacifist_no_attack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_dummy_training_pacifist_no_attack",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

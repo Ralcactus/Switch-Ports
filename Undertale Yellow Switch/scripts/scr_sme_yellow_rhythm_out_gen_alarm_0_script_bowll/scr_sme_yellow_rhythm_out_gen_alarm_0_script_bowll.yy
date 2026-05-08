@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_sme_yellow_rhythm_out_gen_alarm_0_script_bowll",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_sme_yellow_rhythm_out_gen_alarm_0_script_bowll",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

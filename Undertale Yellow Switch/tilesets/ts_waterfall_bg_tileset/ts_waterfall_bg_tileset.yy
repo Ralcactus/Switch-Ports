@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_waterfall_bg_tileset",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_waterfall_bg_tileset",
+  "out_columns":2,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Waterfall",
+    "path":"folders/Tile Sets/Waterfall.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_decompiled_ts_waterfall_bg_tileset",
+    "path":"sprites/_decompiled_ts_waterfall_bg_tileset/_decompiled_ts_waterfall_bg_tileset.yy",
+  },
+  "spriteNoExport":true,
+  "textureGroupId":{
+    "name":"Waterfall",
+    "path":"texturegroups/Waterfall",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.00015,
+  "tileHeight":90,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":276,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":8,
+}

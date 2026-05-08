@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_return_heart_battle_menu_position",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_return_heart_battle_menu_position",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

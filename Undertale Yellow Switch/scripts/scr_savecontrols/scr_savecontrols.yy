@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_savecontrols",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_savecontrols",
+  "parent":{
+    "name":"SAVE",
+    "path":"folders/Scripts/General/SAVE.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

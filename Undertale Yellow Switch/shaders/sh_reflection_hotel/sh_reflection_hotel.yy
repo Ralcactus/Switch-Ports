@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_reflection_hotel",
+  "name":"sh_reflection_hotel",
+  "parent":{
+    "name":"Reflection",
+    "path":"folders/Shaders/Reflection.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
