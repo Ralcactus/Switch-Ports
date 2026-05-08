@@ -11,29 +11,29 @@ if (file_exists("Save.sav"))
     ini_close();
 }
 
-mus = 129;
+mus = mus_menu_ruins;
 
 switch (world_value)
 {
     case 0:
     case 5:
-        mus = 129;
+        mus = mus_menu_ruins;
         break;
     
     case 1:
-        mus = 130;
+        mus = mus_menu_darkruins;
         break;
     
     case 2:
-        mus = 131;
+        mus = mus_menu_snowdin;
         break;
     
     case 3:
-        mus = 17;
+        mus = mus_menu_wild_east;
         break;
     
     case 4:
-        mus = 45;
+        mus = mus_menu_steamworks;
         break;
 }
 
