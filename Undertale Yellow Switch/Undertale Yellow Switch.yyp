@@ -4689,6 +4689,7 @@
     {"id":{"name":"scr_savegame_flowey","path":"scripts/scr_savegame_flowey/scr_savegame_flowey.yy",},},
     {"id":{"name":"scr_savegame_meta","path":"scripts/scr_savegame_meta/scr_savegame_meta.yy",},},
     {"id":{"name":"scr_savegame","path":"scripts/scr_savegame/scr_savegame.yy",},},
+    {"id":{"name":"scr_saving","path":"scripts/scr_saving/scr_saving.yy",},},
     {"id":{"name":"scr_screenshake_battle_custom","path":"scripts/scr_screenshake_battle_custom/scr_screenshake_battle_custom.yy",},},
     {"id":{"name":"scr_screenshake_battle","path":"scripts/scr_screenshake_battle/scr_screenshake_battle.yy",},},
     {"id":{"name":"scr_screenshake","path":"scripts/scr_screenshake/scr_screenshake.yy",},},

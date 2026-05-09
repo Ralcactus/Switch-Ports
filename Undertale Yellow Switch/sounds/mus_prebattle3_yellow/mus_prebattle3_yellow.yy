@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":77.34712,
+  "duration":0.0,
   "exportDir":"",
   "name":"mus_prebattle3_yellow",
   "parent":{

@@ -1,28 +1,28 @@
 function scr_determine_enemy_music_yellow()
 {
     var current_world_value = script_execute(scr_determine_world_value_yellow);
-    var battle_mus = 124;
+    var battle_mus = mus_prebattle1_yellow;
     
     switch (current_world_value)
     {
         case 0:
-            battle_mus = 124;
+            battle_mus = mus_prebattle1_yellow;
             break;
         
         case 1:
-            battle_mus = 124;
+            battle_mus = mus_prebattle1_yellow;
             break;
         
         case 2:
-            battle_mus = 162;
+            battle_mus = mus_battle_snowdin;
             break;
         
         case 3:
-            battle_mus = 513;
+            battle_mus = mus_prebattle3_yellow;
             break;
         
         case 4:
-            battle_mus = 208;
+            battle_mus = mus_heatwave_approaching;
             break;
     }
     

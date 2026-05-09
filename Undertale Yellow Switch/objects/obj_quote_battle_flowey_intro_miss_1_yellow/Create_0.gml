@@ -1,9 +1,9 @@
 message[0] = "Sorry about that.";
 message[1] = "Let's try again!";
 message[2] = "Here they come!#Dodge them all!";
-portrait[0] = 1939;
-portrait[1] = 1934;
-portrait[2] = 1934;
+portrait[0] = spr_flowey_plain_side;
+portrait[1] = spr_flowey_nice;
+portrait[2] = spr_flowey_nice;
 message_end = 2;
 message_current = 0;
 message_draw = "";

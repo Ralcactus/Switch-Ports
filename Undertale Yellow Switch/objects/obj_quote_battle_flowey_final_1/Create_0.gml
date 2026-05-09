@@ -1,7 +1,7 @@
 message[0] = "Now, remember what#I taught you!";
 message[1] = "Dodge the bullets!";
-portrait[0] = 1934;
-portrait[1] = 3508;
+portrait[0] = spr_flowey_nice;
+portrait[1] = spr_flowey_wink;
 message_end = 1;
 message_current = 0;
 message_draw = "";

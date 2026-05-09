@@ -1,6 +1,6 @@
 function scr_initialize_battle()
 {
-    global.font_type_text = 1;
+    global.font_type_text = fnt_main_battle;
     global.player_1_using_keyboard = true;
     global.player_1_using_gamepad = false;
     global.player_1_control_keyboard_up = vk_up;

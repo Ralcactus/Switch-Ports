@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.154399,
+  "duration":0.1543991,
   "exportDir":"",
   "name":"sndfnt_sans",
   "parent":{

@@ -276,7 +276,7 @@ switch (scene)
         if (!instance_exists(obj_transition2))
         {
             trn = instance_create(x, y, obj_transition2);
-            trn.newRoom = 11;
+            trn.newRoom = ruins_outro;
             trn.xx = x;
             trn.yy = y;
             trn.fadespeed = 1;

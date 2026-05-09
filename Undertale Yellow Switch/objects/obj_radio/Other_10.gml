@@ -34,13 +34,13 @@ switch (room)
     case rm_newhome_03:
     case rm_castle_pre_barrier:
     case rm_dunes_secret:
-        bgm = -4;
+        bgm = noone;
         break;
     
     case rm_ruins02:
     case rm_ruins03:
     case rm_ruins04:
-        bgm = 143;
+        bgm = mus_ruins_yellow;
         break;
     
     case rm_darkruins_02:
@@ -48,7 +48,7 @@ switch (room)
     case rm_darkruins_11:
     case rm_dunes_24:
     case rm_dunes_39:
-        bgm = 127;
+        bgm = mus_wind;
         break;
     
     case rm_darkruins_05:
@@ -58,20 +58,20 @@ switch (room)
     case rm_darkruins_08:
     case rm_darkruins_08b:
     case rm_darkruins_13:
-        bgm = 139;
+        bgm = mus_darkruins;
         break;
     
     case rm_darkruins_14:
-        bgm = 134;
+        bgm = mus_coolestcave;
         break;
     
     case rm_dalvshouse:
     case rm_dalvsroom:
     case rm_dalvroomhall:
         if (global.flag[17] == 1 && global.route != 3)
-            bgm = 144;
+            bgm = mus_spook;
         else
-            bgm = 123;
+            bgm = mus_null;
         
         break;
     
@@ -85,84 +85,84 @@ switch (room)
     case rm_snowdin_13_yellow:
     case rm_snowdin_15_yellow:
     case rm_snowdin_20_yellow:
-        bgm = 172;
+        bgm = mus_snowfall;
         break;
     
     case rm_snowdin_secret_to_everybody:
-        bgm = -4;
+        bgm = noone;
         break;
     
     case rm_battle_flashback_07:
-        bgm = 560;
+        bgm = mus_snow;
         break;
     
     case rm_snowdin_09_yellow:
         if (global.snowdin_flag[5] == 0 || global.snowdin_flag[5] == 2 || global.geno_complete[2])
-            bgm = 172;
+            bgm = mus_snowfall;
         else
-            bgm = 164;
+            bgm = mus_gimme_ur_cash_yellow;
         
         break;
     
     case rm_snowdin_14_yellow:
     case rm_snowdin_14c_yellow:
     case rm_snowdin_14d_yellow:
-        bgm = 169;
+        bgm = mus_relaxation;
         
         if (global.geno_complete[2])
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         
         break;
     
     case rm_snowdin_14e_yellow:
-        bgm = 141;
+        bgm = mus_funsized_yellow;
         
         if (global.geno_complete[2])
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         
         break;
     
     case rm_snowdin_14b_yellow:
         if (audio_is_playing(mus_honeydew_bark))
-            song = 145;
+            song = mus_honeydew_bark;
         else if (audio_is_playing(mus_honeydew_dalv))
-            song = 146;
+            song = mus_honeydew_dalv;
         else if (audio_is_playing(mus_honeydew_snow))
-            song = 149;
+            song = mus_honeydew_snow;
         else if (audio_is_playing(mus_honeydew_ruins))
-            song = 148;
+            song = mus_honeydew_ruins;
         else
-            bgm = 147;
+            bgm = mus_honeydew_lodge;
         
         if (global.snowdin_flag[13] != 0)
-            bgm = 169;
+            bgm = mus_relaxation;
         
         if (global.geno_complete[2])
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         
         break;
     
     case rm_snowdin_21_yellow:
         if (global.snowdin_flag[13] == 1)
-            bgm = 163;
+            bgm = mus_birdsofafeather;
         else if (!global.geno_complete[2] || global.dunes_flag[0] > 0)
-            bgm = 172;
+            bgm = mus_snowfall;
         else
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         
         break;
     
     case rm_waterfall_og:
         if (global.snowdin_flag[13] == 1)
-            bgm = 160;
+            bgm = mus_aviation;
         else
-            bgm = 167;
+            bgm = mus_quietstray;
         
         break;
     
     case rm_dunes_01:
     case rm_dunes_02:
-        bgm = 127;
+        bgm = mus_wind;
         break;
     
     case rm_dunes_03:
@@ -174,46 +174,46 @@ switch (room)
     case rm_dunes_28b:
     case rm_dunes_29:
     case rm_dunes_29b:
-        bgm = 205;
+        bgm = mus_vigorous_terrain;
         break;
     
     case rm_dunes_06b:
-        bgm = 141;
+        bgm = mus_funsized_yellow;
         break;
     
     case rm_dunes_32:
     case rm_dunes_34:
     case rm_dunes_35:
     case rm_dunes_36:
-        bgm = 205;
+        bgm = mus_vigorous_terrain;
         
         if (global.dunes_flag[41] == 1)
-            bgm = 568;
+            bgm = mus_the_trek;
         
         break;
     
     case rm_dunes_30c:
     case rm_mansion_chujins_grave:
-        bgm = 154;
+        bgm = mus_mart_geno_wind_yellow;
         break;
     
     case rm_mansion_entrance:
     case rm_mansion_kotatsu:
-        bgm = 152;
+        bgm = mus_trapdoor;
         break;
     
     case rm_mansion_study:
-        bgm = 662;
+        bgm = mus_computer_ambience;
         
         if (instance_exists(obj_ceroba_phase_2_overworld_cutscene_2))
-            bgm = -4;
+            bgm = noone;
         
         break;
     
     case rm_dunes_18:
         if (global.route == 3)
         {
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         }
         else
         {
@@ -234,9 +234,9 @@ switch (room)
     
     case rm_dunes_08b:
         if (global.dunes_flag[3] == 0 || global.dunes_flag[3] == 2)
-            bgm = 205;
+            bgm = mus_vigorous_terrain;
         else
-            bgm = 164;
+            bgm = mus_gimme_ur_cash_yellow;
         
         break;
     
@@ -249,89 +249,89 @@ switch (room)
     case rm_dunes_20:
     case rm_dunes_22:
     case rm_dunes_23:
-        bgm = 181;
+        bgm = mus_dunes_cave;
         
         if (global.route == 3)
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         
         break;
     
     case rm_dunes_25:
     case rm_dunes_25b:
     case rm_dunes_26:
-        bgm = 174;
+        bgm = mus_apex;
         break;
     
     case rm_dunes_35b:
         if (global.geno_complete[3] == true && global.route == 3)
-            bgm = -4;
+            bgm = noone;
         else
-            bgm = 177;
+            bgm = mus_cafe;
         
         break;
     
     case rm_dunes_21:
-        bgm = -4;
+        bgm = noone;
         break;
     
     case rm_dunes_28c:
-        bgm = 186;
+        bgm = mus_gemstone_fever;
         break;
     
     case rm_dunes_30:
-        bgm = 530;
+        bgm = mus_oasis;
         
         if (global.dunes_flag[41] == 1)
-            bgm = 568;
+            bgm = mus_the_trek;
         
         if (global.route == 3)
-            bgm = 205;
+            bgm = mus_vigorous_terrain;
         
         if (global.geno_complete[3])
-            bgm = 154;
+            bgm = mus_mart_geno_wind_yellow;
         
         break;
     
     case rm_dunes_37:
     case rm_dunes_38:
         if (global.dunes_flag[41] >= 1 && global.dunes_flag[41] <= 2)
-            bgm = 568;
+            bgm = mus_the_trek;
         else if (global.dunes_flag[20] == 0 || global.dunes_flag[20] == 8)
-            bgm = -4;
+            bgm = noone;
         else if (global.dunes_flag[20] == 9 && (global.dunes_flag[24] == 0 || global.dunes_flag[24] == 2))
-            bgm = 542;
+            bgm = mus_getting_the_thoughts_out;
         else
-            bgm = 198;
+            bgm = mus_the_wild_east;
         
         if (room == rm_dunes_37 && global.route == 2 && global.sworks_flag[40] == 2 && global.dunes_flag[41] == 0)
-            bgm = -4;
+            bgm = noone;
         
         break;
     
     case rm_dunes_40:
-        bgm = -4;
+        bgm = noone;
         break;
     
     case rm_dunes_42:
-        bgm = 207;
+        bgm = mus_sunnyside_ranch;
         break;
     
     case rm_dunes_37_saloon:
         if (global.route == 3)
-            bgm = -4;
+            bgm = noone;
         else if (global.dunes_flag[20] == 9 && (global.dunes_flag[24] == 0 || global.dunes_flag[24] == 2))
-            bgm = 542;
+            bgm = mus_getting_the_thoughts_out;
         else if (global.route == 1 && global.sworks_flag[0] > 0 && global.dunes_flag[24] == 1 && global.sworks_flag[61] == 0)
-            bgm = 92;
+            bgm = mus_after_hours;
         else
-            bgm = 189;
+            bgm = mus_happy_hour;
         
         break;
     
     case rm_steamworks_01:
     case rm_steamworks_02:
     case rm_steamworks_03:
-        bgm = 213;
+        bgm = mus_abandoned;
         break;
     
     case rm_steamworks_04:
@@ -349,31 +349,31 @@ switch (room)
     case rm_steamworks_30:
     case rm_steamworks_31:
         if (global.sworks_flag[1] < 3)
-            bgm = 213;
+            bgm = mus_abandoned;
         else
-            bgm = 215;
+            bgm = mus_steamworks_overworld;
         
         break;
     
     case rm_steamworks_macro_froggit_room:
-        bgm = 600;
+        bgm = mus_golden_opportunity;
         break;
     
     case rm_steamworks_factory_01:
-        bgm = 213;
+        bgm = mus_abandoned;
         break;
     
     case rm_steamworks_factory_02:
     case rm_steamworks_factory_04:
-        bgm = 533;
+        bgm = mus_corner_of_a_circle;
         break;
     
     case rm_steamworks_factory_03:
-        bgm = -4;
+        bgm = noone;
         break;
     
     case rm_steamworks_chem_01:
-        bgm = 213;
+        bgm = mus_abandoned;
         break;
     
     case rm_steamworks_chem_02:
@@ -383,14 +383,14 @@ switch (room)
     case rm_steamworks_chem_06:
     case rm_steamworks_chem_07:
         if (global.route != 3)
-            bgm = 533;
+            bgm = mus_corner_of_a_circle;
         else
-            bgm = 216;
+            bgm = mus_treading_lightly;
         
         break;
     
     case rm_steamworks_chem_hermit:
-        bgm = 629;
+        bgm = mus_greenhouse;
         break;
     
     case rm_steamworks_09:
@@ -399,34 +399,34 @@ switch (room)
     case rm_steamworks_21:
     case rm_steamworks_32:
     case rm_steamworks_33:
-        bgm = 216;
+        bgm = mus_treading_lightly;
         break;
     
     case rm_steamworks_22:
         if (global.sworks_flag[13] >= 2 || global.route == 3)
-            bgm = 216;
+            bgm = mus_treading_lightly;
         else
-            bgm = -4;
+            bgm = noone;
         
         break;
     
     case rm_steamworks_18b:
         if (global.sworks_flag[10] == 1)
-            bgm = 164;
+            bgm = mus_gimme_ur_cash_yellow;
         else
-            bgm = 215;
+            bgm = mus_steamworks_overworld;
         
         break;
     
     case rm_steamworks_13:
-        bgm = 214;
+        bgm = mus_detainment;
         break;
     
     case rm_steamworks_14:
-        bgm = -4;
+        bgm = noone;
         
         if (global.sworks_flag[3] >= 3)
-            bgm = 216;
+            bgm = mus_treading_lightly;
         
         break;
     
@@ -434,14 +434,14 @@ switch (room)
     case rm_steamworks_28:
     case rm_steamworks_29:
         if (global.sworks_flag[18] == 0)
-            bgm = -4;
+            bgm = noone;
         else
-            bgm = 629;
+            bgm = mus_greenhouse;
         
         break;
     
     case rm_steamworks_15:
-        bgm = 215;
+        bgm = mus_steamworks_overworld;
         break;
     
     case rm_steamworks_23:
@@ -449,25 +449,25 @@ switch (room)
     case rm_steamworks_25:
     case rm_steamworks_25_b:
     case rm_steamworks_26:
-        bgm = 213;
+        bgm = mus_abandoned;
         
         if (global.sworks_flag[14] == 1 || global.route == 1)
-            bgm = 533;
+            bgm = mus_corner_of_a_circle;
         
         break;
     
     case rm_hotland_01:
     case rm_hotland_02:
         if (global.hotland_flag[1] == 1)
-            bgm = 656;
+            bgm = mus_flock_together;
         
         if (global.hotland_flag[9] >= 3)
-            bgm = 48;
+            bgm = mus_honest_days_work;
         
-        bgm = 353;
+        bgm = mus_medium;
         
         if (global.route == 3)
-            bgm = 84;
+            bgm = mus_UNDERTALE_oogloop;
         
         break;
     
@@ -477,60 +477,60 @@ switch (room)
         bgm = -4;
         
         if (global.hotland_flag[1] == 1)
-            bgm = 656;
+            bgm = mus_flock_together;
         
         if (global.hotland_flag[9] >= 3)
-            bgm = 48;
+            bgm = mus_honest_days_work;
         
         break;
     
     case rm_hotland_complex_1:
-        bgm = 616;
+        bgm = mus_complex;
         
         if (global.hotland_flag[1] == 1)
-            bgm = 656;
+            bgm = mus_flock_together;
         
         if (global.hotland_flag[9] >= 3)
-            bgm = 48;
+            bgm = mus_honest_days_work;
         
         if (global.route == 3)
         {
             if (global.hotland_flag[9] < 3)
-                bgm = 609;
+                bgm = snd_light_loop;
             else
-                bgm = -4;
+                bgm = noone;
         }
         
         break;
     
     case rm_newhome_01:
     case rm_newhome_02:
-        bgm = 656;
+        bgm = mus_flock_together;
         
         if (global.hotland_flag[9] >= 3)
-            bgm = 48;
+            bgm = mus_honest_days_work;
         
         if (global.hotland_flag[3] == 2)
-            bgm = -4;
+            bgm = noone;
         
         break;
     
     case rm_castle_02:
         if (global.hotland_flag[9] >= 3)
-            bgm = 48;
+            bgm = mus_honest_days_work;
         
         break;
     
     case rm_castle_03:
-        bgm = -4;
+        bgm = noone;
         break;
     
     case rm_castle_throne_room:
-        bgm = 11;
+        bgm = mus_birdnoise;
         break;
     
     case rm_castle_barrier:
-        bgm = 570;
+        bgm = mus_barrier;
         break;
 }
 
@@ -566,3 +566,4 @@ else if (global.route == 3)
 
 if (room == rm_waterfall_og || room == rm_castle_throne_room || room == rm_hotland || room == rm_lava_tubes || room == rm_wildeast_cave || bgm == 609)
     audio_sound_pitch(current_song, 1);
+

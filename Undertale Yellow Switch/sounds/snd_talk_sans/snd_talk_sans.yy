@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.1411791,
+  "duration":0.14117914,
   "exportDir":"",
   "name":"snd_talk_sans",
   "parent":{

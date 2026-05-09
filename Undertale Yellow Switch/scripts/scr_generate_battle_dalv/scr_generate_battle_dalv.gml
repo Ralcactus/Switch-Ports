@@ -83,8 +83,8 @@ function scr_generate_battle_dalv()
         audio_sound_gain(mus_dalvopening_yellow, 0.8, 0);
         audio_sound_pitch(mus_dalvopening_yellow, 1);
         audio_play_sound(mus_dalvopening_yellow, 20, false);
-        audio_initial_music = 138;
-        audio_extend_music = 136;
+        audio_initial_music = mus_dalvopening_yellow;
+        audio_extend_music = mus_dalvbattle_yellow;
         audio_extend = true;
     }
     else

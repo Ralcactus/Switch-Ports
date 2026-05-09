@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":32000,
-  "soundFile":"apprehension_yellow.ogg",
+  "soundFile":"mus_apprehension_yellow.ogg",
   "volume":1.0,
 }

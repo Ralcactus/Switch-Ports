@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":161.28268,
+  "duration":0.0,
   "exportDir":"",
   "name":"mus_genobattle_yellow",
   "parent":{
