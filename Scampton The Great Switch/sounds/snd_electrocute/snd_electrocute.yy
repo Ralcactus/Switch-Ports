@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.9224489,
+  "duration":0.922449,
   "exportDir":"",
   "name":"snd_electrocute",
   "parent":{

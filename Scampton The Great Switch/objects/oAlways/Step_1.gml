@@ -15,7 +15,7 @@ if (Damage)
         DevDam = 8;
     
     if (oP.NoHit == "Disabled")
-        sou(67);
+        sou(snd_hurt1);
     
     Damage = false;
     ShakeTyme += 5;
@@ -442,7 +442,7 @@ if (Damage)
         
         if (oP.NoHit == "Disabled")
         {
-            sou(32);
+            sou(snd_break2);
             room_goto(rGameOver);
         }
         else

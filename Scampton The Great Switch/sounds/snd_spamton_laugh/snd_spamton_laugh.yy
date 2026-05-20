@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.6133333,
+  "duration":0.61333334,
   "exportDir":"",
   "name":"snd_spamton_laugh",
   "parent":{

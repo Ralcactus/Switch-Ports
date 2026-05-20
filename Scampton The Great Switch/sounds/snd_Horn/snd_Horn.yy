@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.9649658,
+  "duration":2.964966,
   "exportDir":"",
   "name":"snd_Horn",
   "parent":{

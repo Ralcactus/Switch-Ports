@@ -183,10 +183,10 @@ function use_keys(arg0 = 0)
             if (gamepad_axis_value(_gp, gp_axislh) > 0.3 || gamepad_button_check(_gp, gp_padr))
                 KeyRIGHT = true;
             
-            if (gamepad_button_check(_gp, gp_face1))
+            if (gamepad_button_check(_gp, gp_face2))
                 KeyZ = true;
             
-            if (gamepad_button_check(_gp, gp_face2))
+            if (gamepad_button_check(_gp, gp_face1))
                 KeyX = true;
             
             if (gamepad_button_check(_gp, gp_face4))

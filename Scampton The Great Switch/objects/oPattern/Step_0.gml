@@ -708,7 +708,7 @@ if (Pattern == "L1")
             sou(77);
             oAlways.ShakePower = 10;
             oAlways.ShakeTyme = 20;
-            sou(33);
+            sou(snd_explosion);
             
             with (instance_create_depth(x, y, -32000, oEEF))
                 Seed = "WhiteFlash2";

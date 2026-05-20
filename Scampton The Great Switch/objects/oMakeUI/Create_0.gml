@@ -80,12 +80,12 @@ BoxEEF = true;
 SMN = true;
 
 if (oP.NoHit == "Disabled" || oP.Deaths < 1)
-    sou(35);
+    sou(snd_weaponpull);
 
 if (oP.NoHit == "Enabled" && oP.Deaths > 0)
 {
-    sou(8);
-    sou(32);
+    sou(snd_ralsei_yell);
+    sou(snd_break2);
 }
 
 instance_create_depth(-62, 2, -9999, oTP);
@@ -197,6 +197,7 @@ if (oP.Deaths == 0)
     oRalsei.sprite_index = sRalsei_Spin;
     oRalsei.image_index = 0;
 }
+
 
 Items[0] = "NerdSeed";
 Items[1] = "AsrielBrew";

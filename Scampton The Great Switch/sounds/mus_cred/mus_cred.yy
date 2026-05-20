@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":40.852608,
+  "duration":95.52979,
   "exportDir":"",
   "name":"mus_cred",
   "parent":{

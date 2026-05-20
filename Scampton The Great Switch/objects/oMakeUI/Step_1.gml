@@ -165,7 +165,7 @@ if (!PartyDone)
     
     if (Cursor == 3 && KeyZ && Ztyme == 1 && array_length(Items) != 0)
     {
-        sou(101);
+        sou(snd_select);
         Cursor = "Item";
         ItemSel = MemberItem[PartyTurn];
         
@@ -331,7 +331,7 @@ if (!PartyDone)
         }
         else
         {
-            sou(39);
+            sou(snd_menumove);
             Cursor = FAISD[PartyTurn];
             Actions[PartyTurn] = 0;
             oTP.TP = MemberTP[PartyTurn];

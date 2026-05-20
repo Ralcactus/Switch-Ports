@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.3006802,
+  "duration":1.3006803,
   "exportDir":"",
   "name":"piston_cur",
   "parent":{

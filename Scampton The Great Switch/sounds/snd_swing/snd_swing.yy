@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7268707,
+  "duration":0.7268708,
   "exportDir":"",
   "name":"snd_swing",
   "parent":{

@@ -246,14 +246,14 @@ if (scrACp("LastP"))
         
         if (rTyme(4, Tyme))
         {
-            scrMakeAttack(oWhiteAttack, "RanSpin2", (i1[2] - 8) + iRan(-7, 30), i1[3] + 120, 0, 0, 0, 0.25, 10, 173, 0, 0, 2, 2, 0, 0);
-            scrMakeAttack(oWhiteAttack, "RanSpin2", (i1[2] - 8) + iRan(-7, 30), i1[3] + 120, 0, 0, iRan(1, 3), 0.25, 10, 173, 0, 0, 2, 2, 0, 0);
+            scrMakeAttack(oWhiteAttack, "RanSpin2", (i1[2] - 8) + iRan(-7, 30), i1[3] + 120, 0, 0, 0, 0.25, 10, sPlush_stuffing, 0, 0, 2, 2, 0, 0);
+            scrMakeAttack(oWhiteAttack, "RanSpin2", (i1[2] - 8) + iRan(-7, 30), i1[3] + 120, 0, 0, iRan(1, 3), 0.25, 10, sPlush_stuffing, 0, 0, 2, 2, 0, 0);
         }
         
         if (rTyme(4, Tyme - 2))
         {
-            scrMakeAttack(oWhiteAttack, "RanSpin2", i1[4] + 8 + iRan(-30, 7), i1[5] + 120, 0, 0, 0, 0.25, 10, 173, 0, 0, 2, 2, 0, 0);
-            scrMakeAttack(oWhiteAttack, "RanSpin2", i1[4] + 8 + iRan(-30, 7), i1[5] + 120, 0, 0, iRan(1, 3), 0.25, 10, 173, 0, 0, 2, 2, 0, 0);
+            scrMakeAttack(oWhiteAttack, "RanSpin2", i1[4] + 8 + iRan(-30, 7), i1[5] + 120, 0, 0, 0, 0.25, 10, sPlush_stuffing, 0, 0, 2, 2, 0, 0);
+            scrMakeAttack(oWhiteAttack, "RanSpin2", i1[4] + 8 + iRan(-30, 7), i1[5] + 120, 0, 0, iRan(1, 3), 0.25, 10, sPlush_stuffing, 0, 0, 2, 2, 0, 0);
         }
     }
     
@@ -287,23 +287,23 @@ if (scrACp("LastP"))
             
             if (k1 == 0)
             {
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 0, 0);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 20, 20);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, -20, -20);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 0, 0);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 20, 20);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, -20, -20);
             }
             
             if (k1 == 1)
             {
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 0, 0);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 10, 10);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 20, 20);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 0, 0);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 10, 10);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 20, 20);
             }
             
             if (k1 == 2)
             {
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 0, 0);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, -10, -10);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, -20, -20);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 0, 0);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, -10, -10);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, -20, -20);
             }
             
             if (k1 == 3)
@@ -311,10 +311,10 @@ if (scrACp("LastP"))
             
             if (k1 == 4)
             {
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 15, 15);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, -15, -15);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, 30, 30);
-                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, 152, k2, 0, 1, 1, -30, -30);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 15, 15);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, -15, -15);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, 30, 30);
+                scrMakeAttack(oWhiteAttack, "Front2@FadeFbox@Walk4", 150, 340, 0, 0, 0, 0, 0, sSymb2, k2, 0, 1, 1, -30, -30);
             }
         }
     }

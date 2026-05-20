@@ -43,7 +43,7 @@ function scrCursor(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, a
         if ((KeyZ && Ztyme == 1 && arg5 != 0 && arg5 != "NEXTp" && arg5 != "AM_NEXTp") && oTP.TP >= arg7)
         {
             TPmemory = arg7;
-            sou(101);
+            sou(snd_select);
             
             if (arg5 == "ActMag")
                 ActMag = Cursor;
@@ -64,7 +64,7 @@ function scrCursor(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, a
             Ztyme = 2;
             DidAM = ActMag;
             ActMag = 0;
-            sou(101);
+            sou(snd_select);
             
             with (oPep)
             {

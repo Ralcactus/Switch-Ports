@@ -12,7 +12,7 @@ BattleMusicPitch = 1;
 
 if (oP.MusicP == 0)
 {
-    BattleMusic = 74;
+    BattleMusic = BIG;
     
     if ((oP.Win_P && oP.Win_G && iRan(1, 100) == 1) || keyboard_check(ord("1")))
         BattleMusic = Bigger_bang_fin;

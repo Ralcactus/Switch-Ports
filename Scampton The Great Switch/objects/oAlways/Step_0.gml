@@ -244,14 +244,14 @@ if ((KeyX && Xtyme == 1) && (MM_Cursor == "s_MM5" || MM_Cursor == "s_MM6" || MM_
 {
     Xtyme = 2;
     MM_Cursor = "s_MM7";
-    sou(39);
+    sou(snd_menumove);
 }
 
 if ((KeyX && Xtyme == 1) && (MM_Cursor == "s_MM_I2" || MM_Cursor == "s_MM_I3"))
 {
     Xtyme = 2;
     MM_Cursor = "s_MM_I4";
-    sou(39);
+    sou(snd_menumove);
 }
 
 if (((KeyX && Xtyme == 1) || (KeyZ && Ztyme == 1)) && MM_Cursor == "s_MM7")
@@ -259,7 +259,7 @@ if (((KeyX && Xtyme == 1) || (KeyZ && Ztyme == 1)) && MM_Cursor == "s_MM7")
     Xtyme = 2;
     Ztyme = 2;
     MM_Cursor = "s_MM2";
-    sou(39);
+    sou(snd_menumove);
     
     with (oCC2)
     {
@@ -273,7 +273,7 @@ if (((KeyX && Xtyme == 1) || (KeyZ && Ztyme == 1)) && MM_Cursor == "s_MM_I4")
     Xtyme = 2;
     Ztyme = 2;
     MM_Cursor = "s_MM_I1";
-    sou(39);
+    sou(snd_menumove);
     
     with (oCC2)
     {
@@ -285,28 +285,28 @@ if (((KeyX && Xtyme == 1) || (KeyZ && Ztyme == 1)) && MM_Cursor == "s_MM_I4")
 if (MM_Cursor == "s_MM1" && KeyZ && Ztyme == 1)
 {
     Ztyme = 2;
-    sou(101);
+    sou(snd_select);
     MM_Cursor = "start_S";
 }
 
 if (MM_Cursor == "s_MM3" && KeyZ && Ztyme == 1)
 {
     Ztyme = 2;
-    sou(101);
+    sou(snd_select);
     MM_Cursor = "start_C";
 }
 
 if (MM_Cursor == "s_MML" && KeyZ && Ztyme == 1)
 {
     Ztyme = 2;
-    sou(101);
+    sou(snd_select);
     MM_Cursor = "start_L";
 }
 
 if (MM_Cursor == "s_MM2" && KeyZ && Ztyme == 1)
 {
     Ztyme = 2;
-    sou(101);
+    sou(snd_select);
     MM_Cursor = "s_MM5";
     
     with (oCC2)
@@ -319,7 +319,7 @@ if (MM_Cursor == "s_MM2" && KeyZ && Ztyme == 1)
 if (MM_Cursor == "s_MM_I1" && KeyZ && Ztyme == 1)
 {
     Ztyme = 2;
-    sou(101);
+    sou(snd_select);
     
     if (oP.Win_P)
         MM_Cursor = "s_MM_I2";
@@ -336,7 +336,7 @@ if (MM_Cursor == "s_MM_I1" && KeyZ && Ztyme == 1)
 if (MM_Cursor == "s_MM_I2" && KeyZ && Ztyme == 1 && oP.Win_P)
 {
     Ztyme = 2;
-    sou(98);
+    sou(snd_txtnoe);
     
     if (oP.setP)
         oP.setP = false;
@@ -349,7 +349,7 @@ if (MM_Cursor == "s_MM_I2" && KeyZ && Ztyme == 1 && oP.Win_P)
 if (MM_Cursor == "s_MM_I3" && KeyZ && Ztyme == 1 && oP.Win_G)
 {
     Ztyme = 2;
-    sou(101);
+    sou(snd_select);
     
     if (oP.setG)
         oP.setG = false;
@@ -402,7 +402,7 @@ scrMMcursor("GO_2", "GO_1", 0, 0, 0);
 
 if (MM_Cursor == "GO_1" && KeyZ && Ztyme == 1)
 {
-    sou(42);
+    sou(sFont_Sma);
     Ztyme = 2;
     MM_Cursor = "NOT";
     
@@ -412,7 +412,7 @@ if (MM_Cursor == "GO_1" && KeyZ && Ztyme == 1)
 
 if (MM_Cursor == "GO_2" && KeyZ && Ztyme == 1)
 {
-    sou(42);
+    sou(sFont_Sma);
     Ztyme = 2;
     MM_Cursor = "NOT";
     
@@ -435,7 +435,7 @@ if (MM_Cursor == 1 || MM_Cursor == 2 || MM_Cursor == 3)
     
     if (KeyX && Xtyme == 1 && MM_Cursor != "MM_O_BACK")
     {
-        sou(39);
+        sou(snd_menumove);
         Xtyme = 2;
         MM_Cursor = "MM_O_BACK";
         sctBumpText("MM_O_BACK", 1);
@@ -443,7 +443,7 @@ if (MM_Cursor == 1 || MM_Cursor == 2 || MM_Cursor == 3)
     
     if (KeyUP && UPtyme == 1 && MM_Cursor != "MM_O_BACK")
     {
-        sou(39);
+        sou(snd_menumove);
         UPtyme = 1;
         MM_Cursor -= 1;
         
@@ -455,7 +455,7 @@ if (MM_Cursor == 1 || MM_Cursor == 2 || MM_Cursor == 3)
     
     if (KeyDOWN && DOWNtyme == 1 && MM_Cursor != "MM_O_BACK")
     {
-        sou(39);
+        sou(snd_menumove);
         DOWNtyme = 1;
         MM_Cursor += 1;
         
@@ -494,9 +494,9 @@ if (curNumbYes || MM_Cursor == "MM_O_BACK")
 if (((KeyX && Xtyme == 1) || (KeyZ && Ztyme == 1)) && MM_Cursor == "MM_O_BACK")
 {
     if (KeyX && Xtyme == 1)
-        sou(39);
+        sou(snd_menumove);
     else
-        sou(101);
+        sou(snd_select);
     
     MM_Cursor = "MM_2";
     Xtyme = 2;
@@ -536,7 +536,7 @@ if (MM_Cursor == "MM_1" && KeyZ && Ztyme == 1)
 
 if (MM_Cursor == "MM_2" && KeyZ && Ztyme == 1)
 {
-    sou(101);
+    sou(snd_select);
     MM_Cursor = 1;
     Ztyme = 2;
     
@@ -587,7 +587,7 @@ if (MM_Cursor == "MM_2" && KeyZ && Ztyme == 1)
 
 if (MM_Cursor == 1 && KeyZ && Ztyme == 1)
 {
-    sou(101);
+    sou(snd_select);
     audio_stop_sound(Hoagy_Time);
     scrSkipIntro();
     
@@ -600,7 +600,7 @@ if (MM_Cursor == 1 && KeyZ && Ztyme == 1)
 
 if ((MM_Cursor == 2 || MM_Cursor == "s_MM6") && (KeyZ && Ztyme == 1))
 {
-    sou(101);
+    sou(snd_select);
     
     if (oP.NoHit == "Disabled")
     {
@@ -616,7 +616,7 @@ if ((MM_Cursor == 2 || MM_Cursor == "s_MM6") && (KeyZ && Ztyme == 1))
 
 if (MM_Cursor == 3 && KeyZ && Ztyme == 1)
 {
-    sou(101);
+    sou(snd_select);
     
     if (oP.KeyT == 1)
         oP.KeyT = 2;

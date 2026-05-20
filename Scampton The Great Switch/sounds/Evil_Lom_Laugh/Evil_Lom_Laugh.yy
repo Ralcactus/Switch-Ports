@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.750204,
+  "duration":1.7502041,
   "exportDir":"",
   "name":"Evil_Lom_Laugh",
   "parent":{

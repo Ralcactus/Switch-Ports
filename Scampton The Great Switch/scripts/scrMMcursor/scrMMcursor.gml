@@ -7,7 +7,7 @@ function scrMMcursor(arg0, arg1, arg2, arg3, arg4)
             if (room == rGameOver)
                 sou(89);
             else
-                sou(39);
+                sou(snd_menumove);
             
             MM_Cursor = arg1;
             UPtyme = 2;
@@ -24,7 +24,7 @@ function scrMMcursor(arg0, arg1, arg2, arg3, arg4)
             if (room == rGameOver)
                 sou(89);
             else
-                sou(39);
+                sou(snd_menumove);
             
             MM_Cursor = arg2;
             DOWNtyme = 2;
@@ -41,7 +41,7 @@ function scrMMcursor(arg0, arg1, arg2, arg3, arg4)
             if (room == rGameOver)
                 sou(89);
             else
-                sou(39);
+                sou(snd_menumove);
             
             MM_Cursor = arg3;
             LEFTtyme = 2;
@@ -58,7 +58,7 @@ function scrMMcursor(arg0, arg1, arg2, arg3, arg4)
             if (room == rGameOver)
                 sou(89);
             else
-                sou(39);
+                sou(snd_menumove);
             
             MM_Cursor = arg4;
             RIGHTtyme = 2;

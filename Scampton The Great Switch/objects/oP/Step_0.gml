@@ -93,10 +93,10 @@ if (AllowPM && !PistonMode && room == rMainu)
         PistonMode = true;
         audio_stop_sound(circus);
         audio_stop_sound(Evil_Lom_Laugh);
-        sou(33);
-        sou(24);
-        sou(24);
-        sou(24);
+        sou(snd_explosion);
+        sou(halo_laugh);
+        sou(halo_laugh);
+        sou(halo_laugh);
         
         with (instance_create_depth(x, y, -32000, oEEF))
             Seed = "WhiteFlash2";

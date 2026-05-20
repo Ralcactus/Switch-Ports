@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.3614965,
+  "duration":0.3614966,
   "exportDir":"",
   "name":"snd_Equip",
   "parent":{
