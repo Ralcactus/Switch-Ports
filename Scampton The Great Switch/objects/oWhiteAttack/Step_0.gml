@@ -274,7 +274,7 @@ if (scrACp("PipisGun"))
                 Bubble_Xscale[0] = 13;
                 Bubble_Yscale[0] = 2;
                 Bubble_Arrow[0] = 1;
-                Voice = 34;
+                Voice = snd_scampton_voice;
                 Spez = "Jöjöjaja";
                 Spez3 = "NUHKEY";
                 AllowKeys = false;
@@ -285,7 +285,7 @@ if (scrACp("PipisGun"))
     if (Tyme == (206 + i1))
     {
         image_index = 2;
-        sou(97);
+        sou(snd_Blast);
         
         if (scrACp("TextPopper"))
         {
@@ -371,9 +371,9 @@ if (scrACp("PipisGun"))
         k4[0] = iRan(-2, 2) * 2;
         SedCol[0] = -80 * sign(image_xscale);
         SedCol[1] = -40;
-        scrMakeAttack(k2[0], "Si10@Walk4@GS 1/2@FolSoul@Front2@p4", x + SedCol[0], y + SedCol[1], 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, (point_direction(x + SedCol[0], y + SedCol[1], oBox.x, oBox.y) - 15) + k4[0]);
-        scrMakeAttack(k2[1], "Si10@Walk4@GS 1/2@FolSoul@Front2@p4", x + SedCol[0], y + SedCol[1], 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, point_direction(x + SedCol[0], y + SedCol[1], oBox.x, oBox.y) + k4[0]);
-        scrMakeAttack(k2[2], "Si10@Walk4@GS 1/2@FolSoul@Front2@p4", x + SedCol[0], y + SedCol[1], 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, point_direction(x + SedCol[0], y + SedCol[1], oBox.x, oBox.y) + 15 + k4[0]);
+        scrMakeAttack(k2[0], "Si10@Walk4@GS 1/2@FolSoul@Front2@p4", x + SedCol[0], y + SedCol[1], 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, (point_direction(x + SedCol[0], y + SedCol[1], oBox.x, oBox.y) - 15) + k4[0]);
+        scrMakeAttack(k2[1], "Si10@Walk4@GS 1/2@FolSoul@Front2@p4", x + SedCol[0], y + SedCol[1], 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, point_direction(x + SedCol[0], y + SedCol[1], oBox.x, oBox.y) + k4[0]);
+        scrMakeAttack(k2[2], "Si10@Walk4@GS 1/2@FolSoul@Front2@p4", x + SedCol[0], y + SedCol[1], 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, point_direction(x + SedCol[0], y + SedCol[1], oBox.x, oBox.y) + 15 + k4[0]);
     }
     
     if (i2 == 1)
@@ -484,39 +484,39 @@ if (scrACp("PopperBig"))
             
             if (oMakeUI.Hatk && i4 == i5)
             {
-                sou(78);
+                sou(snd_explosion_firework);
                 
                 if (i7 == 1)
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
                 
                 if (i7 == 2)
                 {
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t15@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t-15@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t15@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t-15@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
                 }
                 
                 if (i7 == 3)
                 {
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t20@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t-20@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t20@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t-20@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
                 }
                 
                 if (i7 == 4)
                 {
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t6@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
-                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t-6@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t6@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
+                    scrMakeAttack(oWhiteAttack, "moveRot1@Walk4@Si10@t-6@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
                 }
             }
             else if (oMakeUI.Hatk)
             {
-                sou(97);
-                scrMakeAttack(oParryAttack, "moveRot1@Walk4@Si10@GS 1/2@p4@PipiEdge@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
+                sou(snd_Blast);
+                scrMakeAttack(oParryAttack, "moveRot1@Walk4@Si10@GS 1/2@p4@PipiEdge@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
             }
             else
             {
-                scrMakeAttack(oParryAttack, "moveRot1@Walk4@Si10@GS 1/2@p3@PipiEdge@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, k2);
+                scrMakeAttack(oParryAttack, "moveRot1@Walk4@Si10@GS 1/2@p3@PipiEdge@Front1@SmoB", x, y - 60, 0, 0, 0, 0, 0, sPipis2, 0, 0, 0, 0, 0, k2);
             }
         }
         
@@ -539,9 +539,9 @@ if (scrACp("CartON"))
 if (scrACp("TrainSpawn"))
 {
     if (iRan(1, 100) == 1)
-        sou(17);
+        sou(snd_haha);
     else
-        sou(6);
+        sou(snd_Horn);
     
     if (scrACp("TrainSps2"))
     {
@@ -550,8 +550,8 @@ if (scrACp("TrainSpawn"))
         else
             i1 = -1;
         
-        scrMakeAttack(oWhiteAttack, "TrainFront@NoDestroy@Train2Smoke", 320 + (i1 * 1000), oPattern.BoxY + (oPattern.i6 * 75), -i1 * 10, 0, 0, 0, 0, 204, 0, 0, -2 * i1, 2, 0, 0);
-        scrMakeAttack(oWhiteAttack, "NoDamage@FadeTrain@AlphaZero@Front1", 320 + (i1 * 1000), oPattern.BoxY + (oPattern.i6 * 75), -i1 * 10, 0, 0, 0, 0, 174, 0, 0, 2, -5 * i1, 90, 0);
+        scrMakeAttack(oWhiteAttack, "TrainFront@NoDestroy@Train2Smoke", 320 + (i1 * 1000), oPattern.BoxY + (oPattern.i6 * 75), -i1 * 10, 0, 0, 0, 0, sTrain1, 0, 0, -2 * i1, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "NoDamage@FadeTrain@AlphaZero@Front1", 320 + (i1 * 1000), oPattern.BoxY + (oPattern.i6 * 75), -i1 * 10, 0, 0, 0, 0, sBu, 0, 0, 2, -5 * i1, 90, 0);
     }
     else
     {
@@ -716,8 +716,8 @@ if (scrACp("DumHeadMake"))
     if (Tyme == 60 || (oMakeUI.Hatk && Tyme == 55))
     {
         oPattern.j3 = 5;
-        sou(12);
-        des(0);
+        sou(snd_woop);
+        des(snd_sneo_laugh_long);
     }
     
     if (rTyme(5, Tyme) && i2 < k4)
@@ -740,7 +740,7 @@ if (scrACp("DumHeadMake"))
                     a2 = irandom_range(0, array_length(a1) - 1);
                     a3 = a1[a2];
                     array_delete(a1, a2, 1);
-                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime3@DPE2", oPattern.BoxX + (a3 * 40), oPattern.BoxY - 96, 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 180, 0);
+                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime3@DPE2", oPattern.BoxX + (a3 * 40), oPattern.BoxY - 96, 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 180, 0);
                 }
             }
         }
@@ -763,34 +763,34 @@ if (scrACp("DumHeadMake"))
         {
             if (oPattern.i3 == 0)
             {
-                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY + 96, 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 0, 0);
+                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY + 96, 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 0, 0);
                 
                 if (a1 == i2)
-                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY - 96, 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 180, 0);
+                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY - 96, 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 180, 0);
             }
             
             if (oPattern.i3 == 1)
             {
-                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY - 96, 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 180, 0);
+                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY - 96, 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 180, 0);
                 
                 if (a1 == i2)
-                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY + 96, 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 0, 0);
+                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX + (oPattern.j2 * 20) + (i1 * 40), oPattern.BoxY + 96, 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 0, 0);
             }
             
             if (oPattern.i3 == 2)
             {
-                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX + 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 90, 0);
+                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX + 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 90, 0);
                 
                 if (a1 == i2)
-                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX - 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, -90, 0);
+                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX - 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, -90, 0);
             }
             
             if (oPattern.i3 == 3)
             {
-                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX - 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, -90, 0);
+                scrMakeAttack(k3, "DumHead@DamageTime4@GS 1/2@p6@DPE2", oPattern.BoxX - 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, -90, 0);
                 
                 if (a1 == i2)
-                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX + 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, 146, iRan(1, 2), 0, 3, 0.01, 90, 0);
+                    scrMakeAttack(oWhiteAttack, "DumHead@DamageTime4@DPE2", oPattern.BoxX + 114, oPattern.BoxY + (i1 * 40), 0, 0, 0, 0, 0, sSkog2, iRan(1, 2), 0, 3, 0.01, 90, 0);
             }
         }
         
@@ -938,7 +938,7 @@ if (scrACp("CupATK"))
         
         if (k4 == 1)
         {
-            sou(96);
+            sou(snd_impact_ch1);
             oAlways.ShakePower = 4;
             oAlways.ShakeTyme = 4;
             k3 = 10;
@@ -963,7 +963,7 @@ if (scrACp("CupATK"))
             }
             else
             {
-                sou(48);
+                sou(snd_electrocute);
                 oPattern.ParryEvent = 1;
             }
         }
@@ -1009,7 +1009,7 @@ if (scrACp("SpamSee"))
             Bubble_Xscale[0] = 7.5;
             Bubble_Yscale[0] = 1;
             Bubble_Arrow[0] = 1;
-            Voice = 34;
+            Voice = snd_scampton_voice;
             Spez = "Jöjöjaja";
             AllowKeys = false;
             Spez3 = "NUHKEY";
@@ -1113,7 +1113,7 @@ if (scrACp("Scams"))
                 if (Var3 == 0)
                 {
                     Var3 = 1;
-                    sou(34);
+                    sou(snd_scampton_voice);
                     a1 = 1;
                 }
                 
@@ -1127,7 +1127,7 @@ if (scrACp("Scams"))
                     {
                         audio_sound_pitch(snd_scampton_voice, a1);
                         a1 -= 0.075;
-                        sou(34);
+                        sou(snd_scampton_voice);
                     }
                     
                     scrMakeAttack(oWhiteAttack, "NoDamage@TrainSmoke@UneAN@OutLine", x, y, 0, 0, 0, 0, 0, 127, 0, 0, 2, 2, 0, 0);
@@ -1198,7 +1198,7 @@ if (scrACp("Scams"))
         if (k1 == 0 && k2 == 0 && oMakeUI.Pattern == "B3" && oPattern.Var1 == 1 && k3 == 0 && k5 == 0 && !oMakeUI.LoopGoop)
         {
             k5 = 1;
-            sou(31);
+            sou(snd_grab);
             
             with (instance_create_depth(455, 165, -20000, oEEF))
                 Seed = "ParrySmoke";
@@ -1217,18 +1217,18 @@ if (scrACp("Scams"))
     {
         if (oPattern.Var2 == 1)
         {
-            sou(34);
+            sou(snd_scampton_voice);
             j2 = point_direction(x - 10, y, oSoul.x, oSoul.y);
-            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, 152, iRan(0, 3), 0, 1, 1, j2, j2);
-            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, 152, iRan(0, 3), 0, 1, 1, j2 - 15, j2 - 15);
-            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, 152, iRan(0, 3), 0, 1, 1, j2 + 15, j2 + 15);
+            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, sSymb2, iRan(0, 3), 0, 1, 1, j2, j2);
+            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, sSymb2, iRan(0, 3), 0, 1, 1, j2 - 15, j2 - 15);
+            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, sSymb2, iRan(0, 3), 0, 1, 1, j2 + 15, j2 + 15);
         }
         
         if (oPattern.Var2 == 2)
         {
-            sou(34);
+            sou(snd_scampton_voice);
             j2 = point_direction(x - 10, y, oSoul.x, oSoul.y);
-            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, 152, iRan(0, 3), 0, 1, 1, j2, j2);
+            scrMakeAttack(oWhiteAttack, "3speed@Front3@DrawLate", x - 10, y, 0, 0, 0, 0, 0, sSymb2, iRan(0, 3), 0, 1, 1, j2, j2);
         }
     }
 }
@@ -1459,7 +1459,7 @@ if (scrACp("Anvil"))
         {
             oAlways.ShakePower = 50;
             oAlways.ShakeTyme = 50;
-            sou(30);
+            sou(snd_Anvil);
         }
         
         if (i4 >= 16)
@@ -1495,7 +1495,7 @@ if (scrACp("AnvilSpamton"))
         {
             a1 += 0.08;
             audio_sound_pitch(snd_scampton_voice, a1);
-            sou(34);
+            sou(snd_scampton_voice);
         }
         
         x -= 10;
@@ -1508,7 +1508,7 @@ if (scrACp("AnvilSpamton"))
     if (Tyme == (oPattern.i1 - 25) && Tyme > 50)
     {
         i1 = 2;
-        sou(26);
+        sou(snd_Scissors);
     }
     
     if (i1 == 1)

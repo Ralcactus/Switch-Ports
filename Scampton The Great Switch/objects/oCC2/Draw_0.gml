@@ -598,7 +598,7 @@ if (StringContains(Seed, "Library"))
         if (a7 == 1)
         {
             audio_stop_sound(tlk_fail);
-            sou(103);
+            sou(tlk_fail);
         }
         
         draw_sprite_ext(sScampt_Jump3, round(Tyme / 5), 322, 263, 2, 2, 0, c_black, 0.5);
@@ -803,7 +803,7 @@ if (StringContains(Seed, "(AnimatorScampton)"))
                 Seed = "(TB)@Voicer";
                 EndMesg = "Sca_1";
                 Text[0] = "* HELLO HELLO [[Valued Players]]!";
-                _Voice[0] = 34;
+                _Voice[0] = snd_scampton_voice;
             }
         }
     }
@@ -922,15 +922,15 @@ if (StringContains(Seed, "(AnimatorScampton_2)"))
                 EndMesg = "Sca_2";
                 SkipLine = "(0)";
                 Text[0] = "* WOULD YOU LIKE TO [[Continue@from Save File]] OR";
-                _Voice[0] = 34;
+                _Voice[0] = snd_scampton_voice;
                 Text[1] = "* We got your color things,@€€€€€€€€€mister.";
                 _Voice[1] = 98;
                 Text[2] = "* HOLLY [[Hungry Hippos]] YOU@ACTUALLY [[Objective@Completed]]?!!";
-                _Voice[2] = 34;
+                _Voice[2] = snd_scampton_voice;
                 Text[3] = "* [[Good!]]€€€€€€€€€£* [[GREAT!!]]€€€€€€€€€£* [[AMAZING!!!!]]";
-                _Voice[3] = 34;
+                _Voice[3] = snd_scampton_voice;
                 Text[4] = "* WHAT'RE YOU [[High Ping]]@[[Galoombas]] WAITING FOR?!!€€€€€€€€€£* [[Recieve your free prize]]!!";
-                _Voice[4] = 34;
+                _Voice[4] = snd_scampton_voice;
             }
         }
     }
@@ -1693,8 +1693,8 @@ if (StringContains(Seed, "(PepIn2)"))
             Seed = "(TB)@Voicer";
             Spez = "BeefEnter";
             EndMesg = "Mesg_2";
-            textAtri(0, "* [[Lightbringers!]]€€€€€€€€€£* YOU'RE HERE!", 34, "x");
-            textAtri(1, "* I'M SO EXCITED,€€€€€€€€€ I COULD [Die]!!", 34, "x");
+            textAtri(0, "* [[Lightbringers!]]€€€€€€€€€£* YOU'RE HERE!", snd_scampton_voice, "x");
+            textAtri(1, "* I'M SO EXCITED,€€€€€€€€€ I COULD [Die]!!", snd_scampton_voice, "x");
         }
     }
     
@@ -1717,27 +1717,27 @@ if (StringContains(Seed, "(PepIn2)"))
                 Spez = "BeefEnter2";
                 EndMesg = "Mesg_1";
                 Spez3 = "Papu";
-                textAtri(0, "* Can I go home now?", 34, "x");
+                textAtri(0, "* Can I go home now?", snd_scampton_voice, "x");
                 textAtri(1, "* Not before you give@us that prize.", 90, 11);
                 textAtri(2, "* And what's your@deal anyway?", 90, 9);
                 textAtri(3, "* Why are you here?", 90, 12);
-                textAtri(4, "* YOU'RE...€€€€€€€€€ ASKING WHAT MY...", 34, "x");
-                textAtri(5, "* [[DEAL]]?...€€€€€€   IS?", 34, "x");
-                textAtri(6, "* WHY,€€€€€€€€€ [[I'm nothing but a@simple servant...]]", 34, "x");
-                textAtri(7, "* A [[connoisseur]]€€€€€€€€€ OF@[[mindless entertainment.]]", 34, "x");
-                textAtri(8, "* [[Imprisoned...]]€€€€€€€€€ FOR BEING@WAY TOO FUNNY!!!", 34, "x");
-                textAtri(9, "* And your...€€€€€€   PRIZE???", 34, "x");
-                textAtri(10, "* WHY SHOULD I GIVE IT TO YOU?", 34, "x");
+                textAtri(4, "* YOU'RE...€€€€€€€€€ ASKING WHAT MY...", snd_scampton_voice, "x");
+                textAtri(5, "* [[DEAL]]?...€€€€€€   IS?", snd_scampton_voice, "x");
+                textAtri(6, "* WHY,€€€€€€€€€ [[I'm nothing but a@simple servant...]]", snd_scampton_voice, "x");
+                textAtri(7, "* A [[connoisseur]]€€€€€€€€€ OF@[[mindless entertainment.]]", snd_scampton_voice, "x");
+                textAtri(8, "* [[Imprisoned...]]€€€€€€€€€ FOR BEING@WAY TOO FUNNY!!!", snd_scampton_voice, "x");
+                textAtri(9, "* And your...€€€€€€   PRIZE???", snd_scampton_voice, "x");
+                textAtri(10, "* WHY SHOULD I GIVE IT TO YOU?", snd_scampton_voice, "x");
                 textAtri(11, "* We broke you out@of prison...", 98, 0);
                 textAtri(12, "* We had a whole fetch@quest and everything...", 98, 0);
-                textAtri(13, "* [[Child's play!]]€€€£* [[CHILD'S PLAY!!]]€€€£* [[CHILDREN'S GAME!!!]]", 34, "x");
-                textAtri(14, "* SCAMPTON€€€€€€€€€ [THE GREAT] €€€€€€€€€DOESN'T@OWE ANYONE€€€€€€€€€ ANYTHING!!!", 34, "x");
-                textAtri(15, "* YOU CALL YOURSELVES HEROES?£€€€€€€€€€* YOU'RE JUST A BUNCH OF CLOWNS!", 34, "x");
-                textAtri(16, "* [Big] CLOWNS!€€€€€€€€€£* WITH [Big] HATS!€€€€€€€€€£* THE WHOLE SHABANG!", 34, "x");
-                textAtri(17, "* Clowns that need to be caged!!!€€€€€€€€€£* Jailed!!!€€€€€€€€€£* Discarded...", 34, "x");
+                textAtri(13, "* [[Child's play!]]€€€£* [[CHILD'S PLAY!!]]€€€£* [[CHILDREN'S GAME!!!]]", snd_scampton_voice, "x");
+                textAtri(14, "* SCAMPTON€€€€€€€€€ [THE GREAT] €€€€€€€€€DOESN'T@OWE ANYONE€€€€€€€€€ ANYTHING!!!", snd_scampton_voice, "x");
+                textAtri(15, "* YOU CALL YOURSELVES HEROES?£€€€€€€€€€* YOU'RE JUST A BUNCH OF CLOWNS!", snd_scampton_voice, "x");
+                textAtri(16, "* [Big] CLOWNS!€€€€€€€€€£* WITH [Big] HATS!€€€€€€€€€£* THE WHOLE SHABANG!", snd_scampton_voice, "x");
+                textAtri(17, "* Clowns that need to be caged!!!€€€€€€€€€£* Jailed!!!€€€€€€€€€£* Discarded...", snd_scampton_voice, "x");
                 textAtri(18, "* I see where this@is going.", 90, 11);
-                textAtri(19, "* YOU MIGHT€€€€€€€€€ [[See]]€€€€€€€€€ WHERE THIS@IS GOING...", 34, "x");
-                textAtri(20, "* BUT HAVE NOT YET SEEN,€€€€€€€€€@FOR WHAT IS COMING!!!", 34, "x");
+                textAtri(19, "* YOU MIGHT€€€€€€€€€ [[See]]€€€€€€€€€ WHERE THIS@IS GOING...", snd_scampton_voice, "x");
+                textAtri(20, "* BUT HAVE NOT YET SEEN,€€€€€€€€€@FOR WHAT IS COMING!!!", snd_scampton_voice, "x");
             }
         }
     }
@@ -1823,7 +1823,7 @@ if (StringContains(Seed, "(PepIn2)"))
         
         if (i8 == 60)
         {
-            sou(87);
+            sou(snd_Parry);
             
             with (instance_create_depth(320, -75 - (i3[5] * 15), -20000, oEEF))
                 Seed = "ParrySmoke";
@@ -1831,7 +1831,7 @@ if (StringContains(Seed, "(PepIn2)"))
         
         if (i8 == 110)
         {
-            sou(87);
+            sou(snd_Parry);
             
             with (instance_create_depth(320, -25 - (i3[5] * 15), -20000, oEEF))
                 Seed = "ParrySmoke";
@@ -1839,7 +1839,7 @@ if (StringContains(Seed, "(PepIn2)"))
         
         if (i8 == 160)
         {
-            sou(87);
+            sou(snd_Parry);
             
             with (instance_create_depth(320, 25 - (i3[5] * 15), -20000, oEEF))
                 Seed = "ParrySmoke";
@@ -1879,8 +1879,8 @@ if (StringContains(Seed, "(PepIn2)"))
                     {
                         oAlways.ShakePower = 4;
                         oAlways.ShakeTyme = 10;
-                        sou(68);
-                        sou(68);
+                        sou(snd_soul_mode);
+                        sou(snd_soul_mode);
                     }
                     
                     if (i4 == 200 && i6 == 0)
@@ -2034,9 +2034,9 @@ if (StringContains(Seed, "(CamBack)"))
             Spez = "BeefEnter";
             EndMesg = "Mesg_3";
             Text[0] = "* [Buckle up chumps],€€€€€€€€€£* YOU'RE IN FOR A RIDE!";
-            _Voice[0] = 34;
+            _Voice[0] = snd_scampton_voice;
             Text[1] = "* A RIDE €€€€€€[[Around the bend]]€€€€€€€€€€@ON MY [[Specil]]€€€€€€ LITTLE RAILWAY.€€€€€€€€€";
-            _Voice[1] = 34;
+            _Voice[1] = snd_scampton_voice;
         }
     }
     
@@ -2076,7 +2076,7 @@ if (StringContains(Seed, "(CamBack)"))
         if (rTyme(6, i4) && i4 <= 150)
         {
             audio_sound_pitch(snd_scampton_voice, 0.5 + ((i4 / 7) * 0.05));
-            sou(34);
+            sou(snd_scampton_voice);
         }
         
         i4++;
@@ -2252,13 +2252,13 @@ if (StringContains(Seed, "OutroScamp"))
                     if (oP.WayWin == 1)
                     {
                         Text[0] = "* You got the Big Shot Bow Tie.";
-                        _Voice[0] = 34;
+                        _Voice[0] = snd_scampton_voice;
                     }
                     
                     if (oP.WayWin == 2)
                     {
                         Text[0] = "* You got the Pipis Popper.";
-                        _Voice[0] = 34;
+                        _Voice[0] = snd_scampton_voice;
                     }
                 }
             }
@@ -2413,18 +2413,18 @@ if (StringContains(Seed, "OutroScamp"))
                 if ((oP.HaveHit == 0 || oP.NoHit != "Disabled") && false)
                 {
                     Text[0] = "* Spare NO HIT 1";
-                    _Voice[0] = 34;
+                    _Voice[0] = snd_scampton_voice;
                 }
                 else
                 {
-                    textAtri(0, "* WAWAWOWWIE!!€€€€€€€€€ WHAT A [Knockout!]", 34, "x");
-                    textAtri(1, "* YOU [Loseners] ACTUALLY [WON]???", 34, "x");
-                    textAtri(2, "* [Despicable]€€€€€€€€€£* [Despicable!]€€€€€€€€€£* [DESPICABLE!!!]", 34, "x");
-                    textAtri(3, "* I JUST WANTED TO@[Get out of jail for free]", 34, "x");
+                    textAtri(0, "* WAWAWOWWIE!!€€€€€€€€€ WHAT A [Knockout!]", snd_scampton_voice, "x");
+                    textAtri(1, "* YOU [Loseners] ACTUALLY [WON]???", snd_scampton_voice, "x");
+                    textAtri(2, "* [Despicable]€€€€€€€€€£* [Despicable!]€€€€€€€€€£* [DESPICABLE!!!]", snd_scampton_voice, "x");
+                    textAtri(3, "* I JUST WANTED TO@[Get out of jail for free]", snd_scampton_voice, "x");
                     textAtri(4, "* Calm down man,€€€€€€€€€ you can@always join us if you@want.", 90, 11);
-                    textAtri(5, "* [Join]€€€€€€€€€ [the party?]€€€€€€€€€@[Guess That'll Have To Do!]", 34, "x");
-                    textAtri(6, "* BUT I'LL BE BACK,€€€€€€€€€ JUST YOU WAIT!", 34, "x");
-                    textAtri(7, "* THEN THE WHOLE WORLD WILL SEE@[Fury]€€€€€€€€€ FROM THE@[[GREAT SCAMPTON!!]]", 34, "x");
+                    textAtri(5, "* [Join]€€€€€€€€€ [the party?]€€€€€€€€€@[Guess That'll Have To Do!]", snd_scampton_voice, "x");
+                    textAtri(6, "* BUT I'LL BE BACK,€€€€€€€€€ JUST YOU WAIT!", snd_scampton_voice, "x");
+                    textAtri(7, "* THEN THE WHOLE WORLD WILL SEE@[Fury]€€€€€€€€€ FROM THE@[[GREAT SCAMPTON!!]]", snd_scampton_voice, "x");
                 }
             }
             
@@ -2435,18 +2435,18 @@ if (StringContains(Seed, "OutroScamp"))
                 if ((oP.HaveHit == 0 || oP.NoHit != "Disabled") && false)
                 {
                     Text[0] = "* Fight NO HIT 1";
-                    _Voice[0] = 34;
+                    _Voice[0] = snd_scampton_voice;
                 }
                 else
                 {
-                    textAtri(0, "* YOU CHEATING [Cats],€€€€€€€€€@WHAT IS THIS!?€€€€€€€€€ MURDER ON THE@[[BIG SHOT]] EXPRESS??", 34, "x");
-                    textAtri(1, "* [That combo was lame] AS@[.... . .-.. .-..] COULD BE!!", 34, "x");
-                    textAtri(2, "* REMINDS ME OF SOMEONE,€€€€€€€€€ BUT I@CAN'T QUITE PUT MY [Chopsticks]@ON IT.", 34, "x");
+                    textAtri(0, "* YOU CHEATING [Cats],€€€€€€€€€@WHAT IS THIS!?€€€€€€€€€ MURDER ON THE@[[BIG SHOT]] EXPRESS??", snd_scampton_voice, "x");
+                    textAtri(1, "* [That combo was lame] AS@[.... . .-.. .-..] COULD BE!!", snd_scampton_voice, "x");
+                    textAtri(2, "* REMINDS ME OF SOMEONE,€€€€€€€€€ BUT I@CAN'T QUITE PUT MY [Chopsticks]@ON IT.", snd_scampton_voice, "x");
                     textAtri(3, "* Hey guys...€€€€€€€€€ we can't let@this guy out,€€€€€€€€€ can we?€€€€€€€€€£* He's completely insane!", 98, 1);
                     textAtri(4, "* I like him actually,€€€€€€€€€@let's keep him.", 90, 13);
-                    textAtri(5, "* [A Keepsake]??€€€€€€€€€ FINE THEN!€€€€€€€€€@TAKE ME TO [Heaven's Door],€€€€€€€€€ FOR@IT'S APPROACH IS INEVITABLE!!", 34, "x");
-                    textAtri(6, "* But you better keep my [eggs]@safe", 34, "x");
-                    textAtri(7, "* You ruffians", 34, "x");
+                    textAtri(5, "* [A Keepsake]??€€€€€€€€€ FINE THEN!€€€€€€€€€@TAKE ME TO [Heaven's Door],€€€€€€€€€ FOR@IT'S APPROACH IS INEVITABLE!!", snd_scampton_voice, "x");
+                    textAtri(6, "* But you better keep my [eggs]@safe", snd_scampton_voice, "x");
+                    textAtri(7, "* You ruffians", snd_scampton_voice, "x");
                 }
             }
         }

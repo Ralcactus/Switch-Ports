@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7159863,
+  "duration":0.7159864,
   "exportDir":"",
   "name":"snd_whip_crack_only",
   "parent":{

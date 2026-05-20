@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0669614,
+  "duration":0.06696145,
   "exportDir":"",
   "name":"snd_txtchar",
   "parent":{

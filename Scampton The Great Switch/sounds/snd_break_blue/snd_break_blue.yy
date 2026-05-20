@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.6133106,
+  "duration":0.61331064,
   "exportDir":"",
   "name":"snd_break_blue",
   "parent":{

@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.1071427,
+  "duration":3.107143,
   "exportDir":"",
   "name":"tlk_express",
   "parent":{

@@ -72,12 +72,12 @@ function scrBothBullet()
         {
             if (oPattern.j3 == oPattern.j2)
             {
-                i1[3] = 278;
+                i1[3] = sCard;
                 image_index = oPattern.L1;
             }
             else
             {
-                i1[3] = 192;
+                i1[3] = sCard;
             }
             
             if (i1[1] == 0)
@@ -105,7 +105,7 @@ function scrBothBullet()
                         else
                             SedCol = "6";
                         
-                        scrMakeAttack(oParryAttack, "NoDestroy@BlueThrough@CardSpin1@CardGet@ParFree@p" + SedCol, oPattern.BoxX, oPattern.BoxY, 0, 0, 0, 0, 0, 192, iRan(1, oPattern.k3), 0, 0, 2, 0, direction);
+                        scrMakeAttack(oParryAttack, "NoDestroy@BlueThrough@CardSpin1@CardGet@ParFree@p" + SedCol, oPattern.BoxX, oPattern.BoxY, 0, 0, 0, 0, 0, sCard, iRan(1, oPattern.k3), 0, 0, 2, 0, direction);
                         des(0);
                     }
                 }

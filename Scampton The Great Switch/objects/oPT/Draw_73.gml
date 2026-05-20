@@ -1,3 +1,4 @@
+exit;
 Text = "Demo Build 4";
 draw_text_color(19, 20, Text, c_black, c_black, c_black, c_black, 1);
 draw_text_color(21, 20, Text, c_black, c_black, c_black, c_black, 1);

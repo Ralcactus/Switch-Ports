@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.0714283,
+  "duration":4.071429,
   "exportDir":"",
   "name":"tlk_congratulations",
   "parent":{

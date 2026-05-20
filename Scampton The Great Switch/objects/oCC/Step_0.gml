@@ -181,7 +181,7 @@ if (Seed == "Nail_1")
             Bubble_Xscale[0] = 4;
             Bubble_Yscale[0] = 1;
             Bubble_Arrow[0] = 1;
-            Voice = 106;
+            Voice = snd_txtspam;
             Text[0] = "HELP ME";
         }
     }
@@ -253,7 +253,7 @@ if (Seed == "2nd")
         Var2 += 0.1;
         
         if (Tyme == 20)
-            scrQuickBubText("DO SOMETHING!", 400, 120, 6.5, 1, 1, 106);
+            scrQuickBubText("DO SOMETHING!", 400, 120, 6.5, 1, 1, snd_txtspam);
         
         if (Tyme == 100)
         {
@@ -284,7 +284,7 @@ if (Seed == "2nd")
         if (Tyme == 130)
         {
             instance_destroy(oTextEngine);
-            scrQuickBubText("PLEASE!", 400, 120, 4, 1, 1, 106);
+            scrQuickBubText("PLEASE!", 400, 120, 4, 1, 1, snd_txtspam);
             oSpamtonRig.Index_Head = 20;
         }
         
@@ -317,7 +317,7 @@ if (Seed == "2nd")
         
         if (Tyme == 80)
         {
-            scrQuickBubText("DO SOMETHING@USEFUL!", 400, 120, 6.5, 2, 1, 106);
+            scrQuickBubText("DO SOMETHING@USEFUL!", 400, 120, 6.5, 2, 1, snd_txtspam);
             oSpamtonRig.Index_Head = 16;
             Var4 = 20;
         }
@@ -344,7 +344,7 @@ if (Seed == "2nd")
         if (Tyme == (175 + Var4))
         {
             instance_destroy(oTextEngine);
-            scrQuickBubText("OUCH", 400, 120, 2.75, 1, 1, 106);
+            scrQuickBubText("OUCH", 400, 120, 2.75, 1, 1, snd_txtspam);
             oSpamtonRig.HeadROT = -25;
             oSusie.sprite_index = sSusie_Ones;
             oSusie.image_index = 0;
@@ -353,14 +353,14 @@ if (Seed == "2nd")
         if (Tyme == (225 + Var4))
         {
             instance_destroy(oTextEngine);
-            scrQuickBubText("YIKES", 400, 120, 3.25, 1, 1, 106);
+            scrQuickBubText("YIKES", 400, 120, 3.25, 1, 1, snd_txtspam);
             oSpamtonRig.HeadROT = -50;
         }
         
         if (Tyme == (275 + Var4))
         {
             instance_destroy(oTextEngine);
-            scrQuickBubText("MAKE IT STOP!", 400, 120, 6.5, 1, 1, 106);
+            scrQuickBubText("MAKE IT STOP!", 400, 120, 6.5, 1, 1, snd_txtspam);
             oSpamtonRig.HeadROT = -75;
             oSpamtonRig.Index_Head = 20;
         }
@@ -732,7 +732,7 @@ if (Seed == "Soul_CC")
                 Bubble_Xscale[3] = 9.5;
                 Bubble_Yscale[3] = 1;
                 Bubble_Arrow[3] = 1;
-                Voice = 106;
+                Voice = snd_txtspam;
             }
         }
         
@@ -775,7 +775,7 @@ if (Seed == "Soul_CC")
                 Bubble_Xscale[0] = 10;
                 Bubble_Yscale[0] = 2;
                 Bubble_Arrow[0] = 1;
-                Voice = 106;
+                Voice = snd_txtspam;
                 TextSpeed = 0.5;
             }
         }
@@ -933,7 +933,7 @@ if (Seed == "SpamtonFinal_1")
                 BC = false;
                 Spez = "SF_ms1";
                 EndMesg = "SF_ms1";
-                Voice = 106;
+                Voice = snd_txtspam;
                 TextSpeed = 0.5;
                 Text[0] = "[STOP!!][!]";
                 Text[1] = "This [FIGHT] has gone@on for way too long...";
@@ -1026,7 +1026,7 @@ if (Seed == "SusEnd")
             BC = false;
             Spez = "SF_ms1";
             EndMesg = "SUSKILLNOW";
-            Voice = 106;
+            Voice = snd_txtspam;
             TextSpeed = 0.5;
             Spez2 = "LastSUS";
             Text[0] = "RESTITCHED TOGETHER!!!";
@@ -1088,7 +1088,7 @@ if (Seed == "SusEnd")
             
             if (AtText == 4)
             {
-                Voice = 106;
+                Voice = snd_txtspam;
                 StartX = SSx;
                 StartY = SSy;
             }

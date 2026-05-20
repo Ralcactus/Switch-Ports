@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.830204,
+  "duration":0.83020407,
   "exportDir":"",
   "name":"snd_woop",
   "parent":{

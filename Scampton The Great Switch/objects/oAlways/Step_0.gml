@@ -192,7 +192,7 @@ if (MM_Cursor == "scaI_1" && KeyZ && Ztyme == 1)
         Spez = "HeadBJE";
         EndMesg = "Sca_3";
         Text[0] = "* EAHAHAHAHAHAHAHAHA!!!€€€€€€€€€£* FINALLY!!!!";
-        _Voice[0] = 34;
+        _Voice[0] = snd_scampton_voice;
     }
 }
 
@@ -210,9 +210,9 @@ if (MM_Cursor == "scaI_2" && KeyZ && Ztyme == 1)
         Spez = "HeadBJE";
         EndMesg = "Sca_4";
         Text[0] = "* HOHO YOU SILLY GOOSE!";
-        _Voice[0] = 34;
+        _Voice[0] = snd_scampton_voice;
         Text[1] = "* We both know that's not@what you'll do.";
-        _Voice[1] = 34;
+        _Voice[1] = snd_scampton_voice;
     }
 }
 
@@ -387,7 +387,7 @@ if (MM_Cursor == "s_MM5" || MM_Cursor == "s_MM6" || MM_Cursor == "s_MM7")
         Spez = "O_MM";
         Spez2 = "ID";
         Spez3 = "BlackBC";
-        Font = 42;
+        Font = sFont_Sma;
         image_xscale = 1;
         image_yscale = 1;
         Text[0] = "(" + oP.NoHit + ")";
@@ -402,7 +402,7 @@ scrMMcursor("GO_2", "GO_1", 0, 0, 0);
 
 if (MM_Cursor == "GO_1" && KeyZ && Ztyme == 1)
 {
-    sou(sFont_Sma);
+    sou(snd_EH_select);
     Ztyme = 2;
     MM_Cursor = "NOT";
     
@@ -412,7 +412,7 @@ if (MM_Cursor == "GO_1" && KeyZ && Ztyme == 1)
 
 if (MM_Cursor == "GO_2" && KeyZ && Ztyme == 1)
 {
-    sou(sFont_Sma);
+    sou(snd_EH_select);
     Ztyme = 2;
     MM_Cursor = "NOT";
     

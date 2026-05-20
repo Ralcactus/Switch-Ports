@@ -6,7 +6,7 @@ function ParryPlode()
     if (sprite_index == sCard && image_index == 5)
         sou(55);
     else
-        sou(87);
+        sou(snd_Parry);
     
     if (oMakeUI.ExtraParry != 0)
     {

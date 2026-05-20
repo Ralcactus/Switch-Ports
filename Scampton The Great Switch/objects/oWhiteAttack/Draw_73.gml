@@ -16,7 +16,7 @@ if (scrACp("CupATK"))
             draw_sprite_ext(sprite_index, 10, x, y - 30, 2, 2, 0, RGB, 1);
             
             if (Var1 == 0)
-                sou(34);
+                sou(snd_scampton_voice);
             
             Var1 = 1;
         }

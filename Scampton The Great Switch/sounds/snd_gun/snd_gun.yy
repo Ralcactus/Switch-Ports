@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.0481632,
+  "duration":1.0481633,
   "exportDir":"",
   "name":"snd_gun",
   "parent":{

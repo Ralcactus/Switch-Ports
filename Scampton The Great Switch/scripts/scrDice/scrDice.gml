@@ -80,7 +80,7 @@ function beefText(arg0)
         image_yscale = 1;
         RGB = make_color_rgb(0, 0, 0);
         BC = false;
-        Voice = 34;
+        Voice = snd_scampton_voice;
         Bubble_Arrow[0] = 3;
         Spez = "TheDiceText" + string(arg0);
         

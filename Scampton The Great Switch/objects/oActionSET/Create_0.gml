@@ -1,3 +1,4 @@
+a = sRalsei_Defend_P;
 audio_sound_pitch(snd_scampton_voice, 1);
 audio_sound_pitch(snd_scampton_voice_2, 1);
 audio_sound_pitch(snd_Parry, 1);

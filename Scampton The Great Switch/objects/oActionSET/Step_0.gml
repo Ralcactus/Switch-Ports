@@ -1082,80 +1082,80 @@ if (Stop)
                 if (oMakeUI.Pattern == 1)
                 {
                     if (oP.setP || oP.setG)
-                        scrFlavourBub("What's with that@[HANDSOMELY GEAR]?#Did you steal@my likeness?", 430, 110, "9#7", "2#2", "3#3", "6#7", 34);
+                        scrFlavourBub("What's with that@[HANDSOMELY GEAR]?#Did you steal@my likeness?", 430, 110, "9#7", "2#2", "3#3", "6#7", snd_scampton_voice);
                     else
-                        scrFlavourBub("WHAT'S WITH THOSE FACES?@€€€€€€€€€SCARED OF A LITTLE@[Change of perspective?]", 400, 110, "11.5", "3", "3", "5", 34);
+                        scrFlavourBub("WHAT'S WITH THOSE FACES?@€€€€€€€€€SCARED OF A LITTLE@[Change of perspective?]", 400, 110, "11.5", "3", "3", "5", snd_scampton_voice);
                 }
                 
                 if (oMakeUI.Pattern == 2)
-                    scrFlavourBub("DON'T [Hurt yourself@in confusion]#THIS IS CERTIFIED@[Pipis] BLUE!!", 430, 110, "9.75#8.5", "2#2", "3#3", "1#5", 34);
+                    scrFlavourBub("DON'T [Hurt yourself@in confusion]#THIS IS CERTIFIED@[Pipis] BLUE!!", 430, 110, "9.75#8.5", "2#2", "3#3", "1#5", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 3)
-                    scrFlavourBub("PICK A [Card],@ANY [Kaard]#HOPE YOU GET@THE RIGHT ONE!!", 430, 110, "7#7.5", "2#2", "3#3", "1#2", 34);
+                    scrFlavourBub("PICK A [Card],@ANY [Kaard]#HOPE YOU GET@THE RIGHT ONE!!", 430, 110, "7#7.5", "2#2", "3#3", "1#2", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 4)
-                    scrFlavourBub("SAY HELLO TO MY@[[MAGIC ME'S]]!!!", 430, 110, "8.5", "2", "3", "5", 34);
+                    scrFlavourBub("SAY HELLO TO MY@[[MAGIC ME'S]]!!!", 430, 110, "8.5", "2", "3", "5", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 5)
-                    scrFlavourBub("LET US PLAY THE@[Seeking game]!#[Eyes on the prize]@€€€€€€€€€NO PEEKING ALLOWED!", 430, 110, "8#10", "2#2", "3#3", "5#1", 34);
+                    scrFlavourBub("LET US PLAY THE@[Seeking game]!#[Eyes on the prize]@€€€€€€€€€NO PEEKING ALLOWED!", 430, 110, "8#10", "2#2", "3#3", "5#1", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 6)
                 {
-                    sou(66);
-                    scrFlavourBub("ALL€€€ ABOARD€€€€€€€€€ THE@BIG SHOT EXPRESS!!!", 430, 110, "9.25", "2", "3", "2", 58);
+                    sou(tlk_express);
+                    scrFlavourBub("ALL€€€ ABOARD€€€€€€€€€ THE@BIG SHOT EXPRESS!!!", 430, 110, "9.25", "2", "3", "2", snd_none);
                 }
             }
             else
             {
                 if (oMakeUI.Pattern == 2)
-                    scrFlavourBub("THE [Bigger]@THE [BETTER]", 430, 110, "7", "2", "3", "2", 34);
+                    scrFlavourBub("THE [Bigger]@THE [BETTER]", 430, 110, "7", "2", "3", "2", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 3)
-                    scrFlavourBub("FASTER,€€€€€€€€€ FASTER!!€€€€€€€€€ A@[Twister] IS BREWING!", 430, 110, "10", "2", "3", "1", 34);
+                    scrFlavourBub("FASTER,€€€€€€€€€ FASTER!!€€€€€€€€€ A@[Twister] IS BREWING!", 430, 110, "10", "2", "3", "1", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 4)
-                    scrFlavourBub("GO FORTH, MY@[Miserable Pile of]@[Minions]!!!", 430, 110, "10", "3", "3", "1", 34);
+                    scrFlavourBub("GO FORTH, MY@[Miserable Pile of]@[Minions]!!!", 430, 110, "10", "3", "3", "1", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 5)
-                    scrFlavourBub("[Eyes] ON THE [prize]!", 430, 110, "10.5", "1", "3", "5", 34);
+                    scrFlavourBub("[Eyes] ON THE [prize]!", 430, 110, "10.5", "1", "3", "5", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == 6)
-                    scrFlavourBub("I HOPE YOU [trained]@FOR THIS!", 430, 110, "10", "2", "3", "6", 34);
+                    scrFlavourBub("I HOPE YOU [trained]@FOR THIS!", 430, 110, "10", "2", "3", "6", snd_scampton_voice);
             }
             
             if (oMakeUI.Pattern == "B1")
             {
-                sou(3);
-                scrFlavourBub("I€€ BRING€€ MY€€ [[Heart]]€€€€€€€€€@OUT TO€€ YOU€€€€€€ [Scamps!]!", 430, 100, "10", "2", "3", "3", 58);
+                sou(tlk_heart);
+                scrFlavourBub("I€€ BRING€€ MY€€ [[Heart]]€€€€€€€€€@OUT TO€€ YOU€€€€€€ [Scamps!]!", 430, 100, "10", "2", "3", "3", snd_none);
             }
             
             if (oMakeUI.Pattern == "B2")
             {
-                sou(4);
-                scrFlavourBub("NO€ MORE€ STRINGS€ ON€ ME!@€€€€€€€€€€€€€€€€€€€€€€€€NOW€€€ I€€€€€€ WILL€€€ BE€€€ FREE!!", 430, 100, "10.5", "2", "3", "3", 58);
+                sou(tlk_strings);
+                scrFlavourBub("NO€ MORE€ STRINGS€ ON€ ME!@€€€€€€€€€€€€€€€€€€€€€€€€NOW€€€ I€€€€€€ WILL€€€ BE€€€ FREE!!", 430, 100, "10.5", "2", "3", "3", snd_none);
             }
             
             if (oMakeUI.LoopGoop)
             {
                 if (oMakeUI.Pattern == "B3")
-                    scrFlavourBub("EXCITED€€€€€€€€ EXCITED@€€€€€€€€I€€€ AM€€€ EXCITED!!!", 430, 100, "8", "2", "3", "3", 34);
+                    scrFlavourBub("EXCITED€€€€€€€€ EXCITED@€€€€€€€€I€€€ AM€€€ EXCITED!!!", 430, 100, "8", "2", "3", "3", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == "L1")
-                    scrFlavourBub("WELCOME TO YOUR@[Final Test]#[Again]", 430, 100, "7.5#4", "2#1", "3#3", "8#0", 34);
+                    scrFlavourBub("WELCOME TO YOUR@[Final Test]#[Again]", 430, 100, "7.5#4", "2#1", "3#3", "8#0", snd_scampton_voice);
             }
             else
             {
                 if (oMakeUI.Pattern == "B3")
                 {
-                    sou(43);
-                    scrFlavourBub("[Congratulations!]€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€@YOU LOSE!!!", 430, 100, "9", "2", "3", "3", 58);
+                    sou(tlk_congratulations);
+                    scrFlavourBub("[Congratulations!]€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€@YOU LOSE!!!", 430, 100, "9", "2", "3", "3", snd_none);
                 }
                 
                 if (oMakeUI.Pattern == "L1")
-                    scrFlavourBub("ENOUGH!€€€€€€€€€ YOU KIDS ARE@STEPPING OUT OF LINE!#[[Behold]]€€€€€€€€€ THE@POWER OF NEO!", 430, 100, "10#7.5", "2#2", "3#3", "8#9", 34);
+                    scrFlavourBub("ENOUGH!€€€€€€€€€ YOU KIDS ARE@STEPPING OUT OF LINE!#[[Behold]]€€€€€€€€€ THE@POWER OF NEO!", 430, 100, "10#7.5", "2#2", "3#3", "8#9", snd_scampton_voice);
                 
                 if (oMakeUI.Pattern == "N1")
-                    scrFlavourBub("WHO NEEDS FRIENDS@WHEN YOU'VE GOT...#[[500 pounds of@pure steel!]]", 430, 100, "9#7.5", "2#2", "3#3", "2#7", 34);
+                    scrFlavourBub("WHO NEEDS FRIENDS@WHEN YOU'VE GOT...#[[500 pounds of@pure steel!]]", 430, 100, "9#7.5", "2#2", "3#3", "2#7", snd_scampton_voice);
             }
         }
         

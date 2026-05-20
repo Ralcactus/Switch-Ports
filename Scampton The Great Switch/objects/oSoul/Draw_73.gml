@@ -116,7 +116,7 @@ if (Seed == "AN")
     
     if (Tyme == 180)
     {
-        sou(68);
+        sou(snd_soul_mode);
         CanShot = true;
         oAlways.ShakeTyme = 10;
         oAlways.ShakePower = 5;

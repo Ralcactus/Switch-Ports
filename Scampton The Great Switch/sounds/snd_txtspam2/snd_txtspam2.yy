@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0666666,
+  "duration":0.06666667,
   "exportDir":"",
   "name":"snd_txtspam2",
   "parent":{

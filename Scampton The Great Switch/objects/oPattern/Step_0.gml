@@ -33,16 +33,16 @@ if (Pattern == 1)
             Var1 = "@p4";
         
         if (j3 == 0)
-            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX + oneRan(2, 20), BoxY - 150, 0, 0, 0, 0.05, 0, 152, 4 + iRan(0, 3), 0, 1, 1, 270, 0);
+            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX + oneRan(2, 20), BoxY - 150, 0, 0, 0, 0.05, 0, sSymb2, 4 + iRan(0, 3), 0, 1, 1, 270, 0);
         
         if (j3 == 1)
-            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX + oneRan(2, 20), BoxY + 150, 0, 0, 0, -0.05, 0, 152, 4 + iRan(0, 3), 0, 1, 1, 90, 0);
+            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX + oneRan(2, 20), BoxY + 150, 0, 0, 0, -0.05, 0, sSymb2, 4 + iRan(0, 3), 0, 1, 1, 90, 0);
         
         if (j3 == 2)
-            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX - 150, BoxY + oneRan(2, 20), 0, 0.05, 0, 0, 0, 152, 4 + iRan(0, 3), 0, 1, 1, 0, 0);
+            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX - 150, BoxY + oneRan(2, 20), 0, 0.05, 0, 0, 0, sSymb2, 4 + iRan(0, 3), 0, 1, 1, 0, 0);
         
         if (j3 == 3)
-            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX + 150, BoxY + oneRan(2, 20), 0, -0.05, 0, 0, 0, 152, 4 + iRan(0, 3), 0, 1, 1, 180, 0);
+            scrMakeAttack(oParryAttack, "Ghi@GS 1/2" + Var1, BoxX + 150, BoxY + oneRan(2, 20), 0, -0.05, 0, 0, 0, sSymb2, 4 + iRan(0, 3), 0, 1, 1, 180, 0);
     }
     
     if ((Tyme == 750 && oP.Deaths == 0) || (Tyme == 435 && (oP.Deaths > 0 || oP.NoHit == "Enabled")))
@@ -77,7 +77,7 @@ if (Pattern == 2)
         {
             if (!oMakeUI.TutorialDone && k2 == 0 && oP.NoHit != "Enabled")
             {
-                scrMakeAttack(oWhiteAttack, "PipisGun@NoDamage@TextPopper@Front1", BoxX + 210, 400 + BoxY, 0, 0, 0, 0, 0, 289, 0, 0, 2, 2, 0, 0);
+                scrMakeAttack(oWhiteAttack, "PipisGun@NoDamage@TextPopper@Front1", BoxX + 210, 400 + BoxY, 0, 0, 0, 0, 0, sSkog, 0, 0, 2, 2, 0, 0);
             }
             else
             {
@@ -90,10 +90,10 @@ if (Pattern == 2)
                     i1 = 0;
                 
                 if (j3 == 0)
-                    scrMakeAttack(oWhiteAttack, "PipisGun@NoDamage@Front1", BoxX + (220 + (iRan(0, 4) * 10)), 400 + BoxY + (iRan(-4, 4) * 5), 0, 0, 0, 0, 0, 289, 2, 0, 2, 2, 0, 0);
+                    scrMakeAttack(oWhiteAttack, "PipisGun@NoDamage@Front1", BoxX + (220 + (iRan(0, 4) * 10)), 400 + BoxY + (iRan(-4, 4) * 5), 0, 0, 0, 0, 0, sSkog, 2, 0, 2, 2, 0, 0);
                 
                 if (j3 == 1)
-                    scrMakeAttack(oWhiteAttack, "PipisGun@NoDamage@Front1", BoxX - (220 + (iRan(0, 4) * 10)), 400 + BoxY + (iRan(-4, 4) * 5), 0, 0, 0, 0, 0, 289, 2, 0, -2, 2, 0, 0);
+                    scrMakeAttack(oWhiteAttack, "PipisGun@NoDamage@Front1", BoxX - (220 + (iRan(0, 4) * 10)), 400 + BoxY + (iRan(-4, 4) * 5), 0, 0, 0, 0, 0, sSkog, 2, 0, -2, 2, 0, 0);
             }
             
             k2++;
@@ -105,7 +105,7 @@ if (Pattern == 2)
     else
     {
         if (Tyme == 1)
-            scrMakeAttack(oWhiteAttack, "NoDestroy@PopperBig", 665, BoxY + 20, 0, 0, 0, 0, 0, 65, 0, 0, 1, 1, 0, 270);
+            scrMakeAttack(oWhiteAttack, "NoDestroy@PopperBig", 665, BoxY + 20, 0, 0, 0, 0, 0, sPopperBig, 0, 0, 1, 1, 0, 270);
         
         if (Tyme == 737)
             scrEndPattern();
@@ -135,10 +135,10 @@ if (Pattern == 3)
         k3 = 4;
         j3 = "#";
         j4 = 3;
-        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, 192, 0, 0, 2, 2, 0, 0);
-        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, 192, 0, 0, 2, 2, 0, 90);
-        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, 192, 0, 0, 2, 2, 0, 180);
-        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, 192, 0, 0, 2, 2, 0, 270);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, sCard, 0, 0, 2, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, sCard, 0, 0, 2, 2, 0, 90);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, sCard, 0, 0, 2, 2, 0, 180);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@CardSpin1@DamageTime2@Ghi@BlueThrough", BoxX, BoxY, 0, 0, 0, 0, 0, sCard, 0, 0, 2, 2, 0, 270);
     }
     
     if (rTyme(5, Tyme))
@@ -274,7 +274,7 @@ if (Pattern == 5)
         
         repeat (i1)
         {
-            scrMakeAttack(oWhiteAttack, "NoDestroy@DamageTime2@CupATK@Ghi@Front2", BoxX, BoxY, 0, 0, 0, 0, 0, 133, 0, 0, 2, 2, 0, 0);
+            scrMakeAttack(oWhiteAttack, "NoDestroy@DamageTime2@CupATK@Ghi@Front2", BoxX, BoxY, 0, 0, 0, 0, 0, sCup, 0, 0, 2, 2, 0, 0);
             i2++;
         }
     }
@@ -366,7 +366,7 @@ if (Pattern == 5)
             if (c4 == 0)
             {
                 c4 = 1;
-                scrMakeAttack(oWhiteAttack, "NoDamage@SpamSee", 520, -76, 0, 0, 3, 0, 0, 289, 0, 0, 2, -2, 0, 0);
+                scrMakeAttack(oWhiteAttack, "NoDamage@SpamSee", 520, -76, 0, 0, 3, 0, 0, sSkog, 0, 0, 2, -2, 0, 0);
             }
         }
     }
@@ -384,14 +384,14 @@ if (Pattern == 5)
             else
                 c3 = iRan(0, 3) * -25;
             
-            scrMakeAttack(oWhiteAttack, "HandShow@NoDamage@Front-1", BoxX + c3, BoxY - 30, iRan(-2, 2) / 5, 0, -5, 0.2, 0, 207, 0, 0, 2, 2, 0, 0);
+            scrMakeAttack(oWhiteAttack, "HandShow@NoDamage@Front-1", BoxX + c3, BoxY - 30, iRan(-2, 2) / 5, 0, -5, 0.2, 0, sHand, 0, 0, 2, 2, 0, 0);
             
             if (oMakeUI.Hatk)
                 a1 = "p3";
             else
                 a1 = "p4";
             
-            scrMakeAttack(oParryAttack, "LayerFrontDown@GS 1/2@Front-1@DamageTime3@" + a1, BoxX + c3, BoxY - 70, 0, 0, -5, 0.25, 0, 124, 0, 0, 1, 1, 0, 0);
+            scrMakeAttack(oParryAttack, "LayerFrontDown@GS 1/2@Front-1@DamageTime3@" + a1, BoxX + c3, BoxY - 70, 0, 0, -5, 0.25, 0, sPipis2, 0, 0, 1, 1, 0, 0);
         }
     }
     
@@ -429,29 +429,29 @@ if (Pattern == 6)
             c1 = 2.5;
         
         oMakeUI.SMN = false;
-        scrMakeAttack(oWhiteAttack, "NoDamage@RailIn@UneAN", BoxX, 240, 0, 0, 0, 0, 0, 98, 0, 0, 2, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "NoDamage@RailIn@UneAN", BoxX, 240, 0, 0, 0, 0, 0, sRailATK, 0, 0, 2, 2, 0, 0);
     }
     
     if (rTyme(100, Tyme - 50))
     {
         if (iRan(1, 100) == 1)
-            Var1 = 6;
+            Var1 = sRailCart4;
         else
-            Var1 = 101;
+            Var1 = sRailCart;
         
         scrMakeAttack(oWhiteAttack, "CartON@NoDestroy", BoxX - 75, 580, 0, 0, -2.5, 0, 0, Var1, 0, 0, 2, -2, 0, 0);
         
         if (iRan(1, 100) == 1)
-            Var1 = 6;
+            Var1 = sRailCart4;
         else
-            Var1 = 101;
+            Var1 = sRailCart;
         
         scrMakeAttack(oWhiteAttack, "CartON@NoDestroy", BoxX + 75, 580, 0, 0, -2.5, 0, 0, Var1, 0, 0, 2, -2, 0, 0);
         
         if (iRan(1, 100) == 1)
-            Var1 = 6;
+            Var1 = sRailCart4;
         else
-            Var1 = 101;
+            Var1 = sRailCart;
         
         scrMakeAttack(oWhiteAttack, "CartON@NoDestroy", BoxX, -100, 0, 0, c1, 0, 0, Var1, 0, 0, 2, 2, 0, 0);
     }
@@ -467,10 +467,10 @@ if (Pattern == 6)
             scrMakeAttack(oParryAttack, "CartPip@GS 1/2@PipBob@p7", BoxX - 75, 580, 0, 0, -2.5, 0, 0, 124, 0, 0, 1.5, 1.5, 0, 0);
         
         if (i1 == 2)
-            scrMakeAttack(oParryAttack, "CartPip@GS 1/2@PipBob@p7", BoxX + 75, 580, 0, 0, -2.5, 0, 0, 124, 0, 0, 1.5, 1.5, 0, 0);
+            scrMakeAttack(oParryAttack, "CartPip@GS 1/2@PipBob@p7", BoxX + 75, 580, 0, 0, -2.5, 0, 0, sPipis2, 0, 0, 1.5, 1.5, 0, 0);
         
         if (i1 == 3)
-            scrMakeAttack(oParryAttack, "CartPip@GS 1/2@PipBob@p7", BoxX, -100, 0, 0, c1, 0, 0, 124, 0, 0, 1.5, 1.5, 0, 0);
+            scrMakeAttack(oParryAttack, "CartPip@GS 1/2@PipBob@p7", BoxX, -100, 0, 0, c1, 0, 0, sPipis2, 0, 0, 1.5, 1.5, 0, 0);
     }
     
     if (rTyme(300, Tyme))
@@ -484,7 +484,7 @@ if (Pattern == 6)
         if (i3 == 0)
             i5 = 1;
         
-        scrMakeAttack(oWhiteAttack, "TrainSpawn", -500, -500, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0);
+        scrMakeAttack(oWhiteAttack, "TrainSpawn", -500, -500, 0, 0, 0, 0, 0, sRailCart, 0, 0, 0, 0, 0, 0);
     }
     
     if (rTyme(300, Tyme + 150) && Tyme >= 150 && Tyme < 1000 && oMakeUI.Hatk)
@@ -494,7 +494,7 @@ if (Pattern == 6)
         
         i7 = i6;
         i8++;
-        scrMakeAttack(oWhiteAttack, "TrainSpawn@TrainSps2", -500, -500, 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 0, 0);
+        scrMakeAttack(oWhiteAttack, "TrainSpawn@TrainSps2", -500, -500, 0, 0, 0, 0, 0, sRailCart, 0, 0, 0, 0, 0, 0);
     }
     
     if ((Tyme == 1100 && !oMakeUI.Hatk) || (Tyme == 1050 && oMakeUI.Hatk))
@@ -508,17 +508,17 @@ if (Pattern == "B1")
         i2 = 12;
         Var1 = 1;
         Var2 = 1;
-        scrMakeAttack(oWhiteAttack, "NoDestroy@Scams@Heart1", 480, 630, 0, 0, -15, 0.25, 15, 265, 0, 0, 2, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@Scams@Heart1", 480, 630, 0, 0, -15, 0.25, 15, sScams, 0, 0, 2, 2, 0, 0);
     }
     
     if (Tyme == 84)
     {
-        sou(31);
+        sou(laughlouid);
         
         with (instance_create_depth(455, 165, -20000, oEEF))
             Seed = "ParrySmoke";
         
-        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart1@p3", 455, 165, 0, 0, 0, 0, 0, 265, 5, 0, 2, 2, 0, 0);
+        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart1@p3", 455, 165, 0, 0, 0, 0, 0, sScams, 5, 0, 2, 2, 0, 0);
     }
     
     if (i3 == 1)
@@ -551,18 +551,18 @@ if (Pattern == "B2")
         i2 = 15;
         Var1 = 2;
         Var2 = 2;
-        scrMakeAttack(oWhiteAttack, "NoDestroy@Scams", 480, 630, 0, 0, -15, 0.25, 15, 265, 0, 0, 2, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@Scams", 480, 630, 0, 0, -15, 0.25, 15, sScams, 0, 0, 2, 2, 0, 0);
     }
     
     if (Tyme == 84)
     {
-        sou(31);
+        sou(laughlouid);
         
         with (instance_create_depth(455, 165, -20000, oEEF))
             Seed = "ParrySmoke";
         
-        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart2@p2", 455, 165, 0, 0, 0, 0, 0, 265, 6, 0, 2, 2, 0, 0);
-        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart1@p2", 455, 165, 0, 0, 0, 0, 0, 265, 5, 0, 2, 2, 0, 0);
+        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart2@p2", 455, 165, 0, 0, 0, 0, 0, sScams, 6, 0, 2, 2, 0, 0);
+        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart1@p2", 455, 165, 0, 0, 0, 0, 0, sScams, 5, 0, 2, 2, 0, 0);
     }
     
     if (i3 == 1)
@@ -602,19 +602,19 @@ if (Pattern == "B3")
             i2 = 20;
         }
         
-        scrMakeAttack(oWhiteAttack, "NoDestroy@Scams", 480, 630, 0, 0, -15, 0.25, 15, 265, 0, 0, 2, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "NoDestroy@Scams", 480, 630, 0, 0, -15, 0.25, 15, sScams, 0, 0, 2, 2, 0, 0);
     }
     
     if (Tyme == 84)
     {
-        sou(31);
+        sou(laughlouid);
         
         with (instance_create_depth(455, 165, -20000, oEEF))
             Seed = "ParrySmoke";
         
-        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart3@p1", 455, 165, 0, 0, 0, 0, 0, 265, 7, 0, 2, 2, 0, 0);
-        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart2@p1", 455, 165, 0, 0, 0, 0, 0, 265, 6, 0, 2, 2, 0, 0);
-        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart1@p2", 455, 165, 0, 0, 0, 0, 0, 265, 5, 0, 2, 2, 0, 0);
+        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart3@p1", 455, 165, 0, 0, 0, 0, 0, sScams, 7, 0, 2, 2, 0, 0);
+        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart2@p1", 455, 165, 0, 0, 0, 0, 0, sScams, 6, 0, 2, 2, 0, 0);
+        scrMakeAttack(oParryAttack, "UneAN@DrawLate@CT_PH3@NoDestroy@ParFree@ParEvDes@ScamsHeart1@Front1@WhiteParry@Heart1@p2", 455, 165, 0, 0, 0, 0, 0, sScams, 5, 0, 2, 2, 0, 0);
     }
     
     if (i3 == 1 && !oMakeUI.LoopGoop)
@@ -648,8 +648,8 @@ if (Pattern == "N1")
     {
         oMakeUI.SMN = false;
         oMakeUI.AnVil = true;
-        scrMakeAttack(oWhiteAttack, "Anvil@NoDestroy", 320, -200, 0, 0, 0, 0, 0, 161, 0, 0, 1, 1, 0, 0);
-        scrMakeAttack(oWhiteAttack, "AnvilSpamton@NoDestroy@AlphaZero@DrawLate", 450, 80, 0, 0, 0, 0, 0, 289, 6, 0, 2, 2, 0, 0);
+        scrMakeAttack(oWhiteAttack, "Anvil@NoDestroy", 320, -200, 0, 0, 0, 0, 0, sAnvil, 0, 0, 1, 1, 0, 0);
+        scrMakeAttack(oWhiteAttack, "AnvilSpamton@NoDestroy@AlphaZero@DrawLate", 450, 80, 0, 0, 0, 0, 0, sSkog, 6, 0, 2, 2, 0, 0);
     }
     
     if (Tyme == 275)
@@ -686,7 +686,7 @@ if (Pattern == "L1")
     }
     
     if (Tyme == 50)
-        scrMakeAttack(oWhiteAttack, "UneAN@NoDestroy@NoDamage@LastP", 0, 0, 0, 0, 0, 0, 0, 162, 0, 0, 0.01, 0.01, 0, 0);
+        scrMakeAttack(oWhiteAttack, "UneAN@NoDestroy@NoDamage@LastP", 0, 0, 0, 0, 0, 0, 0, sNothing, 0, 0, 0.01, 0.01, 0, 0);
     
     if (j1 == 1)
     {
@@ -705,7 +705,7 @@ if (Pattern == "L1")
         
         if (k2 == 100)
         {
-            sou(77);
+            sou(laughlouid);
             oAlways.ShakePower = 10;
             oAlways.ShakeTyme = 20;
             sou(snd_explosion);

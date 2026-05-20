@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.023424,
+  "duration":2.0234241,
   "exportDir":"",
   "name":"snd_soul_mode",
   "parent":{

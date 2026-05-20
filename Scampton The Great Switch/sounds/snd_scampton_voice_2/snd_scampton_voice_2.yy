@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0432653,
+  "duration":0.043265305,
   "exportDir":"",
   "name":"snd_scampton_voice_2",
   "parent":{

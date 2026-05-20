@@ -41,7 +41,7 @@ function scrGoldenPipisDie()
     sou(83);
     
     for (SpamRing += 1; SpamRing != 19; SpamRing += 1)
-        scrMakeAttack(oWhiteAttack, "5speed@TickSound", x, y, 0, 0, 0, 0, 0, 47, 0, 0, 1, 1, 0, SpamRing * 20);
+        scrMakeAttack(oWhiteAttack, "5speed@TickSound", x, y, 0, 0, 0, 0, 0, sSpamHeadSpin, 0, 0, 1, 1, 0, SpamRing * 20);
     
     instance_destroy();
 }

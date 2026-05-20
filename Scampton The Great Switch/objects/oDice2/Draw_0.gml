@@ -216,8 +216,8 @@ if (zTyme == 1 && Turn < 3)
     oAlways.ShakePower = 5;
     oAlways.ShakeTyme = 5;
     sou(96);
-    sou(87);
-    sou(87);
+    sou(snd_Parry);
+    sou(snd_Parry);
     
     if (Val2 == 1)
     {
