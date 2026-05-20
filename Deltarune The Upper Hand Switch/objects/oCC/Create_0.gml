@@ -1,0 +1,11 @@
+res_keys();
+res_i();
+res_j();
+res_k();
+ty = 0;
+ti = 0;
+seed = 0;
+funcStep = -1;
+funcDraw = -1;
+funcDrawGUI = -1;
+text = g_t("gameOver");

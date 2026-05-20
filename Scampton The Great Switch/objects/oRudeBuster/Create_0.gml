@@ -1,0 +1,13 @@
+image_angle = -20;
+direction = image_angle;
+image_speed = 0;
+image_index = 3;
+speed = 15;
+Tyme = 0;
+TimePlod = 24;
+Turn = 2;
+sou(37);
+KeyZ = false;
+Ztyme = 2;
+HitTime = 0;
+i1 = 0;

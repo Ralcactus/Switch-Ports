@@ -1,0 +1,9 @@
+Seed = 0;
+Item = 0;
+HP = 0;
+Pep = 0;
+Tyme = 0;
+MAX = false;
+MAX1 = false;
+MAX2 = false;
+MAX3 = false;

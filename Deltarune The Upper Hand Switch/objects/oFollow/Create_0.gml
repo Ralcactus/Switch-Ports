@@ -1,0 +1,9 @@
+numb = 1;
+pick = 0;
+sprite = sKris_Down;
+image_ = 0;
+waiting = false;
+tragetXY = [];
+moveTime = [0, 0, 0, 0, x, y, 0, 0];
+offset = 18;
+offset = 12;

@@ -1,0 +1,14 @@
+FightTyme = 0;
+Tyme = 0;
+StartX = x;
+Ax = 0;
+Ex = 0;
+StartY = y;
+Shot = true;
+SusieMouth = true;
+White = -0.5;
+GlowWhite = 0;
+Glow = false;
+GlowStage = 0;
+KnockX = 0;
+_Rude = true;

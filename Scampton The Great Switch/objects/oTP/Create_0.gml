@@ -1,0 +1,13 @@
+image_speed = 0;
+image_index = 0;
+TP = 0;
+Tyme = 0;
+BrownSC = 180;
+OrangeSC = 0;
+WhiteSC = 0;
+RedSC = -360;
+TPNumb = 0;
+yChag = 0;
+Xbeg = 0;
+XMov = 0;
+ExtraX = 0;

@@ -1,0 +1,9 @@
+image_index = 7;
+Tyme = 0;
+SpawnEEF = 0;
+State = 0;
+Pep = 0;
+Row = "";
+Damage = 0;
+j = 0;
+P = 0;

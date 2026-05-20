@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"spamton_song_3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":64.287346,
+  "exportDir":"",
+  "name":"spamton_song_3",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"spamton_song_3.mp3",
+  "volume":1.0,
+}

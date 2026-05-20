@@ -1,0 +1,14 @@
+res_i();
+ty = 0;
+image_xscale = 2;
+image_yscale = 2;
+image_speed = 1;
+func = -1;
+numb = 0;
+moveTime = [0, 0, 0, 0, x, y, 0, 0];
+ey = 0;
+shake = 0;
+shakeX = 0;
+shakePower = 2;
+forceFont = false;
+wobY = 0;

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"TS_Song",
+  "audioGroupId":{
+    "name":"AG_Music",
+    "path":"audiogroups/AG_Music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":142.12021,
+  "exportDir":"",
+  "name":"TS_Song",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"TS_Song.mp3",
+  "volume":1.0,
+}

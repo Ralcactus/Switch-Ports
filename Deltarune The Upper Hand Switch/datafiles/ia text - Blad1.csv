@@ -1,0 +1,786 @@
+lang,ENGLISH,RUSSIAN,ITALIAN
+,,,
+cred_1,A game by:,Игра от:,Un gioco creato da:
+,The Winterer,The Winterer,The Winterer
+,Sad Bread,Sad Bread,Sad Bread
+,,,
+cred_2,Sockswald voiceactor:,Актёр озвучки Носоксвальда:,Doppiatore di Sockswald:
+,IndoBones,IndoBones,IndoBones
+,,,
+cred_3,Playtesting:,Тестеры перевода:,Playtester:
+,SeekStuff,SeekStuff,SeekStuff
+,Alex (No not the one,Alex (No not the one,Alex (No not the one
+,you're thinking of),you're thinking of),you're thinking of)
+,,,
+cred_4,Classic 2023 boss theme by:,Классическая тема битвы от:,Musica originale fatta da:
+,Creepa-Bot Inc,Creepa-Bot Inc,Creepa-Bot Inc
+,Local H00ligan,Local H00ligan,Local H00ligan
+,,,
+cred_5,Special thanks:,Особые благодарности:,Ringraziamenti speciali:
+,L1zard,L1zard,L1zard
+,Ramiyoru,Ramiyoru,Ramiyoru
+,gamejolter541 (for ,gamejolter541 (for ,gamejolter541 (for 
+,not caring),not caring),not caring)
+,,,
+cred_6,Russian translation by:,Русификатор от:,Traduzione russa fatta da:
+,geefel,geefel,geefel
+,Viput,Viput,Viput
+,Lazarus,Lazarus,Lazarus
+,NemoWilson,NemoWilson,NemoWilson
+,,,
+cred_7,Italian translation by:,Итальянский перевод от:,Traduzione italiana fatta da:
+,L'Armadio,L'Armadio,L'Armadio
+,Noobilly,Noobilly,Noobilly
+,EL BROWN,EL BROWN,EL BROWN
+,LaCreatura,LaCreatura,LaCreatura
+,Andrea Bruzzone,Andrea Bruzzone,Andrea Bruzzone
+,ErnestÄthor,ErnestÄthor,ErnestÄthor
+,,,
+cred_t,DELTARUNE (C) Toby Fox,DELTARUNE (C) Toby Fox,DELTARUNE (C) Toby Fox
+cred_t2,Challenge mode music:,Музыка режима испытания:,Musica della Modalità Sfida:
+,,,
+,,,
+,,,
+start_text,Controls,Управление,Controlli
+,[ARROW KEYS],[СТРЕЛКИ],[TASTI DIREZIONALI]
+, - Move, - Двигаться,- Muovi
+,[Z or ENTER],[Z или ENTER],[Z o INVIO]
+, - Confirm, - Подтвердить ,- Conferma
+,[X or SHIFT],[X или SHIFT],[X o SHIFT]
+, - Cancel, - Отмена,- Cancella
+,[C or CTRL],[C или CTRL],[C o CTRL]
+, - Skip Text, - Пропуск текста,- Salta i Dialoghi
+,[F4],[F4],[F4]
+, - Fullscreen, - Полный экран,- Schermo Intero
+,[Hold EXC],[Зажать ESC],[Tieni Premuto ESC]
+, - Quit, - Выйти,- Esci
+,This game has controller support,Игра поддерживает геймпад,Questo gioco supporta i controller
+,,,
+start_text2,Language,Язык,Lingua
+,English,Английский,Inglese
+,Russian,Русский,Russo
+,Italian,Итальянский,Italiano
+,,,
+gameOver,Retry battle,Попробовать снова,Riprova la battaglia
+,Return to title screen,В главное меню,Torna alla schermata del titolo
+,,,
+m_1,Start,Старт,Inizia
+,Config,Настройки,Impostazioni
+,Credits,Титры,Crediti
+,Extras,Бонусы,Extra
+,End Program,Выйти из игры,Chiudi Gioco
+,,,
+m_1e,OFF,ВЫКЛ.,OFF
+,ON,ВКЛ.,ON
+,,,
+m_2,Language,Язык,Lingua
+,Music Volume,Громкость музыки,Volume Musica
+,Sound Volume,Громкость звуков,Volume Suoni
+,Controls,Управление,Comandi
+,Simplify VFX,Упрощенная графика,Semplifica VFX
+,Fullscreen,Полный экран,Schermo Intero
+,Keystrokes,Отсл. клавиш,Mostra Tasti
+,Speedrun Timer,Таймер,Timer Speedrun
+,No-Hit,Без урона,No-Hit
+,Back_sd,Назад_sd,Indietro_sd
+,,,
+m_2e,CONFIG,НАСТРОЙКИ,IMPOSTAZIONI
+,ENG,РУС,ITA
+,,,
+m_3,DOWN,ВНИЗ,GIÙ
+,RIGHT,ВПРАВО,DESTRA
+,UP,ВВЕРХ,SU
+,LEFT,ВЛЕВО,SINISTRA
+,CONFIRM,ПОДТВ.,CONFERMA
+,CANCEL,ОТМЕНА,CANCELLA
+,MENU,МЕНЮ,MENÙ
+,Reset to default,Сбросить,Imposta predefinito
+,Finish_sd,Завершить_sd,Termina_sd
+,,,
+m_3e,Function,Функция,Funzione
+,Key,Клавиша,Tasto
+,,,
+m_3e2_1,Up,Вверх,Su
+m_3e2_2,Down,Вниз,Giù
+m_3e2_3,Left,Влево,Sinistra
+m_3e2_4,Right,Вправо,Destra
+,,,
+m_4,Inventory,Инвентарь,Inventario
+,Music Style,Музыка,Stile Musica
+,Debug Room,Комната отладки,Stanza di Debug
+,Erase Save,Стереть сохранение,Cancella salvataggio
+,Challenge Mode,Режим испытания,Modalità Sfida
+,Custom Mode,Свой режим,Mod. Personalizzabile
+,Music Player,Музыкальный плеер,Stereo
+,Back_sd,Назад_sd,Indietro_sd
+,,,
+m_4e,Page ,Страница,Pagina
+,Press ,Нажми,Premi
+, to View and Move the image., чтобы просмотреть и передвигаться по изображению., per Visualizzare e Muovere l'immagine.
+,Press ,Нажми,Premi
+, to return to page select., чтобы вернуться к выбору страницы., per tornare alla selezione della pagina.
+,,,
+m_4e2,Page:,Страница:,Pagina:
+,,,
+m_4e3,(Default),(Стандартная),(Predefinito)
+,(Classic 2023),(Классическая 2023),(Originale 2023)
+,(ON),(ВКЛ.),(ON)
+,(OFF),(ВЫКЛ.),(OFF)
+,,,
+m_5,Start,Старт,Inizia
+,Skip intro,Пропустить интро,Salta la intro
+,,,
+m_6,A,А,A
+,B,Б,B
+,Back_sd,Назад_sd,Indietro_sd
+,,,
+m_6e,???,???,???
+,FluffGlove,ПухЧатка,CottonGuanto
+,AstralCane,АстралТрость,StaffAstrale
+,If you equip this the (triple jump) will always be enabled.,При экипировке (тройной прыжок) будет всегда активен.,"Se lo equipaggi, il (triplo salto) sarà sempre attivo."
+,If you equip this the (ground pound) will always be enabled.,При экипировке (удар вниз) будет всегда активен.,"Se la equipaggi, lo (schianto a terra) sarà sempre attivo."
+,,,
+1_1,* As you make your way further through the city€€€€€€ you gaze far into the horizon.,"* Продвигаясь вглубь города,€€€€€€ ваш взор устремляется за горизонт. ",* Mentre ti fai strada per la città€€€€€€ osservi l'orizzonte.
+,* The earth is painted raw€€€€€€ and black.,* Земля окрашена склизкой€€€€€€ тьмой. ,* La terra ha un colorito nero€€€€€€ e pallido.
+,* Smokestacks of Blac-INC factories coat the air in dark clouds.,"* Отходы фабрик Чернь-КОРП, окутывают небо чёрными тучами.",* Le ciminiere dei Tuorli Fumaioli coprono il cielo con delle nuvole nere.
+,* Enveloping into weird€€€€€€ and twisted shapes.,"* Извиваясь в странных,€€€€€€ жутких формах. ",* Creando delle forme strane€€€€€€ e contorte.
+,* An industrial dystopolis towers in the distance.€€€€€€ £* A place of progress.,* Промышленная дистопия возвышается вдалеке.€€€€€€ £* Очаг прогресса.,* Una landa industriale si erge in lontananza.€€€€€€ £* Un luogo rivoluzionario.
+,* Welcome€€€€€€ to @_cpThe World of Tomorrow,* Добро пожаловать€€€€€€ в @_cpМИР ЗАВТРАШНЕГО ДНЯ,* Benvenuti€€€€€€ nel @_cpMondo del Domani
+,,,
+1_2,"* The air flows humid,€€€€€€ and it's hard to breathe.","* Сырой воздух окружает вас,€€€€€€ дышать становится тяжело.","* L'aria è umida,€€€€€€ ed è difficile da respirare."
+,"* It stings in your lungs,€€€€€€ your eyes begin to squint.","* Он обжигает ваши легкие,€€€€€€а веки слипаются.","* Ti punge i polmoni,€€€€€€ e ti fa lacrimare gli occhi."
+,* You have to cover your mouth...€€€€€€ £* The smell makes you nauseous...,* Приходится прикрывать рот...€€€€€€ £* Запах вызывает тошноту...,* Devi coprirti la bocca...€€€€€€ £* L'odore ti dà la nausea...
+,,,
+1_3,"* Somewhere€€€€€€ in the darkness,€€€€€€ a collective voice calls out:","* Где-то там,€€€€€€ в темноте,€€€€€€ единый голос взывает к вам:","* Da qualche parte nell'oscurità,€€€€€€ una voce collettiva ti richiama:"
+,* ¤Shatter the blinding shadow¤,* ¤Сокрушите ослепляющую тьму¤,* ¤Infrangi l'ombra accecante¤
+,* ¤And restore the life of this land¤,* ¤И вновь вдохните жизнь в эти земли¤,* ¤E riporta la vita a questa terra¤
+,,,
+1_4,* Is that an egg?,"* Это чё, €€€€€€яйцо?",* Ma quello è un uovo?
+,* I could use an omelette right about now.,* От омлета я бы сейчас не отказалась.,* Adesso mi è venuta voglia di mangiare una frittata.
+,,,
+sign_ok,* ok.,* ок.,* ok
+,,,
+sign_1,SANS! €€€€€€ £ PLEASE PICK UP YOUR SOCK!,САНС! €€€€€€ £ ПОДНИМИ КА СВОЙ НОСОК!,SANS! €€€€€€ £ RACCOGLI IL TUO CALZINO!
+,,,
+sign_2,DON'T PUT IT BACK DOWN! €€€€€€MOVE IT!,НЕ КЛАДИ ЕГО ОБРАТНО! €€€€€€ПЕРЕДВИНЬ ЕГО!,NON RIMETTERLO PER TERRA!€€€€€€ SPOSTALO!
+,,,
+sign_3,YOU MOVED IT TWO INCHES! €€€€€€ £ MOVE IT TO YOUR ROOM!,ТЫ ПЕРЕДВИНУЛ ЕГО НА ДВА САНТИМЕТРА! €€€€€€£ОТНЕСИ ЕГО К СЕБЕ!,LO HAI SPOSTATO DI DUE CENTIMETRI! €€€€€€ £ SPOSTALO IN CAMERA TUA!
+,,,
+sign_4,AND DON'T BRING IT BACK!,И НЕ ВОЗВРАЩАЙ ЕГО!,E NON RIPORTARLO QUI!
+,,,
+sign_5,IT'S STILL HERE!,ОН ВСЁ ЕЩЁ ЗДЕСЬ!,È ANCORA QUI!
+,,,
+sign_6,* didn't you just say not to bring it back to my room?,* ты ж сам сказал не возвращать его обратно.,* non hai appena detto di non riportarlo in camera mia?
+,,,
+sign_7,FORGET IT!,ЗАБУДЬ!,LASCIA STARE!
+,,,
+,,,
+,,,
+2_1,* Wait up Kris.€€€€€€ £* Something's up ahead...,"* Погоди, Крис.€€€€€€ £* Там что-то есть...",* Aspetta€€€€€€ Kris.€€€€€€ £* C'è qualcosa più @avanti...
+,,,
+2_2,"* What,€€€€€€ the boxes?","* Что,€€€€€€ коробки?",* Intendi le scatole?
+,,,
+2_3,"* LOOK,€€€€€€ it's moving!","* СМОТРИТЕ,€€€€€€ они шевелятся!","* GUARDATE,€€€€€€ si sta muovendo!"
+,,,
+2_4,* .€€€.€€€.€€€€€€What?,* .€€€.€€€.€€€€€€Чё?,* .€€€.€€€.€€€€€€Cosa?
+,AND€€€€€€ THEY ALL LIVED€€€€€€ HAPPILY€€€€€€ EVAH€€€€€€ AFTUH!,И€€€€€€ ЖЫЛИ АНИ€€€€€€ ДОЛГА€€€€€€ И€€€€€€ ЩАФЛИВО!,E VIFFERO€€€€€€ PER FEMPRE€€€€€€ FELICI€€€€€€ E CONTENTI!
+,* Erm...€€€€€€ Is someone there?,* Э-э-э...€€€€€€ Здесь кто-то есть?,* Erm...€€€€€€ C'è qualcuno?
+,,,
+2_5,WELL DOLLY WEE JILLICKERS!,ЁФКИ ДА МАТРЁФКИ!,PER TUTTE LE CALZAMAGLIE!
+,WHAT DO WE THPY€€€€€€ WITH OUR BUTTON EYE!,ФТО В МЫ ВИДИМ€€€€€€ НАФЕЙ ПУГАВКАЙ!,RIUSCIAMO A FPIARE QUALCOFA€€€€€€ COL NOFTRO BOTTONE!
+,,,
+2_6,COMPANY!,ДРУЗЯФКИ!,COMPAGNIA!
+,WE ALWAYS ENJOY THEEING THOME NEW FACETH.,МЫ ВФЕГДА РАДЫ НОВЫМ ЛИТФАМ.,A NOI PIACE FEMPRE INCONTRARE QUALCUNO DI NUOVO.
+,,,
+2_7,"* I'm sorry,€€€€€€ did you say ¤we¤?","* Извините,€€€€€€ вы сказали ¤мы¤?","* Chiedo scusa,€€€€€€ hai detto ¤noi¤?"
+,DOOHOHOH!€€€€€€ OF COURTHE!,ВУУХУХУХ!€€€€€€ КОНЕФНО!,DOOHOHOH!€€€€€€ MA CERTO!
+,THE NAME'S SOCKSWALD€€€€€€ £IN'T THAT RIGHT £LIL' BUDDY?,ЖАВУТ НОСОКСВАЛЬД€€€€€€ £НЕ ТАК ЛИ £€€€€€€БРАТИФКА?,IL MIO NOME È SOCKSWALD.€€€€€€ NON È BERO PICCOLETTO?
+,* ...,* ...,* ...
+,* ...,* ...,* ...
+,* ...,* ...,* ...
+,OH HEY€€€€€€ WE JUST REMEMBERED!!!,"КФТАТИ,€€€€€€ МЫ ТОЛЬКА ВФПОМНИЛИ!!!",OH EHI€€€€€€ CI FIAMO APPENA RICORDATI!!!
+,YOU GUYS SHOULD COME OVAH TO OUR PLACE!,"ВЫ, РЕБЯТКИ, ДОЛВНЫ ПРИЙТИ К НАМ В ГОФТИ!",VOI TRE DOVREFTE VENIRE A CAFA NOFTRA!
+,IT'S FULLA NEAT STUFF WE CAN SHOW YA!,ТАМ ЕСТЬ МНОГА КЛАФФНЫХ ФТУК!,CI SONO COFÌ TANTE COFE DA FARVI VEDERE!
+,"* Oh well,€€€€€€ sure thing Sockswald!€€€€€€ £* We'd love to.","* Что ж,€€€€€€ конечно, €€€€€€Носоксвальд!€€€€€€ £* С удовольствием.","* Oh beh,€€€€€€ certamente Sockswald!€€€€€€ £* Sarà un nostro piacere."
+,YIPPEE!€€€€€€ WE'LL BE RIGHT UP AHEAD!,УРЭЭЭ!€€€€€€ МЫ ВАФ ТАМ ПОДОВДЁМ!,EVVIVA!€€€€€€ VI AFPETTIAMO PIÙ AVANTI!
+,,,
+2_8,* ...,* ...,* ...
+,,,
+,,,
+  ,,,
+3_1,I WON'T FORGET WHAT I SAW!,"Я НЕ ЗАБУДУ, ЧТО УВИДЕЛ!",NON DIMENTICHERÒ CIÒ CHE HO VISTO!
+3_2,I WISH £I WISH £I WISH,Я ЖЕЛАЮ £Я ЖЕЛАЮ £Я ЖЕЛАЮ,DESIDERO CHE £DESIDERO CHE £DESIDERO CHE
+3_3,"THE STARS SAY IT ALL, WHEN THEY COME BACK I WILL KNOW IT ALL.","ЗВЁЗДЫ ГОВОРЯТ ВСЁ, КОГДА ОНИ ВЕРНУТСЯ, Я БУДУ ЗНАТЬ ВСЁ.","LE STELLE DICONO TUTTO, QUANDO TORNERANNO SAPRÒ TUTTO."
+3_4,"THE STARS ARE ALL GONE, EVERY THING CHANGED SO FATHT...","ЗВЁЗДЫ ВСЕ ИФЧЕЗЛИ, ВСЁ ИВМЕНИЛОСЬ ТАК БЫФТРО...","LE STELLE SONO SPARITE, TUTTO È CAMBIATO COFÌ IN FRETTA..."
+3_5,YOU NEVER FORGET,ТЫ НИКОГДА НЕ ЗАБУДЕШЬ,TU NON DIMENTICHI MAI
+,IT JUST€€€€€€€€€ TAKES A WHILE TO REMEMBER...,"ПРОСТО€€€€€€€€€ НУЖНО ВРЕМЯ, ЧТОБЫ ЗАПОМНИТЬ...",È SOLO CHE€€€€€€€€€ CI VUOLE UN PO' A RICORDARE...
+3_6,I AM SOCKSWALD€€€€€€ YOUR NAME IS SOCKSWALD,Я НОСОКСВАЛЬД€€€€€€ ТВОЁ ИМЯ НОСОКСВАЛЬД,IO SONO SOCKSWALD€€€€€€ IL TUO NOME È SOCKSWALD
+3_7,WHAT DID THE SOCK SAY TO THE OTHER SOCK?,ФТО НОФОК ФКАВАЛ ДРУГОМУ НОФКУ?,PERCHÉ I CALZINI SPAIATI SONO SEMPRE TRISTI?
+,YOU'RE MY€€€€€€ SOLE€€€€€€-MATE!,МЫ ДВА€€€€€€ ФАПОГА€€€€€€ ПАРА!,PERCHÉ SI SENTONO SOLI SENZA LA LORO METÀ!
+,* The signs above read jokes of similar caliber.,* На табличках выше шутки похожего типа.,* Sui cartelli di sopra sono scritte delle battute dello stesso calibro.
+3_8,* It's some kind of upwards Hall-of-Tallys.,"* Судя по всему, кто-то здесь что-то считал.",* Sembra una qualunque parete della cella di una prigione.
+,,,
+,,,
+,,,
+4_1,* Hold on Kris.,"* Погоди, Крис.","* Un attimo,€€€€€€ Kris."
+,,,
+4_2,* I don't know about this.€€€€€€ £* I have a weird feeling @in my gut...,* Я как-то сомневаюсь.€€€€€€ £* Какое-то у меня странное @предчувствие...,* Non ne sono così sicura.€€€€€€ £ * Ho un brutto presentimento...
+,"* Susie,€€€€€€ I'll bake all the omelets you want as soon as we get home.","* Сьюзи,€€€€€€ я приготовлю тебе столько омлетов, сколько захочешь, как вернёмся.","* Susie,€€€€€€ ti cucinerò un sacco di frittate quando torneremo a casa."
+,* Really?,* Правда?,* Davvero?
+,* I mean-€€€€€€ NO. €€€€€€It's not that.,* В смысле...€€€€€€ НЕТ. €€€€€€Я не об этом.,* Cioè-€€€€€€ NO. €€€€€€Non intendevo quello.
+,* It's just that this guy is definitely insane!,"* Я про то, €€€€€€что этот чел явно поехавший!",* È solo che quel tizio sembra completamente pazzo!
+,* Talking to themselves...€€€€€€ £* Digging in the trash...,* Разговаривает сам с собой...€€€€€€ £* Роется в мусоре...,* Parlare a sè stesso...€€€€€€ £* Ravanare nella spazzatura...
+,,,
+4_3,* We've met€€€€€€ enough weirdos that try to kill us.,"* Мы повстречали€€€€€€ достаточно чудаков, пытающихся нас убить.",* Abbiamo già incontrato abbastanza gente con intenzioni omicide.
+,"* Oh Susie,€€€€€€ don't think of it like that,€€€€€€ they seem friendly!","* Сьюзи,€€€€€€ не думай об этом,€€€€€€ он выглядит дружелюбным!","* Oh Susie,€€€€€€ non pensarla così,€€€€€€ sembra amichevole!"
+,* They're an odd fellow for sure...,"* Он, конечно, немного странный...",* Di sicuro è un tipo strano...
+,* But Kris never misses the opportunity to make a new friend.,* Но Крис никогда не упускает возможность завести нового друга.,* Ma Kris non esiterebbe a farsi un altro amico.
+,* ...€€€€€€Like when they met you!,"* ...€€€€€€Как тебя, €€€€€€например!",* ...€€€€€€Proprio come ha fatto con te!
+,,,
+4_4,* ...,* ...,* ...
+,"* Alright,€€€€€€ fine.","* Ладно,€€€€€€ уговорил.",* D'accordo.
+,* This ¤Neat Stuff¤€€€€€€ better be worth it.,* Надеюсь эти ¤классные штуки¤€€€€€€ хоть чего-то стоят.,* Però ne deve valere la pena.
+,* That's the spirit!,* Вот это настрой!,* Questo sì che è lo spirito giusto!
+,* I'm sure whatever they got will come in€€€€€€ ¤Handy¤,"* Я уверен, что бы это ни было, оно сыграет нам€€€€€€ ¤на руку¤.",* Sono sicuro che riuscirà a darci una€€€€€€ ¤Mano¤.
+,,,
+,,,
+,,,
+5_1,* It's a box of blank signs just begging to be scrawled on.,"* Коробка пустых табличек, прямо кричащих о том, чтобы на них что-то написали.",* È una scatola di cartelli bianchi che desiderano essere scarabocchiati.
+,"THEIR LIDDLE SIGN VOICETH ARE CUTE, AIN'T THEY?","МИЛЕНЬКЫЕ ТАБЛИШЬКИ, ФТО ДУМАИТИ?",NON È CARINO IL MODO IN CUI PARLANO QUEI CARTELLI?
+,,,
+5_2,* How this humble glass beaker can hold the destructive force of molten rock is a mystery.,"* Как эта стекляшка выдерживает разрушительную силу магмы, остается загадкой.",* Non si sa come questo bicchiere riesca a sorreggere questa lampada.
+,,,
+5_3,* Family of One - 202X,* Семья из одного - 202Х,* Foto di Famiglia - 202X
+,* You don't recognise anyone in this photo.,* Вы не узнаёте никого на фото.,"* C'è solo una persona in questa foto, e non la riconosci."
+,,,
+5_4,* This awkwardly shaped lamp seems...€€€€€€ Inconvenient.,* Эта странно выглядящая лампа выглядит...€€€€€€ неподходящей.,"* Questa lampada è alquanto stramba, €€€€€€sembra...€€€€€€ Sconveniente."
+,* Where do you even get all this stuff?,* Где ты берёшь всё это?,* Ma dove la trovi tutta questa roba?
+,"THAME ATH ANYBUDDY ELTH,","ТАКЗЕ КАК И ВФЕ ОФТАЛЬНЫЕ,","FACCIO COME TUTTI GLI ALTRI,"
+,THAT DIGNY WINGY'TH DUMPING GROUND!,ПРОФТО ВОТ ТАК ВОТ ИДЕФ И БЕРЕФ ПОВФЮДУ!,VADO NELLA DIFCARICA DI QUEL DINGOTTO WINGOTTO!
+,* The more this guy speaks the less I understand...,"* Чем больше он говорит, тем меньше я понимаю...",* Più questo tizio parla e meno lo capisco...
+,,,
+5_5,"THAT'TH OUR ROOMIE,€€€€€€ SANDY!","ЭТО НАФ ФОФЕДУФКА,€€€€€€ СЭНДИ!","QUELLA È SANDY,€€€€€€ LA NOFTRA COINQUILINA!"
+,WE DON'T ALWAYTH GET ALONG€€€€€€ BUT WE APPRECIATE THE COMPANY!,"МЫ НЕ ВФЕГДА ЛАДИМ,€€€€€€ НО КОМПАНИЯ - ВФЕГДА ПРИЯТНО!",A VOLTE LITIGHIAMO€€€€€€ MA LE VOGLIAMO BENE COMUNQUE!
+,,,
+5_6,* It's a large home-made star.,* Это большая самодельная звезда.,* È una grossa stella fatta in casa.
+,"* Actually,€€€€€€ it's quite small for star standards.","* По правде говоря,€€€€€€ маловата для звёздного стандарта.","* A dire il vero,€€€€€€ è piuttosto piccola rispetto ad una stella normale."
+,"WELL GEE,€€€€€€ THITH ITH EMBARRATHING...","ЁФКИН КОТ,€€€€€€ ЭТО НАФ ФМУФЯЕТ...","OH CAVOLETTI,€€€€€€ QUESTO FÌ CHE È IMBARAZZANTE..."
+,"WE HAVEN'T GOTTEN TO PUTTING THAT ONE UP YET,","МЫ ЭТУ ПОКА ФТО НЕ ПОВЕФИЛИ,",NON FIAMO ANCORA RIUSCITI AD APPENDERLA.
+,IT'TH WAY HEAVIUH THAN WE THOUGHT...,"ОНА НАМНОГА ТЯВЕЛЕЕ, ТЬФЕМ МЫ ДУМАЛИ...",È PIÙ PEFANTE RIFPETTO ALLE ALTRE...
+,"* Well,€€€€€€ Susie's strong,€€€€€€ maybe she could put it up for you!","* Ну,€€€€€€ Сьюзи сильная,€€€€€€ думаю, она поможет тебе её повесить!","* Beh,€€€€€€ Susie è forte,€€€€€€ magari può appenderla lei!"
+,"* (Their head is literally a giant arm,€€€€€€ they can do it themselves...)","* (Его башка - огроменная ручища,€€€€€€ он может это и сам сделать...)","* (La sua testa è un braccio gigante,€€€€€€ non vedo il problema...)"
+,,,
+5_7,* This space is designated to the arts of the crafty-kind.,* Это место предназначено для занятия искусствами.,* Questo bancone è riservato alle Arti del Mestiere.
+,DON'T€€€€€€ TOUCH€€€€€€ ANYTHIJG!,НИТФЕВО€€€€€€ НИ€€€€€€ ТРОГАЙТИ!,NON€€€€€€ TOCCARE €€€€€€NULLA!
+,WE'RE STILL PREPARING THOME PROPTH€€€€€€ FOR OUR PLAY! €€€€€€DOOHOHOH!,МЫ ВФЁ ЕФЁ ПОДГОТАВЛИВАЕМФЯ€€€€€€ ДЛЯ ФТФЕНКИ! €€€€€€ВУУХУХУХ!,NON ABBIAMO ANCORA FINITO QUEGLI OGGETTI DI SCENA!
+,,,
+5_8,"* When you look out through it,€€€€€€ it looks back in through you.","* Если долго смотреть во тьму, €€€€€€она посмотрит в ответ.","* È come se mentre ci guardi attraverso,€€€€€€ ti guardasse attraverso."
+,,,
+5_9,HELLO,ПРИВЛЕТ,CIAO
+,,,
+5_10,COME COME SEE OUR WEARS!,"ПРИДИТИ, ПОФМОТРИТИ НА НАФЕ БАРАХЛО!",ACCORRETE FIGNORE E FIGNORI!
+,,,
+,,,
+,,,
+shop_text,Buy,Купить,Compra
+,Sell,Продать,Vendi
+,Talk,Говорить,Parla
+,Exit,Выйти,Esci
+,--SOLD OUT--,--ПРОДАНО--,--ESAURITO--
+,Buy it for,Купить за,Compra per
+,Yes,Да,Sì
+,No,Нет,No
+,,,
+6_1_1,About Yourselves,О вас,Su Di Voi
+,,,
+6_2_1,Stars,Звёзды,Le Stelle
+,,,
+6_3_1,Dark Fountain,Тёмный фонтан,Fontana Oscura
+,,,
+6_4_1,What happened here?,Что здесь случилось?,Cos'è successo qui?
+6_4_2,Play?,Сценка?,Spettacolo?
+6_4_3,Let us help!,Мы поможем!,Vi diamo una mano!
+,,,
+6_5,Exit,Выйти,Esci
+,,,
+7_0,Yolkshire Pudding,Всмятпеканка,TuorloCremè
+,Sockage Roll,Сосиска в шерсти,Calziccia
+,Starfruit,Звёздный плод,Baccastella
+,Play Ticket,Билет на сценку,Biglietto
+,Exit,Выйти,Esci
+,,,
+7_1,ITEM,ПРЕДМ.,OGGETTO
+,A bowl of,Выпечка,Gustooso fino
+,eggy delight.,из яиц.,al tuorlo.
+,Å10HP,Å10ОЗ,Å10PS
+,,,
+7_2,ITEM,ПРЕДМ.,OGGETTO
+,A well baked,Испечённый,Una calza ben
+,sock.,носок.,incalzata.
+,Å50HP,Å50ОЗ,Å50PS
+,,,
+7_3,ITEM,ПРЕДМ.,OGGETTO
+,A tropical,Тропический,Una stella
+,fruit-shaped,фрукт в,tropicale e
+,star.,форме звезды.,fruttiforme.
+,Å100HP,Å100ОЗ,Å100PS
+,,,
+7_4,KEYITEM,КЛЮЧ. ПРЕДМ.,OGGETTOCHIAVE
+,Redeem for,Узнать,Necessario
+,natural,истинную,per vedere
+,backstory.,предысторию.,lo spettacolo.
+,,,
+7_5,Space: ,Место:,Spazio:
+,,,
+8_1,SOCKSWALD'TH THE NAME!€€€€€€ £AND PLAYTH ARE THE GAME!,НАФ НОСОКСВАЛЬД ЖВАТЬ!€€€€€€ £И ФТФЕНКА БУДИТ ИГРАТЬ!,SOCKSWALD MI CHIAMO!€€€€€€ £E GLI FPETTACOLI AMO!
+,WAIT€€€€€€ THAT DIDN'T THOUND RIGHT...,ПОГОДИТИ€€€€€€ КАК-ТО ФТРАННО ЖВУТЩАЛО...,"AFPETTA, €€€€€€LAFFA CHE MI FPIEGHI MEGLIO..."
+,WE MEAN WE DO STAGEPLAYTH!€€€€€€ £OR THAT'TH HOW WE PATH THE TIME AT LEATHT.,В ФМЫФЛЕ МЫ ИГРАЕМ ФТФЕНКИ!€€€€€€ £ПО КРАЙНЕЙ МЕРЕ МЫ ТАК ПРОВОДИМ ДОФУГ.,FIAMO UNA COMPAGNIA TEATRALE!€€€€€€ £PAFFIAMO IL TEMPO FACENDO £FPETTACOLI!
+,"THE PROPTH,€€€€€€ THE THTORY,€€€€€€ THE€€€€€€ THEATRICTH,€€€€€€ IT'S ALL SO €€€€€€TH-FREEING! €€€€€€DOOHOHOH!","ДЕКОРАТФИИ,€€€€€€ ИФТОРИЯ,€€€€€€ ТЕАТРАЛЬНОФТЬ,€€€€€€ ЭТО ВФЁ ТАК €€€€€€ОФВОБОЖДАЕТ! €€€€€€ВУУХУХУХ","IL PHATOF,€€€€€€ LE FTORIE,€€€€€€ LA TEATRALITÀ,€€€€€€ È TUTTO COFÌ LIBERATORIO! €€€€€€DOOHOHOH!"
+,"IF WE REMEMBER,€€€€€€ IT'LL BE THE FIRTHT TIME WE HAVE AN AUDIENTH!","НАФКОЛЬКО МЫ ПОМНИМ,€€€€€€ У НАФ ВПЕРВЫЕ БУДУТ ЗРИТЕЛИ!","FE NON CI FBAGLIAMO,€€€€€€ È LA PRIMA VOLTA CHE ABBIAMO UN PUBBLICO!"
+,"OTHERWITHE,€€€€€€ WE DOODLE,€€€€€€ THCRIBBLE,€€€€€€ THCRAWL,€€€€€€€€€€€€ AND GATHE UP AT WHERE THE STARS UTHED TO BE...","КРОМЕ ТОГО,€€€€€€ МЫ РИФУЕМ,€€€€€€ ПИФЕМ,€€€€€€ ТФАРАПАЕМ,€€€€€€€€€€€€ И ГЛЯДИМ ТУДА, ГДЕ РАНЬФЕ БЫЛИ ЗВЁЗДЫ...","ALTRIMENTI,€€€€€€ DIFEGNAMO,€€€€€€ FCRIVIAMO,€€€€€€ E GIOCHIAMO FOTTO LE FTELLE ORMAI FCOMPARFE..."
+,,,
+8_2,PRETTY LIL' THINGIETH €€€€€€AREN'T THEY?,"КРАФИВЕНЬКИЕ' ФТУТЬФКИ, €€€€€€ПРАВДА?","FONO COFÌ CARINE,€€€€€€ NON È VERO?"
+,"THOME TIME AGO, €€€€€€THE SOCKS WOULD WHISPER THEIR WISHES TO THE STARS IN THE SKY.","ДАВНЫМ ДАВНО, €€€€€€НОФКИ ФЕПТАЛИ ФВОИ ЖЕЛАНИЯ ЗВЁЗДАМ НА НЕБЕ.","TEMPO FA, €€€€€€I CALZINI FUFFURRAVANO I LORO DEFIDERI ALLE FTELLE DEL CIELO."
+,"IF YA HOPED WITH ALL YOUR HEART, €€€€€€YOUR WISH WOULD COME TRUE!","ЕФЛИ ВЕРИТЬ ФСЕМ ФЕРТФЕМ, €€€€€€ЖЕЛАНИЕ ЖБУДЕТФЯ!","E CREDENDO CON TUTTO IL CUORE, €€€€€€IL DESIDERIO FI FAREBBE AVVERATO!"
+,BUT NOW... €€€€€€ONLY TAKE FORM OF €€€€€€DIM €€€€€€CEILING DECORATIONTH...,НО ФЕЙТФЯС... €€€€€€ОНИ ЛИФЬ €€€€€€ТУФКЛЫЕ €€€€€€ДЕКОРАТФИИ НА ПОТОЛКЕ...,MA ORMAI... €€€€€€LE UNICHE FTELLE RIMAFTE FONO QUELLE FUL MIO FOFFITTO...
+,,,
+8_3,YOU MEAN THAT TOWERING BLACK GOOP?,ВЫ ПРО ТУ ВОЗВЫФАЮЩУЮФЯ ТФЁРНУЮ ЖЫЖУ?,INTENDI QUELLA TORRE DI MELMA NERA?
+,THE THING THAT EGGHEAD DINGA-WING THPRINTED OVER 'ERE FOR??,КОТОРУЮ ЭТОТ ЯЙТФЕГОЛОВЫЙ ДИНЬГА-ВИНЬГ ПОФТАВИЛ ТУТА??,CIÒ PER CUI QUELLA TESTA D'UOVO È VENUTA FIN QUA?
+,OUR HOME €€€€€€COMPLETELEY DETHIMATED FOR RICH-MONEYTH TO MOVE IN €€€€€€AND THEE WHAT ALL THE HUBBLE-BUBBLE WATH ABOUT???,"НАФ ДОМ €€€€€€ПОЛТОФТЬЮ РАВРУФИЛИ ВЬЕХАВФИЕ БОГАТФИ, €€€€€€И ВИДИТИ ФТО ЭТО ЖА БРЫЖА-СМЫЖА???",LA COFA PER CUI LA NOFTRA CAFA È FTATA DETURPATA E LAFFATA NELLE GRINFIE DI QUEI RICCONI FNOB?
+,...,...,...
+,* one could say we're not quite fond of it.,"* можно сказать, нас это не совсем устраивает.","* per farla breve, €€€€€€non ci piace molto."
+,,,
+8_4,YOU'RE GUNNA HAVE TA BE MORE THPETHPI-,ВАМ НАДО ИЗЛАГАТФА ЧУТФЬ БОЛЕЕ ФПЕТФИФТ...,CERCA DI EFFERE PIÙ FPECIFI-
+,THPEF- €€€€€€£THEPIPIPTTHHPHPTH-,ФПЕФ... €€€€€€£ФПЕПФПФТПФФТПТФПФТП...,FPECIF- €€€€€€£FPEFICIFIFIFIFICI-
+,MMM...,МММ...,MMM...
+,SPECIFIC!,СПЕЦИФИЧЕСКИ!,SPECIFICO!
+,"IF BY€€€€€€ ¤HERE¤€€€€€€ YOU MEAN OUR HUMBLE ABODE,","ЕФЛИ ПОД€€€€€€ ¤ВДЕФЬ¤€€€€€€ ВЫ ИМЕИТИ В ВИДУ НАФЕ ФКРОМНОЕ ЖЫЛИФЕ,","FE CON€€€€€€ ¤QUI¤€€€€€€ INTENDI LA NOFTRA UMILE DIMORA,"
+,WE'VE BEEN COLLECTING ANY JUNK WE COULD FIND €€€€€€TO FILL THITH PLATHE UP FOR AS LONG AS WE CAN REMEMBUH.,"МЫ ФОБИРАЛИ ВЕФЬ ХЛАМ, КОТОРЫЙ МОГЛИ НАЙТИ €€€€€€ТАК ДОЛГО, НАФКОЛЬКО ПОМНИМ, ФТОБЫ НАПОЛНИТЬ ЭТО МЕФТО.","DA FIN QUANDO ABBIAMO MEMORIA, €€€€€€COLLEFFIONIAMO OGNI TIPO DI CIANFRUFAGLIA PER RIEMPIRE QUEFTO POFTO!"
+,"WHICH€€€€€€ ADMITTEDLY,€€€€€€ AIN'T THAT FAR...","ФТО,€€€€€€ ПО ПРАВДЕ ГОВОРЯ,€€€€€€ НЕ ТАК УВ И ДАВНО...",PERÒ AMMETTO DI NON RICORDARE MOLTO...
+,"IF BY€€€€€€ ¤HERE¤€€€€€€ YOU MEAN... EVERYWHERE, €€€€€€WELL...","ЕФЛИ ПОД€€€€€€ ¤ВДЕФЬ¤€€€€€€ ВЫ ИМЕИТИ В ВИДУ... ВЕЗДЕ, €€€€€€ФТО В...",FE CON€€€€€€ ¤QUI¤€€€€€€ INTENDI TUTTO CIÒ CHE CI CIRCONDA...
+,WE DO RECALL A €€€€€€SIMPLUH TIME €€€€€€WHEN THITH LAND WAS LUSH AND LIVELY.,МЫ ПРИПОМИНАЕМ €€€€€€ВРЕМЯ ПОПРОФЕ €€€€€€КОГДА ЭТИ ВЕМЛИ БЫЛИ ПЫФНЫМИ И ЖЫВЫМИ.,RICORDIAMO UN'EPOCA LONTANA €€€€€€DOVE QUEFTA TERRA ERA FERTILE E RIGOGLIOFA.
+,SOCKS LIKE US LIVED IN PEATHE €€€€€€AND-,НОФКИ КАК МЫ ЖЫЛИ В МИРЕ €€€€€€И...,NOI CALFINI VIVEVAMO IN PACE-
+,€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€...?,€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€?..,€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€...?
+,AHH... €€€€€€OF COURTHE. €€€€€€WE CAN'T TELL YA YET!,ААА... €€€€€€КОНЕФНА. €€€€€€МЫ ВАМ ПОКА НЕ МОЖЕМ РАФФКАВАТЬ!,AHH GIUFTO... €€€€€€NON POFFIAMO DIRE ALTRO!
+,"YOU DON'T WANNA BE TH-POILED FOR OUR €€€€€€_cyPLAY_cw, €€€€€€DO YA?","ВЫ ЖЕ НИ ХАТИТИ ФПОЙЛЕРОВ ДЛЯ НАФЕЙ €€€€€€_cyФТФЕНКИ_cw, €€€€€€ДА?","NON VOLETE MICA DEGLI FPOILER DEL NOFTRO €€€€€€_cyFPETTACOLO_cw, €€€€€€VERO?"
+,,,
+8_5,"DOOHOHOH! €€€€€€THAT'TH NOT HOW THINGTH WORK AROUND HERE, €€€€€€THILLY!","ВУУХУХУХ! €€€€€€ТУТ ЭТО НЕ ТАК РАБОТАЕТ, €€€€€€ГЛУПЫФКИ!","DOOHOHOH! €€€€€€NON CORRERE TROPPO, €€€€€€FTUPIDINO!"
+,NOT WITHOUT A €€€€€€_cyTICKET _cw€€€€€€THAT IS!,НЕ БЕЗ €€€€€€_cyБИЛЕТИКА _cw!,PRIMA DEVI ACQUIFTARE UN €€€€€€_cyBIGLIETTO_cw!
+,,,
+8_6,AHA!!! €€€€€€£WE THEE YOUR READY FOR A SHOW!,"АГА!!! €€€€€€£ВИДИМ, ВЫ ГОТОВЫ К ФОУ!",AHA!!! €€€€€€£VEDIAMO CHE ORA FIAMO PRONTI PER LO SHOW!
+,WE HOPE YOU BOUGHT THOME THNACKS!,"НАДЕЕМФЯ, ВЫ ПРИНЕФЛИ ТФЕВО ПОКУФАТЬ!",SPERIAMO CHE ABBIATE QUALCOFA DA FGRANOCCHIARE!
+,PLACETH €€€€€€EVERYBUDDY!!!,ВФЕ €€€€€€ПО МЕФТАМ!!!,TUTTI AI PROPRI POFTI!!!
+,,,
+8_7,*AHEM*,*КХЕ*,*AHEM*
+,"ONTHE UPON A TIME... €€€€€€£IN THE HUMBLE LAND OF CALCIA, €€€€€€€€€£AN EVEN HUMBLER LINEAGE OF SOCK-DARKNUH MADE THEMTHELVETH AT HOME.","ДАВНЫМ-ДАВНО... €€€€€€£В ФКРОМНЫХ ЗЕМЛЯХ КАЛЬЦИИ, €€€€€€€€€£ФКРОМНЕЙФИЙ РОД НОФКОВ-ТЁМНЫТФЕЙ ТЬФЮФТВОВАЛИ ФЕБЯ КАК ДОМА.","TANTO TEMPO FA... €€€€€€£NELL'UMILE TERRA DI CALCIA, €€€€€€£VIVEVA UN POPOLO ANCORA PIÙ £UMILE DI CALFE OFCURIANE."
+,"FOR GENERATIONTH THEY WANDERED, €€€€€€GATHERED, €€€€€€AND TOLD STORIETH OF THEIR TRAVELTH.","ПОКОЛЕНИЯМИ ОНИ ПУТЕФЕФТВОВАЛИ, €€€€€€ПОЗНАВАЛИ, €€€€€€И РАФФКАЗЫВАЛИ ИФТОРИИ О ФВОИХ ФТРАНФТВИЯХ.",PER GENERAFFIONI HANNO GIRATO PER IL MONDO RACCONTANDO DEI LORO VIAGGI.
+,BUT MOTHT OF ALL... €€€€€€£THEY GAZED AT THE STARS!,НО ФАМОЕ ГЛАВНОЕ... €€€€€€£ОНИ ГЛЯДЕЛИ НА ЗВЁЗДЫ!,MA FOPRATTUTTO... €€€€€€£ADORAVANO LE FTELLE!
+,"WHEN THEY GOT LOST, €€€€€€THE STARS WERE THERE TO SHOW THE WAY! ","КОГДА ОНИ ТЕРЯЛИФЬ, €€€€€€ЗВЁЗДЫ ВФЕГДА УКАЗЫВАЛИ ПУТЬ!","FE FI PERDEVANO, €€€€€€LE FTELLE AVREBBERO MOFTRATO LORO LA VIA!"
+,"WHEN THEY GOT BORED, €€€€€€THE STARS WERE THEIR INTHPIRATION!","КОГДА ОНИ ФКУТФЯЛИ, €€€€€€ЗВЁЗДЫ ИХ ВДОХНОВЛЯЛИ!","FE FI FENTIVANO VUOTI, €€€€€€LE FTELLE FUNGEVANO COME PUNTO DI IFPIRAZIONE!"
+,IT WAS €€€€€€THEIR WAY OF LIFE!,ЭТО БЫЛ €€€€€€ИХ ОБРАЗ ЖЫЗНИ!,ERA €€€€€€IL LORO FTILE DI VITA!
+,THO IMAGINE THEIR SURPRITHE€€€€€€€€€ WHEN THOME TINY MAN SHOWTH UP WITH HIS BIG MACHINE!!,ТАК ПРЕДФТАВЬТЕ ИХ ИЖУМЛЕНЬЕ€€€€€€€€€ КОГДА ЭТОТ МЕЛКИЙ МУВЫК ПРИФЁЛ ФО ФВОЕЙ ВДОРОВЕННОЙ МАФЫНОЙ!!,QUINDI IMMAGINATE LA LORO REAFFIONE€€€€€€€€€ QUANDO UN PICCOLO GNOMO ARRIVÒ A BORDO DEI FUOI MACCHINARI!!
+,HIS NAME €€€€€€WAS THOMETHING LIKE... €€€€€€DINGWINGTH?,ЖВАЛИ ЕВО €€€€€€КАК-ТО ТАМ... €€€€€€ДИНГВИНГФ?,CREDIAMO CHE IL FUO NOME €€€€€€FOFFE QUALCOFA COME... €€€€€€DINGWINGF?
+,"¤I, €€€€€€WINGNUT OR WHATEVUH, €€€€€€€€€DECLARE THITH LAND MY HOME! €€€€€€€€€€AND IT'TH PEOPLE €€€€€€MY PROPERTY !!!¤","¤Я, €€€€€€ВИНЬГБРЯК ИЛИ КАК ТАМ МЕНЯ, €€€€€€€€€ОБЪИВЛЯЮ ЭТИ ЗЕМЛИ МАИМ ДОМАМ! €€€€€€€€€€И ИВО НАРОД €€€€€€МАЕЙ ФОБФТВЕННОФТЬЮ!!!¤","¤IO, €€€€€€WINGDINGF O COME VOLETE VOI, €€€€€€DICHIARO QUEFTA TERRA E I FUOI ABITANTI MIA PROPRIETÀ!!!¤"
+,"FROM THE FOUNTAIN OUTWARDTH, €€€€€€£HIS TROOPTH€€€€€€ CONSTRUCTED,","ОТ ВХОДА К ФОНТАНУ, €€€€€€£ЕГО ОТРЯДЫ€€€€€€ ВЫФТРОИЛИФЬ,",DALLA FONTANA INIFFIÒ A ERGERE IL FUO NUOVO IMPERO.
+,"AUTOMATED, €€€€€€EXPLORED €€€€€€AND EXPLOITED...","ЗАГНАННЫЕ, €€€€€€ИВУТФЯЕМЫЕ €€€€€€И ЭКФПЛУАТИРУЕМЫЕ...","PIEGATE, €€€€€€UFATE €€€€€€E FFRUTTATE..."
+,THE SOCKS WERE COMPLETELY OVAHWHELMED!,НОФКИ БЫЛИ КРАЙНЕ ОФЕЛОМЛЕНЫ!,LE CALFE ERANO COMPLETAMENTE FOPRAFFATTE!
+,"DRIVEN OUT OF THEIR HOMETH, €€€€€€THEY WERE FORTHED TO COMPLY WITH THEIR NEW RULER €€€€€€AND BE ENLITHTED €€€€€€AS HIS FOOTSOLDIERTH!","ВЫГНАННЫЕ ИЗ ИХ ДОМА, €€€€€€ОНИ БЫЛИ ВЫНУВДЕНЫ ФМИРИТЬФЯ Ф ИХ НОВЫМ ПРАВИТЕЛЕМ €€€€€€И ИХ ЗАВЕРБОВАЛИ €€€€€€В ЕВО ПЕХОТИНТФЫ!","CACCIATE DALLA LORO CAFA, €€€€€€FURONO COFTRETTE A OBBEDIRE AL NUOVO IMPERATORE, €€€€€€PER TRAFFORMARLE IN FUOI FOLDATI!"
+,YOU'VE PROBABLY FATHED A FEW ON YA WAY HERE...,"ВЫ, ФКОРЕЕ ВФЕВО, УЖЕ ВФТРЕТИЛИ НЕФКОЛЬКО НА ФВОЁМ ПУТИ...",FORFE NE AVETE GIÀ INCONTRATI ALCUNI...
+,"ALL THEEMED HOPELETH, €€€€€€€€€BUT ONE €€€LONE €€€THOLE €€€€€€MANAGED TO THLIP BY UNDETECTED.","ВФЁ КАЗАЛОСЬ БЕВНАДЁВНЫМ, €€€€€€€€€НО €€€ОДИН €€€НОФОТФЕК €€€€€€ФМОГ ПРОФКОЛЬВНУТЬ НЕЗАМЕТФЕННЫМ.","MA QUANDO TUTTO FEMBRAVA FINITO, €€€€€€€€€UNA FOLA €€€CALFA €€€€€€RIUSCÌ A FFUGGIRE."
+,BUT WHAT WATH A THINGLE SOCK TO DO? €€€€€€THEPARATED FROM THEIR LOVED ONETH...,НО ФТО ЖЕ ФДЕЛАЕТ ОДИН НОФОК? €€€€€€В ОТРЫВЕ ОТ ФВОИХ БЛИФКИХ...,MA UN CALFINO È PUR FEMPRE INUTILE FE FPAIATO...
+,AND WITHOUT A STAR IN THE SKY...,И БЕЗ ЗВЕЗДЫ НА НЕБЕ...,E FENZA FTELLE NEL CIELO...
+,THEY WERE TERRIFIED...,ОН БЫЛ В УВАФЕ...,ERA TERRORIZZATO...
+,UNTIL...,ПОКА...,FINO A QUANDO...
+,"THOMEONE VERY WONDUHFUL, €€€€€€€€€APEARED.",КТО-ТО ОТФЕНЬ ЗАМЕТФЯТЕЛЬНЫЙ €€€€€€€€€НЕ ПОЯВИЛФЯ.,UNA PERFONA VERAMENTE FPECIALE €€€€€€APPARVE.
+,THOMEONE WHO KNEW HOW TO HELP,"КТО-ТО, КТО ЗНАЛ, КАК ПОМОТФЬ",UNA PERFONA CHE AVREBBE POTUTO AIUTARLO.
+,WHO HAD JUTHT THE THING TO THOLVE ALL PROBLEMTH,"У КОГО БЫЛО ФАМОЕ ТО, ФТОБЫ РЕФИТЬ ВФЕ ПРОБЛЕМЫ",CHE AVEVA LA SOLUFFIONE AD OGNI PROBLEMA.
+,"A TICKET, €€€€€€€€€TO FREEDOM...",БИЛЕТ €€€€€€€€€К СВОБОДЕ...,"UN BIGLIETTO, €€€€€€PER LA LIBERTÀ..."
+,BUT BEFORE THE SOCK COULD EVEN PARTAKE...,"НО ДО ТОГО, КАК НОФОК ФМОГ ХОТЬ ФТО-ТО ФДЕЛАТЬ...",MA PRIMA ANCORA CHE LA CALFA POTESSE COMPRENDERE...
+,OUR HERO WAS ALONE €€€€€€ONTHE AGAIN...,"НАФ ГЕРОЙ ОКАЗАЛФЯ ОДИН, €€€€€€ОПЯТЬ..",IL NOFTRO EROE ERA DI NUOVO TUTTO SOLO...
+,"WITH NO MEMORY OF WHAT THEY WERE TOLD, €€€€€€OR WHAT THE THRANGER €€€€€€HAD GIVEN THEM.","ФОВФЕМ БЕЗ ПАМЯТИ О ТОМ, О ТФЁМ ЕМУ РАФФКАЗАЛИ, €€€€€€И О ТОМ, €€€€€€ФТО НЕЗНАКОМЕТФ ДАЛ ЕМУ.","ORMAI PERFO NELL'AMNEFIA, €€€€€€NON RICORDAVA NULLA DELL'INCONTRO CON LO STRANIERO."
+,"EMPTY-HANDED, €€€€€€THEY WERE BACK TO WHERE THEY THARTED.","Ф ПУФТЫМИ РУКАМИ, €€€€€€ОН ВЕРНУЛФЯ ТУДА, ГДЕ И НАТФЯЛ.","A MANI VUOTE, €€€€€€RICOMINCIÒ DA CAPO."
+,EXCEPT NOW €€€€€€THEY THAW A GLIMMER IN THE DITHTANCE...,"НО ТЕПЕРЬ, €€€€€€ОН ВИДЕЛ ФИЯНИЕ ВДАЛЕКЕ...",ECCETTO CHE ORA €€€€€€VIDE UN BARLUME DI SPERANZA ALL'ORIZZONTE...
+,"A LIGHTHOUTHE WAS BUILT ON THE HIGHETHT MOUTAIN, €€€€€€AND THE SOCK LEARNED... €€€€€€€€€THAT'S €€€€€€WHERE THEIR THOLUTION LAY.","НА ФАМОЙ ВЫФОКОЙ ГОРЕ БЫЛ ПОФТРОЕН МАЯК, €€€€€€И НОФОК УЗНАЛ... €€€€€€€€€ВОТ ГДЕ €€€€€€БЫЛО ЕГО РЕФЕНИЕ.","UN FARO FU COFTRUITO FULLA MONTAGNA PIÙ ALTA, €€€€€€E LA CALFA CAPÌ CHE LÌ FI TROVAVA LA FOLUFFIONE."
+,"ALATH... €€€€€€THE TREK TO THE TWINKLING TOWER WAS TOO LONG €€€€€€€€€AND THE MOUNTAIN, €€€€€€TOO DANGEROUTH!","К ФОВАЛЕНИЮ... €€€€€€ПУТЬ К ФИЯЮФЕЙ БАФНЕ БЫЛ ФЛИФКОМ ДЛИННЫМ, €€€€€€€€€И ТА ГОРА, €€€€€€ФЛИФКОМ ОПАФНО!","TUTTAVIA... €€€€€€LA FCALATA PER ARRIVARE IN CIMA ERA TROPPO LUNGA, €€€€€€E LA MONTAGNA ERA UNA TRAPPOLA MORTALE!"
+,"HERE OUR ¤HERO¤ €€€€€€STARED OFF AT THEIR ONLY STAR LEFT, €€€€€€WISHING THAT HELP WOULD COME. €€€€€€£AND FREE THEM ALL €€€€€€FROM THE MACHINE...","И ВОТ НАФ ¤ГЕРОЙ¤ €€€€€€ФМОТРЕЛ НА ЕДИНФТВЕННУЮ ОФТАВФУЮФЯ ЗВЕЗДУ, €€€€€€ЖЕЛАЯ, ФТОБЫ ПРИФЛА ПОМОФЬ €€€€€€И ОФВОБОДИЛА ИХ ВФЕХ €€€€€€ОТ МАФЫНЫ...","QUI IL NOFTRO ¤EROE¤ €€€€€€FIFFAVA LA FUA UNICA FTELLA, €€€€€€FPERANDO DI LIBERARLI €€€€€€DALLA MACCHIA DEL TERRORE..."
+,,,
+9_1,YOU €€€€€€WANNA €€€€€€HUH?,"ВЫ €€€€€€ХАТИТИ, €€€€€€ДЭ?",TU €€€€€€VUOI €€€€€€CHE?
+,"SORRY, €€€€€€WE'RE AFRAID WE CAN'T AFORD THAT...","ПРАФТИТИ, €€€€€€К ФОВАЛЕНЬЮ МЫ НИ МОЖЕМ ФИБЕ ЭТО ПОЖВОЛИТЬ...","PERDONACI, €€€€€€TEMO CHE NON POFFIAMO PERMETTERCI LE TUE COFE..."
+,UNLETH YOU TAKE SPARE BUTTONTH AND LINT!,"РАЗВЕ ФТО, ЕФЛИ ВЫ НЕ ПРИНИМАИТИ ПУГОВКИ И НИТОТФЬКИ!",A MENO CHE TU NON VOGLIA DARCI UN PAIO DI BOTTONI E UN PO' DI LANA!
+9_2,BUH-BYE NOW!!!,ПАКА-ПАКА!!!,A PIÙ TARDI!!!
+9_3,THANKTH FOR YOUR PATRONAGE!,ФПАФИБО ЗА ФЕДРОФТЬ!,GRAFFIE PER L'ACQUIFTO!
+9_4,THALUTATIONTH!,ПРИВЕТФТВУЕМ!,BENTROVATI!
+9_5,THTAY FER ATH LONG ATH YA WANT!,"ОФТАВАЙТЕФЬ НАФТОЛЬКО, НАФКОЛЬКО ХАТИТИ!",FATE COME FE FOFTE A CAFA VOFTRA!
+9_6,THEE THUMTHIN' YA LIKE!,ПОФМОТРИТЕ СЕБЕ ФТО-НИБУДЬ!,POTREBBE INTEREF-£FARVI£QUALCOFA!
+9_7,"DAWW, WHY NOT?","УАА, НУ ПОТФЕМУ НЕТ?","DAII, PERCHÉ NO?"
+9_8,YOU'RE BROKE!,У ВАФ ДЕНЯК НЕТ!,FEI AL VERDE!
+9_9,ALL UTTA TICKET!,БИЛЕТИКИ КОНТФИЛИФЬ!,BIGLIETTI ESAURITI!
+9_10,WE LOVE TALKING!,МЫ ЛЮБИМ БОЛТАТЬ!,AMIAMO PARLARE!
+9_11,TALKING IS FUN!,БОЛТАТЬ ВЕФЕЛО!,PARLARE È DIVERTENTE!
+,,,
+,,,
+,,,
+10_1,WELL? €€€€€€WADAYA THINK?,НУ? €€€€€€ФТО ДУМАИТИ?,BEH? €€€€€€CHE NE PENFATE?
+,"* Jeez, €€€€€€that's a hell of a story...","* Боже, €€€€€€ну и история...","* Cavoli, €€€€€€che storia triste..."
+,* I already hated that pompous egghead.,* Я и так ненавидела это напыщенное яйцо.,* Odiavo già a morte quella testa d'uovo.
+,* NOW I REALLY WANNA HARD-BOIL HIS ASS!!!,* НО ТЕПЕРЬ Я ЕГО ЗАД В СМЯТКУ РАЗМАЖУ!!!,* ORA VOGLIO PROPRIO BOLLIRGLI IL CULO!!!
+,YER THAYIN' YOU'VE MET HIM?,ТАК ВЫ ЕВО ВТРЕТФЯЛИ?,QUINDI LO CONOSCETE GIÀ?
+,* Indeed! €€€€€€Dingwing's sure made himself known.,* Верно! €€€€€€Дингвинг сразу дал о себе знать.,* Esatto! €€€€€€Dingwing è davvero un tipo eccentrico.
+,* You weren't lying when you said he's taken over everything.,"* Ты не приувеличил, когда сказал, €€€€€€что он тут все захватил.",* Non mentivi quando dicevi che comanda su tutto...
+,* But €€€€€€I think we can help change that!,"* Но я думаю, €€€€€€мы можем это исправить!",* Tuttavia €€€€€€penso che possiamo fare la differenza!
+,* ...€€€€€€We can?,* ...€€€€€€Мы можем?,* ...€€€€€€Possiamo?
+,* I mean... €€€€€€YEAH! €€€Of course we can!,"* То есть... €€€€€€ДА! Конечно, €€€€€€мы можем!",* Voglio dire... €€€€€€CERTO! Ovviamente possiamo!
+,* A lighthouse that size can't be good for a darkworld.,* Такой большой маяк не должен быть в Тёмном мире.,* Un faro così grande non farà del bene a un Mondo Oscuro.
+,"* But if we turn it off, €€€€€€@it could save everyone!","* Но если мы его выключим, €€€€€€@это может всех спасти!","* Ma se lo spegnessimo, €€€€€€@potrebbe salvare tutti!"
+,* ...€€€Is the lighthouse €€€€€€dangerous?,"* ...€€€Этот маяк, €€€€€€типа, €€€€€€опасен?",* ...€€€Il faro €€€€€€è pericoloso?
+,"* Well you see, €€€€€€Darkners shouldn't be exposed to LIGHT.","* Видишь ли, €€€€€€тёмные не должны быть на СВЕТУ.","* Vedi, €€€€€€gli Oscuriani non dovrebbero esporsi alla LUCE."
+,* When a fountain clouds the world in darkness-,* Когда фонтан окутывает мир во тьму...,* Non appena una fontana copre il mondo-
+,* Us darkeners €€€€€€spring to life!,"* Мы, темные, €€€€€€наполняемся жизнью!",* Dà vita a noi Oscuriani!
+,* Lightness €€€€€€however...,"* Однако,€€€€€€ свет...","* La luce, €€€€€€tuttavia..."
+,* Disrupts €€€€€€a darkener's physical €€€€€€and mental capabilities.,* Нарушает €€€€€€наши физические и ментальные возможности.,* Frantuma €€€€€€le capacità fisiche e mentali di un Oscuriano.
+,"* If exposed to light, €€€€€€a darkener could suffer dizziness, €€€€€€paralysis...","* Под воздействием света, €€€€€€ темные могут испытывать помутнения, €€€€€€паралич...","* Se esposto alla luce, €€€€€€un oscuriano può soffrire molto..."
+,AND MEMORY LOSS...,И ПОТЕРЮ ПАМЯТИ...,E ANCHE DI AMNEFIA...
+,THAT'S WHY €€€€€€THE SOCKS DON'T REBELL.,"ВОТ, €€€€€€ПОЧЕМУ НОСКИ НЕ ВЗБУНТОВАЛИСЬ.",PER QUESTO €€€€€€LE CALFE NON FI RIBELLANO.
+,THEY CAN'T REMEMBER €€€€€€WHO THEY USED TO BE.,"ОНИ НЕ ПОМНЯТ, €€€€€€КЕМ ОНИ БЫЛИ.",NON RIEFCONO A RICORDARE €€€€€€LE LORO ORIGINI.
+,AND €€€€€€€€€€€€ME AND £LIL' BUDDY...,И €€€€€€€€€€€€Я С £БРАТИФКОЙ...,NEANCHE €€€€€€IO E £IL MIO AMICHETTO...
+,CAN'T €€€€€€€€€REMEMBER WHO WE WERE €€€€€€€EITHER.,"ТОЖЕ €€€€€€€€€НЕ ПОМНИМ, €€€€€€€КЕМ МЫ БЫЛИ.",NON CI €€€€€€€€€€€€RICORDIAMO CHE COFA FACEVAMO.
+,"OUR FRIENDS, €€€€€€€€O-€€€€OUR MIND, €€€€OUR LIFE?","НАШИ ДРУЗЬЯ, €€€€€€€€Н-€€€€НАШ РАЗУМ, €€€€НАША ЖИЗНЬ?","I NOFTRI AMICI, €€€€€€I-€€€€€€I NOFTRI PENFIERI, €€€€€€LA NOFTRA VITA?"
+,WE CAN'T REMEMBER ANY OF IT.,МЫ НИЧЕГО НЕ МОЖЕМ ВСПОМНИТЬ.,NON RICORDIAMO NULLA.
+,ALL BECAUSE OF THE LIGHT...,ВСЁ ИЗ-ЗА СВЕТА...,TUTTO A CAUFA DELLA LUCE...
+,WONDER WHAT IT WAS LIKE...,"ИНТЕРЕСНО, КАКОВО ЭТО БЫЛО..",CHIFFÀ COM'ERA UNA VOLTA...
+,* Then it sounds like we've got work to do.,"* Похоже, €€€€€€€у нас есть работёнка.",* Beh allora dobbiamo metterci al lavoro.
+,"* If that lighthouse is such a problem, €€€€€€we'll SMASH IT TO BITS!","* Если тот маяк такая уж проблема, €€€€€€мы СНЕСЁМ ЕГО К ЧЕРТЯМ!","* Se quel faro è così fastidioso, €€€€€€LO FAREMO A PEZZI!"
+,* Sounds like a plan.,* Звучит как план.,* Si potrebbe fare.
+,"* And, €€€€€€call it a hunch...",* И есть предчувствие...,"* E poi, €€€€€€in teoria..."
+,* But if we can release all that energy back into the world-,* Что если мы сможем вернуть эту энергию миру...,* Rilasciando tutta quell'energia nel tuo mondo-
+,* You €€€€€€and your people could get your memories back.,* Ты €€€€€€и твой народ смогут вернуть свои воспоминания.,* Tu €€€€€€e i tuoi amici riacquistereste la memoria!
+,Y-€€€€YOU REALLY THINK THAT COULD WORK?,"В-€€€€ВЫ ПРАВДА ДУМАИТИ, ЭТО ФРАБОТАЕТ?",P-€€€€€€PENFATE DAVVERO CHE POTREBBE FUNFFIONARE?
+,"* It's worth a shot, €€€€€€right?","* Стоит попробовать, €€€€€€верно?","* Tentar non nuoce, €€€€€€giusto?"
+,* We'll show that eggface who's REALLY in charge!!!,"* Покажем этому яйцерожему, €€€€€€кто тут ДЕЙСТВИТЕЛЬНО главный!!",* Mostreremo a quella testa d'uovo chi comanda PER DAVVERO!!!
+,Y-€€€YEAH! €€€€€€€YEAH!!!,Д-€€€ДА! €€€€€€€ДА!!!,S-€€€€€€SÌ! €€€€€€CERTO!!!
+,TOGETHUH €€€€€€WE'LL BRAVE THAT MOUNTAIN €€€€€€AND RETHTORE THE WORLD!!!,ВМЕФТИ €€€€€€МЫ ПАКАРИМ ТУ ГОРУ €€€€€€И ВОФФТАНОВИМ МИР!!!,"INFIEME, €€€€€€FCALEREMO LA MONTAGNA, €€€€€€E FALVEREMO IL MONDO!!!"
+,"READY YOURTHELVETH HEROETH, €€€€€€CAUTHE ADVENTUH €€€€€€ITH AFOOT!","ПРИГОТОВЬТЕФЬ, ГЕРОИ, €€€€€€ИБО ПРИКЛЮТФЕНИЕ €€€€€€ВДЁТ!","PREPARATEVI EROI, €€€€€€L'AVVENTURA CI AFPETTA!"
+,,,
+11_1,"* Well, €€€€€€here we are. €€€€€€£* The bottom of the mountain.","* Ну, €€€€€€вот и оно. €€€€€€£* Подножье горы.","* Beh, €€€€€€eccoci ai piedi della montagna."
+,LET THE CLIMBING €€€€€€COMMENCE!,ДА ФВЕРФИТФЯ €€€€€€ВЖБИРАНЬЕ!,CHE LA FCALATA €€€€€€ABBIA INIFFIO!
+11_2,GEE... THAT WATH A CLOTHE ONE!,ЁФКИН... ЭТО БЫЛО БЛИФКО!,WOW... C'È MANCATO POCO!
+,THANKTH THOOTHIE! WE WERE ALMOTHT PANCAKE'D!,ФПАФИБО ФЬЮВИ! НАФ ПОТФТИ РАВДАВИЛО В БЛИНТФИК!,GRAFFIE FUFIE! MI HAI FALVATO PER UN PELO!
+,"* That was really brave of you, €€€€€€Susie!","* Это было смело с твоей стороны, €€€€€€Сьюзи!","* Sei stata davvero coraggiosa, €€€€€€Susie!"
+,* Yeaaaah... €€€€€€don't mention it.,* Да-а-а... €€€€€€Не парься.,* Naaaaah... €€€€€€nessun problema.
+,* Let's just try not to get crushed from now on.,* Давайте просто попробуем не расплющиться по пути дальше.,* La prossima volta vediamo di prestare più attenzione.
+,,,
+12_1,"* Dang, €€€€€€dead end.","* Зараза, €€€€€€тупик.","* Cavolo, €€€€€€è un vicolo cieco."
+,* Guess we have to find another way.,"* Судя по всему, €€€€€€надо поискать другую дорогу.",* Credo che dovremmo trovare un'altra strada.
+,* It didn't look like there were any other paths we could've gone.,"* Не похоже, €€€€€что здесь есть какие-либо другие пути.",* Non vedo altri modi per arrivare lassù.
+,"* Kris, €€€€€€what do you suggest we do?","* Крис, €€€€€€что предложишь делать?","* Kris, €€€€€€che cosa dovremmo fare?"
+,WE'VE GOT AN IDEA!,У НАФ ЕФТЬ ИДЕЯ!,ABBIAMO UN'IDEA!
+,LOOK!,ФМАТРИТИ!,GUARDATE!
+,WE'RE HIGH ENOUGH TO SEE THE BRIGHTER STARS THROUGH THE SMOG.,"МЫ ДОФТАТОТФЬНО ВЫФОКО, ФТОБЫ ВИДЕТЬ ЗВЁЗДЫ ФКОФЬ ФМОГ.",DA QUI POFFIAMO VEDERE LE FTELLE ATTRAVERFO LO FMOG!
+,"IF YA REALLY NEED IT, €€€€€€AND USE AAALLLL OF YOUR HEART...","ЕФЛИ ТЕБЕ ЭТО ПРАВДА НУВНО, €€€€€€И ПОВЕЛАЕФЬ ВФЕЕЕЕЕМ ФЕРДТФЕМ...",E FE CI CREDIAMO CON TUUUTTO IL CUORE €€€€€€POTREMO...
+,A STAR €€€€€€COULD GRANT YOU A WISH!,ЗВЕЗДА €€€€€€ПОДАРИТ ТИБЕ ЖЕЛАНИЕ!,EFPRIMERE UN DEFIDERIO!
+,"* Erm, €€€well, €€€€€€go on Kris! €€€€€€£* Make a wish!","* Ну, €€€€€€давай, €€€€€€Крис! €€€€€€£* Загадай желание!","* Erm, €€€beh, €€€€€€forza Kris! €€€€€€£* Esprimi un desiderio!"
+,"* (As you look up at the stars, €€€€€€you felt something strange.)","* (Смотря на звёзды, €€€€€€вы чувствуете нечто странное.)","* (Guardando le stelle nel cielo, €€€€€€senti qualcosa di strano.)"
+,* (It was as if...),* (Будто...),* (Come se...)
+,* (Your very SOUL €€€€€€€€€€€€was glowing...),* (Ваша ДУША €€€€€€€€€€€€засияла...),* (La tua ANIMA €€€€€€€€€€€€stesse splendendo...)
+,* ...,* ...,* ...
+,* Well that was a bust.,"* Что ж, вот облом.",* Che perdita di tempo.
+,"* WAIT, €€€€€€it actually worked?","* ПОГОДИ, €€€€€€это правда сработало?",* COSA?! €€€€€€Ha davvero funzionato?
+,DOOHOHOH! €€€€€€IT THEEMTH YOUR WISH HATH BEEN BLETHHED!,"ВУУХУХУХ! €€€€€€ПОХОВЕ, ТВОЁ ЖЕЛАНИЕ ФБЫЛОФЬ!",DOOHOHOH! €€€€€€CREDO CHE IL TUO DEFIDERIO FI FIA AVVERATO!
+,THAT GAP SHOULD BE A EATHY NOW!,ТЕПЕРЬ ТЫ Ф ЛЕГКОФТЬЮ ПЕРЕПРЫГНЕФ ЭТОТ ОБРЫФ!,POFFIAMO CONTINUARE!
+,* Okay my turn! €€€€€€€€€,"* Ладно, €€€€€€мой ход! €€€€€€€€€",* OK tocca a me!
+,"HOLD UP THOOTHIE, €€€€€€WE HAVE DIFFERENT IDEA.","ПОДОВДИ, ФЬЮВИ, €€€€€€У НАФ ДРУГАЯ ИДЕЯ.","AFPETTA FUFIE, €€€€€€ABBIAMO UN'ALTRA IDEA."
+,"* HELL YEAH, €€€€€€ride like the wind!","* НИШТЯК, €€€€€€мчись, €€€€€€как ветер!","* Oh SÌ, €€€€€€ora sì che si ragiona!"
+,* YEEEEHAAAAAW!!!!!!!!!,* ИИИИИ-ХАААААА!!!!!!!!!,* YEEEEHAAAAAW!!!!!!!!!
+,"* Well, €€€€€€I'll see you up ahead, €€€€€€€€€€€€Kris.","* Ну, €€€€€€увидимся наверху, €€€€€€€€€€€€Крис.","* Beh, €€€€€€ti aspetterò in cima, €€€€€€€€€€€€Kris."
+,,,
+12_2,I WISH FOR 500 HOTCAKES!!!,Я ЖЕЛАЮ 5000 ПЕЛЬМЕНЕЙ!!!,DESIDERO UN FIUME DI TORTE!!!
+,,,
+13_1,"C'MON KRIS, €€€€€€WE JUST KNOW YOU CAN MAKE IT!","ДАВАЙ, €€€КРИС, €€€МЫ ВНАЕМ, €€€€€€У ТЕБЯ ПОЛУТФИТФЯ!","EDDAI KRIF, €€€€€€FAPPIAMO CHE CE LA PUOI FARE!"
+,WE'RE ALMOST THERE!,МЫ ПОТФТИ У ТФЕЛИ!,CI FIAMO QUAFI!
+,,,
+14_1,* Glad everyone made it up safely!,"* Благо, €€€€€€все бесопасно добрались!",* Finalmente siamo arrivati in cima!
+,"* THAT WAS AWESOME, €€€€€€LET'S DO IT AGAIN!","* ЭТО БЫЛО ОФИГЕННО, €€€€€€ДАВАЙ ЕЩЁ РАЗ!","* È STATO UNO SBALLO, €€€€€€FACCIAMOLO DI NUOVO!"
+,"* Remember our task at hand, €€€€€€Susie.","* Помни о нашем задании, €€€€€€Сьюзи.","* Abbiamo un lavoro da fare, €€€€€€Susie."
+,"* We're here to free Sockswald's people, €€€€€€remember?","* Мы здесь, €€€€€€чтобы освободить народ Носоксвальда, €€€€€€помнишь?","* Dobbiamo liberare il popolo di Sockswald, €€€€€€ricordi?"
+,AND GET OUR MEMORIETH BACK!,И ВЕРНУТЬ НАФИ ВОФПОМИНАНИЯ!,E RIPRENDERE I NOFTRI RICORDI!
+,* Oh... €€€right.,* А... €€€Да.,* Oh... €€€€€€giusto.
+,OH IT'TH OKAY €€€€€€THOOTHIE!,"О, НЕ ПЕРЕВИВАЙ €€€€€€ФЬЮВИ!",OH TRANQUILLA €€€€€€FUFIE!
+,IT'TH NOT LIKE YOU'LL NEVAH SEE UTH AGAIN AFTER WE'RE DONE!,МЫ ВЕ ПОТОМ ЕФЁ УВИДИМФЯ!,AVREMO FICURAMENTE DEL TEMPO PER DIVERTICI PIÙ TARDI!
+,* Well what're we waiting for?,* Так чего мы ждём?,* Beh allora che stiamo aspettando?
+,* It's a straight road to the finish line now.,* Вот и дорога до финишной линии.,* Adesso possiamo tranquillamente fiondarci laggiù.
+,* Let's smash this thing!!!,* Погнали!!!,* Distruggiamolo e basta!
+,"HOLD YOUR HORTHETH THERE, €€€€€€PARTNER.","ПРИДЕРВИ-КА КОНЕЙ ВДЕФЬ, €€€€€€ПАРТНЁР.","AFPETTA UN FECONDO, €€€€€€FUFIE."
+,WE NEED TO DO THIS LATHT BIT €€€€€€€€€€€€ALONE.,НАМ НУВНО ПРОЙТИ ЭТОТ КУФОТФЕК €€€€€€€€€€€€ФАМИМ.,DOBBIAMO OCCUPARCENE DA FOLI.
+,* ...€€€€€€€€€Alone?,* ...€€€€€€€€€Самим?,* ...€€€€€€€€€Da solo?
+,* You're joking right?,"* Ты шутишь, €€€€€€да?",* Stai scherzando vero?
+,* We're not leaving you all by yourself! €€€€€€£* That's insane!,* Ты не пойдёшь один! €€€€€€£* Это бред!,* Non ti lasceremo andare per conto tuo! €€€€€€£* Sei impazzito?!
+,* Right Kris?,"* Да, €€€€€€Крис?",* Giusto Kris?
+,* ...€€€€€€€€€Ralsei?,* ...€€€€€€€€€Ральзей?,* ...€€€€€€€€€Ralsei?
+,"* What's the matter,€€€€€€ Sockswald?","* В чём дело,€€€€€€ Носоксвальд?","* Qual è il problema, €€€€€€Sockswald?"
+,* We're a team. €€€€€€Why do this alone?,* Мы же команда. €€€€€€Зачем идти одному?,* Siamo una squadra. €€€€€€£* Perché vuoi andare da solo?
+,WELL...,НУ...,ECCO...
+,"WE ALWAYTH WANTED TO COME HERE ON OUR OWN, €€€€€€BUT...","МЫ ВФЕГДА ХОТЕЛИ ПРИЙТИ ФЮДА ФАМИ, €€€€€€НО...",ABBIAMO FEMPRE SOGNATO DI ARRIVARE QUAFFÙ DA SOLI...
+,WE WERE TOO MUCH OF A COWARD BACK THEN...,МЫ ФЛИФКОМ ТРУФИЛИ...,MA ABBIAMO FEMPRE AVUTO PAURA...
+,"BUT THEN YOU THREE CAME ALONG, €€€€€€AND GAVE US THTRENGTH!","НО ПОТОМ ВЫ ТРОЕ ПРИФЛИ, €€€€€€И УФИЛИЛИ НАФ!","MA POI FIETE ARRIVATI VOI, €€€€€€E CI AVETE DATO CORAGGIO!"
+,"YOUR COURAGE €€€€€€BECAME OURS, €€€€€€WE CAN TOP ANYTHING TOGETHUH!","ВАФА ОТВАГА €€€€€€ФТАЛА НАФЕЙ, €€€€€€ВМЕФТЕ МЫ ПЕРЕФИЛИМ ВФЁ!","E GRAFFIE A QUESTO CORAGGIO, €€€€€€POFFIAMO FARE QUALUNQUE COFA!"
+,BUT WE STILL WANNA PROVE OURTHELVETH...,НО НАМ ВФЁ ЕФЁ НУВНО ДОКАЗАТЬ ФАМИМ ФЕБЕ...,E ANCHE GRAFFIE A QUEFTO CORAGGIO...
+,"THAT WE CAN DO THIS ON OUR OWN, €€€€€€TOO!","ФТО МЫ И ФАМИ МОЖЕМ ЭТО ФДЕЛАТЬ, €€€€€€ТОЖЕ!",FAPPIAMO DI POTERCELA FARE DA FOLI!
+,THAT WE'VE REALLY GAINED COURAGE.,ФТО МЫ И ВПРАВДУ ФТАЛИ ОТВАЖНЕЕ.,FIAMO PIÙ FORTI CHE MAI!
+,"* I think they're right, €€€€€€Susie... €€€€€€£* Let's sit this one out.","* Думаю, €€€€€€он прав, €€€€€€Сьюзи... €€€€€€£* Давай просто посидим здесь.","* Ha ragione, €€€€€€Susie... €€€€€€£* Facciamo fare a lui."
+,* For them!,* Ради него!,* Così può finalmente superare le sue paure!
+,* ...€€€€€€I guess.,* ...€€€€€€Ладно.,* ...€€€€€€Se lo dici tu.
+,* But...,* Но...,* Però...
+,"* Just be careful, €€€€€€alright?","* Просто будь аккуратнее, €€€€€€хорошо?","* Cerca solo di fare attenzione, €€€€€€d'accordo?"
+,* Being alone €€€€€€€€€sucks.,* Быть одному €€€€€€€€€отстой.,* Stare da soli è orribile.
+,DON'T WORRY THOOTHIE!,"НЕ ВОЛНУЙФЯ, ФЬЮВИ!",NON PREOCCUPARTI FUFIE!
+,WE'RE NEVER ALONE!,МЫ НИКОГДА НЕ ОДНИ!,NON FIAMO MAI FOLI!
+,* ...,* ...,* ...
+,* ...!,* !..,* ...!
+,,,
+15_0,Hope so,Надеюсь,Lo spero
+,Don't care,Не волнует,Non mi importa
+,Sure,Конечно,Hai ragione
+,Really don't care,Правда не волнует,Non mi importa davvero
+,,,
+15_1,* ...,* ...,* ...
+,"* It sure has been a while, €€€€€€hasn't it?",* Прошло уже много времени...,* Ci sta mettendo molto tempo.
+,"* Kris, €€€€€€do you think Sockswald's doing alright up there?","* Крис, €€€€€€думаешь, €€€€€€Носоксвальд в порядке?         ","* Kris, €€€€€€credi che Sockswald stia bene?"
+,,,
+15_2,* Well then... €€€€€€why don't we close our eyes...,* Что ж... €€€€€€Почему бы нам не закрыть глаза...,* Allora... €€€€€€chiudiamo gli occhi...
+,* ...And think about what they're doing now?,"* И подумать о том, €€€€€€что он сейчас делает?",* ...E pensiamo a ciò che sta facendo.
+,,,
+15_3,* ...Oh... €€€€€€€€€really?,* ...Ох... €€€€€€€€€Точно?,* ...Oh... €€€€€€€€€davvero?
+,"* They could be in danger, €€€€€€or maybe already on their way back!","* Он может быть в опасности, €€€€€€или уже возвращается назад.","* Potrebbe essere in pericolo, €€€€€€oppure sta già tornando!"
+,* Don't you want to think about it?,* Не хочешь подумать об этом?,* Davvero non ti importa?
+,,,
+15_4,"* Well... €€€€€€if you REALLY don't want to, €€€€€€that's okay!","* Ну... €€€€€€Если тебе НАСТОЛЬКО всё равно, €€€€€€ничего страшного!","* Beh... €€€€€€se DAVVERO non ti importa, €€€€€€va bene lo stesso!"
+,* It probably isn't that interesting anyway.,* Вряд-ли это так уж интересно.,"* Non sarà così interessante, €€€€€€dopotutto."
+,* I'm sure our pal is doing just fine!,"* Уверен, наш друг в полном порядке!",* Sono sicuro che stia benissimo!
+,,,
+,,,
+,,,
+16_1,* HOLY-,* БОЖЕ...,* MA CHE-
+,* Sockswald!,* Носоксвальд!,* Sockswald!
+,* What €€€€€€€€€€€€happened?,* Что €€€€€€€€€€€€случилось?,* Che è successo?
+,* Did you find what you were looking for?,"* Ты нашел, что искал?",* Sei riuscito a ritrovarli?
+,* Did... €€€€€€Did you get your memories back?,* Ты... €€€€€€Ты вернул свои воспоминания?,* Hai... €€€€€€hai ritrovato i tuoi ricordi?
+,* ha... €€€€€€€€€ha€€€ha...,* ха... €€€€€€€€€ха€€€ха...,* ha... €€€€€€€€€ha€€€ha...
+,* i... €€€€€€remem...€€€ber...,* я... €€€€€€пом...€€€ню...,* io... €€€€€€ri...€€€cordo...
+,"GREAT MEMORIETH, €€€€€€HUH?","ТФЮДНЫЕ ВОФПОМИНАНИЯ, €€€€€€ДА?","BEI RICORDI, €€€€€€EH?"
+,THEEMTH LIKE IT WAS ONLY YETHTERDAY...,БУДТО ЭТО БЫЛО ВТФЕРА...,RICORDO TUTTO COME FE FOFFE IERI...
+,* when this cruel world split us in two.,* когда этот жестокий мир разделил нас надвое.,* quando questo mondo crudele ci divise in due.
+,DOO€€€HO€€€HOH...,ВУУ€€€ХУ€€€ХУХ...,DOO€€€HO€€€HOH...
+,* Quit it! €€€€€€£* You're freaking me out.,* Прекрати! €€€€€€£* Ты меня пугаешь.,* Smettila! €€€€€€£* Mi stai spaventando.
+,"* If you're hurt, €€€€€€then Ralsei can-","* Если ты ранен, €€€€€€Ральзей может тебя...","* Se non stai bene, €€€€€€Ralsei può-"
+,"* oh dear, €€€€€€€€€€€€dear €€€€€€€€€€€€susie...","* о, милая, €€€€€€€€€€€€милая €€€€€€€€€€€€сьюзи...","* oh cara, €€€€€€€€€€€€dolce €€€€€€€€€€€€susie..."
+,* allow me €€€€€€€€€€€€€€€€€€to ask you something...,* позволь мне €€€€€€€€€€€€€€€€€€кое-что тебя спросить...,* lascia che io €€€€€€€€€€€€€€€€€€ti faccia una domanda.
+,* ...,* ...,* ...
+,* what is a star?,* что такое звезда?,* che cos'è una stella?
+,* (no...),* (нет...),* (no...)
+,* can you touch it?,* можно ли потрогать её?,* puoi toccarla?
+,* Knock it off!,* Хорош уже!,* Smettila! 
+,* can you eat it?,* можно ли сьесть её?,* puoi mangiarla?
+,* I'm serious!,* Я не шучу! ,* Non sto scherzando!
+,* can you €€€€€€€€€€€€€€€KILL €€€€€€€€€it?,* можно ли €€€€€€€€€€€€€€€УБИТЬ €€€€€€€€€её?,* puoi €€€€€€€€€€€€€€€UCCIDERLA?
+,* Just who the hell do you think you are?,"* Чёрт, да кем ты себя возомнил?",* Ma chi diavolo ti credi di essere?
+,* And what have you done to my friend!,* Что ты сделал с моим другом?,* E che cosa hai fatto al mio amico!
+,* oh €€€€€€your friend never left...,"* о, €€€€€€твой друг и не уходил...",* oh €€€€€€il tuo amico è ancora qui...
+,"* i was always there, €€€€€€restricted and debilitated.","* я всегда был здесь, €€€€€€ограничен и ослаблен.","* e mentre lui comandava, €€€€€€io ero incatenato."
+,"* but now it's time to shine, €€€€€€like the illustrious star that liberated me.","* но теперь время засиять, €€€€€€как звезда, освободившая меня.","* ma ora brillerò, €€€€€€proprio come la stella che mi ha liberato."
+,I-... €€€€€€€€€IT'TH €€€€€€€€SO €€€€€€€€COLD...,Т... €€€€€€€€€ТУТ €€€€€€€€ТАК €€€€€€€€ХОЛОДНО...,F-... €€€€€€€€€FA €€€€€€€€TANTO €€€€€€€€FREDDO...
+,SU€€€€€€€€€€...SIE... £€€€€€€€€€€K€€€€€€€€€€RIS... £€€€€€€€€€€€€HELP€€€€€€€€€€€€€€€€€ M€€€€€E...,СЬЮ€€€€€€€€€€...ЗИ... £€€€€€€€€€€К€€€€€€€€€€РИС... £€€€€€€€€€€€€ПОМОГИТЕ€€€€€€€€€€€€€€€€€ М€€€Н€€Е...,SU€€€€€€€€€€...SIE... £€€€€€€€€€€K€€€€€€€€€€RIS... £€€€€€€€€€€€€AIU€€€€€€€€€€€€€€€€€TO...
+,,,
+16_2,* Is everyone okay???,* Все живы???,* State tutti bene???
+,* Argh... €€€€€€I think so?,"* Агрх... €€€€€€Думаю, да?",* Argh...€€€€€€credo di sì? 
+,* i've got to hand it to you three.,* вы трое и вправду протянули мне руку помощи.,* vi devo davvero ringraziare.
+,"* because of you, €€€€€€i am but an arm's length away from ascension.","* из-за вас, €€€€€€мое вознесение видно, как на ладони.","* grazie a voi, €€€€€€il potere di un dio è nelle mie mani."
+,"* with celestial vigour at my fingertips, €€€€€€retribution will be wrought across the land...","* с небесной энергией на кончиках моих пальцев, €€€€€€возмездие свершится по землям...","* e con questo potere, €€€€€€porterò vendetta e giustizia in questo mondo..."
+,* i only need... €€€€€€€€€€€€€€€one... €€€€€€€€€€€€€€€more...,* мне лишь нужно... €€€€€€€€€€€€€€€кое-что... €€€€€€€€€€€€€€€ещё...,* mi serve solo... €€€€€€€€€€€€€€€una... €€€€€€€€€€€€€€€cosa...
+,* that light inside you...,* тот свет внутри тебя...,* quella luce dentro di te...
+,* are you a star?,* а ты - звезда?,* tu sei una stella?
+,,,
+text_stats,Kris,Крис,Kris
+,Susie,Сьюзи,Susie
+,Ralsei,Ральзей,Ralsei
+,Handromeda,Дланьдромеда,Mandromeda
+,,,
+text_items,YolkPudding,Всмятпеканка,TuorloCremè
+,_cgHeals£10HP,_cgЛечит£10ОЗ,_cgCura£10PS
+,SockageRoll,СосШерсть,Calziccia
+,_cgHeals£50HP,_cgЛечит£50ОЗ,_cgCura£50PS
+,Starfruit,ЗвёздПлод,Baccastella
+,_cgHeals£100HP,_cgЛечит£100ОЗ,_cgCura£100PS
+,AmperSandwich,Амперброд,VoltBurger
+,_cgHeals£80HP and...?,_cgЛечит£80ОЗ и...?,_cgCura£80PS e...?
+,Poundcake,Килоторт,Torta3Terzi
+,_cgHeals team£200HP,_cgЛечит£200ОЗ£команде,_cgCura£Squadra£200PS
+,BracketPotato,КрошКартош,PortaPurè
+,_cgHeals£100HP,_cgЛечит£100ОЗ,_cgCura£100PS
+,Bonesmeal,Закостка,RanciOssuto
+,_cgHeals£100HP,_cgЛечит£100ОЗ,_cgCura£100PS
+,,,
+maxTP_text,M£ A£  X,М£ А£  К£   С,M£ A£  X
+,,,
+other_text,HP,ОЗ,PS
+,MERCY,ПОЩАДА,PIETÀ
+,DEATH timer:,Время до СМЕРТИ:,Timer MORTALE:
+,,,
+s_1,Press ,Нажми ,Premi
+, in the air to double jump.," в воздухе, чтобы прыгнуть дважды.", in aria per eseguire un doppio salto.
+s_2,* Press ,* Нажми ,* Premi
+, to fall faster!," , чтобы падать быстрее!", per cadere in fretta!
+s_3,CONFIRM,ПОДТВ.,CONFERMA
+,CANCEL,ОТМЕНА,CANCELLA
+,MENU,МЕНЮ,MENÙ
+s_4,* Lasts 3 turns.,* Длится 3 хода.,* Dura 3 turni.
+,,,
+s_5,spared,щадит,ha risparmiato
+,* But it's name wasn't _cyYELLOW_cw.,* Но его имя не _cyЖЁЛТОЕ_cw.,* Ma il suo nome non era _cyGIALLO_cw.
+,,,
+s_6,* HP went extra up!,* ОЗ дополнительно увеличилось!,* I PS sono aumentati di molto!
+s_7,* TP went up!,* ПН увеличилось!,* I PT sono aumentati!
+s_8,* DEF went up for 3 turns!,* ЗАЩ поднялась на 3 хода!,* La DIF è aumentata per 3 turni!
+,,,
+s_9,used the,использует,ha usato
+,,,
+,,,
+,,,
+b_check,* HANDROMEDA €€€€€€£* They're in there somewhere. €€€€€€€€€@If you can get them out...,* ДЛАНЬДРОМЕДА €€€€€€£* Он где-то внутри. €€€€€€€€€@Если вы сможете его освободить...,* MANDROMEDA €€€€€€£* È lì da qualche parte. €€€€€€€€€@Se riesci a tirarlo fuori...
+b_pacify,* Ralsei cast PACIFY! €€€€€€€€€£* But the enemy wasn't _cbTIRED_cw...,* Ральзей использует УСМИРЕНИЕ! €€€€€€€€€£* Но враг не _cbУСТАЛ_cw...,* Ralsei ha usato CALMA! €€€€€€€€€£* Ma il nemico non era _cbSTANCO_cw...
+b_healPrayer,* Ralsei cast HEAL PRAYER!,* Ральзей использует МОЛИТВУ ЛЕЧЕНИЯ!,* Ralsei ha usato CURAZIONE!
+b_rudeBuster,* Susie used RUDE BUSTER!,* Сьюзи использует ЯРЫЙ ВЗМАХ!,* Susie ha usato SPACCAFONE!
+b_ultimateHeal,* Susie cast ULTIMATEHEAL!,* Сьюзи использует УЛЬТРАЛЕЧЕНИЕ!,* Susie ha usato CURAFINALE!
+,,,
+b_flavourText,* are you a star?,* а ты - звезда?,* tu sei una stella?
+,* You feel the weight of the universe on your back,* Вы чувствуете вес вселенной на вашей спине,* riesci a sentire il peso dell'universo sulle tue spalle.
+,* the lighthouse shines in the distance,* маяк сияет вдалеке,* il faro brilla in lontananza.
+,* the sky twinkles with freedom.,* небеса сияют свободой.,* il cielo scintilla di libertà.
+,"* the ceiling stars, i wish upon you.","* далёкие звёзды, исполните моё желание.","* mi affido a voi, stelle del soffitto."
+,* memories of home,* воспоминания о доме,* le memorie di casa.
+,* HANDROMEDA raises its fist in anger,* ДЛАНЬДРОМЕДА поднимает свой кулак в ярости,* MANDROMEDA alza il braccio in segno di rabbia.
+,* memories of greed,* воспоминания об алчности,* le memorie di avidità.
+,* the world of tomorrow ends today.,* мир завтрашнего дня заканчивается сегодня.,* il mondo del domani termina oggi.
+,* memories of a stolen world,* воспоминания об украденном мире,* le memorie di un mondo rubato.
+,* Hesitation glimmers in HANDROMEDA's eye,* В глазу ДЛАНЬДРОМЕДЫ мелькает сомнение,* L'esitazione brilla nell'occhio di MANDROMEDA.
+,* memories of someone wanting to do the right thing,* воспоминания о ком-то кто хочет сделать как правильно,* le memorie di qualcuno che vuole fare la cosa giusta.
+,,,
+b_flavourText2,* Something terrible is coming...,* Грядёт что-то ужасное...,* Qualcosa di terribile sta arrivando...
+, ,,
+b_gp,* Susie wished for the safety @of her friends! £ ,* Сьюзи просит звезды защитить @её друзей! £* Они открыли вам удар вниз!,* Susie desidera che i suoi @amici siano al sicuro! £
+b_dj,* Ralsei wished for the safety @of his friends! £* You can now perform 2 air jumps!,* Ральзей просит звезды защитить @его друзей! £* Они открыли вам двойной прыжок!,* Ralsei desidera che i suoi @amici siano al sicuro! £* Puoi eseguire 2 salti in aria!
+b_w2,* Kris wished for the safety @of their friends!,* Крис просит звёзды защитить @его друзей!,* Kris desidera che i suoi @amici siano al sicuro!
+,,,
+b_w1,* Everyone wished for their@friends' safe return!£€€€€€€,* Все просят звезды о возвращении@своего друга!£€€€€€€,* Tutti desiderano che il @loro amico torni sano e salvo!£€€€€€€
+,* HANDROMEDA is confused...,* ДЛАНЬДРОМЕДА в замешательстве...,* MANDROMEDA è confusa...
+,* HANDROMEDA thinks about this...,* ДЛАНЬДРОМЕДА думает об этом...,* MANDROMEDA ci sta pensando...
+,* HANDROMEDA trembles...,* ДЛАНЬДРОМЕДА трясётся...,* MANDROMEDA sta tremando...
+,* HANDROMEDA starts to remember...,* ДЛАНЬДРОМЕДА начинает вспоминать...,* MANDROMEDA sta iniziando @a ricordare...
+,* But nothing happened...,* Но ничего не произошло...,* Ma non è successo niente...
+,* But nothing ever happens.,* Но ничего и не произойдет.,* Ma nulla mai succede.
+,,,
+b_w3,* Everyone wished upon a star!€€€€€€£* Makes no difference who you are...,* Все загадали желание!€€€€€€£* Вселенная хранит молчание...,* Tutti esprimono un desiderio @guardando una stella!€€€€€€£* Non importa chi sei...
+,,,
+b_actionTextKris,Check,Проверить,Osserva
+,Wish,Пожелать,Desidera
+,_cgInduce£Å5% Spare£_co50% TP,_cgПрибавляет£Å5% Пощ.£_co50% ПН,_cgInduce£Å5% Pietà£_co50% PT
+,_sb_scWishAll,_sb_scПожелатьВсе,_sb_scDesideraTutti
+,_cgInduce£Å11% Spare£_co100% TP,_cgПрибавляет£Å11% Пощ.£_co100% ПН,_cgInduce£Å11% Pietà£_co100% PT
+,_scHarmonize,_scУспокоить,_scArmonizza
+,_cgCalm down£Susie£_co100% TP,_cgУспокоить£Сьюзи£_co100% ПН,_cgCalma£Susie£_co100% PT
+,,,
+b_actionTextSusie,GroundPound,УдарВниз,SchiantoaTerra
+,_cgFall£Faster£_co25% TP,_cgПадать£быстрее£_co25% ПН,_cgCadi Più£In Fretta£_co25% PT
+,Rude Buster,Ярый взмах,Spaccafone
+,_cgRude£Damage£_co50% TP,_cgУрон£яростью£_co50% ПН,_cgDanno£Cafone£_co50% PT
+,UltimatHeal,УльтЛечение,CuraFinale
+,_cgBest£Healing£_co100% TP,_cgЛучшее£лечение£_co100% ПН,_cgCura£Migliore£_co100% PT
+,,,
+b_actionTextRalsei,TripleJump,ТройнойПрыжок,TriploSalto
+,_cgJump£Higher£_co25% TP,_cgПрыгай£выше£_co25% ПН,_cgSalta Più£In Alto£_co25% PT
+,Pacify,Усмирить,Calma
+,_cgSpare£TIRED foe£_co16% TP,_cgПощадить£УСТАВШЕГО£_co16% ПН,_cgRisparmia£STANCO£_co16% PT
+,Heal Prayer,Молитва лечения,Curazione
+,_cgHeal£Ally£_co32% TP,_cgЛечит£Союзника£_co32% ПН,_cgCura£Alleato£_co32% PT
+,,,
+b_susieSnap1,"* Susie, €€€€€€you have to calm down!","* Сьюзи, €€€€€€прошу, успокойся!","* Susie, €€€€€€devi calmarti!"
+,* You can't do this by yourself...,* Ты не сможешь сделать это в одиночку...,* Non puoi farcela da sola...
+,,,
+b_susieSnap2,* I don't know what's happening...,"* Я не знаю, что происходит...",* Non so che cosa sta succedendo...
+,* But if we want to get through this...,* Но если мы хотим всё исправить...,* Ma se vogliamo cercare di superare questo ostacolo...
+,* We have to work as a team!,* Нам нужно действовать сообща!,* Dobbiamo fare gioco di squadra!
+,,,
+b_susieSnap3,* I know you're scared...,"* Я знаю, ты напугана...",* So che hai paura...
+,* I know you care for them €€€€€€@a lot...,"* Я знаю, как он тебе €€€€€€@дорог...",* So che ti preoccupi €€€€€€@tanto per lui...
+,"* But, €€€€€€they're our friend too!",* Но он и наш друг!,"* Però, €€€€€€lui è anche nostro amico!"
+,* ...,* ...,* ...
+,* We can save them together.,* Мы спасём его вместе.,* Insieme potremo salvarlo.
+,"* ...€€€€€€You're right, €€€€€€@you're right...","* ...€€€€€€Ты прав, €€€€€€@ты прав...","* ...€€€€€€Hai ragione, €€€€€€@hai ragione..."
+,"* Hang in there buddy, €€€€€€@we're coming for you!","* Держись, дружок, €€€€€€@мы идем!","* Resisti amico, €€€€€€@stiamo arrivando!"
+,,,
+end_good,* I think...,* Кажется...,* Credo...
+,* I finally understand.,* Я наконец-то понял.,* Di aver finalmente capito.
+,* Do you remember who you were?,"* Ты вспомнил, кем ты был?",* Hai riacquisito la tua memoria?
+,"* No, €€€€€€no...","*  Нет, €€€€€€нет...","* No, €€€€€€no..."
+,* What you three have shown me was...,"* То, что вы трое мне показали, было...",* Quello che voi mi avete mostrato è...
+,* Much €€€€€€€€€more valuable...,"* Гораздо,€€€€€€€€€ гораздо важнее...",* Molto più importante...
+,* I'll never have my old memories back...,* Мне никогда не вернуть своих старых воспоминий...,* Non riavrò mai i miei ricordi...
+,* But the new memories I made with you?,"* Но новые, что подарили мне вы?",* Ma i ricordi che ho costruito con voi?
+,"* ...I've never felt more like myself, €€€€€€then during our time spent together.",* ...Лишь во время нашего приключения€€€€€€ я чувствовал себя по-настоящему собой.,* Posso garantirvi che... €€€€€€quelli non me li scorderò mai.
+,* If you can promise me you'll stick together...,* Если вы пообещаете мне держаться вместе...,* Promettetemi che rimarrete uniti...
+,* You'll never forget who you are.,"* Вы никогда не забудете, кто вы.","* Così, €€€€€€non dimenticherete chi siete."
+,* Here... €€€€€€with my last memories...,* С моими...€€€€€€ последними воспоминаниями...,* Ecco... €€€€€€lasciate che con i miei ultimi ricordi...
+,* Allow me to strengthen your bond.,* Позвольте мне укрепить вашу связь.,* Io possa rafforzare il vostro legame.
+,* (You got FluffGlove.),* (Вы получили ПухЧатку.),* (Hai ottenuto CottonGuanto.)
+,* (You got ShadowCrystal.),* (Вы получили Теневой кристалл.),* (Hai ottenuto CristallOmbra.)
+,,,
+end_bad,"* Well, €€€€€€it's come to this...","* Что ж, €€€€€€вот, до чего всё дошло...","* Beh, €€€€€€siamo arrivati a questo..."
+,"* So close, €€€€€€and all for naught...",* Я был €€€€€€так близок...,"* Alla fine, €€€€€€non è servito a niente..."
+,* Sorry it had to turn out this way...,"* Мне жаль, что так вышло...",* Scusatemi se le cose sono dovute finire in questo modo...
+,* Something tells me it didn't matter anyway.,"* Но, кажется, это все равно не имело значения.",* Qualcosa mi dice che non ha comunque importanza.
+,* Our time spent together was the most free I've felt.,* Лишь с вами я был по-настоящему свободен.,* Non scorderò mai i ricordi che ho costruito con voi.
+,* And you three will shine brightly all the same.,* Но вы трое и дальше будете сиять.,* E voi tre brillerete più di ogni altra stella.
+,* Here... €€€€€€with my last memories...,* С моими...€€€€€€ последними воспоминаниями...,* Ecco... €€€€€€lasciate che con i miei ultimi ricordi...
+,* Allow me to strengthen your bond.,* Позвольте мне укрепить вашу связь.,* Io possa rafforzare il vostro legame.
+,* (You got AstralCane.),* (Вы получили АстроТрость.),* (Hai ottenuto StaffAstrale.)
+,* (You got ShadowCrystal.),* (Вы получили Теневой кристалл.),* (Hai ottenuto CristallOmbra.)
+,,,
+,,,
+,,,
+egg_1,"* Well,€€€€€€ there is a man here.","* Ну,€€€€€€ здесь мужчина.","* Beh,€€€€€€ qui c'è un uomo."
+,"* Or,€€€€€€ there might in fact€€€€€€ NOT,€€€€€€ be a man here.","* Или же,€€€€€€ на самом деле,€€€€€€ здесь нет€€€€€€ никакого мужчины.","* Oppure,€€€€€€ potrebbe anche€€€€€€ NON€€€€€€ esserci un uomo."
+,* Do you think someone is here?,"* Как думаете, €€€€€€есть здесь кто-нибудь?",* Pensi che qui ci sia qualcuno?
+,,,
+egg_2,* You got the Egg.,* Вы получили Яйцо.,* Hai ottenuto l'Uovo.
+,,,
+ding_1,* Well then.,* .€€€€€€€€€.€€€€€€€€€.€€€€€€€€€Ну и ладно.,* Molto bene.
+,,,
+ding_2,...,...,...
+,,,
+,,,
+,,,
+cm_mainMenu,Main menu,Меню,Menù principale
+cm_back,Back,Назад,Indietro
+,,,
+cm_cm,START,СТАРТ,INIZIA
+,No-Hit,Без урона,No-Hit
+,Party,Команда,Gruppo
+,Items,Предметы,Oggetti
+,Enemy ATK,АТК врагов,ATT Nemico
+,Party ATK,АТК команды,ATT Gruppo
+,Extra spare,Доп. пощада,Pietà extra
+,Air jumps,Воздуш. прыжки,Salti in aria
+,Ground pound,Удар вниз,Schianto a terra
+,Susie scared,Испуг Сьюзи,Susie spaventata
+,Challenge Mode,Режим Испытания,Modalità Sfida
+,DEATH timer,таймера СМЕРТИ,timer MORTALE
+,DEATH timer seconds,Время таймера СМЕРТИ,Secondi timer MORTALE
+,DEATH timer damage,Урон таймера СМЕРТИ,Danno timer MORTALE
+,DEATH timer penalty,Наказание таймера СМЕРТИ,Penalità timer MORTALE
+,Reset to default,Сбросить,Imposta predefinito
+,,,
+cm_party,Member,Участник,Membro
+cm_item,Item,Предмет,Oggetto
+,,,
+mp_mp,The upper hand OST,Саундтрек До Звёзд Рукой,OST di Nelle Nostre Mani
+,Modes,Режимы,Modalità
+,Miscellaneous,Дополнительно,Vario

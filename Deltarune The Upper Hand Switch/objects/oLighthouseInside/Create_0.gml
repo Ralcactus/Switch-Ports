@@ -1,0 +1,14 @@
+surf = -1;
+time = 0;
+x = 0;
+y = -20;
+removePedestal = false;
+pedestalAlpha = 0;
+ballSize = 22;
+targetSize = ballSize;
+targetDelay = 5;
+shake = 0;
+drawCrystal = true;
+waves = [];
+distanceModifier = -1;
+distanceIs = 0;

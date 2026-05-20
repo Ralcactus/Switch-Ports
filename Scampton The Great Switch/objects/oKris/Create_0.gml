@@ -1,0 +1,10 @@
+FightTyme = 0;
+Tyme = 0;
+StartX = x;
+Ax = 0;
+StartY = y;
+White = -0.5;
+GlowWhite = 0;
+Glow = false;
+GlowStage = 0;
+KnockX = 0;

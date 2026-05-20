@@ -1,0 +1,14 @@
+Seed = 1;
+Tyme = 0;
+GlowSiz = 1;
+_R = 0;
+_G = 255;
+_B = 255;
+RGB = make_color_rgb(_R, _G, _B);
+image_xscale = 0.5;
+image_yscale = 0.5;
+_TP = 0;
+wX = irandom_range(3, 10) / 2;
+wY = irandom_range(-20, 20) / 2;
+ShowX = x;
+ShowY = y;

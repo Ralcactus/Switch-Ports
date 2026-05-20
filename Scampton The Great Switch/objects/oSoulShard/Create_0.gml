@@ -1,0 +1,10 @@
+MoveX = 0;
+MoveY = 0;
+Spin = 0;
+Tyme = 0;
+Speed = 1;
+Seed = 0;
+StayX = 0;
+StayY = 0;
+Offset1 = 0;
+Offset2 = 0;

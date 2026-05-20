@@ -1,0 +1,55 @@
+image_speed = 0;
+image_alpha = 0;
+Tyme = 0;
+Buh = 0;
+AlphaT = 1;
+Seed = 0;
+EndMesg = 0;
+Cur = 0;
+Cur2 = 0;
+Spez = 0;
+Spez2 = 0;
+Spez3 = 0;
+BET = " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789*:.,-!'[]()¤%?/><$=";
+BetCount = 0;
+StringAT = 0.5;
+TexCounter = 0;
+AtText = 0;
+StartX = x;
+StartY = y;
+SSx = x;
+SSy = y;
+BumpX = 0;
+BumpY = 0;
+Voice = 51;
+_Voice[0] = 34;
+SkipLine = "No";
+Text[0] = "Big Burger";
+TextSpeed = 0.5;
+Font = sFont_Det;
+FontSpace = 8;
+RGB = make_color_rgb(255, 255, 255);
+col = "w";
+Bubble_Xscale[0] = 0;
+Bubble_Yscale[0] = 0;
+Bubble_Arrow[0] = 0;
+AnMan[0] = 0;
+Man = false;
+BC = true;
+Mono = false;
+JustText = false;
+Uppercase = false;
+UppercaseNumb = 0;
+AllowKeys = true;
+image_xscale = 2;
+image_yscale = 2;
+BBxWithScale = 0;
+BByWithScale = 0;
+FaceT = 0;
+FTc = 0;
+
+repeat (20)
+{
+    FaceT[FTc] = "x";
+    FTc++;
+}

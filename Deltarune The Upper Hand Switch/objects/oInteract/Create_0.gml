@@ -1,0 +1,12 @@
+ty = 0;
+wall = true;
+step = -1;
+func = -1;
+draw = -1;
+drawEnd = -1;
+ey = 0;
+text = -1;
+picked = 0;
+_id = 0;
+drawSelf = false;
+changeDepth = 0;

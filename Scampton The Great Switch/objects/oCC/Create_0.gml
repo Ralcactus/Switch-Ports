@@ -1,0 +1,12 @@
+StartX = x;
+StartY = y;
+Seed = 0;
+Seed2 = 0;
+Spez = 0;
+Tyme = 0;
+TymeFree = 0;
+Var1 = 0;
+Var2 = 0;
+Var3 = 0;
+Var4 = 0;
+Var5 = 0;

@@ -1,0 +1,9 @@
+image_speed = 0;
+image_yscale = 0;
+Tyme = 0;
+AllTyme = 0;
+AA = false;
+Xspeed = 11;
+YSpeed = -3.5;
+StartY = y;
+Bounce = 0;

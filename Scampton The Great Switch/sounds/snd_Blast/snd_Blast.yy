@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_Blast",
+  "audioGroupId":{
+    "name":"AG_Sounds",
+    "path":"audiogroups/AG_Sounds",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.750204,
+  "exportDir":"",
+  "name":"snd_Blast",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_Blast.wav",
+  "volume":0.75,
+}

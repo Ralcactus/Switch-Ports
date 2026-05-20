@@ -1,0 +1,14 @@
+depth = -y;
+glowWhite = 0;
+popWhite = 0;
+mw = 0;
+numb = 0;
+ty = 0;
+realName = 0;
+anMode = 0;
+imageCount = 0;
+eX = 0;
+eY = 0;
+knockX = 0;
+mx = 0;
+my = 0;

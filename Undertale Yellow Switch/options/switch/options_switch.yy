@@ -13,7 +13,7 @@
   "option_switch_scale": 0,
   "option_switch_splash_screen": "D:\\Projects\\GitHub\\Gamemaker-NX-Ports\\Undertale Yellow Switch\\options\\switch\\splash.png",
   "option_switch_texture_page": "2048x2048",
-  "option_switch_use_splash": true,
+  "option_switch_use_splash": false,
   "resourceType": "GMSwitchOptions",
   "resourceVersion": "2.0"
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gru_Save",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gru_Save",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

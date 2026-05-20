@@ -1,0 +1,2 @@
+scrSkipIntro();
+instance_destroy();

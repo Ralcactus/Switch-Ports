@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"TS_End",
+  "audioGroupId":{
+    "name":"AG_Music",
+    "path":"audiogroups/AG_Music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":24.93508,
+  "exportDir":"",
+  "name":"TS_End",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"TS_End.mp3",
+  "volume":1.0,
+}

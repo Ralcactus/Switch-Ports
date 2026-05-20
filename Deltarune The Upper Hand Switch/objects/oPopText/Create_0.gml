@@ -1,0 +1,12 @@
+text = "10";
+sprite = sPopWhite;
+color = 16777215;
+xSc = 1;
+ySc = 0;
+alpha = 1;
+cl = "A";
+grav = -4;
+startY = y + 5;
+tap = 0;
+right = 10;
+ty = 0;

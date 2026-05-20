@@ -1,0 +1,11 @@
+res_keys();
+inf_act = 0;
+inf_from = 0;
+inf_too = 0;
+inf_priority = 0;
+inf_item = 0;
+inf_itemSpot = 0;
+ty = 0;
+res_i();
+res_j();
+oBUI.TPremove = 0;

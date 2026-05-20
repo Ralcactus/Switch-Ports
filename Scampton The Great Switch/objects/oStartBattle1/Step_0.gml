@@ -1,0 +1,2 @@
+scrSkipIntro();
+des(0);

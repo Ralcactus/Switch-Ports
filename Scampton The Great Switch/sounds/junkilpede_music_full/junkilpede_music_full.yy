@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"junkilpede_music_full",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":197.05263,
+  "exportDir":"",
+  "name":"junkilpede_music_full",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"junkilpede_music_full.wav",
+  "volume":1.0,
+}

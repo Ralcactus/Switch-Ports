@@ -1,0 +1,11 @@
+image_xscale = 2;
+image_yscale = 2;
+Tyme = 0;
+HurtTime = 0;
+Pep = 0;
+StartX = x;
+StartY = y;
+ans = 0;
+W = 0;
+glow = false;
+Wg = 0;

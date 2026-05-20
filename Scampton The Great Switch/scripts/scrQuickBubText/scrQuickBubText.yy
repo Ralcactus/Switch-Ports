@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrQuickBubText",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrQuickBubText",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

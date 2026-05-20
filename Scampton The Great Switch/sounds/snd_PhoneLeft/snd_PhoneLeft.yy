@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_PhoneLeft",
+  "audioGroupId":{
+    "name":"AG_Sounds",
+    "path":"audiogroups/AG_Sounds",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.991746,
+  "exportDir":"",
+  "name":"snd_PhoneLeft",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_PhoneLeft.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"TS_Intro",
+  "audioGroupId":{
+    "name":"AG_Music",
+    "path":"audiogroups/AG_Music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.6319166,
+  "exportDir":"",
+  "name":"TS_Intro",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"TS_Intro.ogg",
+  "volume":1.0,
+}

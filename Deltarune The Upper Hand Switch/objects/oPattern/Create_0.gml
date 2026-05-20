@@ -1,0 +1,10 @@
+pattern = 0;
+ty = 0;
+wait = 0;
+boxX = 0;
+boxY = 0;
+up = 0;
+down = 0;
+left = 0;
+right = 0;
+ss = 0;

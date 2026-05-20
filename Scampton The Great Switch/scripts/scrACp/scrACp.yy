@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrACp",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrACp",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

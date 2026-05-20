@@ -1,0 +1,12 @@
+audio_stop_sound(snd_chargeshot_fire);
+sou(61);
+image_xscale = 0;
+image_yscale = 2;
+SaveScaleX = image_xscale;
+SaveScaleY = image_yscale;
+Tyme = 0;
+Way = 0;
+Speed = 0;
+WhiteDeath = 0;
+oSoul.BulletID += 1;
+MyID = oSoul.BulletID;
