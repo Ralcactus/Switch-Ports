@@ -1,3 +1,4 @@
+/*
 if (ds_exists(textureLoaderList, ds_type_list))
 {
     if (!ds_list_empty(textureLoaderList))
@@ -14,12 +15,13 @@ if (ds_exists(textureLoaderList, ds_type_list))
     }
     else
     {
+		
+		for (var i = 0; sprite_exists(i); i++)
+		    sprite_prefetch(i);
+	
         ds_list_destroy(textureLoaderList);
         room_goto(rm_initializer);
     }
 }
 
-for (var i = 0; sprite_exists(i); i++)
-    sprite_prefetch(i);
-
-alarm[0] = 2;
+alarm[0] = 4;

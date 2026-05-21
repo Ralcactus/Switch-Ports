@@ -3375,6 +3375,7 @@
     {"name":"spr_juice_almanac","order":1925,"path":"sprites/spr_juice_almanac/spr_juice_almanac.yy",},
     {"name":"obj_cloudeffect","order":22,"path":"objects/obj_cloudeffect/obj_cloudeffect.yy",},
     {"name":"bg_fudgetop3_2","order":1926,"path":"sprites/bg_fudgetop3_2/bg_fudgetop3_2.yy",},
+    {"name":"Sprite2075","order":55,"path":"sprites/Sprite2075/Sprite2075.yy",},
     {"name":"bg_clock1_escape","order":1927,"path":"sprites/bg_clock1_escape/bg_clock1_escape.yy",},
     {"name":"bg_thumbnail_molasses","order":1928,"path":"sprites/bg_thumbnail_molasses/bg_thumbnail_molasses.yy",},
     {"name":"obj_coneblock_on","order":12,"path":"objects/obj_coneblock_on/obj_coneblock_on.yy",},

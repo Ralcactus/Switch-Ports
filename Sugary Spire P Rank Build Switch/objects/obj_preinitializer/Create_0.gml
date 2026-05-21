@@ -1,3 +1,6 @@
+room_goto(rm_initializer);
+exit;
+
 draw_flush();
 var temparray = ["Player", "Baddies", "HUD", "Backgrounds", "Tiles"];
 textureLoaderList = ds_list_create();
