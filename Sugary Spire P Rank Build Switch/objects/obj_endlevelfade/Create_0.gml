@@ -1,0 +1,9 @@
+fadealpha = 0;
+AT = 0;
+HAT = 0;
+fadein = 0;
+alarm[0] = 125;
+var _cam_x = camx;
+var _cam_y = camy;
+PlayerX = x - _cam_x;
+PlayerY = y - _cam_y;

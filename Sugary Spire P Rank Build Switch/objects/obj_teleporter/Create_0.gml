@@ -1,0 +1,11 @@
+image_speed = 0.35;
+active = false;
+storedstate = states.normal;
+storedmovespeed = 6;
+storedgrav = 0.5;
+storedimageindex = 0;
+storedspriteindex = spr_candysona_dead2;
+storedfreefallsmash = 0;
+spitting = false;
+prepparticle = false;
+depth = 5;

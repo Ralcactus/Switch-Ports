@@ -1,0 +1,16 @@
+device_selected[0] = 0;
+device_selected[1] = 0;
+gamepad_discovered = 0;
+deactivated = 0;
+device_to_reconnect = 0;
+press_start = 0;
+//funny card screen
+carddex = 0;
+cardspr = spr_rankcard;
+confirmspr = spr_player_machpunch2;
+prevstate[0] = states.titlescreen;
+prevstate[1] = states.titlescreen;
+vibration1 = 0;
+vibrationDecay1 = 0;
+vibration2 = 0;
+vibrationDecay2 = 0;

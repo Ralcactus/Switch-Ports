@@ -1,0 +1,9 @@
+collectvanish = false;
+collectboxid = noone;
+in_the_void = false;
+depth = 2;
+global.collected = 0;
+global.collectsound = 0;
+image_speed = 0.35;
+bobsin = 0;
+time = 0;

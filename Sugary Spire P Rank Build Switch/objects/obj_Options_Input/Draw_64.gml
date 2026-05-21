@@ -1,0 +1,47 @@
+draw_set_halign(fa_center);
+draw_set_font(global.font);
+draw_option(150, 30 + ScrollY, "BACK", optionselected == OPTION_INPUTSELECTED.back);
+draw_option(800, 30 + ScrollY, "GAMEPAD", optionselected == OPTION_INPUTSELECTED.back);
+var _yy = 50;
+var _x1 = 400;
+var _x2 = 600;
+draw_option(_x1, _yy + ScrollY, "UP", optionselected == OPTION_INPUTSELECTED.up);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_up));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "RIGHT", optionselected == OPTION_INPUTSELECTED.right);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_right));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "LEFT", optionselected == OPTION_INPUTSELECTED.left);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_left));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "DOWN", optionselected == OPTION_INPUTSELECTED.down);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_down));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "JUMP", optionselected == OPTION_INPUTSELECTED.jump);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_jump));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "ATTACK", optionselected == OPTION_INPUTSELECTED.attack);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_slap));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "TAUNT", optionselected == OPTION_INPUTSELECTED.taunt);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_taunt));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "SHOOT", optionselected == OPTION_INPUTSELECTED.shoot);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_shoot));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "DASH", optionselected == OPTION_INPUTSELECTED.attack);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_attack));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "START", optionselected == OPTION_INPUTSELECTED.start);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_start));
+_yy += 50;
+draw_option(_x1, _yy + ScrollY, "SPECIAL", optionselected == OPTION_INPUTSELECTED.special);
+draw_text(_x2, _yy + ScrollY, scr_keyname(global.key_special));
+_yy += 50;
+draw_set_font(global.smallfont);
+var _string_width = string_width(subtitle) + 32;
+
+if (subtitle != "")
+    draw_sprite_ext(spr_optionSubtitle, 0, 480, 521, _string_width / 32, 1, 0, c_white, 1);
+
+draw_text(480, 512, subtitle);
