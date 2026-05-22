@@ -30,3 +30,4 @@ Win_G = false;
 setG = false;
 Win_NoHit = false;
 loadGame();
+global.padconnected = -4;

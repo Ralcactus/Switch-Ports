@@ -1,3 +1,11 @@
+function get_gamepad(){
+	for (var i = 0; i < 8; i += 1){
+		if (gamepad_is_connected(i)){
+			global.padconnected = i;	
+		}
+	}
+}
+
 #macro oldkeyboard_check keyboard_check
 #macro oldkeyboard_check_pressed keyboard_check_pressed
 #macro oldkeyboard_check_released keyboard_check_released
@@ -6,16 +14,16 @@
 #macro keyboard_check_released keyboard_check_releasedGAMEPAD
 
 function keyboard_checkGAMEPAD(key){
-	return oldkeyboard_check(key) || gamepad_button_check(0, input_convert(key)) || input_axis_check(key);
+	return oldkeyboard_check(key) || gamepad_button_check(global.padconnected, input_convert(key)) || input_axis_check(key);
 
 }
 
 function keyboard_check_pressedGAMEPAD(key){
-	return oldkeyboard_check_pressed(key) || gamepad_button_check_pressed(0, input_convert(key)) || input_axis_check_pressed(key);
+	return oldkeyboard_check_pressed(key) || gamepad_button_check_pressed(global.padconnected, input_convert(key)) || input_axis_check_pressed(key);
 }
 
 function keyboard_check_releasedGAMEPAD(key){
-	return oldkeyboard_check_released(key) || gamepad_button_check_released(0, input_convert(key)) || input_axis_check_released(key);
+	return oldkeyboard_check_released(key) || gamepad_button_check_released(global.padconnected, input_convert(key)) || input_axis_check_released(key);
 }
 
 function input_convert(key){
@@ -58,19 +66,19 @@ function input_convert(key){
 function input_axis_value(key) {
     switch (key) {
         case vk_left:
-			return -gamepad_axis_value(0, gp_axislh);
+			return -gamepad_axis_value(global.padconnected, gp_axislh);
 		break;
 		
         case vk_right:
-			return  gamepad_axis_value(0, gp_axislh);
+			return  gamepad_axis_value(global.padconnected, gp_axislh);
 		break;
 		
         case vk_up:
-			return -gamepad_axis_value(0, gp_axislv);
+			return -gamepad_axis_value(global.padconnected, gp_axislv);
 		break;
 		
         case vk_down:
-			return  gamepad_axis_value(0, gp_axislv);
+			return  gamepad_axis_value(global.padconnected, gp_axislv);
 		break;
 		
         default:

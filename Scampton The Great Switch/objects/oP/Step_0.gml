@@ -21,6 +21,8 @@ if (Tyme == 1)
         instance_create_depth(0, 0, -30000, oPT);
 }
 
+get_gamepad();
+
 if (oP.MM_KeyTyme > 0)
     oP.MM_KeyTyme -= 1;
 
